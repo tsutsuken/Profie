@@ -1,0 +1,561 @@
+TSuperProfile
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/SuperProfile.app/ResourceRules.plist
+cPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Script-A34D1A8D905841B396E22452.sh
+cDataModelVersionCompile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile.momd /Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile.xcdatamodeld
+cProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/SuperProfile-Prefix-cjiblcawjphkfahkvjjbabtitmkb/SuperProfile-Prefix.pch.pch SuperProfile/SuperProfile-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/DetailViewController.o /Users/p27e4a/github/SuperProfile/SuperProfile/DetailViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/MasterViewController.o /Users/p27e4a/github/SuperProfile/SuperProfile/MasterViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/AppDelegate.o /Users/p27e4a/github/SuperProfile/SuperProfile/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/main.o /Users/p27e4a/github/SuperProfile/SuperProfile/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile normal armv7s
+cCopyStringsFile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/en.lproj/InfoPlist.strings SuperProfile/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/p27e4a/github/SuperProfile/SuperProfile/Base.lproj/Main.storyboard
+cCompileAssetCatalog /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app /Users/p27e4a/github/SuperProfile/SuperProfile/Images.xcassets
+cProcessInfoPlistFile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/Info.plist /Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile-Info.plist
+cGenerateDSYMFile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app.dSYM /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile
+cPhaseScriptExecution Copy\ Pods\ Resources /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Script-3BEDB2580CB54AAC8AE4D489.sh
+cProcessProductPackaging /Users/p27e4a/Library/MobileDevice/Provisioning\ Profiles/353EEDD8-7DD3-4315-B359-CA3E85A85A4E.mobileprovision /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/embedded.mobileprovision
+cTouch /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile.xcent
+cCodeSign /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c0000000053532C190000000000000094
+t1397959705
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c0000000053532C190000000000000096
+t1397959705
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053532C19000000000000036B
+t1397959705
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053532C1B000000000000019E
+t1397959707
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c0000000053532C2000000000008F30A0
+t1397959712
+s9384096
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053532C2100000000004D7BC0
+t1397959713
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053532C240000000000A90C10
+t1397959716
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053532C300000000002759920
+t1397959728
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053532D460000000000000ADC
+t1397960006
+s2780
+
+N/Users/p27e4a/Library/MobileDevice/Provisioning Profiles/353EEDD8-7DD3-4315-B359-CA3E85A85A4E.mobileprovision
+c0000000053533C100000000000001DB2
+t1397963792
+s7602
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/SuperProfile-Prefix-cjiblcawjphkfahkvjjbabtitmkb/SuperProfile-Prefix.pch.pch
+t1398520121
+s94952
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/AppDelegate.o
+t1398520125
+s83428
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/DetailViewController.o
+t1398520125
+s46264
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/MasterViewController.o
+t1398520125
+s82808
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/SuperProfile.LinkFileList
+c00000000535BB9330000000000000247
+t1398520115
+s583
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/main.o
+t1398520124
+s3808
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Script-3BEDB2580CB54AAC8AE4D489.sh
+c00000000535BB933000000000000002F
+t1398520115
+s47
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Script-A34D1A8D905841B396E22452.sh
+c00000000535BB9330000000000000103
+t1398520115
+s259
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile.xcent
+t1398520185
+s416
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/assetcatalog_dependencies.txt
+t1398520146
+s358
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/assetcatalog_generated_info.plist
+t1398520146
+s525
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app
+t1398520185
+s884
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app.dSYM
+t2
+s0
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/Base.lproj/Main.storyboardc
+t1398520162
+s238
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/Info.plist
+t1398520162
+s1415
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/PkgInfo
+t1398520162
+s8
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/ResourceRules.plist
+t1398520115
+s150
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile
+t1398520128
+s403292
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile.momd
+t1398520124
+s170
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/embedded.mobileprovision
+t1398520185
+s7602
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/en.lproj/InfoPlist.strings
+t1398520129
+s42
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods.a
+c00000000535BB93300000000000FA460
+t1398520115
+s1025120
+
+N/Users/p27e4a/github/SuperProfile/SuperProfile/AppDelegate.m
+c00000000535BB1E80000000000001B2D
+t1398518248
+s6957
+
+N/Users/p27e4a/github/SuperProfile/SuperProfile/Base.lproj/Main.storyboard
+c00000000535BB1ED00000000000020AD
+t1398518253
+s8365
+
+N/Users/p27e4a/github/SuperProfile/SuperProfile/DetailViewController.m
+c00000000535BB1F80000000000000402
+t1398518264
+s1026
+
+N/Users/p27e4a/github/SuperProfile/SuperProfile/Images.xcassets
+c00000000535BB1FA0000000000000088
+t1398518266
+s136
+
+N/Users/p27e4a/github/SuperProfile/SuperProfile/MasterViewController.m
+c00000000535BB1F700000000000022CD
+t1398518263
+s8909
+
+N/Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile-Info.plist
+c00000000535BB1E5000000000000058C
+t1398518245
+s1420
+
+N/Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile-Prefix.pch
+c00000000535BB1E6000000000000017A
+t1398518246
+s378
+
+N/Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile.xcdatamodeld
+c00000000535BB1F60000000000000088
+t1398518262
+s136
+
+N/Users/p27e4a/github/SuperProfile/SuperProfile/en.lproj/InfoPlist.strings
+c00000000535BB1E6000000000000002D
+t1398518246
+s45
+
+N/Users/p27e4a/github/SuperProfile/SuperProfile/main.m
+c00000000535BB1E6000000000000015A
+t1398518246
+s346
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/SuperProfile/AppDelegate.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/SuperProfile/DetailViewController.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/SuperProfile/MasterViewController.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/SuperProfile/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies348639b3f00bb941^2ba13fb3f00bb941^---0#1#1#--18"Check dependencies36"8CB0E2B7-CA5F-40F8-BE3A-1488B4AD0493-
+
+CCodeSign /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app
+s420212985.604061
+e420212987.177310
+r1
+xCodeSign
+x/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"CodeSign Build/Products/Debug-iphoneos/SuperProfile.app55"CodeSign Build/Products/Debug-iphoneos/SuperProfile.app3f70a1f9f00bb941^5e652dfbf00bb941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/0000000000000000^1023"CodeSign Build/Products/Debug-iphoneos/SuperProfile.app    cd /Users/p27e4a/github/SuperProfile    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Ken Tsutsumi (5TFUJSDX5M)" and provisioning profile "iOS Team Provisioning Profile: com.lvup.*" (353EEDD8-7DD3-4315-B359-CA3E85A85A4E)    /usr/bin/codesign --force --sign 5557799E43A0416E61521F7096E7C2857B636F35 --resource-rules=/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/ResourceRules.plist --entitlements /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile.xcent /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app36"08C5C58A-5CC7-476D-BDF5-72DC7EA1974B-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CCompileAssetCatalog /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app /Users/p27e4a/github/SuperProfile/SuperProfile/Images.xcassets
+s420212929.116885
+e420212946.975694
+r1
+xCompileAssetCatalog
+x/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app
+x/Users/p27e4a/github/SuperProfile/SuperProfile/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/LaunchImage-700-568h@2x.png
+o/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/Assets.car
+o/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"CompileAssetCatalog Build/Products/Debug-iphoneos/SuperProfile.app SuperProfile/Images.xcassets95"CompileAssetCatalog Build/Products/Debug-iphoneos/SuperProfile.app SuperProfile/Images.xcassetsff091ec1f00bb941^68cbf9d2f00bb941^-386"/* com.apple.actool.compilation-results *//Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/LaunchImage-700-568h@2x.png/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/Assets.car/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@70"file:///Users/p27e4a/github/SuperProfile/SuperProfile/Images.xcassets/0000000000000000^1066"CompileAssetCatalog Build/Products/Debug-iphoneos/SuperProfile.app SuperProfile/Images.xcassets    cd /Users/p27e4a/github/SuperProfile    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app /Users/p27e4a/github/SuperProfile/SuperProfile/Images.xcassets36"5D22DAD5-3D22-4CE5-B1CE-98B0D4D373A6-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CCompileC Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/AppDelegate.o /Users/p27e4a/github/SuperProfile/SuperProfile/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420212924.314567
+e420212925.805435
+r1
+xCompileC
+xBuild/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/p27e4a/github/SuperProfile/SuperProfile/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/SuperProfile/AppDelegate.m
+d/Users/p27e4a/github/SuperProfile/SuperProfile/AppDelegate.h
+d/Users/p27e4a/github/SuperProfile/SuperProfile/MasterViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/p27e4a/github/SuperProfile/SuperProfile/AppDelegate.m214"CompileC Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/AppDelegate.o SuperProfile/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerafb050bcf00bb941^a032cebdf00bb941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/p27e4a/github/SuperProfile/SuperProfile/AppDelegate.m0000000000000000^3705"CompileC Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/AppDelegate.o SuperProfile/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/DerivedSources/armv7s -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -isystem /Users/p27e4a/github/SuperProfile/Pods/Headers -isystem /Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/SuperProfile-Prefix-cjiblcawjphkfahkvjjbabtitmkb/SuperProfile-Prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/p27e4a/github/SuperProfile/SuperProfile/AppDelegate.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/AppDelegate.o36"ECA24F21-1474-4921-B0C0-ADAC87F6E9A2-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CCompileC Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/DetailViewController.o /Users/p27e4a/github/SuperProfile/SuperProfile/DetailViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420212924.313802
+e420212925.701793
+r1
+xCompileC
+xBuild/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/DetailViewController.o
+x/Users/p27e4a/github/SuperProfile/SuperProfile/DetailViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/SuperProfile/DetailViewController.m
+d/Users/p27e4a/github/SuperProfile/SuperProfile/DetailViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/p27e4a/github/SuperProfile/SuperProfile/DetailViewController.m232"CompileC Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/DetailViewController.o SuperProfile/DetailViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler4b7650bcf00bb941^19a9b3bdf00bb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/p27e4a/github/SuperProfile/SuperProfile/DetailViewController.m0000000000000000^3759"CompileC Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/DetailViewController.o SuperProfile/DetailViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/DerivedSources/armv7s -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -isystem /Users/p27e4a/github/SuperProfile/Pods/Headers -isystem /Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/SuperProfile-Prefix-cjiblcawjphkfahkvjjbabtitmkb/SuperProfile-Prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/DetailViewController.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/DetailViewController.dia -c /Users/p27e4a/github/SuperProfile/SuperProfile/DetailViewController.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/DetailViewController.o36"EADBF47D-81C3-4119-848F-BE567E4F2C6A-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CCompileC Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/MasterViewController.o /Users/p27e4a/github/SuperProfile/SuperProfile/MasterViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420212924.314095
+e420212925.819178
+r1
+xCompileC
+xBuild/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/MasterViewController.o
+x/Users/p27e4a/github/SuperProfile/SuperProfile/MasterViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/SuperProfile/MasterViewController.m
+d/Users/p27e4a/github/SuperProfile/SuperProfile/MasterViewController.h
+d/Users/p27e4a/github/SuperProfile/SuperProfile/DetailViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/p27e4a/github/SuperProfile/SuperProfile/MasterViewController.m232"CompileC Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/MasterViewController.o SuperProfile/MasterViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerff9650bcf00bb941^8db7d1bdf00bb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/p27e4a/github/SuperProfile/SuperProfile/MasterViewController.m0000000000000000^3759"CompileC Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/MasterViewController.o SuperProfile/MasterViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/DerivedSources/armv7s -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -isystem /Users/p27e4a/github/SuperProfile/Pods/Headers -isystem /Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/SuperProfile-Prefix-cjiblcawjphkfahkvjjbabtitmkb/SuperProfile-Prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/MasterViewController.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/MasterViewController.dia -c /Users/p27e4a/github/SuperProfile/SuperProfile/MasterViewController.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/MasterViewController.o36"EA599445-A983-474C-A93F-184D898D580D-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CCompileC Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/main.o /Users/p27e4a/github/SuperProfile/SuperProfile/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420212924.315417
+e420212925.024558
+r1
+xCompileC
+xBuild/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/main.o
+x/Users/p27e4a/github/SuperProfile/SuperProfile/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/SuperProfile/main.m
+d/Users/p27e4a/github/SuperProfile/SuperProfile/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/p27e4a/github/SuperProfile/SuperProfile/main.m200"CompileC Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/main.o SuperProfile/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler080151bcf00bb941^b64c06bdf00bb941^---0#0#1#-19%DVTDocumentLocation2@60"file:///Users/p27e4a/github/SuperProfile/SuperProfile/main.m0000000000000000^3663"CompileC Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/main.o SuperProfile/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/DerivedSources/armv7s -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -isystem /Users/p27e4a/github/SuperProfile/Pods/Headers -isystem /Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/SuperProfile-Prefix-cjiblcawjphkfahkvjjbabtitmkb/SuperProfile-Prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/main.dia -c /Users/p27e4a/github/SuperProfile/SuperProfile/main.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/main.o36"51C6C343-0B39-4B48-8964-C3F61D1A3525-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CCompileStoryboard /Users/p27e4a/github/SuperProfile/SuperProfile/Base.lproj/Main.storyboard
+s420212929.115455
+e420212962.433798
+r1
+xCompileStoryboard
+x/Users/p27e4a/github/SuperProfile/SuperProfile/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"CompileStoryboard SuperProfile/Base.lproj/Main.storyboard57"CompileStoryboard SuperProfile/Base.lproj/Main.storyboard5fb21dc1f00bb941^cc086fe2f00bb941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/p27e4a/github/SuperProfile/SuperProfile/Base.lproj/Main.storyboard0000000000000000^780"CompileStoryboard SuperProfile/Base.lproj/Main.storyboard    cd /Users/p27e4a/github/SuperProfile    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/Base.lproj/Main.storyboardc /Users/p27e4a/github/SuperProfile/SuperProfile/Base.lproj/Main.storyboard36"B401ED69-3297-41DA-BFA5-AF21E7E620D0-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CCopyStringsFile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/en.lproj/InfoPlist.strings SuperProfile/en.lproj/InfoPlist.strings
+s420212929.115112
+e420212929.214603
+r1
+xCopyStringsFile
+x/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/en.lproj/InfoPlist.strings
+xSuperProfile/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy SuperProfile/en.lproj/InfoPlist.strings129"CopyStringsFile Build/Products/Debug-iphoneos/SuperProfile.app/en.lproj/InfoPlist.strings SuperProfile/en.lproj/InfoPlist.stringsa1a31dc1f00bb941^84f236c1f00bb941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/p27e4a/github/SuperProfile/SuperProfile/en.lproj/InfoPlist.strings0000000000000000^582"CopyStringsFile Build/Products/Debug-iphoneos/SuperProfile.app/en.lproj/InfoPlist.strings SuperProfile/en.lproj/InfoPlist.strings    cd /Users/p27e4a/github/SuperProfile    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/en.lproj -- SuperProfile/en.lproj/InfoPlist.strings36"75AE8761-8841-476E-94A2-82E41E2A93D2-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/SuperProfile.app/ResourceRules.plist
+s420212915.249928
+e420212915.289569
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xBuild/Products/Debug-iphoneos/SuperProfile.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy Build/Products/Debug-iphoneos/SuperProfile.app/ResourceRules.plist199"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/SuperProfile.app/ResourceRules.plist292140b3f00bb941^10254ab3f00bb941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/ResourceRules.plist00345498dfffdf42^744"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/SuperProfile.app/ResourceRules.plist    cd /Users/p27e4a/github/SuperProfile    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app36"F7236757-86B9-4222-9976-DB658C9EDAB3-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CDataModelVersionCompile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile.momd /Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile.xcdatamodeld
+s420212915.694374
+e420212924.312745
+r1
+xDataModelVersionCompile
+x/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile.momd
+x/Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile.xcdatamodeld
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"DataModelVersionCompile Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile.momd SuperProfile/SuperProfile.xcdatamodeld127"DataModelVersionCompile Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile.momd SuperProfile/SuperProfile.xcdatamodelddbdbb1b3f00bb941^4d1150bcf00bb941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile.xcdatamodeld/0000000000000000^765"DataModelVersionCompile Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile.momd SuperProfile/SuperProfile.xcdatamodeld    cd /Users/p27e4a/github/SuperProfile    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -MOMC_PLATFORMS iphonesimulator -MOMC_PLATFORMS iphoneos /Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile.xcdatamodeld /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile.momd36"4B6A279B-3BFC-4F89-9C23-BCDBC0E35DE7-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CGenerateDSYMFile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app.dSYM /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile
+s420212962.496462
+e420212963.234174
+r1
+xGenerateDSYMFile
+x/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app.dSYM
+x/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Generate /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app.dSYM128"GenerateDSYMFile Build/Products/Debug-iphoneos/SuperProfile.app.dSYM Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile232f7fe2f00bb941^34f43be3f00bb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app.dSYM00345498dfffdf42^641"GenerateDSYMFile Build/Products/Debug-iphoneos/SuperProfile.app.dSYM Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile    cd /Users/p27e4a/github/SuperProfile    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile -o /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app.dSYM36"FE65BBE2-7016-4933-9B62-AB7BBDABEB87-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CLd /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile normal armv7s
+s420212925.820039
+e420212929.113840
+r1
+xLd
+x/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile
+xnormal
+xarmv7s
+d/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/SuperProfile.LinkFileList
+d/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/DetailViewController.o
+d/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/MasterViewController.o
+d/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/AppDelegate.o
+d/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/vImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/vecLib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvDSP.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libLAPACK.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBLAS.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvMisc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Link /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile76"Ld Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile normal armv7s22fed1bdf00bb941^20261dc1f00bb941^---0#0#1#--1490"Ld Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile normal armv7s    cd /Users/p27e4a/github/SuperProfile    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -filelist /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/SuperProfile.LinkFileList -dead_strip -ObjC -framework Accelerate -framework CoreGraphics -framework CoreTelephony -framework Foundation -framework QuartzCore -framework SystemConfiguration -framework UIKit -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework CoreData -framework UIKit -framework Foundation -lPods -Xlinker -dependency_info -Xlinker /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/armv7s/SuperProfile_dependency_info.dat -o /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/SuperProfile36"79D93377-CC3C-4B88-9F60-8A2F8FD27698-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Script-A34D1A8D905841B396E22452.sh
+s420212915.291349
+e420212915.693297
+r1
+xPhaseScriptExecution
+xCheck Pods Manifest.lock
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Script-A34D1A8D905841B396E22452.sh
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'155"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Script-A34D1A8D905841B396E22452.shc4254bb3f00bb941^5a81b1b3f00bb941^---0#0#1#--354"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Script-A34D1A8D905841B396E22452.sh    cd /Users/p27e4a/github/SuperProfile    /bin/sh -c /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Script-A34D1A8D905841B396E22452.sh36"D37CC2F9-33B6-40A0-B5A6-6A4D734876CE-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CPhaseScriptExecution Copy\ Pods\ Resources /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Script-3BEDB2580CB54AAC8AE4D489.sh
+s420212963.235928
+e420212985.427539
+r1
+xPhaseScriptExecution
+xCopy Pods Resources
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Script-3BEDB2580CB54AAC8AE4D489.sh
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPArrowLeft.imageset/MPArrowLeft.png
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPArrowLeft.imageset/MPArrowLeft@2x.png
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPArrowRight.imageset/MPArrowRight.png
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPArrowRight.imageset/MPArrowRight@2x.png
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPCheckmark.imageset/MPCheckmark.png
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPCheckmark.imageset/MPCheckmark@2x.png
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPCloseBtn.imageset/MPCloseBtn.png
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPCloseBtn.imageset/MPCloseBtn@2x.png
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPDismissKeyboard.imageset/MPDismissKeyboard.png
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPDismissKeyboard.imageset/MPDismissKeyboard@2x.png
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPLogo.imageset/MPLogo.png
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPLogo.imageset/MPLogo@2x.png
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPCloseBtn.png
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPCloseBtn@2x.png
+oibtool --reference-external-strings-file --errors --warnings --notices --output-format human-readable-text --compile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/MPNotification.storyboardc /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPNotification.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+oibtool --reference-external-strings-file --errors --warnings --notices --output-format human-readable-text --compile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/MPSurvey.storyboardc /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPSurvey.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+obuilding file list ... done
+oMPArrowLeft.png
+oMPArrowLeft@2x.png
+oMPArrowRight.png
+oMPArrowRight@2x.png
+oMPCheckmark.png
+oMPCheckmark@2x.png
+oMPCloseBtn.png
+oMPCloseBtn@2x.png
+oMPDismissKeyboard.png
+oMPDismissKeyboard@2x.png
+oMPLogo.png
+oMPLogo@2x.png
+o
+osent 19194 bytes  received 284 bytes  12985.33 bytes/sec
+ototal size is 21709  speedup is 1.11
+o2014-04-26 22:49:41.848 xcodebuild[2123:d0b] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+o2014-04-26 22:49:41.851 xcodebuild[2123:d0b] Failed to load plugin at: /Users/p27e4a/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin, skipping.  Reason for failure: *** -[__NSPlaceholderDictionary initWithObjects:forKeys:count:]: attempt to insert nil object from objects[0]
+o/* com.apple.actool.document.warnings */
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPDismissKeyboard.imageset/[][][][MPDismissKeyboard.png]: warning: The image set "MPDismissKeyboard" has 2 unassigned images.
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPArrowLeft.imageset/[][][][MPArrowLeft.png]: warning: The image set "MPArrowLeft" has 2 unassigned images.
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPArrowRight.imageset/[][][][MPArrowRight.png]: warning: The image set "MPArrowRight" has 2 unassigned images.
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPCloseBtn.imageset/[][][][MPCloseBtn.png]: warning: The image set "MPCloseBtn" has 2 unassigned images.
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPLogo.imageset/[][][][MPLogo.png]: warning: The image set "MPLogo" has 2 unassigned images.
+o/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPCheckmark.imageset/[][][][MPCheckmark.png]: warning: The image set "MPCheckmark" has 2 unassigned images.
+o/* com.apple.actool.compilation-results */
+o/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/Assets.car
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'150"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Script-3BEDB2580CB54AAC8AE4D489.sh40fc3ce3f00bb941^c9776df9f00bb941^-4492"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPArrowLeft.imageset/MPArrowLeft.png/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPArrowLeft.imageset/MPArrowLeft@2x.png/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPArrowRight.imageset/MPArrowRight.png/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPArrowRight.imageset/MPArrowRight@2x.png/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPCheckmark.imageset/MPCheckmark.png/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPCheckmark.imageset/MPCheckmark@2x.png/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPCloseBtn.imageset/MPCloseBtn.png/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPCloseBtn.imageset/MPCloseBtn@2x.png/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPDismissKeyboard.imageset/MPDismissKeyboard.png/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPDismissKeyboard.imageset/MPDismissKeyboard@2x.png/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPLogo.imageset/MPLogo.png/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPLogo.imageset/MPLogo@2x.png/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPCloseBtn.png/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPCloseBtn@2x.pngibtool --reference-external-strings-file --errors --warnings --notices --output-format human-readable-text --compile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/MPNotification.storyboardc /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPNotification.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdkibtool --reference-external-strings-file --errors --warnings --notices --output-format human-readable-text --compile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/MPSurvey.storyboardc /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPSurvey.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdkbuilding file list ... doneMPArrowLeft.pngMPArrowLeft@2x.pngMPArrowRight.pngMPArrowRight@2x.pngMPCheckmark.pngMPCheckmark@2x.pngMPCloseBtn.pngMPCloseBtn@2x.pngMPDismissKeyboard.pngMPDismissKeyboard@2x.pngMPLogo.pngMPLogo@2x.pngsent 19194 bytes  received 284 bytes  12985.33 bytes/sectotal size is 21709  speedup is 1.112014-04-26 22:49:41.848 xcodebuild[2123:d0b] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs2014-04-26 22:49:41.851 xcodebuild[2123:d0b] Failed to load plugin at: /Users/p27e4a/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin, skipping.  Reason for failure: *** -[__NSPlaceholderDictionary initWithObjects:forKeys:count:]: attempt to insert nil object from objects[0]/* com.apple.actool.document.warnings *//Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPDismissKeyboard.imageset/[][][][MPDismissKeyboard.png]: warning: The image set "MPDismissKeyboard" has 2 unassigned images./Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPArrowLeft.imageset/[][][][MPArrowLeft.png]: warning: The image set "MPArrowLeft" has 2 unassigned images./Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPArrowRight.imageset/[][][][MPArrowRight.png]: warning: The image set "MPArrowRight" has 2 unassigned images./Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPCloseBtn.imageset/[][][][MPCloseBtn.png]: warning: The image set "MPCloseBtn" has 2 unassigned images./Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPLogo.imageset/[][][][MPLogo.png]: warning: The image set "MPLogo" has 2 unassigned images./Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPCheckmark.imageset/[][][][MPCheckmark.png]: warning: The image set "MPCheckmark" has 2 unassigned images./* com.apple.actool.compilation-results *//Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/Assets.car42(21%IDEActivityLogMessage2@109"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPArrowLeft.imageset/MPArrowLeft.png-420212963#0#109#-0#-----2@112"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPArrowLeft.imageset/MPArrowLeft@2x.png-420212963#109#112#-0#-----2@111"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPArrowRight.imageset/MPArrowRight.png-420212963#221#111#-0#-----2@114"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPArrowRight.imageset/MPArrowRight@2x.png-420212963#332#114#-0#-----2@109"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPCheckmark.imageset/MPCheckmark.png-420212963#446#109#-0#-----2@112"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPCheckmark.imageset/MPCheckmark@2x.png-420212963#555#112#-0#-----2@107"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPCloseBtn.imageset/MPCloseBtn.png-420212963#667#107#-0#-----2@110"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPCloseBtn.imageset/MPCloseBtn@2x.png-420212963#774#110#-0#-----2@121"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPDismissKeyboard.imageset/MPDismissKeyboard.png-420212963#884#121#-0#-----2@124"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPDismissKeyboard.imageset/MPDismissKeyboard@2x.png-420212963#1005#124#-0#-----2@99"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPLogo.imageset/MPLogo.png-420212963#1129#99#-0#-----2@102"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets/MPLogo.imageset/MPLogo@2x.png-420212963#1228#102#-0#-----2@72"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPCloseBtn.png-420212963#1330#72#-0#-----2@75"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPCloseBtn@2x.png-420212963#1402#75#-0#-----2@416"ibtool --reference-external-strings-file --errors --warnings --notices --output-format human-readable-text --compile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/MPNotification.storyboardc /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPNotification.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk-420212963#1477#416#-0#-----2@404"ibtool --reference-external-strings-file --errors --warnings --notices --output-format human-readable-text --compile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/MPSurvey.storyboardc /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPSurvey.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk-420212976#1893#404#-0#-----2@28"building file list ... done-420212979#2297#28#-0#-----2@16"MPArrowLeft.png-420212979#2325#16#-0#-----2@19"MPArrowLeft@2x.png-420212979#2341#19#-0#-----2@17"MPArrowRight.png-420212979#2360#17#-0#-----2@20"MPArrowRight@2x.png-420212979#2377#20#-0#-----2@16"MPCheckmark.png-420212979#2397#16#-0#-----2@19"MPCheckmark@2x.png-420212979#2413#19#-0#-----2@15"MPCloseBtn.png-420212979#2432#15#-0#-----2@18"MPCloseBtn@2x.png-420212979#2447#18#-0#-----2@22"MPDismissKeyboard.png-420212979#2465#22#-0#-----2@25"MPDismissKeyboard@2x.png-420212979#2487#25#-0#-----2@11"MPLogo.png-420212979#2512#11#-0#-----2@14"MPLogo@2x.png-420212979#2523#14#-0#-----2@57"sent 19194 bytes  received 284 bytes  12985.33 bytes/sec-420212979#2538#57#-0#-----2@37"total size is 21709  speedup is 1.11-420212979#2595#37#-0#-----2@283"2014-04-26 22:49:41.848 xcodebuild[2123:d0b] [MT] PluginLoading: Required plug-in compatibility UUID A2E4D43F-41F4-4FB9-BB94-7177011C9AED for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs-420212981#2632#283#-0#-----2@305"2014-04-26 22:49:41.851 xcodebuild[2123:d0b] Failed to load plugin at: /Users/p27e4a/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin, skipping.  Reason for failure: *** -[__NSPlaceholderDictionary initWithObjects:forKeys:count:]: attempt to insert nil object from objects[0]-420212981#2915#305#-0#-----2@41"/* com.apple.actool.document.warnings */-420212985#3220#41#-0#-----2@200"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPDismissKeyboard.imageset/[][][][MPDismissKeyboard.png]: warning: The image set "MPDismissKeyboard" has 2 unassigned images.-420212985#3261#200#-0#-----2@182"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPArrowLeft.imageset/[][][][MPArrowLeft.png]: warning: The image set "MPArrowLeft" has 2 unassigned images.-420212985#3461#182#-0#-----2@185"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPArrowRight.imageset/[][][][MPArrowRight.png]: warning: The image set "MPArrowRight" has 2 unassigned images.-420212985#3643#185#-0#-----2@179"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPCloseBtn.imageset/[][][][MPCloseBtn.png]: warning: The image set "MPCloseBtn" has 2 unassigned images.-420212985#3828#179#-0#-----2@167"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPLogo.imageset/[][][][MPLogo.png]: warning: The image set "MPLogo" has 2 unassigned images.-420212985#4007#167#-0#-----2@182"/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Media.xcassets:./MPCheckmark.imageset/[][][][MPCheckmark.png]: warning: The image set "MPCheckmark" has 2 unassigned images.-420212985#4174#182#-0#-----2@43"/* com.apple.actool.compilation-results */-420212985#4356#43#-0#-----2@92"/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/Assets.car-420212985#4399#92#-0#-----0#0#1#--349"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Script-3BEDB2580CB54AAC8AE4D489.sh    cd /Users/p27e4a/github/SuperProfile    /bin/sh -c /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Script-3BEDB2580CB54AAC8AE4D489.sh36"992A5329-B828-462E-B2B9-54A7F52997F0-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CProcessInfoPlistFile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/Info.plist /Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile-Info.plist
+s420212962.434378
+e420212962.495670
+r1
+xProcessInfoPlistFile
+x/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/Info.plist
+x/Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Process /Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile-Info.plist115"ProcessInfoPlistFile Build/Products/Debug-iphoneos/SuperProfile.app/Info.plist SuperProfile/SuperProfile-Info.plist67466fe2f00bb941^b0e87ee2f00bb941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile-Info.plist0000000000000000^980"ProcessInfoPlistFile Build/Products/Debug-iphoneos/SuperProfile.app/Info.plist SuperProfile/SuperProfile-Info.plist    cd /Users/p27e4a/github/SuperProfile    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile-Info.plist -genpkginfo /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/ResourceRules.plist -additionalcontentfile /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/assetcatalog_generated_info.plist -o /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/Info.plist36"B2AC288F-C116-4F2E-ABB1-ECB63DEAF45A-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/SuperProfile-Prefix-erphhubqvbagorhamuohpxotkdzg_ast/SuperProfile-Prefix.pch.pch SuperProfile/SuperProfile-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/SuperProfile-Prefix-cjiblcawjphkfahkvjjbabtitmkb/SuperProfile-Prefix.pch.pch SuperProfile/SuperProfile-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420212915.695126
+e420212921.290993
+r1
+xProcessPCH
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/SuperProfile-Prefix-cjiblcawjphkfahkvjjbabtitmkb/SuperProfile-Prefix.pch.pch
+xSuperProfile/SuperProfile-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile SuperProfile/SuperProfile-Prefix.pch233"ProcessPCH Build/Intermediates/PrecompiledHeaders/SuperProfile-Prefix-cjiblcawjphkfahkvjjbabtitmkb/SuperProfile-Prefix.pch.pch SuperProfile/SuperProfile-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler4628b2b3f00bb941^a5824ab9f00bb941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile-Prefix.pch0000000000000000^3603"ProcessPCH Build/Intermediates/PrecompiledHeaders/SuperProfile-Prefix-cjiblcawjphkfahkvjjbabtitmkb/SuperProfile-Prefix.pch.pch SuperProfile/SuperProfile-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/DerivedSources/armv7s -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -isystem /Users/p27e4a/github/SuperProfile/Pods/Headers -isystem /Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/SuperProfile-Prefix-cjiblcawjphkfahkvjjbabtitmkb/SuperProfile-Prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/SuperProfile-Prefix-cjiblcawjphkfahkvjjbabtitmkb/SuperProfile-Prefix.pch.d -c /Users/p27e4a/github/SuperProfile/SuperProfile/SuperProfile-Prefix.pch -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/SuperProfile-Prefix-cjiblcawjphkfahkvjjbabtitmkb/SuperProfile-Prefix.pch.pch36"DC3E5F84-BB90-4B20-B86B-A47E19AA0786-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile.xcent
+s420212985.470525
+e420212985.603195
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection236"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile.xcent236"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile.xcent829078f9f00bb941^09709af9f00bb941^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile.xcent00345498dfffdf42^778"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile.xcent    cd /Users/p27e4a/github/SuperProfile    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/SuperProfile.xcent36"B2537D8D-2FE0-49E2-8D6A-90A39FE9A691-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CProcessProductPackaging /Users/p27e4a/Library/MobileDevice/Provisioning\ Profiles/353EEDD8-7DD3-4315-B359-CA3E85A85A4E.mobileprovision /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/embedded.mobileprovision
+s420212985.428463
+e420212985.468794
+r1
+xProcessProductPackaging
+x/Users/p27e4a/Library/MobileDevice/Provisioning Profiles/353EEDD8-7DD3-4315-B359-CA3E85A85A4E.mobileprovision
+x/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection206"ProcessProductPackaging /Users/p27e4a/Library/MobileDevice/Provisioning\ Profiles/353EEDD8-7DD3-4315-B359-CA3E85A85A4E.mobileprovision Build/Products/Debug-iphoneos/SuperProfile.app/embedded.mobileprovision206"ProcessProductPackaging /Users/p27e4a/Library/MobileDevice/Provisioning\ Profiles/353EEDD8-7DD3-4315-B359-CA3E85A85A4E.mobileprovision Build/Products/Debug-iphoneos/SuperProfile.app/embedded.mobileprovision3dd16df9f00bb941^ab0778f9f00bb941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/embedded.mobileprovision00345498dfffdf42^692"ProcessProductPackaging /Users/p27e4a/Library/MobileDevice/Provisioning\ Profiles/353EEDD8-7DD3-4315-B359-CA3E85A85A4E.mobileprovision Build/Products/Debug-iphoneos/SuperProfile.app/embedded.mobileprovision    cd /Users/p27e4a/github/SuperProfile    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/p27e4a/Library/MobileDevice/Provisioning\ Profiles/353EEDD8-7DD3-4315-B359-CA3E85A85A4E.mobileprovision -o /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app/embedded.mobileprovision36"CAD82A37-3FC8-45E7-B6D8-C1B38A054259-
+bA2808905-4F48-4950-937A-12D63E10AB7F
+
+CTouch /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/SuperProfile.app
+r0
+
