@@ -2,8 +2,8 @@ TPods
 v6
 r1
 cCheck dependencies
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods.a normal armv7s
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods.a normal arm64
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
 c0000000053119F860000000000000132
@@ -30,27 +30,47 @@ c0000000053532D460000000000000ADC
 t1397960006
 s2780
 
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o
-t1398520115
-s3412
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o
+t1402197921
+s3884
 
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods.LinkFileList
-c00000000535BB932000000000000007E
-t1398520114
-s126
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods.LinkFileList
+c000000005393D7A0000000000000007D
+t1402197920
+s125
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-Facebook-iOS-SDK.a
+c000000005393D7A00000000000413098
+t1402197920
+s4272280
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-FormatterKit.a
+c000000005393D7990000000000061688
+t1402197913
+s398984
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-GCPlaceholderTextView.a
+c000000005393D795000000000000EF68
+t1402197909
+s61288
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-MBProgressHUD.a
+c000000005393D7960000000000031328
+t1402197910
+s201512
 
 N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-Mixpanel.a
-c00000000535BB93100000000000F9668
-t1398520113
-s1021544
+c000000005393D79D0000000000106738
+t1402197917
+s1075000
 
 N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods.a
 t2
 s0
 
 N/Users/p27e4a/github/SuperProfile/Pods/Pods-dummy.m
-c00000000535BB76B0000000000000070
-t1398519659
+c000000005393BD880000000000000070
+t1402191240
 s112
 
 CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/Pods-dummy.m
@@ -58,31 +78,31 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf35827b2f00bb941^c3bc33b2f00bb941^---0#1#1#--18"Check dependencies36"7088FB23-6597-4490-B1D5-0D21451C2A2C-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies715422200f44b941^e4ba7d200f44b941^---0#1#1#--18"Check dependencies36"39530851-A0AE-4F83-B1CF-E0C0E84E0FAB-
 
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s420212914.203155
-e420212915.027667
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423890720.492353
+e423890721.005764
 r1
 xCompileC
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o
 x/Users/p27e4a/github/SuperProfile/Pods/Pods-dummy.m
 xnormal
-xarmv7s
+xarm64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/p27e4a/github/SuperProfile/Pods/Pods-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/p27e4a/github/SuperProfile/Pods/Pods-dummy.m217"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler292534b2f00bb941^551807b3f00bb941^---0#0#1#-19%DVTDocumentLocation2@58"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-dummy.m0000000000000000^3274"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7s -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -isystem /Users/p27e4a/github/SuperProfile/Pods/Pods/Headers -isystem /Users/p27e4a/github/SuperProfile/Pods/Pods/Headers/Mixpanel -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.dia -c /Users/p27e4a/github/SuperProfile/Pods/Pods-dummy.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o36"4A6240BD-8AA8-4FC9-94A8-0017E701EF90-
-b714548DE-2709-4627-894E-2E0BE2823111
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/p27e4a/github/SuperProfile/Pods/Pods-dummy.m215"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc93c7e200f44b941^9a7a01210f44b941^---0#0#1#-19%DVTDocumentLocation2@58"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-dummy.m0000000000000000^4032"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -isystem /Users/p27e4a/github/SuperProfile/Pods/Pods/Headers -isystem /Users/p27e4a/github/SuperProfile/Pods/Pods/Headers/Facebook-iOS-SDK -isystem /Users/p27e4a/github/SuperProfile/Pods/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem /Users/p27e4a/github/SuperProfile/Pods/Pods/Headers/FormatterKit -isystem /Users/p27e4a/github/SuperProfile/Pods/Pods/Headers/GCPlaceholderTextView -isystem /Users/p27e4a/github/SuperProfile/Pods/Pods/Headers/MBProgressHUD -isystem /Users/p27e4a/github/SuperProfile/Pods/Pods/Headers/Mixpanel -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.dia -c /Users/p27e4a/github/SuperProfile/Pods/Pods-dummy.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o36"1A595BA5-EC5A-4583-870B-D90F6D05FA85-
+b5F541D5A-DFEF-4C2C-8A18-D8E56DA976BD
 
-CLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods.a normal armv7s
-s420212915.028422
-e420212915.221832
+CLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods.a normal arm64
+s423890721.006706
+e423890722.494751
 r1
 xLibtool
 x/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods.a
 xnormal
-xarmv7s
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods.a normal armv7s95"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods.a normal armv7sde5907b3f00bb941^53cd38b3f00bb941^---0#0#1#--933"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods.a normal armv7s    cd /Users/p27e4a/github/SuperProfile/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -filelist /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods.LinkFileList -framework Foundation -lPods-Mixpanel -o /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods.a36"4258C821-30D8-49AB-94A3-277149D5A729-
-b714548DE-2709-4627-894E-2E0BE2823111
+xarm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods.a normal arm6494"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods.a normal arm64c9cc01210f44b941^21ac7e220f44b941^---0#0#1#--1024"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods.a normal arm64    cd /Users/p27e4a/github/SuperProfile/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -filelist /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods.LinkFileList -framework Foundation -lPods-Facebook-iOS-SDK -lPods-FormatterKit -lPods-GCPlaceholderTextView -lPods-MBProgressHUD -lPods-Mixpanel -o /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods.a36"82AE9CF5-F27D-4E1B-B3A8-6CD9E3033F47-
+b5F541D5A-DFEF-4C2C-8A18-D8E56DA976BD
 

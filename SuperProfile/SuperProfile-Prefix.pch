@@ -13,5 +13,30 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "AppDelegate.h"
     #import <CoreData/CoreData.h>
+    #import <Parse/Parse.h>
+    #import "MBProgressHUD.h"
+    #import "LUPlaceholderTextView.h"
+    #import "LUConstants.h"
+    #import "LUUtility.h"
+    #import "ProfileViewController.h"
+    #import "UserListViewController.h"
+    #import "UIImage+Resize.h"
+    #import "PFRoundedImageView.h"
+    #import "QuestionDetailViewController.h"
+    #import "AnswerCell.h"
+    #import "LUTimeFormatter.h"
+    #import "PFUser+Additions.h"
 #endif
+
+/* Log */
+#define LOG(...) NSLog(__VA_ARGS__)
+#define LOG_PRINTF(FORMAT, ...) printf("%s\n", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#define LOG_METHOD NSLog(@"%s", __func__)
+#define LOG_METHOD_AND_ABORT LOG_METHOD; abort()
+#define LOG_POINT(p, comment) NSLog(@"%@:%f, %f", comment, p.x, p.y)
+#define LOG_SIZE(p, comment) NSLog(@"%@:%f, %f", comment, p.width, p.height)
+#define LOG_RECT(p, comment) NSLog(@"%@:%f, %f - %f, %f", comment, p.origin.x, p.origin.y, p.size.width, p.size.height)
+#define LOG_BOOL(bool, comment)  NSLog(@"%@:%@",comment,(bool ? @"YES":@"NO"))
+#define LOG_DATE(date, comment)  NSLog(@"%@:%@",comment,[date description])

@@ -1,0 +1,58 @@
+
+
+/* Common */
+"Common_Suffix_Plural" = "s";
+
+/* AnswerTimelineView */
+"AnswerTimelineView_Title" = "Timeline";
+
+/* RecommendQuestionView */
+"RecommendQuestionView_Title" = "Questions";
+
+/* QuestionDetailView */
+"QuestionDetailView_Title" = "Question";
+
+"QuestionDetailView_Button_Answer_StateNormal" = "Answer this question";
+
+"QuestionDetailView_Button_Answer_StateDisabled" = "Answered";
+
+"QuestionDetailView_SectionHeader" = "Answers from friends";
+
+/* EditQuestionView */
+"EditQuestionView_Title" = "Add Question";
+
+"EditQuestionView_Button_Next" = "Next";
+
+"EditQuestionView_Placeholder" = "Question（ex：What is your favorite food?）";
+
+/* EditAnswerView */
+"EditAnswerView_Title" = "Edit Answer";
+
+/* ProfileView */
+"ProfileView_Title" = "Profile";
+
+"ProfileView_Button_FollowingCount_%d" = "%d following";
+
+"ProfileView_Button_FollowerCount_%d_%@" = "%d follower%@";
+
+"ProfileView_Button_FollowAction_Loading" = "Loading";
+
+"ProfileView_Button_FollowAction_Follow" = "Follow";
+
+"ProfileView_Button_FollowAction_Unfollow" = "Unfollow";
+
+/* UserListView */
+"UserListView_Title_Following" = "Following";
+
+"UserListView_Title_Follower" = "Follower";
+
+/* EditProfileView */
+"EditProfileView_Title" = "Edit Profile";
+
+"EditProfileView_Cell_ProfileImage" = "Photo";
+
+"EditProfileView_ActionSheet_Camera" = "Take photo";
+
+"EditProfileView_ActionSheet_Album" = "Choose existing photo";
+
+"EditProfileView_ActionSheet_Cancel" = "Cancel";

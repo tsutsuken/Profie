@@ -1,10 +1,38 @@
 PODS:
+  - Facebook-iOS-SDK (3.13.1)
+  - FormatterKit (1.4.3):
+    - FormatterKit/AddressFormatter
+    - FormatterKit/ArrayFormatter
+    - FormatterKit/ColorFormatter
+    - FormatterKit/LocationFormatter
+    - FormatterKit/OrdinalNumberFormatter
+    - FormatterKit/TimeIntervalFormatter
+    - FormatterKit/UnitOfInformationFormatter
+    - FormatterKit/URLRequestFormatter
+  - FormatterKit/AddressFormatter (1.4.3)
+  - FormatterKit/ArrayFormatter (1.4.3)
+  - FormatterKit/ColorFormatter (1.4.3)
+  - FormatterKit/LocationFormatter (1.4.3)
+  - FormatterKit/OrdinalNumberFormatter (1.4.3)
+  - FormatterKit/TimeIntervalFormatter (1.4.3)
+  - FormatterKit/UnitOfInformationFormatter (1.4.3)
+  - FormatterKit/URLRequestFormatter (1.4.3)
+  - GCPlaceholderTextView (1.0.1)
+  - MBProgressHUD (0.8)
   - Mixpanel (2.3.5)
 
 DEPENDENCIES:
+  - Facebook-iOS-SDK
+  - FormatterKit
+  - GCPlaceholderTextView
+  - MBProgressHUD
   - Mixpanel
 
 SPEC CHECKSUMS:
-  Mixpanel: 79ff289920b67399475b93057ac11e48637585d7
+  Facebook-iOS-SDK: bc0d0bdf14f64cb7f4d49f8f17d445f49c40d342
+  FormatterKit: f744aa7928003eba8317d6fd6998414fbc78f7a5
+  GCPlaceholderTextView: d48f3558c8d71daaae65679275075592ca13e1c8
+  MBProgressHUD: c356980b0cd097f19acec959b49dca5eb8ec31be
+  Mixpanel: 73ab2e90b651fee096a16448004df39ca535cd72
 
 COCOAPODS: 0.32.1

@@ -1,0 +1,58 @@
+
+
+/* Common */
+"Common_Suffix_Plural" = "";
+
+/* AnswerTimelineView */
+"AnswerTimelineView_Title" = "タイムライン";
+
+/* RecommendQuestionView */
+"RecommendQuestionView_Title" = "おすすめの質問";
+
+/* QuestionDetailView */
+"QuestionDetailView_Title" = "質問";
+
+"QuestionDetailView_Button_Answer_StateNormal" = "回答する";
+
+"QuestionDetailView_Button_Answer_StateDisabled" = "回答済み";
+
+"QuestionDetailView_SectionHeader" = "友達の回答";
+
+/* EditQuestionView */
+"EditQuestionView_Title" = "質問を作成";
+
+"EditQuestionView_Button_Next" = "次へ";
+
+"EditQuestionView_Placeholder" = "例：好きな食べ物は？";
+
+/* EditAnswerView */
+"EditAnswerView_Title" = "回答する";
+
+/* ProfileView */
+"ProfileView_Title" = "プロフィール";
+
+"ProfileView_Button_FollowingCount_%d" = "%dフォロー";
+
+"ProfileView_Button_FollowerCount_%d_%@" = "%dフォロワー%@";
+
+"ProfileView_Button_FollowAction_Loading" = "読み込み中";
+
+"ProfileView_Button_FollowAction_Follow" = "フォローする";
+
+"ProfileView_Button_FollowAction_Unfollow" = "フォロー中";
+
+/* UserListView */
+"UserListView_Title_Following" = "フォロー";
+
+"UserListView_Title_Follower" = "フォロワー";
+
+/* EditProfileView */
+"EditProfileView_Title" = "プロフィールを編集";
+
+"EditProfileView_Cell_ProfileImage" = "プロフィール画像";
+
+"EditProfileView_ActionSheet_Camera" = "写真を撮る";
+
+"EditProfileView_ActionSheet_Album" = "画像を選択";
+
+"EditProfileView_ActionSheet_Cancel" = "キャンセル";
