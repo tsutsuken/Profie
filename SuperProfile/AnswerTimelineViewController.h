@@ -7,7 +7,8 @@
 //
 
 #import <Parse/Parse.h>
+#import "AppDelegate.h"
 
-@interface AnswerTimelineViewController : PFQueryTableViewController <PFRoundedImageViewDelegate>
+@interface AnswerTimelineViewController : PFQueryTableViewController <PFRoundedImageViewDelegate, LVTouchableLabelDelegate, GADBannerViewDelegate>
 
 @end

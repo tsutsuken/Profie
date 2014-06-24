@@ -15,6 +15,8 @@
 @property (nonatomic, assign) id <PFRoundedImageViewDelegate> delegate;
 @property (nonatomic, strong) PFUser *user;
 
+- (void)showProfileViewFromViewController:(UIViewController *)delegateViewController;
+
 @end
 
 @protocol PFRoundedImageViewDelegate

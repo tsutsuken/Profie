@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FE22AC2C-A4EC-4961-9A1E-3FA53CE24C89</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SuperProfile</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7B2C7A95-2236-4896-B053-718DEB7C24CA</key>
+		<string>https://github.com/tsutsuken/SuperProfile.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SuperProfile.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7B2C7A95-2236-4896-B053-718DEB7C24CA</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tsutsuken/SuperProfile.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7B2C7A95-2236-4896-B053-718DEB7C24CA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7B2C7A95-2236-4896-B053-718DEB7C24CA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SuperProfile</string>
+		</dict>
+	</array>
+</dict>
+</plist>

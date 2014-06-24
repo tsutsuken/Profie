@@ -89,6 +89,7 @@
         EditAnswerViewController *controller = (EditAnswerViewController *)segue.destinationViewController;
         
         PFObject *question = [PFObject objectWithClassName:kLUQuestionClassKey];
+        [question.ACL setPublicWriteAccess:YES];
         [question setObject:[PFUser currentUser] forKey:kLUQuestionAutherKey];
         [question setObject:self.textView.text forKey:kLUQuestionTitleKey];
         controller.question = question;
@@ -117,7 +118,6 @@
     
     // 実際に UITextView に入力されている文字数
     long wordCount = (wordCountInTextView - wordCountFromCopyAndPaste) + wordCountFromKeyboard;
-    NSLog(@"wordCount : %ld", wordCount);
     
     [self enableBarButtonItemWithWordCount:wordCount];
     

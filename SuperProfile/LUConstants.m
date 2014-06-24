@@ -13,7 +13,8 @@ NSString *const kLUFormatterPastDeicticExpression        = @"";
 NSString *const kLUFormatterSuffixExpressionFormat       = @"%@%@";
 
 #pragma mark - NSNotification
-NSString *const LUEditAnswerViewControllerUserDidAnswerNotification   = @"com.lvup.SuperProfile.editAnswerViewController.userDidAnswerNotification";
+NSString *const LUEditAnswerViewControllerUserDidEditAnswerNotification   = @"com.lvup.SuperProfile.editAnswerViewController.userDidEditAnswerNotification";
+NSString *const LUQuestionDetailViewControllerUserDidDeleteAnswerNotification   = @"com.lvup.SuperProfile.questionDetailViewController.userDidDeleteAnswerNotification";
 
 #pragma mark - PFObject Common Class
 // Field keys
@@ -25,6 +26,7 @@ NSString *const kLUCommonCreatedAtKey       = @"createdAt";
 NSString *const kLUUserUsernameKey        = @"username";
 NSString *const kLUUserProfilePicSmallKey  = @"profilePictureSmall";
 NSString *const kLUUserProfilePicMediumKey = @"profilePictureMedium";
+NSString *const kLUUserProfilePicLargeKey = @"profilePictureLarge";
 
 
 #pragma mark - Activity Class
@@ -47,6 +49,7 @@ NSString *const kLUQuestionClassKey = @"Question";
 // Field keys
 NSString *const kLUQuestionTitleKey        = @"title";
 NSString *const kLUQuestionAutherKey       = @"auther";
+NSString *const kLUQuestionAnswerCountKey  = @"answerCount";
 
 
 #pragma mark - Answer Class
@@ -57,3 +60,4 @@ NSString *const kLUAnswerClassKey = @"Answer";
 NSString *const kLUAnswerTitleKey        = @"title";
 NSString *const kLUAnswerAutherKey       = @"auther";
 NSString *const kLUAnswerQuestionKey     = @"question";
+NSString *const kLUAnswerQuestionIdKey   = @"questionId";

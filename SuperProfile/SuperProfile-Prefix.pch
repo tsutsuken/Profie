@@ -13,22 +13,42 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
-    #import "AppDelegate.h"
     #import <CoreData/CoreData.h>
     #import <Parse/Parse.h>
+    #import "GADBannerView.h"
     #import "MBProgressHUD.h"
+    #import "UIImage+Tint.h"
     #import "LUPlaceholderTextView.h"
     #import "LUConstants.h"
     #import "LUUtility.h"
+    #import "LUTimeFormatter.h"
+    #import "PFUser+Additions.h"
+    #import "UIColor+ColorWithHex.h"
     #import "ProfileViewController.h"
     #import "UserListViewController.h"
     #import "UIImage+Resize.h"
     #import "PFRoundedImageView.h"
+    #import "LVTouchableLabel.h"
     #import "QuestionDetailViewController.h"
     #import "AnswerCell.h"
-    #import "LUTimeFormatter.h"
-    #import "PFUser+Additions.h"
+    #import "LVBorderButton.h"
 #endif
+
+/* Common */
+#define kColorBorder [UIColor colorWithHexString:@"c8c7cc"]
+#define kStatusBarHeight 20
+#define kNavigationBarHeight 44
+#define kTabBarHeight 49
+#define kSizeProfileImageLarge CGSizeMake(400, 400)
+#define kSizeProfileImageMedium CGSizeMake(160, 160)
+#define kSizeProfileImageSmall CGSizeMake(100, 100)
+
+/* Ads */
+#define kTestDeviceIdKeniPhone5s @"e68d15d429e34789fa691b0f57e8b878"
+#define kAdUnitIdAnswerTimelineView @"ca-app-pub-2783947426964967/9350837936"
+#define kAdUnitIdRecommendQuestionView @"ca-app-pub-2783947426964967/8445854337"
+#define kAdUnitIdProfileView @"ca-app-pub-2783947426964967/5492387934"
+#define kAdUnitIdQuestionDetailView @"ca-app-pub-2783947426964967/7806725933"
 
 /* Log */
 #define LOG(...) NSLog(__VA_ARGS__)

@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 #import "EditProfileViewController.h"
 
-@interface ProfileViewController : PFQueryTableViewController
+@interface ProfileViewController : PFQueryTableViewController <GADBannerViewDelegate>
 
 @property (nonatomic, strong) PFUser *user;
 

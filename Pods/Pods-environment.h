@@ -72,11 +72,23 @@
 #define COCOAPODS_VERSION_MINOR_GCPlaceholderTextView 0
 #define COCOAPODS_VERSION_PATCH_GCPlaceholderTextView 1
 
+// Google-Mobile-Ads-SDK
+#define COCOAPODS_POD_AVAILABLE_Google_Mobile_Ads_SDK
+#define COCOAPODS_VERSION_MAJOR_Google_Mobile_Ads_SDK 6
+#define COCOAPODS_VERSION_MINOR_Google_Mobile_Ads_SDK 9
+#define COCOAPODS_VERSION_PATCH_Google_Mobile_Ads_SDK 2
+
 // MBProgressHUD
 #define COCOAPODS_POD_AVAILABLE_MBProgressHUD
 #define COCOAPODS_VERSION_MAJOR_MBProgressHUD 0
 #define COCOAPODS_VERSION_MINOR_MBProgressHUD 8
 #define COCOAPODS_VERSION_PATCH_MBProgressHUD 0
+
+// MGImageUtilities
+#define COCOAPODS_POD_AVAILABLE_MGImageUtilities
+#define COCOAPODS_VERSION_MAJOR_MGImageUtilities 0
+#define COCOAPODS_VERSION_MINOR_MGImageUtilities 0
+#define COCOAPODS_VERSION_PATCH_MGImageUtilities 1
 
 // Mixpanel
 #define COCOAPODS_POD_AVAILABLE_Mixpanel

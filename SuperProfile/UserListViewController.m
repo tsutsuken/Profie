@@ -95,7 +95,14 @@
     PFTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
 
     PFUser *user = [self userObjectAtIndexPath:indexPath];
-    cell.textLabel.text = [user objectForKey:kLUUserUsernameKey];
+    
+    PFRoundedImageView *profileImageView = (PFRoundedImageView *)[cell.contentView viewWithTag:1];
+    profileImageView.user = user;
+    profileImageView.file = [user objectForKey:kLUUserProfilePicSmallKey];
+    [profileImageView loadInBackground];
+    
+    UILabel *userNameLabel = (UILabel *)[cell.contentView viewWithTag:2];
+    userNameLabel.text = [user objectForKey:kLUUserUsernameKey];
     
     return cell;
 }

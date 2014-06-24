@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "EditQuestionViewController.h"
+#import "AppDelegate.h"
 
-@interface RecommendQuestionViewController : PFQueryTableViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
+@interface RecommendQuestionViewController : PFQueryTableViewController <GADBannerViewDelegate>
 
 
 @end

@@ -134,19 +134,30 @@
     //http://appllio.com/20140423-5138-twitter-new-web-profile
     //400x400 Twitterのプロフィール画像の推奨サイズ
     
-    UIImage *mediumImage = [image resizedImageToSize:CGSizeMake(400, 400)];
-    UIImage *smallImage = [image resizedImageToSize:CGSizeMake(100, 100)];
+    UIImage *largeImage = [image resizedImageToSize:kSizeProfileImageLarge];
+    UIImage *mediumImage = [image resizedImageToSize:kSizeProfileImageMedium];
+    UIImage *smallImage = [image resizedImageToSize:kSizeProfileImageSmall];
     
+    NSData *largeImageData = UIImageJPEGRepresentation(largeImage, 0.5);
     NSData *mediumImageData = UIImageJPEGRepresentation(mediumImage, 0.5);
-    NSData *smallImageData = UIImagePNGRepresentation(smallImage);
+    NSData *smallImageData = UIImageJPEGRepresentation(smallImage, 0.5);
     
+    PFFile *largeImageFile = [PFFile fileWithData:largeImageData];
     PFFile *mediumImageFile = [PFFile fileWithData:mediumImageData];
     PFFile *smallImageFile = [PFFile fileWithData:smallImageData];
     
     // Save PFFile
+    [largeImageFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+        if (!error) {
+            NSLog(@"Uploaded largeImageFile");
+            [[PFUser currentUser] setObject:largeImageFile forKey:kLUUserProfilePicLargeKey];
+            [[PFUser currentUser] saveInBackgroundWithBlock:nil];
+        }
+    }];
+    
     [mediumImageFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
-            NSLog(@"Uploaded Profile Picture Thumbnail");
+            NSLog(@"Uploaded mediumImageFile");
             [[PFUser currentUser] setObject:mediumImageFile forKey:kLUUserProfilePicMediumKey];
             [[PFUser currentUser] saveInBackgroundWithBlock:nil];
         }
@@ -154,7 +165,7 @@
     
     [smallImageFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
-            NSLog(@"Uploaded Profile Picture Thumbnail");
+            NSLog(@"Uploaded smallImageFile");
             [[PFUser currentUser] setObject:smallImageFile forKey:kLUUserProfilePicSmallKey];
             
             [[PFUser currentUser] saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {

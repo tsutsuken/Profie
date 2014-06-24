@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FirstViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
@@ -18,5 +19,8 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+- (void)presentLoginViewControllerAnimated:(BOOL)animated;
+- (void)presentTabBarController;
+- (void)logOut;
 
 @end

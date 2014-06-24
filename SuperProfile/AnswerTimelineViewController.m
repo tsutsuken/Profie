@@ -10,6 +10,8 @@
 
 @interface AnswerTimelineViewController ()
 
+@property (strong, nonatomic) GADBannerView *bannerView;
+
 @end
 
 @implementation AnswerTimelineViewController
@@ -25,6 +27,20 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    [self configureAd];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    [self removeAd];
 }
 
 - (void)didReceiveMemoryWarning
@@ -63,8 +79,6 @@
     //フォロー中のユーザのquery
     PFQuery *followingActivitiesQuery = [PFQuery queryWithClassName:kLUActivityClassKey];
     [followingActivitiesQuery whereKey:kLUActivityTypeKey equalTo:kLUActivityTypeFollow];
-#warning test
-    //ログアウト＆再起動後、ここで落ちる
     [followingActivitiesQuery whereKey:kLUActivityFromUserKey equalTo:[PFUser currentUser]];
     
     [query whereKey:kLUAnswerAutherKey matchesKey:kLUActivityToUserKey inQuery:followingActivitiesQuery];
@@ -89,6 +103,8 @@
     [cell.profileImageView loadInBackground];
     
     cell.userNameLabel.text = user.username;
+    cell.userNameLabel.delegate = self;
+    cell.userNameLabel.user = user;
     
     PFObject *question = [object objectForKey:kLUAnswerQuestionKey];
     cell.questionLabel.text = [question objectForKey:kLUQuestionTitleKey];
@@ -105,7 +121,7 @@
     CGFloat heightForCell;
     
     AnswerCell *cell = (AnswerCell *)[self tableView:self.tableView cellForRowAtIndexPath:indexPath];
-    
+    [cell layoutSubviews];
     CGFloat heightForContentView = [cell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
     
     heightForCell = heightForContentView + 1;
@@ -124,12 +140,14 @@
 
 - (void)didPushImageView:(PFRoundedImageView *)imageView
 {
-    UIStoryboard* mainStoryBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    ProfileViewController *vc = (ProfileViewController *) [mainStoryBoard instantiateViewControllerWithIdentifier:@"ProfileViewController"];
-    PFUser *selectedUser = imageView.user;
-    vc.user = selectedUser;
-    
-    [self.navigationController pushViewController:vc animated:YES];
+    [imageView showProfileViewFromViewController:self];
+}
+
+#pragma mark - LVTouchableLabel delegate
+
+- (void)didPushLabel:(LVTouchableLabel *)label
+{
+    [label showProfileViewFromViewController:self];
 }
 
 #pragma mark - Show Other View
@@ -152,6 +170,52 @@
 - (void)showQuestionDetailView
 {
     [self performSegueWithIdentifier:@"showQuestionDetailView" sender:self];
+}
+
+#pragma mark - Ads
+
+- (GADBannerView *)bannerView
+{
+    if (!_bannerView) {
+        CGPoint position = CGPointMake(0, [UIScreen mainScreen].bounds.size.height - kGADAdSizeBanner.size.height - kTabBarHeight);
+        _bannerView = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner origin:position];
+        
+        _bannerView.adUnitID = kAdUnitIdAnswerTimelineView;
+        _bannerView.delegate = self;
+        _bannerView.rootViewController = self;
+    }
+    
+    return _bannerView;
+}
+
+- (void)configureAd
+{
+    GADRequest *request = [GADRequest request];
+#if DEBUG
+    request.testDevices = @[kTestDeviceIdKeniPhone5s];
+#endif
+    [self.bannerView loadRequest:request];
+}
+
+- (void)removeAd
+{
+    [self.bannerView removeFromSuperview];
+    self.bannerView = nil;
+}
+
+- (void)adViewDidReceiveAd:(GADBannerView *)view
+{
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    [appDelegate.window addSubview: self.bannerView];
+    
+    [self adjustTableViewInsets];
+}
+
+- (void)adjustTableViewInsets
+{
+    UIEdgeInsets insetForAds = UIEdgeInsetsMake(kStatusBarHeight + kNavigationBarHeight, 0, kGADAdSizeBanner.size.height + kTabBarHeight, 0);
+    [self.tableView setContentInset:insetForAds];
+    [self.tableView setScrollIndicatorInsets:insetForAds];
 }
 
 @end

@@ -23,14 +23,7 @@
     PFACL *defaultACL = [PFACL ACL];//Read・Write共に、全員にNo
     [defaultACL setPublicReadAccess:YES];
     [PFACL setDefaultACL:defaultACL withAccessForCurrentUser:YES];//CurrentUserにRead・Write権を付与
-    
-#warning test
-    //未ログインからだとエラー。PFUserがnilになる
-    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
-    UINavigationController *nvc = [tabBarController.viewControllers objectAtIndex:2];
-    ProfileViewController *vc = (ProfileViewController *)nvc.topViewController;
-    vc.user = [PFUser currentUser];
-    
+
     return YES;
 }
 							
@@ -155,5 +148,69 @@
 {
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
+
+#pragma mark - PFLogInViewControllerDelegate
+
+// Sent to the delegate when a PFUser is logged in.
+- (void)logInViewController:(PFLogInViewController *)logInController didLogInUser:(PFUser *)user
+{
+    [logInController dismissViewControllerAnimated:YES completion:nil];
+    [self presentTabBarController];
+}
+
+#pragma mark - PFSignUpViewControllerDelegate
+
+- (void)signUpViewController:(PFSignUpViewController *)signUpController didSignUpUser:(PFUser *)user
+{
+    LOG_METHOD;
+#warning 後でやる
+}
+
+#pragma mark - AppDelegate
+
+- (void)presentLoginViewControllerAnimated:(BOOL)animated
+{
+    // Create the log in view controller
+    PFLogInViewController *loginViewController = [[PFLogInViewController alloc] init];
+    [loginViewController setDelegate:self];
+    loginViewController.fields = PFLogInFieldsUsernameAndPassword | PFLogInFieldsSignUpButton;
+    
+    // Create the sign up view controller
+    PFSignUpViewController *signUpViewController = [[PFSignUpViewController alloc] init];
+    signUpViewController.delegate = self;
+    
+    // Assign our sign up controller to be displayed from the login controller
+    [loginViewController setSignUpController:signUpViewController];
+    
+    UINavigationController *nvc = (UINavigationController *)self.window.rootViewController;
+    FirstViewController *firstViewController = (FirstViewController *)nvc.topViewController;
+    
+    [firstViewController presentViewController:loginViewController animated:animated completion:nil];
+}
+
+- (void)presentTabBarController
+{
+    UIStoryboard* mainStoryBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UITabBarController *tabBarController = (UITabBarController *)[mainStoryBoard instantiateViewControllerWithIdentifier:@"MainTabBarController"];
+    
+    UINavigationController *nvcForProfileView = (UINavigationController *)[tabBarController.viewControllers objectAtIndex:LUTabBarItemIndexProfile];
+    ProfileViewController *profileView = (ProfileViewController *)nvcForProfileView.topViewController;
+    profileView.user = [PFUser currentUser];
+    
+    
+    UINavigationController *nvc = (UINavigationController *)self.window.rootViewController;
+    FirstViewController *firstViewController = (FirstViewController *)nvc.topViewController;
+    
+    [nvc setViewControllers:@[firstViewController, tabBarController] animated:NO];
+}
+
+- (void)logOut
+{
+    [PFUser logOut];
+    
+    UINavigationController *nvc = (UINavigationController *)self.window.rootViewController;
+    [nvc popToRootViewControllerAnimated:NO];
+}
+
 
 @end

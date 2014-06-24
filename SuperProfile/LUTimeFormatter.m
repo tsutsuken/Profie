@@ -17,8 +17,6 @@ static LUTimeFormatter *_sharedData = nil;
     static dispatch_once_t  onceToken;
     dispatch_once(&onceToken, ^{
         //1度だけ実行するコード
-        LOG_METHOD;
-        
         _sharedData = [[LUTimeFormatter alloc] init];
     });
     

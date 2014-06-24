@@ -18,6 +18,14 @@
 
 "QuestionDetailView_SectionHeader" = "Answers from friends";
 
+"QuestionDetailView_ActionSheet_CopyAnswer" = "Copy Answer";
+
+"QuestionDetailView_ActionSheet_EditAnswer" = "Edit Answer";
+
+"QuestionDetailView_ActionSheet_DeleteAnswer" = "Delete Answer";
+
+"QuestionDetailView_ActionSheet_Cancel" = "Cancel";
+
 /* EditQuestionView */
 "EditQuestionView_Title" = "Add Question";
 
@@ -31,9 +39,9 @@
 /* ProfileView */
 "ProfileView_Title" = "Profile";
 
-"ProfileView_Button_FollowingCount_%d" = "%d following";
-
 "ProfileView_Button_FollowerCount_%d_%@" = "%d follower%@";
+
+"ProfileView_Button_FollowingCount_%d" = "%d following";
 
 "ProfileView_Button_FollowAction_Loading" = "Loading";
 

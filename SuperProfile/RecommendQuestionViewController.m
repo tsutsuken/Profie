@@ -10,14 +10,72 @@
 
 @interface RecommendQuestionViewController ()
 
+@property (nonatomic, assign) BOOL shouldReloadOnAppear;
+@property (strong, nonatomic) GADBannerView *bannerView;
+
 @end
 
 @implementation RecommendQuestionViewController
+
+#pragma mark - Initialization
+
+- (void)dealloc
+{
+    [self removeNotifications];
+}
 
 - (void)awakeFromNib
 {
     self.title = NSLocalizedString(@"RecommendQuestionView_Title", nil);
 }
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    [self setNotifications];
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"LogOut"
+                                                                             style:UIBarButtonItemStylePlain
+                                                                            target:self
+                                                                            action:@selector(logOut)];
+
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCompose
+                                                                                           target:self
+                                                                                           action:@selector(showEditQuestionView)];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    if (self.shouldReloadOnAppear) {
+        self.shouldReloadOnAppear = NO;
+        [self loadObjects];
+    }
+    
+    [self configureAd];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    [self removeAd];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+- (void)logOut
+{
+    [(AppDelegate*)[[UIApplication sharedApplication] delegate] logOut];
+}
+
+#pragma mark PFQueryTableView
 
 - (id)initWithCoder:(NSCoder*)decoder
 {
@@ -43,36 +101,19 @@
         query.cachePolicy = kPFCachePolicyCacheThenNetwork;
     }
     
-    [query orderByDescending:kLUCommonCreatedAtKey];
+    [query whereKey:kLUCommonObjectIdKey doesNotMatchKey:kLUAnswerQuestionIdKey inQuery:[self answerFromCurrentUserQuery]];
+    [query orderByDescending:kLUQuestionAnswerCountKey];
+    [query addDescendingOrder:kLUCommonCreatedAtKey];
     
     return query;
 }
 
-- (void)viewDidLoad
+- (PFQuery *)answerFromCurrentUserQuery
 {
-    [super viewDidLoad];
-#warning test
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"LogOut"
-                                                                             style:UIBarButtonItemStylePlain
-                                                                            target:self
-                                                                            action:@selector(logOut)];
+    PFQuery *answerFromCurrentUserQuery = [PFQuery queryWithClassName:kLUAnswerClassKey];
+    [answerFromCurrentUserQuery whereKey:kLUAnswerAutherKey equalTo:[PFUser currentUser]];
     
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCompose
-                                                                                           target:self
-                                                                                           action:@selector(showEditQuestionView)];
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    
-    [self showLoginViewIfNeeded];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    return answerFromCurrentUserQuery;
 }
 
 #pragma mark - Table view data source
@@ -81,10 +122,23 @@
 {
     PFTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     
-    // Configure the cell to show todo item with a priority at the bottom
-    cell.textLabel.text = [object objectForKey:kLUQuestionTitleKey];
+    UILabel *titleLabel = (UILabel *)[cell.contentView viewWithTag:1];
+    titleLabel.text = [object objectForKey:kLUQuestionTitleKey];
     
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    CGFloat heightForCell;
+    
+    PFTableViewCell *cell = (PFTableViewCell *)[self tableView:self.tableView cellForRowAtIndexPath:indexPath];
+    [cell layoutSubviews];
+    CGFloat heightForContentView = [cell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
+    
+    heightForCell = heightForContentView + 1;
+    
+    return heightForCell;
 }
 
 #pragma mark - Table view delegate
@@ -121,117 +175,75 @@
     [self performSegueWithIdentifier:@"showQuestionDetailView" sender:self];
 }
 
-#pragma mark - PFUser
+#pragma mark - NSNotification
 
-- (void)showLoginViewIfNeeded
+- (void)setNotifications
 {
-    if (![PFUser currentUser]) { // No user logged in
-        // Create the log in view controller
-        PFLogInViewController *logInViewController = [[PFLogInViewController alloc] init];
-        logInViewController.delegate = self;
-        logInViewController.fields = PFLogInFieldsUsernameAndPassword | PFLogInFieldsSignUpButton;
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidEditAnswer:) name:LUEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidDeleteAnswer:) name:LUQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
+}
+
+- (void)removeNotifications
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:LUEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:LUQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
+}
+
+- (void)userDidEditAnswer:(NSNotification *)note
+{
+    self.shouldReloadOnAppear = YES;
+}
+
+- (void)userDidDeleteAnswer:(NSNotification *)note
+{
+    self.shouldReloadOnAppear = YES;
+}
+
+#pragma mark - Ads
+
+- (GADBannerView *)bannerView
+{
+    if (!_bannerView) {
+        CGPoint position = CGPointMake(0, [UIScreen mainScreen].bounds.size.height - kGADAdSizeBanner.size.height - kTabBarHeight);
+        _bannerView = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner origin:position];
         
-        // Create the sign up view controller
-        PFSignUpViewController *signUpViewController = [[PFSignUpViewController alloc] init];
-        signUpViewController.delegate = self;
-        
-        // Assign our sign up controller to be displayed from the login controller
-        [logInViewController setSignUpController:signUpViewController];
-        
-        // Present the log in view controller
-        [self presentViewController:logInViewController animated:YES completion:NULL];
-    }
-}
-
-- (void)logOut
-{
-    [PFUser logOut];
-    
-    [self showLoginViewIfNeeded];
-}
-
-#pragma mark - PFSignUpViewControllerDelegate
-
-// Sent to the delegate to determine whether the sign up request should be submitted to the server.
-- (BOOL)signUpViewController:(PFSignUpViewController *)signUpController shouldBeginSignUp:(NSDictionary *)info
-{
-    BOOL informationComplete = YES;
-    
-    // loop through all of the submitted data
-    for (id key in info) {
-        NSString *field = [info objectForKey:key];
-        if (!field || !field.length) { // check completion
-            informationComplete = NO;
-            break;
-        }
+        _bannerView.adUnitID = kAdUnitIdRecommendQuestionView;
+        _bannerView.delegate = self;
+        _bannerView.rootViewController = self;
     }
     
-    // Display an alert if a field wasn't completed
-    if (!informationComplete) {
-        [[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Missing Information", nil)
-                                    message:NSLocalizedString(@"Make sure you fill out all of the information!", nil)
-                                   delegate:nil
-                          cancelButtonTitle:NSLocalizedString(@"OK", nil)
-                          otherButtonTitles:nil] show];
-    }
+    return _bannerView;
+}
+
+- (void)configureAd
+{
+    GADRequest *request = [GADRequest request];
+#if DEBUG
+    request.testDevices = @[kTestDeviceIdKeniPhone5s];
+#endif
+    [self.bannerView loadRequest:request];
+}
+
+- (void)removeAd
+{
+    [self.bannerView removeFromSuperview];
+    self.bannerView = nil;
+}
+
+- (void)adViewDidReceiveAd:(GADBannerView *)view
+{
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    [appDelegate.window addSubview: self.bannerView];
     
-    return informationComplete;
+    [self adjustTableViewInsets];
 }
 
-// Sent to the delegate when a PFUser is signed up.
-- (void)signUpViewController:(PFSignUpViewController *)signUpController didSignUpUser:(PFUser *)user
+- (void)adjustTableViewInsets
 {
-    [self dismissViewControllerAnimated:YES completion:NULL];
+    UIEdgeInsets insetForAds = UIEdgeInsetsMake(kStatusBarHeight + kNavigationBarHeight, 0, kGADAdSizeBanner.size.height + kTabBarHeight, 0);
+    [self.tableView setContentInset:insetForAds];
+    [self.tableView setScrollIndicatorInsets:insetForAds];
 }
-
-// Sent to the delegate when the sign up attempt fails.
-- (void)signUpViewController:(PFSignUpViewController *)signUpController didFailToSignUpWithError:(NSError *)error
-{
-    NSLog(@"Failed to sign up...");
-}
-
-// Sent to the delegate when the sign up screen is dismissed.
-- (void)signUpViewControllerDidCancelSignUp:(PFSignUpViewController *)signUpController
-{
-    NSLog(@"User dismissed the signUpViewController");
-}
-
-#pragma mark - PFLogInViewControllerDelegate
-
-// Sent to the delegate to determine whether the log in request should be submitted to the server.
-- (BOOL)logInViewController:(PFLogInViewController *)logInController shouldBeginLogInWithUsername:(NSString *)username password:(NSString *)password
-{
-    // Check if both fields are completed
-    if (username && password && username.length && password.length) {
-        return YES; // Begin login process
-    }
-    
-    [[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Missing Information", nil)
-                                message:NSLocalizedString(@"Make sure you fill out all of the information!", nil)
-                               delegate:nil
-                      cancelButtonTitle:NSLocalizedString(@"OK", nil)
-                      otherButtonTitles:nil] show];
-    return NO; // Interrupt login process
-}
-
-// Sent to the delegate when a PFUser is logged in.
-- (void)logInViewController:(PFLogInViewController *)logInController didLogInUser:(PFUser *)user
-{
-    [self dismissViewControllerAnimated:YES completion:NULL];
-}
-
-// Sent to the delegate when the log in attempt fails.
-- (void)logInViewController:(PFLogInViewController *)logInController didFailToLogInWithError:(NSError *)error
-{
-    NSLog(@"Failed to log in...");
-}
-
-// Sent to the delegate when the log in screen is dismissed.
-- (void)logInViewControllerDidCancelLogIn:(PFLogInViewController *)logInController
-{
-    NSLog(@"User dismissed the logInViewController");
-}
-
 
 @end
 

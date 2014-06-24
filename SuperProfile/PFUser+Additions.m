@@ -18,8 +18,6 @@
         isCurrentUser = YES;
     }
     
-    LOG_BOOL(isCurrentUser, @"isCurrentUser");
-    
     return isCurrentUser;
 }
 

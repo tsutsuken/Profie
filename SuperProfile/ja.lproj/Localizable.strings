@@ -7,7 +7,7 @@
 "AnswerTimelineView_Title" = "タイムライン";
 
 /* RecommendQuestionView */
-"RecommendQuestionView_Title" = "おすすめの質問";
+"RecommendQuestionView_Title" = "人気の質問";
 
 /* QuestionDetailView */
 "QuestionDetailView_Title" = "質問";
@@ -17,6 +17,14 @@
 "QuestionDetailView_Button_Answer_StateDisabled" = "回答済み";
 
 "QuestionDetailView_SectionHeader" = "友達の回答";
+
+"QuestionDetailView_ActionSheet_CopyAnswer" = "回答をコピー";
+
+"QuestionDetailView_ActionSheet_EditAnswer" = "回答を編集";
+
+"QuestionDetailView_ActionSheet_DeleteAnswer" = "回答を削除";
+
+"QuestionDetailView_ActionSheet_Cancel" = "キャンセル";
 
 /* EditQuestionView */
 "EditQuestionView_Title" = "質問を作成";
@@ -31,9 +39,9 @@
 /* ProfileView */
 "ProfileView_Title" = "プロフィール";
 
-"ProfileView_Button_FollowingCount_%d" = "%dフォロー";
-
 "ProfileView_Button_FollowerCount_%d_%@" = "%dフォロワー%@";
+
+"ProfileView_Button_FollowingCount_%d" = "%dフォロー";
 
 "ProfileView_Button_FollowAction_Loading" = "読み込み中";
 

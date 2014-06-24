@@ -11,7 +11,7 @@
 @interface AnswerCell : PFTableViewCell
 
 @property (weak, nonatomic) IBOutlet PFRoundedImageView *profileImageView;
-@property (weak, nonatomic) IBOutlet UILabel *userNameLabel;
+@property (weak, nonatomic) IBOutlet LVTouchableLabel *userNameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *questionLabel;
 @property (weak, nonatomic) IBOutlet UILabel *answerLabel;
 @property (weak, nonatomic) IBOutlet UILabel *timeLabel;

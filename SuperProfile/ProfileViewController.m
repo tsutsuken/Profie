@@ -10,17 +10,26 @@
 
 @interface ProfileViewController ()
 
-@property (weak, nonatomic) IBOutlet UIButton *followActionButton;
+@property (nonatomic, assign) BOOL shouldReloadOnAppear;
+@property (strong, nonatomic) GADBannerView *bannerView;
+
+@property (weak, nonatomic) IBOutlet PFRoundedImageView *profileImageView;
+@property (weak, nonatomic) IBOutlet UILabel *userNameLabel;
 @property (weak, nonatomic) IBOutlet UIButton *followingCountButton;
 @property (weak, nonatomic) IBOutlet UIButton *followerCountButton;
-@property (weak, nonatomic) IBOutlet UILabel *userNameLabel;
-@property (weak, nonatomic) IBOutlet PFRoundedImageView *profileImageView;
+@property (weak, nonatomic) IBOutlet UIButton *settingButton;
+@property (weak, nonatomic) IBOutlet UIButton *followActionButton;
 
 @end
 
 @implementation ProfileViewController
 
 #pragma mark - Initialization
+
+- (void)dealloc
+{
+    [self removeNotifications];
+}
 
 - (void)awakeFromNib
 {
@@ -29,15 +38,9 @@
 
 - (void)viewDidLoad
 {
-    LOG_METHOD;
-    
     [super viewDidLoad];
     
-    if ([self.user isCurrentUser]) {
-        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit
-                                                                                               target:self
-                                                                                               action:@selector(didPushEditProfileButton)];
-    }
+    [self setNotifications];
     
     [self configureTableHeaderView];
 }
@@ -47,17 +50,26 @@
     [super viewWillAppear:animated];
     
     [self reloadTableHeaderView];
+    
+    if (self.shouldReloadOnAppear) {
+        self.shouldReloadOnAppear = NO;
+        [self loadObjects];
+    }
+    
+    [self configureAd];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    [self removeAd];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (void)didPushEditProfileButton
-{
-    [self showEditProfileView];
 }
 
 #pragma mark PFQueryTableView
@@ -68,6 +80,7 @@
     if (!self) {
         return nil;
     }
+
     self.parseClassName = kLUAnswerClassKey;
     self.pullToRefreshEnabled = YES;
     self.paginationEnabled = YES;
@@ -104,27 +117,42 @@
     
     //UserNameLabel
     self.userNameLabel.text =  [self.user username];
+
+    //FollowerCountButton
+    [self.followerCountButton setTitle:[self titleForFollowerCountButtonWithCount:0] forState:UIControlStateNormal];
+    
+    //FollowingCountButton
+    [self.followingCountButton setTitle:[NSString stringWithFormat:NSLocalizedString(@"ProfileView_Button_FollowingCount_%d", nil), 0]
+                               forState:UIControlStateNormal];
+    
+    //SettingButton
+    if ([self.user isCurrentUser]) {
+        [self.settingButton addTarget:self action:@selector(didPushSettingButton) forControlEvents:UIControlEventTouchUpInside];
+    }
+    else{
+        self.settingButton.hidden = YES;
+    }
     
     //FollowActionButton
     if ([self.user isCurrentUser]) {
         self.followActionButton.hidden = YES;
     }
     else{
-        [self.followActionButton setTitle:NSLocalizedString(@"ProfileView_Button_FollowAction_Loading", nil) forState:UIControlStateNormal];
+        [self configureFollowActionButton];
     }
-    
-    //FollowingCountButton
-    [self.followingCountButton setTitle:[NSString stringWithFormat:NSLocalizedString(@"ProfileView_Button_FollowingCount_%d", nil), 0]
-                               forState:UIControlStateNormal];
-    
-    //FollowerCountButton
-    [self.followerCountButton setTitle:[self titleForFollowerCountButtonWithCount:0] forState:UIControlStateNormal];
+}
+
+- (void)configureFollowActionButton
+{
+    [self.followActionButton setTitle:NSLocalizedString(@"ProfileView_Button_FollowAction_Follow", nil) forState:UIControlStateNormal];
+    [self.followActionButton setTitle:NSLocalizedString(@"ProfileView_Button_FollowAction_Unfollow", nil) forState:UIControlStateSelected];
+    [self.followActionButton addTarget:self action:@selector(didPushFollowActionButton:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)reloadTableHeaderView
 {
     //ProfileImageView
-    self.profileImageView.file = [self.user objectForKey:kLUUserProfilePicSmallKey];
+    self.profileImageView.file = [self.user objectForKey:kLUUserProfilePicMediumKey];
     [self.profileImageView loadInBackground];
     
     //FollowActionButton
@@ -137,13 +165,24 @@
         [queryIsFollowing countObjectsInBackgroundWithBlock:^(int number, NSError *error) {
             if (!error) {
                 if (number == 0) {
-                    [self configureFollowButton];
+                    self.followActionButton.selected = NO;
                 } else {
-                    [self configureUnfollowButton];
+                    self.followActionButton.selected = YES;
                 }
             }
         }];
     }
+    
+    //FollowerCountButton
+    PFQuery *queryFollowerCount = [PFQuery queryWithClassName:kLUActivityClassKey];
+    [queryFollowerCount whereKey:kLUActivityTypeKey equalTo:kLUActivityTypeFollow];
+    [queryFollowerCount whereKey:kLUActivityToUserKey equalTo:self.user];
+    [queryFollowerCount setCachePolicy:kPFCachePolicyCacheThenNetwork];
+    [queryFollowerCount countObjectsInBackgroundWithBlock:^(int count, NSError *error) {
+        if (!error) {
+            [self.followerCountButton setTitle:[self titleForFollowerCountButtonWithCount:count] forState:UIControlStateNormal];
+        }
+    }];
     
     //FollowingCountButton
     PFQuery *queryFollowingCount = [PFQuery queryWithClassName:kLUActivityClassKey];
@@ -156,17 +195,6 @@
                                        forState:UIControlStateNormal];
         }
     }];
-    
-    //FollowerCountButton
-    PFQuery *queryFollowerCount = [PFQuery queryWithClassName:kLUActivityClassKey];
-    [queryFollowerCount whereKey:kLUActivityTypeKey equalTo:kLUActivityTypeFollow];
-    [queryFollowerCount whereKey:kLUActivityToUserKey equalTo:self.user];
-    [queryFollowerCount setCachePolicy:kPFCachePolicyCacheThenNetwork];
-    [queryFollowerCount countObjectsInBackgroundWithBlock:^(int count, NSError *error) {
-        if (!error) {
-            [self.followerCountButton setTitle:[self titleForFollowerCountButtonWithCount:count] forState:UIControlStateNormal];
-        }
-    }];
 }
 
 - (NSString *)titleForFollowerCountButtonWithCount:(int)count
@@ -177,34 +205,23 @@
     return title;
 }
 
-- (void)configureFollowButton
+- (void)didPushSettingButton
 {
-    [self.followActionButton setTitle:NSLocalizedString(@"ProfileView_Button_FollowAction_Follow", nil) forState:UIControlStateNormal];
-    [self.followActionButton addTarget:self action:@selector(didPushFollowButton) forControlEvents:UIControlEventTouchUpInside];
+    [self showEditProfileView];
 }
 
-- (void)configureUnfollowButton
+- (void)didPushFollowActionButton:(UIButton *)sender
 {
-    [self.followActionButton setTitle:NSLocalizedString(@"ProfileView_Button_FollowAction_Unfollow", nil) forState:UIControlStateNormal];
-    [self.followActionButton addTarget:self action:@selector(didPushUnfollowButton) forControlEvents:UIControlEventTouchUpInside];
-}
-
-- (void)didPushFollowButton
-{
-    [self configureUnfollowButton];
-
-    [LUUtility followUserEventually:self.user block:^(BOOL succeeded, NSError *error) {
-        if (error) {
-            [self configureFollowButton];
-        }
-    }];
-}
-
-- (void)didPushUnfollowButton
-{
-    [self configureFollowButton];
+    BOOL isSelected = sender.selected;
     
-    [LUUtility unfollowUserEventually:self.user];
+    if (isSelected) {
+        [LUUtility unfollowUserEventually:self.user];
+    }else {
+		[LUUtility followUserEventually:self.user block:^(BOOL succeeded, NSError *error) {
+        }];
+	}
+    
+    sender.selected = !isSelected;
 }
 
 #pragma mark - Table view data source
@@ -235,7 +252,7 @@
     CGFloat heightForCell;
     
     AnswerCell *cell = (AnswerCell *)[self tableView:self.tableView cellForRowAtIndexPath:indexPath];
-    
+    [cell layoutSubviews];
     CGFloat heightForContentView = [cell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
     
     heightForCell = heightForContentView + 1;
@@ -289,6 +306,76 @@
 - (void)showQuestionDetailView
 {
     [self performSegueWithIdentifier:@"showQuestionDetailView" sender:self];
+}
+
+#pragma mark - NSNotification
+
+- (void)setNotifications
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidEditAnswer:) name:LUEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidDeleteAnswer:) name:LUQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
+}
+
+- (void)removeNotifications
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:LUEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:LUQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
+}
+
+- (void)userDidEditAnswer:(NSNotification *)note
+{
+    self.shouldReloadOnAppear = YES;
+}
+
+- (void)userDidDeleteAnswer:(NSNotification *)note
+{
+    self.shouldReloadOnAppear = YES;
+}
+
+#pragma mark - Ads
+
+- (GADBannerView *)bannerView
+{
+    if (!_bannerView) {
+        CGPoint position = CGPointMake(0, [UIScreen mainScreen].bounds.size.height - kGADAdSizeBanner.size.height - kTabBarHeight);
+        _bannerView = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner origin:position];
+        
+        _bannerView.adUnitID = kAdUnitIdProfileView;
+        _bannerView.delegate = self;
+        _bannerView.rootViewController = self;
+    }
+    
+    return _bannerView;
+}
+
+- (void)configureAd
+{
+    GADRequest *request = [GADRequest request];
+#if DEBUG
+    request.testDevices = @[kTestDeviceIdKeniPhone5s];
+#endif
+    [self.bannerView loadRequest:request];
+}
+
+- (void)removeAd
+{
+    [self.bannerView removeFromSuperview];
+    self.bannerView = nil;
+}
+
+- (void)adViewDidReceiveAd:(GADBannerView *)view
+{
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    [appDelegate.window addSubview: self.bannerView];
+    
+    [self adjustTableViewInsets];
+}
+
+- (void)adjustTableViewInsets
+{
+    UIEdgeInsets insetForAds = UIEdgeInsetsMake(kStatusBarHeight + kNavigationBarHeight, 0, kGADAdSizeBanner.size.height + kTabBarHeight, 0);
+    [self.tableView setContentInset:insetForAds];
+    [self.tableView setScrollIndicatorInsets:insetForAds];
 }
 
 @end

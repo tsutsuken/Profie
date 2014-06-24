@@ -22,24 +22,33 @@
     
     self.title = NSLocalizedString(@"EditAnswerView_Title", nil);
     
+    [self configureNavigationBar];
+    
+    [self configureTextView];
+    
+    [self enableDoneButtonWithWordCount:self.textView.text.length];
+}
+
+- (void)configureNavigationBar
+{
     if (![self isNewQuestion]) {
         self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
-                                                                                               target:self
-                                                                                               action:@selector(didPushCancelButton)];
+                                                                                              target:self
+                                                                                              action:@selector(didPushCancelButton)];
     }
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone
-                                                                             target:self
-                                                                             action:@selector(didPushDoneButton)];
-    [self enableDoneButtonWithWordCount:0];
-    
-    self.textView.placeholder = [self.question objectForKey:kLUQuestionTitleKey];
+                                                                                           target:self
+                                                                                           action:@selector(didPushDoneButton)];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)configureTextView
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self.textView.placeholder = [self.question objectForKey:kLUQuestionTitleKey];
+    
+    if (![self isNewAnswer]) {
+        self.textView.text = [self.answer objectForKey:kLUAnswerTitleKey];
+    }
 }
 
 - (void)enableDoneButtonWithWordCount:(long)wordCount
@@ -52,9 +61,10 @@
     }
 }
 
-- (BOOL)isNewQuestion
+- (void)didReceiveMemoryWarning
 {
-    return [self.question isDirty];
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - CloseView
@@ -66,28 +76,60 @@
 
 - (void)didPushDoneButton
 {
-    [self saveObject];
+    [self saveObjects];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (void)saveObject
+- (void)saveObjects
 {
-    PFObject *question = self.question;
-    
+    //Save Question　→Save Answer
     if ([self isNewQuestion]) {
-        [question saveInBackground];
+        [self.question saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+            if (succeeded) {
+                //AnswerをSaveする前に、QuestionをSaveする必要がある。objectIdとか使うし
+                [self saveAnswer];
+            }
+        }];
     }
+    else {
+		[self saveAnswer];
+	}
     
-    PFObject *answer = [PFObject objectWithClassName:kLUAnswerClassKey];
-    [answer setObject:[PFUser currentUser] forKey:kLUAnswerAutherKey];
-    [answer setObject:question forKey:kLUAnswerQuestionKey];
+    [self incrementAnswerCountOfQuestion];
+}
+
+- (void)saveAnswer
+{
+    PFObject *answer;
+    if ([self isNewAnswer]) {
+        answer = [PFObject objectWithClassName:kLUAnswerClassKey];
+        [answer setObject:[PFUser currentUser] forKey:kLUAnswerAutherKey];
+        [answer setObject:self.question forKey:kLUAnswerQuestionKey];
+        [answer setObject:self.question.objectId forKey:kLUAnswerQuestionIdKey];
+    }
+    else {
+        answer = self.answer;
+	}
+    
     [answer setObject:self.textView.text forKey:kLUAnswerTitleKey];
-    [answer saveInBackground];
     [answer saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (succeeded) {
-            [[NSNotificationCenter defaultCenter] postNotificationName:LUEditAnswerViewControllerUserDidAnswerNotification object:nil];
+            [[NSNotificationCenter defaultCenter] postNotificationName:LUEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
         }
     }];
+}
+
+- (void)incrementAnswerCountOfQuestion
+{
+    if (![self isNewAnswer]) {
+        return;
+    }
+    
+    NSNumber *answerCount = (NSNumber *)[self.question objectForKey:kLUQuestionAnswerCountKey];
+    NSNumber *newAnswerCount = @([answerCount intValue] + 1);
+    [self.question setObject:newAnswerCount forKey:kLUQuestionAnswerCountKey];
+    
+    [self.question saveInBackground];
 }
 
 #pragma mark - TextView
@@ -105,7 +147,6 @@
     
     // 実際に UITextView に入力されている文字数
     long wordCount = (wordCountInTextView - wordCountFromCopyAndPaste) + wordCountFromKeyboard;
-    NSLog(@"wordCount : %ld", wordCount);
     
     [self enableDoneButtonWithWordCount:wordCount];
     
@@ -136,6 +177,18 @@
         frame.size.height -= (cEndRect.size.height - cBeginRect.size.height);
     }
     [self.textView setFrame:frame];
+}
+
+#pragma mark - ()
+
+- (BOOL)isNewQuestion
+{
+    return [self.question isDirty];
+}
+
+- (BOOL)isNewAnswer
+{
+    return !self.answer;
 }
 
 @end
