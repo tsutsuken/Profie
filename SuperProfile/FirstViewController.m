@@ -26,12 +26,12 @@
     
     if ([PFUser currentUser]) {
         [(AppDelegate*)[[UIApplication sharedApplication] delegate] presentTabBarController];
+        
         // Refresh current user with server side data -- checks if user is still valid and so on
         [[PFUser currentUser] refreshInBackgroundWithTarget:self selector:@selector(refreshCurrentUserCallbackWithResult:error:)];
     }
     else {
-        [(AppDelegate*)[[UIApplication sharedApplication] delegate] presentLoginViewControllerAnimated:YES];
-        //[self showWelcomeView];
+        [self showWelcomeView];
     }
 }
 
@@ -52,11 +52,6 @@
 }
 
 #pragma mark - Show Other View
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    LOG(@"%@", [segue identifier]);
-}
 
 - (void)showWelcomeView
 {

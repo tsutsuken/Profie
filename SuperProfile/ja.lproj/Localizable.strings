@@ -3,6 +3,49 @@
 /* Common */
 "Common_Suffix_Plural" = "";
 
+"Common_ActionSheet_Camera" = "写真を撮る";
+
+"Common_ActionSheet_Album" = "画像を選択";
+
+"Common_ActionSheet_Cancel" = "キャンセル";
+
+/* WelcomeView */
+"WelcomeView_Label_Subtitle" = "ゆる〜いプロフィール";
+
+"WelcomeView_Button_SignUp" = "登録";
+
+"WelcomeView_Button_LogIn" = "ログイン";
+
+/* SignUpAndLogInView */
+
+"SignUpAndLogInView_Cell_Username_Title" = "ユーザーネーム";
+
+"SignUpAndLogInView_Cell_Username_Placeholder" = "半角英数字";
+
+"SignUpAndLogInView_Cell_Password_Title" = "パスワード";
+
+"SignUpAndLogInView_Cell_Password_Placeholder" = "パスワード";
+
+"SignUpAndLogInView_Alert_Title_Error" = "ゴメンナサイ :'(";
+
+"SignUpAndLogInView_Alert_Message_Error_Empty" = "未入力の項目があります";
+
+/* SignUpView */
+"SignUpView_Title" = "登録";
+
+"SignUpView_Cell_Email_Title" = "メールアドレス";
+
+"SignUpView_Cell_Email_Placeholder" = "example@abc.com";
+
+"SignUpView_Alert_Message_Error_UsernameTaken_%@" = "%@というユーザーネームはすでに使われています";
+
+"SignUpView_Alert_Message_Error_EmailTaken_%@" = "%@というメールアドレスはすでに使われています";
+
+/* LogInView */
+"LogInView_Title" = "ログイン";
+
+"LogInView_Alert_Message_Error_Incorrect" = "ユーザーネームもしくはパスワードが間違っています";
+
 /* AnswerTimelineView */
 "AnswerTimelineView_Title" = "タイムライン";
 

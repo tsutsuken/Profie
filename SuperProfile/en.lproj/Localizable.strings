@@ -3,6 +3,49 @@
 /* Common */
 "Common_Suffix_Plural" = "s";
 
+"Common_ActionSheet_Camera" = "Take photo";
+
+"Common_ActionSheet_Album" = "Choose existing photo";
+
+"Common_ActionSheet_Cancel" = "Cancel";
+
+/* WelcomeView */
+"WelcomeView_Label_Subtitle" = "Casual Profile";
+
+"WelcomeView_Button_SignUp" = "Sign Up";
+
+"WelcomeView_Button_LogIn" = "Log In";
+
+/* SignUpAndLogInView */
+
+"SignUpAndLogInView_Cell_Username_Title" = "Username";
+
+"SignUpAndLogInView_Cell_Username_Placeholder" = "Username";
+
+"SignUpAndLogInView_Cell_Password_Title" = "Password";
+
+"SignUpAndLogInView_Cell_Password_Placeholder" = "Password";
+
+"SignUpAndLogInView_Alert_Title_Error" = "Sorry :'(";
+
+"SignUpAndLogInView_Alert_Message_Error_Empty" = "Make sure you fill out all of the information";
+
+/* SignUpView */
+"SignUpView_Title" = "Sign Up";
+
+"SignUpView_Cell_Email_Title" = "Email";
+
+"SignUpView_Cell_Email_Placeholder" = "example@abc.com";
+
+"SignUpView_Alert_Message_Error_UsernameTaken_%@" = "Username %@ already taken";
+
+"SignUpView_Alert_Message_Error_EmailTaken_%@" = "Email %@ already taken";
+
+/* LogInView */
+"LogInView_Title" = "Log In";
+
+"LogInView_Alert_Message_Error_Incorrect" = "Incorrect username or password";
+
 /* AnswerTimelineView */
 "AnswerTimelineView_Title" = "Timeline";
 

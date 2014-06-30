@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import "SignUpViewController.h"
+#import "LogInViewController.h"
 
-@interface WelcomeViewController : UIViewController
+@interface WelcomeViewController : UIViewController <PFLogInViewControllerDelegate, SignUpViewControllerDelegate, LogInViewControllerDelegate>
 
 @end

@@ -149,44 +149,7 @@
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
-#pragma mark - PFLogInViewControllerDelegate
-
-// Sent to the delegate when a PFUser is logged in.
-- (void)logInViewController:(PFLogInViewController *)logInController didLogInUser:(PFUser *)user
-{
-    [logInController dismissViewControllerAnimated:YES completion:nil];
-    [self presentTabBarController];
-}
-
-#pragma mark - PFSignUpViewControllerDelegate
-
-- (void)signUpViewController:(PFSignUpViewController *)signUpController didSignUpUser:(PFUser *)user
-{
-    LOG_METHOD;
-#warning 後でやる
-}
-
 #pragma mark - AppDelegate
-
-- (void)presentLoginViewControllerAnimated:(BOOL)animated
-{
-    // Create the log in view controller
-    PFLogInViewController *loginViewController = [[PFLogInViewController alloc] init];
-    [loginViewController setDelegate:self];
-    loginViewController.fields = PFLogInFieldsUsernameAndPassword | PFLogInFieldsSignUpButton;
-    
-    // Create the sign up view controller
-    PFSignUpViewController *signUpViewController = [[PFSignUpViewController alloc] init];
-    signUpViewController.delegate = self;
-    
-    // Assign our sign up controller to be displayed from the login controller
-    [loginViewController setSignUpController:signUpViewController];
-    
-    UINavigationController *nvc = (UINavigationController *)self.window.rootViewController;
-    FirstViewController *firstViewController = (FirstViewController *)nvc.topViewController;
-    
-    [firstViewController presentViewController:loginViewController animated:animated completion:nil];
-}
 
 - (void)presentTabBarController
 {

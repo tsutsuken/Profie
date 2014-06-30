@@ -20,8 +20,13 @@
 		1FBA552519596074000BC39D /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA552419596074000BC39D /* WelcomeViewController.m */; };
 		1FBB62AD1935E6C5001281F9 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB62AC1935E6C5001281F9 /* UIImage+Resize.m */; };
 		1FBD7F7C19230AA000F92341 /* LUUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBD7F7B19230AA000F92341 /* LUUtility.m */; };
+		1FBF7F21195D5362006DE200 /* bg_welcome-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF7F20195D5361006DE200 /* bg_welcome-568h@2x.png */; };
+		1FBF7F24195D5591006DE200 /* bg_welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF7F22195D5591006DE200 /* bg_welcome.png */; };
+		1FBF7F25195D5591006DE200 /* bg_welcome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF7F23195D5591006DE200 /* bg_welcome@2x.png */; };
 		1FC25785194D901F0002B02F /* LVTouchableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC25784194D901F0002B02F /* LVTouchableLabel.m */; };
 		1FC25787194EF9310002B02F /* dot_lightGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FC25786194EF9310002B02F /* dot_lightGray@2x.png */; };
+		1FC2F081195E59FC008A8E58 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2F080195E59FC008A8E58 /* SignUpViewController.m */; };
+		1FC2F087195E69E2008A8E58 /* LVEditableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2F086195E69E2008A8E58 /* LVEditableCell.m */; };
 		1FC4399C190CA3E400D4F3D1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC4399B190CA3E400D4F3D1 /* Parse.framework */; };
 		1FC4399E190CA45100D4F3D1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC4399D190CA45100D4F3D1 /* AudioToolbox.framework */; };
 		1FC439A0190CA45700D4F3D1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC4399F190CA45700D4F3D1 /* CFNetwork.framework */; };
@@ -73,6 +78,11 @@
 		1FD61AB8195325830089DFF6 /* person_check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD61AB4195325830089DFF6 /* person_check@2x.png */; };
 		1FD61AB9195325830089DFF6 /* person_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD61AB5195325830089DFF6 /* person_add.png */; };
 		1FD61ABA195325830089DFF6 /* person_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD61AB6195325830089DFF6 /* person_add@2x.png */; };
+		1FDF79E619610DE00017901C /* person_medium@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDF79E219610DDF0017901C /* person_medium@2x.png */; };
+		1FDF79E719610DE00017901C /* person_medium.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDF79E319610DE00017901C /* person_medium.png */; };
+		1FDF79E819610DE00017901C /* person_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDF79E419610DE00017901C /* person_small@2x.png */; };
+		1FDF79E919610DE00017901C /* person_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDF79E519610DE00017901C /* person_small.png */; };
+		1FDF79EC19610E8E0017901C /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDF79EB19610E8E0017901C /* LogInViewController.m */; };
 		1FDF88861920753900142791 /* person@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDF88841920753900142791 /* person@2x.png */; };
 		1FDF88871920753900142791 /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FDF88851920753900142791 /* person.png */; };
 		1FDF888A192108EB00142791 /* UserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDF8889192108EB00142791 /* UserListViewController.m */; };
@@ -113,9 +123,16 @@
 		1FBB62AC1935E6C5001281F9 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		1FBD7F7A19230AA000F92341 /* LUUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUUtility.h; sourceTree = "<group>"; };
 		1FBD7F7B19230AA000F92341 /* LUUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUUtility.m; sourceTree = "<group>"; };
+		1FBF7F20195D5361006DE200 /* bg_welcome-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_welcome-568h@2x.png"; sourceTree = "<group>"; };
+		1FBF7F22195D5591006DE200 /* bg_welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_welcome.png; sourceTree = "<group>"; };
+		1FBF7F23195D5591006DE200 /* bg_welcome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_welcome@2x.png"; sourceTree = "<group>"; };
 		1FC25783194D901F0002B02F /* LVTouchableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTouchableLabel.h; sourceTree = "<group>"; };
 		1FC25784194D901F0002B02F /* LVTouchableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTouchableLabel.m; sourceTree = "<group>"; };
 		1FC25786194EF9310002B02F /* dot_lightGray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot_lightGray@2x.png"; sourceTree = "<group>"; };
+		1FC2F07F195E59FC008A8E58 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		1FC2F080195E59FC008A8E58 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		1FC2F085195E69E2008A8E58 /* LVEditableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVEditableCell.h; sourceTree = "<group>"; };
+		1FC2F086195E69E2008A8E58 /* LVEditableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVEditableCell.m; sourceTree = "<group>"; };
 		1FC4399B190CA3E400D4F3D1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		1FC4399D190CA45100D4F3D1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		1FC4399F190CA45700D4F3D1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -185,6 +202,12 @@
 		1FD61AB4195325830089DFF6 /* person_check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person_check@2x.png"; sourceTree = "<group>"; };
 		1FD61AB5195325830089DFF6 /* person_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person_add.png; sourceTree = "<group>"; };
 		1FD61AB6195325830089DFF6 /* person_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person_add@2x.png"; sourceTree = "<group>"; };
+		1FDF79E219610DDF0017901C /* person_medium@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person_medium@2x.png"; sourceTree = "<group>"; };
+		1FDF79E319610DE00017901C /* person_medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person_medium.png; sourceTree = "<group>"; };
+		1FDF79E419610DE00017901C /* person_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person_small@2x.png"; sourceTree = "<group>"; };
+		1FDF79E519610DE00017901C /* person_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person_small.png; sourceTree = "<group>"; };
+		1FDF79EA19610E8E0017901C /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		1FDF79EB19610E8E0017901C /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		1FDF88841920753900142791 /* person@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person@2x.png"; sourceTree = "<group>"; };
 		1FDF88851920753900142791 /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
 		1FDF8888192108EB00142791 /* UserListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListViewController.h; sourceTree = "<group>"; };
@@ -265,6 +288,23 @@
 			name = Common;
 			sourceTree = "<group>";
 		};
+		1FC2F07E195E59CD008A8E58 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				1FBA552019595E3D000BC39D /* FirstViewController.h */,
+				1FBA552119595E3D000BC39D /* FirstViewController.m */,
+				1FBA552319596074000BC39D /* WelcomeViewController.h */,
+				1FBA552419596074000BC39D /* WelcomeViewController.m */,
+				1FC2F07F195E59FC008A8E58 /* SignUpViewController.h */,
+				1FC2F080195E59FC008A8E58 /* SignUpViewController.m */,
+				1FDF79EA19610E8E0017901C /* LogInViewController.h */,
+				1FDF79EB19610E8E0017901C /* LogInViewController.m */,
+				1FC2F085195E69E2008A8E58 /* LVEditableCell.h */,
+				1FC2F086195E69E2008A8E58 /* LVEditableCell.m */,
+			);
+			name = Welcome;
+			sourceTree = "<group>";
+		};
 		1FC52356193712D50060D1BB /* CommonView */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +329,15 @@
 		1FC71216191243AD004F9E2A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1FCCA8D3190BE97A00B4E3B7 /* Images.xcassets */,
+				1FC7121B19124561004F9E2A /* Localizable.strings */,
+				1FDF79E219610DDF0017901C /* person_medium@2x.png */,
+				1FDF79E319610DE00017901C /* person_medium.png */,
+				1FDF79E419610DE00017901C /* person_small@2x.png */,
+				1FDF79E519610DE00017901C /* person_small.png */,
+				1FBF7F20195D5361006DE200 /* bg_welcome-568h@2x.png */,
+				1FBF7F22195D5591006DE200 /* bg_welcome.png */,
+				1FBF7F23195D5591006DE200 /* bg_welcome@2x.png */,
 				1FB9B3211953D220003B8249 /* gear@2x.png */,
 				1FB9B3221953D220003B8249 /* gear.png */,
 				1FD61AB3195325820089DFF6 /* person_check.png */,
@@ -307,8 +356,6 @@
 				1FCD5D421921FC5600784175 /* home.png */,
 				1FCCB5DF19440DDB007183D3 /* question.png */,
 				1FCCB5E019440DDB007183D3 /* question@2x.png */,
-				1FCCA8D3190BE97A00B4E3B7 /* Images.xcassets */,
-				1FC7121B19124561004F9E2A /* Localizable.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -316,7 +363,6 @@
 		1FC7122519124A38004F9E2A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				1FB778BB1915219F00DA89B9 /* Common */,
 				1FC52356193712D50060D1BB /* CommonView */,
 				1F257BF719419A9E00ECAD0D /* TimeLineTab */,
 				1FC84525193310AA00909231 /* RecommendQuestionTab */,
@@ -397,11 +443,9 @@
 			children = (
 				1FCCA8C4190BE96700B4E3B7 /* AppDelegate.h */,
 				1FCCA8C5190BE96900B4E3B7 /* AppDelegate.m */,
-				1FBA552019595E3D000BC39D /* FirstViewController.h */,
-				1FBA552119595E3D000BC39D /* FirstViewController.m */,
-				1FBA552319596074000BC39D /* WelcomeViewController.h */,
-				1FBA552419596074000BC39D /* WelcomeViewController.m */,
 				1FCCA8C7190BE96E00B4E3B7 /* Main.storyboard */,
+				1FC2F07E195E59CD008A8E58 /* Welcome */,
+				1FB778BB1915219F00DA89B9 /* Common */,
 				1FC7122519124A38004F9E2A /* ViewControllers */,
 				1FC712151912439D004F9E2A /* Model */,
 				1FCCA8BC190BE96500B4E3B7 /* Supporting Files */,
@@ -558,12 +602,16 @@
 				1FB9B3241953D220003B8249 /* gear.png in Resources */,
 				1FC25787194EF9310002B02F /* dot_lightGray@2x.png in Resources */,
 				1FD61AB8195325830089DFF6 /* person_check@2x.png in Resources */,
+				1FDF79E619610DE00017901C /* person_medium@2x.png in Resources */,
 				1FD61AAE19526D7F0089DFF6 /* dot_white@2x.png in Resources */,
 				1FCCB5E219440DDB007183D3 /* question@2x.png in Resources */,
+				1FBF7F21195D5362006DE200 /* bg_welcome-568h@2x.png in Resources */,
 				1FDF88861920753900142791 /* person@2x.png in Resources */,
 				1FD61AAD19526D7F0089DFF6 /* dot_white.png in Resources */,
 				1FCCA8D4190BE97A00B4E3B7 /* Images.xcassets in Resources */,
 				1FB9B3281953E1A4003B8249 /* dots.png in Resources */,
+				1FDF79E719610DE00017901C /* person_medium.png in Resources */,
+				1FBF7F24195D5591006DE200 /* bg_welcome.png in Resources */,
 				1FC7121919124561004F9E2A /* Localizable.strings in Resources */,
 				1FCD5D441921FC5600784175 /* home.png in Resources */,
 				1FC9FE0B1948279200CC8A6E /* dot_lightGray.png in Resources */,
@@ -573,7 +621,10 @@
 				1FD61AB7195325830089DFF6 /* person_check.png in Resources */,
 				1FCD5D431921FC5600784175 /* home@2x.png in Resources */,
 				1FCCA8C9190BE96E00B4E3B7 /* Main.storyboard in Resources */,
+				1FDF79E919610DE00017901C /* person_small.png in Resources */,
+				1FBF7F25195D5591006DE200 /* bg_welcome@2x.png in Resources */,
 				1FD61AB9195325830089DFF6 /* person_add.png in Resources */,
+				1FDF79E819610DE00017901C /* person_small@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,8 +685,10 @@
 				1FC25785194D901F0002B02F /* LVTouchableLabel.m in Sources */,
 				1FC712221912496E004F9E2A /* RecommendQuestionViewController.m in Sources */,
 				1FBA552219595E3D000BC39D /* FirstViewController.m in Sources */,
+				1FC2F087195E69E2008A8E58 /* LVEditableCell.m in Sources */,
 				1FD3C7A419132E7E00700B83 /* EditQuestionViewController.m in Sources */,
 				1FB62CB4191B8B210039D69D /* ProfileViewController.m in Sources */,
+				1FC2F081195E59FC008A8E58 /* SignUpViewController.m in Sources */,
 				1FDF888A192108EB00142791 /* UserListViewController.m in Sources */,
 				1FCCB5E6194436F8007183D3 /* AnswerCell.m in Sources */,
 				1FCEC10819452178001093F7 /* PFUser+Additions.m in Sources */,
@@ -646,6 +699,7 @@
 				1FC523551936CADF0060D1BB /* PFRoundedImageView.m in Sources */,
 				1FC8822C194FF07400A896B9 /* UIColor+ColorWithHex.m in Sources */,
 				1FBB62AD1935E6C5001281F9 /* UIImage+Resize.m in Sources */,
+				1FDF79EC19610E8E0017901C /* LogInViewController.m in Sources */,
 				1FC8E2331934917500DB7D5A /* LUPlaceholderTextView.m in Sources */,
 				1FCCA8C2190BE96600B4E3B7 /* main.m in Sources */,
 				1F257BFA19419AF600ECAD0D /* AnswerTimelineViewController.m in Sources */,
