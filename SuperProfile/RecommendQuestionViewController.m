@@ -34,11 +34,6 @@
     [super viewDidLoad];
     
     [self setNotifications];
-    
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"LogOut"
-                                                                             style:UIBarButtonItemStylePlain
-                                                                            target:self
-                                                                            action:@selector(logOut)];
 
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCompose
                                                                                            target:self
@@ -68,11 +63,6 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (void)logOut
-{
-    [(AppDelegate*)[[UIApplication sharedApplication] delegate] logOut];
 }
 
 #pragma mark PFQueryTableView

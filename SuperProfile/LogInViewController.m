@@ -67,7 +67,6 @@
                                             [self.delegate logInViewController:self didLogInUser:user];
                                         } else {
                                             [self showAlertWithMessage:[self messageWithError:error]];
-#warning invalid login credentials
                                         }
                                     }];
 }

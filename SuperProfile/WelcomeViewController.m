@@ -103,13 +103,13 @@
     }
 }
 
-#pragma mark - SignUpView
+#pragma mark SignUpView
 - (void)showSignUpView
 {
     [self performSegueWithIdentifier:@"showSignUpView" sender:self];
 }
 
-#pragma mark - LogInView
+#pragma mark LogInView
 - (void)showLogInView
 {
     [self performSegueWithIdentifier:@"showLogInView" sender:self];
@@ -130,47 +130,6 @@
     [self dismissViewControllerAnimated:YES completion:nil];
     [(AppDelegate*)[[UIApplication sharedApplication] delegate] presentTabBarController];
 }
-
-/*
-- (IBAction)didPushSignUpButton
-{
-    PFSignUpViewController *signUpViewController = [[PFSignUpViewController alloc] init];
-    signUpViewController.delegate = self;
-    signUpViewController.fields = PFSignUpFieldsUsernameAndPassword | PFSignUpFieldsEmail | PFSignUpFieldsSignUpButton;
-    
-    [self.navigationController pushViewController:signUpViewController animated:YES];
-}
-
-- (IBAction)didPushLogInButton
-{
-    PFLogInViewController *loginViewController = [[PFLogInViewController alloc] init];
-    loginViewController.delegate = self;
-    loginViewController.fields = PFLogInFieldsUsernameAndPassword | PFLogInFieldsLogInButton;
-    
-   [self.navigationController pushViewController:loginViewController animated:YES];
-}
-*/
-/*
-#pragma mark - PFSignUpViewControllerDelegate
-
-- (void)signUpViewController:(PFSignUpViewController *)signUpController didSignUpUser:(PFUser *)user
-{
-    [self dismissViewControllerAnimated:YES completion:nil];
-    [(AppDelegate*)[[UIApplication sharedApplication] delegate] presentTabBarController];
-}
- */
-
-/*
-#pragma mark - PFLogInViewControllerDelegate
-
-// Sent to the delegate when a PFUser is logged in.
-- (void)logInViewController:(PFLogInViewController *)logInController didLogInUser:(PFUser *)user
-{
-    [self dismissViewControllerAnimated:YES completion:nil];
-    [(AppDelegate*)[[UIApplication sharedApplication] delegate] presentTabBarController];
-}
-*/
-
 
 
 @end

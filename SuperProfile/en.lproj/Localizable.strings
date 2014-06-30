@@ -102,6 +102,8 @@
 
 "EditProfileView_Cell_ProfileImage" = "Photo";
 
+"EditProfileView_Cell_LogOut" = "Log out";
+
 "EditProfileView_ActionSheet_Camera" = "Take photo";
 
 "EditProfileView_ActionSheet_Album" = "Choose existing photo";

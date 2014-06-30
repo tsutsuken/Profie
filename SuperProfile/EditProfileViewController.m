@@ -44,7 +44,7 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -54,31 +54,41 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    
-    PFUser *currentUser = [PFUser currentUser];
-    
-    PFRoundedImageView *imageView = (PFRoundedImageView *)[cell viewWithTag:1];
-    imageView.image = [UIImage imageNamed:@"person"];
-    imageView.file = [currentUser objectForKey:kLUUserProfilePicSmallKey];
-    [imageView loadInBackground];
-    
-    UILabel *titleLabel = (UILabel *)[cell viewWithTag:2];
-    titleLabel.text = NSLocalizedString(@"EditProfileView_Cell_ProfileImage", nil);
-    
-    return cell;
+    if (indexPath.section == 0) {
+        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+        
+        PFUser *currentUser = [PFUser currentUser];
+        
+        PFRoundedImageView *imageView = (PFRoundedImageView *)[cell viewWithTag:1];
+        imageView.file = [currentUser objectForKey:kLUUserProfilePicSmallKey];
+        [imageView loadInBackground];
+        
+        UILabel *titleLabel = (UILabel *)[cell viewWithTag:2];
+        titleLabel.text = NSLocalizedString(@"EditProfileView_Cell_ProfileImage", nil);
+        
+        return cell;
+    } else {
+		UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"LogOutCell" forIndexPath:indexPath];
+        cell.textLabel.text = NSLocalizedString(@"EditProfileView_Cell_LogOut", nil);
+        return cell;
+	}
 }
 
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self showImageSelectionActionSheet];
+    if (indexPath.section == 0) {
+        [self showImageSelectionActionSheet];
+    } else {
+		[self logOut];
+	}
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
-#pragma mark - UIActionSheet
+#pragma mark - SelectImage
+#pragma mark UIActionSheet
 
 - (void)showImageSelectionActionSheet
 {
@@ -108,7 +118,7 @@
     }
 }
 
-#pragma mark - SelectImage
+#pragma mark UIImagePicker
 
 -(void)pickImageWithSourceType:(UIImagePickerControllerSourceType)sourceType
 {
@@ -175,6 +185,15 @@
                 }
             }];
         }
+    }];
+}
+
+#pragma mark - LogOut
+
+- (void)logOut
+{
+    [self dismissViewControllerAnimated:NO completion:^{
+        [(AppDelegate*)[[UIApplication sharedApplication] delegate] logOut];
     }];
 }
 

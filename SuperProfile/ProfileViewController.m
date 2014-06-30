@@ -112,9 +112,6 @@
 
 - (void)configureTableHeaderView
 {
-    //ProfileImageView
-    self.profileImageView.image = [UIImage imageNamed:@"person"];
-    
     //UserNameLabel
     self.userNameLabel.text =  [self.user username];
 

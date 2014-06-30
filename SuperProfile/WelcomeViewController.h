@@ -11,6 +11,6 @@
 #import "SignUpViewController.h"
 #import "LogInViewController.h"
 
-@interface WelcomeViewController : UIViewController <PFLogInViewControllerDelegate, SignUpViewControllerDelegate, LogInViewControllerDelegate>
+@interface WelcomeViewController : UIViewController <SignUpViewControllerDelegate, LogInViewControllerDelegate>
 
 @end
