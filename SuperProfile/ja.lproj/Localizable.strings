@@ -44,7 +44,7 @@
 /* LogInView */
 "LogInView_Title" = "ログイン";
 
-"LogInView_Alert_Message_Error_Incorrect" = "ユーザーネームもしくはパスワードが間違っています";
+"LogInView_Alert_Message_Error_Incorrect" = "ユーザーネームまたはパスワードが違います";
 
 /* AnswerTimelineView */
 "AnswerTimelineView_Title" = "タイムライン";
