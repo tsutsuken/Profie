@@ -9,6 +9,10 @@
 
 "Common_ActionSheet_Cancel" = "Cancel";
 
+/* LVShareKitTwitter */
+
+"LVShareKitTwitter_Alert_Message_Error_Twitter_AccessDenied" = "To use your Twitter account with this app, open Settings > Twitter and make sure this app is turned on.";
+
 /* WelcomeView */
 "WelcomeView_Label_Subtitle" = "Casual Profile";
 
@@ -74,7 +78,7 @@
 
 "EditQuestionView_Button_Next" = "Next";
 
-"EditQuestionView_Placeholder" = "Question（ex：What is your favorite food?）";
+"EditQuestionView_Placeholder" = "Question";
 
 /* EditAnswerView */
 "EditAnswerView_Title" = "Edit Answer";
@@ -97,15 +101,23 @@
 
 "UserListView_Title_Follower" = "Follower";
 
-/* EditProfileView */
-"EditProfileView_Title" = "Edit Profile";
+/* SettingView */
+"SettingView_Title" = "Settings";
 
-"EditProfileView_Cell_ProfileImage" = "Photo";
+"SettingView_Cell_ProfileImage" = "Photo";
 
-"EditProfileView_Cell_LogOut" = "Log out";
+"SettingView_Cell_ShareSetting" = "Share Settings";
 
-"EditProfileView_ActionSheet_Camera" = "Take photo";
+"SettingView_Cell_LogOut" = "Log Out";
 
-"EditProfileView_ActionSheet_Album" = "Choose existing photo";
+"SettingView_ActionSheet_Camera" = "Take photo";
 
-"EditProfileView_ActionSheet_Cancel" = "Cancel";
+"SettingView_ActionSheet_Album" = "Choose existing photo";
+
+"SettingView_ActionSheet_Cancel" = "Cancel";
+
+/* ShareSettingView */
+"ShareSettingView_Title" = "Share Settings";
+
+
+

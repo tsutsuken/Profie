@@ -10,17 +10,26 @@
 
 @interface EditAnswerViewController ()
 
+@property (strong, nonatomic) LVShareKitTwitter *shareKitTwitter;
 @property (weak, nonatomic) IBOutlet LUPlaceholderTextView *textView;
+@property (strong, nonatomic) UIButton *twitterButton;
 
 @end
 
 @implementation EditAnswerViewController
+
+static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccountArray";
+
+#pragma mark - Initialization
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     self.title = NSLocalizedString(@"EditAnswerView_Title", nil);
+    
+    self.shareKitTwitter = [[LVShareKitTwitter alloc] init];
+    self.shareKitTwitter.delegate = self;
     
     [self configureNavigationBar];
     
@@ -49,6 +58,24 @@
     if (![self isNewAnswer]) {
         self.textView.text = [self.answer objectForKey:kLUAnswerTitleKey];
     }
+    
+    [self configureTwitterButton];
+}
+
+- (void)configureTwitterButton
+{
+	UIView* accessoryView =[[UIView alloc] initWithFrame:CGRectMake(0,0,320,44)];
+	self.twitterButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	self.twitterButton.frame = CGRectMake(276, 0, 30, 30);
+    [self.twitterButton setImage:[UIImage imageNamed:@"twitter_gray"] forState:UIControlStateNormal];
+    [self.twitterButton setImage:[UIImage imageNamed:@"twitter_blue"] forState:UIControlStateSelected];
+	[self.twitterButton addTarget:self action:@selector(didPushTwitterButton) forControlEvents:UIControlEventTouchUpInside];
+	[accessoryView addSubview:self.twitterButton];
+	self.textView.inputAccessoryView = accessoryView;
+
+    if ([self.shareKitTwitter shouldShare] && [self.shareKitTwitter isAuthorized]) {
+        self.twitterButton.selected = YES;
+    }
 }
 
 - (void)enableDoneButtonWithWordCount:(long)wordCount
@@ -67,6 +94,31 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Share on Twitter
+- (void)didPushTwitterButton
+{
+    BOOL shouldSelect = !self.twitterButton.selected;
+    
+    if (shouldSelect == YES) {
+        [self.shareKitTwitter authorizeInViewController:self];
+    } else {
+		[self switchTwitterButtonWithSelected:NO];
+	}
+}
+
+- (void)switchTwitterButtonWithSelected:(BOOL)selected
+{
+    [self.shareKitTwitter setShouldShare:selected];
+    self.twitterButton.selected = selected;
+}
+
+#pragma mark ShareKitTwitter delegate
+
+- (void)shareKitDidSucceedAuthorizing
+{
+    [self switchTwitterButtonWithSelected:YES];
+}
+
 #pragma mark - CloseView
 
 - (void)didPushCancelButton
@@ -78,6 +130,21 @@
 {
     [self saveObjects];
     [self dismissViewControllerAnimated:YES completion:nil];
+    
+    [self.shareKitTwitter postMessageIfNeeded:[self messageToShare]];
+}
+
+- (NSString *)messageToShare
+{
+    NSString *messageToShare;
+    
+    NSString *answer = self.textView.text;
+    NSString *question = [self.question valueForKey:kLUQuestionTitleKey];
+    NSString *profieTag = @"#Profie";
+    
+    messageToShare = [NSString stringWithFormat:@"%@ %@ %@", answer, question, profieTag];
+    
+    return messageToShare;
 }
 
 - (void)saveObjects
@@ -125,11 +192,19 @@
         return;
     }
     
+#warning test
+    /*
     NSNumber *answerCount = (NSNumber *)[self.question objectForKey:kLUQuestionAnswerCountKey];
     NSNumber *newAnswerCount = @([answerCount intValue] + 1);
     [self.question setObject:newAnswerCount forKey:kLUQuestionAnswerCountKey];
-    
     [self.question saveInBackground];
+     */
+    
+    Question *questionObject = (Question *)self.question;
+    int answerCount = questionObject.answerCount;
+    int newAnswerCount = answerCount + 1;
+    questionObject.answerCount = newAnswerCount;
+    [questionObject saveInBackground];
 }
 
 #pragma mark - TextView

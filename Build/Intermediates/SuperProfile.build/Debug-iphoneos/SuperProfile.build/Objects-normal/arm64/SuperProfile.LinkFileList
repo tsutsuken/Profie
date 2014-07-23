@@ -1,8 +1,9 @@
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/LUTimeFormatter.o
+/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/ShareSettingViewController.o
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/QuestionDetailViewController.o
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/LUUtility.o
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/LVBorderButton.o
-/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/EditProfileViewController.o
+/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/SettingViewController.o
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/WelcomeViewController.o
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/LVTouchableLabel.o
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/RecommendQuestionViewController.o
@@ -10,6 +11,7 @@
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/LVEditableCell.o
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/EditQuestionViewController.o
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/ProfileViewController.o
+/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/Question.o
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/SignUpViewController.o
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/UserListViewController.o
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/AnswerCell.o
@@ -19,6 +21,7 @@
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/EditAnswerViewController.o
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/PFRoundedImageView.o
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/UIColor+ColorWithHex.o
+/Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/LVShareKitTwitter.o
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/UIImage+Resize.o
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/LogInViewController.o
 /Users/p27e4a/github/SuperProfile/Build/Intermediates/SuperProfile.build/Debug-iphoneos/SuperProfile.build/Objects-normal/arm64/LUPlaceholderTextView.o

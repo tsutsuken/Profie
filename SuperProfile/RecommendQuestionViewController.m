@@ -113,7 +113,11 @@
     PFTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     
     UILabel *titleLabel = (UILabel *)[cell.contentView viewWithTag:1];
-    titleLabel.text = [object objectForKey:kLUQuestionTitleKey];
+    //titleLabel.text = [object objectForKey:kLUQuestionTitleKey];
+    
+#warning test
+    Question *question = (Question *)object;
+    titleLabel.text = question.titleWithTag;
     
     return cell;
 }

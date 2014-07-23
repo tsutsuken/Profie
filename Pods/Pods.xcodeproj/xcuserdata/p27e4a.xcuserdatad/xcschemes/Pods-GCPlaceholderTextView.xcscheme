@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "48E285FF8F784C3084F3D6B4"
+               BlueprintIdentifier = "C6706AAB29EF483DA0784EC8"
                BuildableName = "libPods-GCPlaceholderTextView.a"
                BlueprintName = "Pods-GCPlaceholderTextView"
                ReferencedContainer = "container:Pods.xcodeproj">

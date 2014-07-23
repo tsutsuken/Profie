@@ -87,11 +87,15 @@
     if([[segue identifier] isEqualToString:@"showEditAnswerView"])
     {
         EditAnswerViewController *controller = (EditAnswerViewController *)segue.destinationViewController;
-        
-        PFObject *question = [PFObject objectWithClassName:kLUQuestionClassKey];
+
+#warning test
+        Question *question = [Question object];
+        //PFObject *question = [PFObject objectWithClassName:kLUQuestionClassKey];
         [question.ACL setPublicWriteAccess:YES];
-        [question setObject:[PFUser currentUser] forKey:kLUQuestionAutherKey];
-        [question setObject:self.textView.text forKey:kLUQuestionTitleKey];
+        //[question setObject:[PFUser currentUser] forKey:kLUQuestionAutherKey];
+        question.auther = [PFUser currentUser];
+        //[question setObject:self.textView.text forKey:kLUQuestionTitleKey];
+        question.title = self.textView.text;
         controller.question = question;
     }
 }

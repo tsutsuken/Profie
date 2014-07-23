@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *followerCountButton;
 @property (weak, nonatomic) IBOutlet UIButton *settingButton;
 @property (weak, nonatomic) IBOutlet UIButton *followActionButton;
+@property (weak, nonatomic) IBOutlet UIView *actionView;
 
 @end
 
@@ -109,6 +110,7 @@
 }
 
 #pragma mark - TableHeaderView
+#pragma mark Configure
 
 - (void)configureTableHeaderView
 {
@@ -137,6 +139,8 @@
     else{
         [self configureFollowActionButton];
     }
+    
+    [self addBorderToActionView];
 }
 
 - (void)configureFollowActionButton
@@ -145,6 +149,21 @@
     [self.followActionButton setTitle:NSLocalizedString(@"ProfileView_Button_FollowAction_Unfollow", nil) forState:UIControlStateSelected];
     [self.followActionButton addTarget:self action:@selector(didPushFollowActionButton:) forControlEvents:UIControlEventTouchUpInside];
 }
+
+- (void)addBorderToActionView
+{
+    CALayer *topBorder = [CALayer layer];
+    topBorder.backgroundColor = kColorBorder.CGColor;
+    topBorder.frame = CGRectMake(0, 0, self.actionView.frame.size.width, kBorderHeight);
+    [self.self.actionView.layer addSublayer:topBorder];
+    
+    CALayer *bottomBorder = [CALayer layer];
+    bottomBorder.backgroundColor = kColorBorder.CGColor;
+    bottomBorder.frame = CGRectMake(0, self.actionView.frame.size.height, self.actionView.frame.size.width, kBorderHeight);
+    [self.self.actionView.layer addSublayer:bottomBorder];
+}
+
+#pragma mark Reload
 
 - (void)reloadTableHeaderView
 {
@@ -202,9 +221,11 @@
     return title;
 }
 
+#pragma mark Action
+
 - (void)didPushSettingButton
 {
-    [self showEditProfileView];
+    [self showSettingView];
 }
 
 - (void)didPushFollowActionButton:(UIButton *)sender
@@ -293,9 +314,9 @@
 
 #pragma mark EditProfileView
 
-- (void)showEditProfileView
+- (void)showSettingView
 {
-    [self performSegueWithIdentifier:@"showEditProfileView" sender:self];
+    [self performSegueWithIdentifier:@"showSettingView" sender:self];
 }
 
 #pragma mark QuestionDetailView

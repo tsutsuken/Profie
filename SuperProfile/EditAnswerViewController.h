@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EditAnswerViewController : UIViewController
+@interface EditAnswerViewController : UIViewController <UIActionSheetDelegate, LVShareKitTwitterDelegate>
 
-@property (strong, nonatomic) PFObject *question;
+@property (strong, nonatomic) Question *question;
 @property (strong, nonatomic) PFObject *answer;
 
 @end

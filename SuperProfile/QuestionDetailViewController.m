@@ -8,8 +8,6 @@
 
 #import "QuestionDetailViewController.h"
 
-#define kBorderHeight (1.0 / [UIScreen mainScreen].scale)
-
 @interface QuestionDetailViewController ()
 
 @property (nonatomic, assign) BOOL shouldReloadOnAppear;

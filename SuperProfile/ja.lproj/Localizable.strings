@@ -9,6 +9,10 @@
 
 "Common_ActionSheet_Cancel" = "キャンセル";
 
+/* LVShareKitTwitter */
+
+"LVShareKitTwitter_Alert_Message_Error_Twitter_AccessDenied" = "iOSの「設定」 >「Twitter」で、このアプリによるTwitterの使用を許可してください。";
+
 /* WelcomeView */
 "WelcomeView_Label_Subtitle" = "ゆる〜いプロフィール";
 
@@ -74,7 +78,7 @@
 
 "EditQuestionView_Button_Next" = "次へ";
 
-"EditQuestionView_Placeholder" = "例：好きな食べ物は？";
+"EditQuestionView_Placeholder" = "質問";
 
 /* EditAnswerView */
 "EditAnswerView_Title" = "回答する";
@@ -97,15 +101,22 @@
 
 "UserListView_Title_Follower" = "フォロワー";
 
-/* EditProfileView */
-"EditProfileView_Title" = "プロフィールを編集";
+/* SettingView */
+"SettingView_Title" = "設定";
 
-"EditProfileView_Cell_ProfileImage" = "プロフィール画像";
+"SettingView_Cell_ProfileImage" = "プロフィール画像";
 
-"EditProfileView_Cell_LogOut" = "ログアウト";
+"SettingView_Cell_ShareSetting" = "シェア設定";
 
-"EditProfileView_ActionSheet_Camera" = "写真を撮る";
+"SettingView_Cell_LogOut" = "ログアウト";
 
-"EditProfileView_ActionSheet_Album" = "画像を選択";
+"SettingView_ActionSheet_Camera" = "写真を撮る";
 
-"EditProfileView_ActionSheet_Cancel" = "キャンセル";
+"SettingView_ActionSheet_Album" = "画像を選択";
+
+"SettingView_ActionSheet_Cancel" = "キャンセル";
+
+/* ShareSettingView */
+"ShareSettingView_Title" = "シェア設定";
+
+
