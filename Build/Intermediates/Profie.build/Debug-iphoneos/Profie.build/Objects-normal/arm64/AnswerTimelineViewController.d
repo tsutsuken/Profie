@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/p27e4a/github/SuperProfile/SuperProfile/AnswerTimelineViewController.m \
-  /Users/p27e4a/github/SuperProfile/SuperProfile/AnswerTimelineViewController.h
+  /Users/p27e4a/github/Profie/Profie/AnswerTimelineViewController.m \
+  /Users/p27e4a/github/Profie/Profie/AnswerTimelineViewController.h

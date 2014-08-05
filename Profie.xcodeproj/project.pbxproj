@@ -473,8 +473,7 @@
 				1FCCA8BC190BE96500B4E3B7 /* Supporting Files */,
 				1FC71216191243AD004F9E2A /* Resources */,
 			);
-			name = Profie;
-			path = SuperProfile;
+			path = Profie;
 			sourceTree = "<group>";
 		};
 		1FCCA8BC190BE96500B4E3B7 /* Supporting Files */ = {
@@ -498,8 +497,7 @@
 				1FCCA8E7190BE97B00B4E3B7 /* SuperProfileTests.m */,
 				1FCCA8E2190BE97B00B4E3B7 /* Supporting Files */,
 			);
-			name = ProfieTests;
-			path = SuperProfileTests;
+			path = ProfieTests;
 			sourceTree = "<group>";
 		};
 		1FCCA8E2190BE97B00B4E3B7 /* Supporting Files */ = {
@@ -881,8 +879,8 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SuperProfile/Profie-Prefix.pch";
-				INFOPLIST_FILE = "SuperProfile/Profie-Info.plist";
+				GCC_PREFIX_HEADER = "Profie/Profie-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Profie/Profie-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/NendAd",
@@ -907,8 +905,8 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SuperProfile/Profie-Prefix.pch";
-				INFOPLIST_FILE = "SuperProfile/Profie-Info.plist";
+				GCC_PREFIX_HEADER = "Profie/Profie-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Profie/Profie-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/NendAd",
@@ -922,7 +920,7 @@
 		1FCCA8EF190BE97B00B4E3B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SuperProfile.app/SuperProfile";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Profie.app/Profie";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -944,7 +942,7 @@
 		1FCCA8F0190BE97B00B4E3B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SuperProfile.app/SuperProfile";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Profie.app/Profie";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

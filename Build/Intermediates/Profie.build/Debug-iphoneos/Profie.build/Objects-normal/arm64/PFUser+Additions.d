@@ -1,2 +1,1 @@
-dependencies: \
-  /Users/p27e4a/github/SuperProfile/SuperProfile/PFUser+Additions.m
+dependencies: /Users/p27e4a/github/Profie/Profie/PFUser+Additions.m

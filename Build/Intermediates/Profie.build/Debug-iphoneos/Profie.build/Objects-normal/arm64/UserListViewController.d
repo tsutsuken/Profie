@@ -1,2 +1,1 @@
-dependencies: \
-  /Users/p27e4a/github/SuperProfile/SuperProfile/UserListViewController.m
+dependencies: /Users/p27e4a/github/Profie/Profie/UserListViewController.m

@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/p27e4a/github/SuperProfile/SuperProfile/QuestionDetailViewController.m
+  /Users/p27e4a/github/Profie/Profie/QuestionDetailViewController.m

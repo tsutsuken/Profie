@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/p27e4a/github/SuperProfile/SuperProfile/ShareSettingViewController.m \
-  /Users/p27e4a/github/SuperProfile/SuperProfile/ShareSettingViewController.h
+  /Users/p27e4a/github/Profie/Profie/ShareSettingViewController.m \
+  /Users/p27e4a/github/Profie/Profie/ShareSettingViewController.h

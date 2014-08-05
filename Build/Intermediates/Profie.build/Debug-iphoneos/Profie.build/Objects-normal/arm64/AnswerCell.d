@@ -1,1 +1,1 @@
-dependencies: /Users/p27e4a/github/SuperProfile/SuperProfile/AnswerCell.m
+dependencies: /Users/p27e4a/github/Profie/Profie/AnswerCell.m

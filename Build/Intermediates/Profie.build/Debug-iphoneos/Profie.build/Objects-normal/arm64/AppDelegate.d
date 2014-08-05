@@ -1,2 +1,1 @@
-dependencies: \
-  /Users/p27e4a/github/SuperProfile/SuperProfile/AppDelegate.m
+dependencies: /Users/p27e4a/github/Profie/Profie/AppDelegate.m

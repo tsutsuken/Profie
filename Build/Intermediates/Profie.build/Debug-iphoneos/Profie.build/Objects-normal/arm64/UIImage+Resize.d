@@ -1,2 +1,1 @@
-dependencies: \
-  /Users/p27e4a/github/SuperProfile/SuperProfile/UIImage+Resize.m
+dependencies: /Users/p27e4a/github/Profie/Profie/UIImage+Resize.m

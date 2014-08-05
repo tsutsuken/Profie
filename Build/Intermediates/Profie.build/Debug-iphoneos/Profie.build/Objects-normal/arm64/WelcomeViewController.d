@@ -1,6 +1,5 @@
-dependencies: \
-  /Users/p27e4a/github/SuperProfile/SuperProfile/WelcomeViewController.m \
-  /Users/p27e4a/github/SuperProfile/SuperProfile/WelcomeViewController.h \
-  /Users/p27e4a/github/SuperProfile/SuperProfile/SignUpViewController.h \
-  /Users/p27e4a/github/SuperProfile/SuperProfile/LVEditableCell.h \
-  /Users/p27e4a/github/SuperProfile/SuperProfile/LogInViewController.h
+dependencies: /Users/p27e4a/github/Profie/Profie/WelcomeViewController.m \
+  /Users/p27e4a/github/Profie/Profie/WelcomeViewController.h \
+  /Users/p27e4a/github/Profie/Profie/SignUpViewController.h \
+  /Users/p27e4a/github/Profie/Profie/LVEditableCell.h \
+  /Users/p27e4a/github/Profie/Profie/LogInViewController.h

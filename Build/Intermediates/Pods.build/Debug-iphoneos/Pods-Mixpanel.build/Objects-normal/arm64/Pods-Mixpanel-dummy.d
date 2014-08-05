@@ -1,2 +1,1 @@
-dependencies: \
-  /Users/p27e4a/github/SuperProfile/Pods/Pods-Mixpanel-dummy.m
+dependencies: /Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-dummy.m
