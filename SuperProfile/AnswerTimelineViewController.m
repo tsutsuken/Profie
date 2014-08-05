@@ -58,7 +58,7 @@
         return nil;
     }
     
-    self.parseClassName = kLUAnswerClassKey;
+    self.parseClassName = kLVAnswerClassKey;
     self.pullToRefreshEnabled = YES;
     self.paginationEnabled = YES;
     self.objectsPerPage = 25;
@@ -77,15 +77,15 @@
     }
     
     //フォロー中のユーザのquery
-    PFQuery *followingActivitiesQuery = [PFQuery queryWithClassName:kLUActivityClassKey];
-    [followingActivitiesQuery whereKey:kLUActivityTypeKey equalTo:kLUActivityTypeFollow];
-    [followingActivitiesQuery whereKey:kLUActivityFromUserKey equalTo:[PFUser currentUser]];
+    PFQuery *followingActivitiesQuery = [PFQuery queryWithClassName:kLVActivityClassKey];
+    [followingActivitiesQuery whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
+    [followingActivitiesQuery whereKey:kLVActivityFromUserKey equalTo:[PFUser currentUser]];
     
-    [query whereKey:kLUAnswerAutherKey matchesKey:kLUActivityToUserKey inQuery:followingActivitiesQuery];
+    [query whereKey:kLVAnswerAutherKey matchesKey:kLVActivityToUserKey inQuery:followingActivitiesQuery];
     
-    [query includeKey:kLUAnswerQuestionKey];
-    [query includeKey:kLUAnswerAutherKey];
-    [query orderByDescending:kLUCommonCreatedAtKey];
+    [query includeKey:kLVAnswerQuestionKey];
+    [query includeKey:kLVAnswerAutherKey];
+    [query orderByDescending:kLVCommonCreatedAtKey];
     
     return query;
 }
@@ -95,23 +95,24 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath object:(PFObject *)object
 {
     AnswerCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-    PFUser *user = [object objectForKey:kLUAnswerAutherKey];
+    Answer *answer = (Answer *)object;
+    Question *question = answer.question;
+    PFUser *user = answer.auther;
     
     cell.profileImageView.delegate = self;
     cell.profileImageView.user = user;
-    cell.profileImageView.file = [user objectForKey:kLUUserProfilePicSmallKey];
+    cell.profileImageView.file = [user objectForKey:kLVUserProfilePicSmallKey];
     [cell.profileImageView loadInBackground];
     
     cell.userNameLabel.text = user.username;
     cell.userNameLabel.delegate = self;
     cell.userNameLabel.user = user;
     
-    PFObject *question = [object objectForKey:kLUAnswerQuestionKey];
-    cell.questionLabel.text = [question objectForKey:kLUQuestionTitleKey];
+    cell.answerLabel.text = answer.title;
     
-    cell.answerLabel.text = [object objectForKey:kLUAnswerTitleKey];
+    cell.questionLabel.text = question.titleWithTag;
     
-    cell.timeLabel.text = [[LUTimeFormatter sharedManager] stringForTimeIntervalFromDate:[NSDate date] toDate:object.createdAt];
+    cell.timeLabel.text = [[LVTimeFormatter sharedManager] stringForTimeIntervalFromDate:[NSDate date] toDate:answer.createdAt];
     
     return cell;
 }
@@ -158,10 +159,10 @@
     
     if ([[segue identifier] isEqualToString:@"showQuestionDetailView"]){
         QuestionDetailViewController *vc = (QuestionDetailViewController *)segue.destinationViewController;
-        PFObject *selectedAnswer = [self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];
-        vc.question = [selectedAnswer objectForKey:kLUAnswerQuestionKey];
+        Answer *selectedAnswer = (Answer *)[self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];
         vc.answer = selectedAnswer;
-        vc.user = [selectedAnswer objectForKey:kLUAnswerAutherKey];
+        vc.question = selectedAnswer.question;
+        vc.user = selectedAnswer.auther;
     }
 }
 

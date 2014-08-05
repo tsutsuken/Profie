@@ -10,8 +10,8 @@
 
 @implementation LVShareKitTwitter
 
-#define kLUUserDefaultsKeyShouldShareOnTwitter @"kLUUserDefaultsKeyShouldShareOnTwitter"
-#define kLUUserDefaultsKeyAccountIdTwitter @"kLUUserDefaultsKeyAccountIdTwitter"
+#define kLVUserDefaultsKeyShouldShareOnTwitter @"kLVUserDefaultsKeyShouldShareOnTwitter"
+#define kLVUserDefaultsKeyAccountIdTwitter @"kLVUserDefaultsKeyAccountIdTwitter"
 static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccountArray";
 
 - (BOOL)isAuthorized
@@ -22,7 +22,7 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
     ACAccountType *accountType = [accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierTwitter];
     BOOL accessGranted = accountType.accessGranted;
     
-    NSString *selectedAccount = [[NSUserDefaults standardUserDefaults] stringForKey:kLUUserDefaultsKeyAccountIdTwitter];
+    NSString *selectedAccount = [[NSUserDefaults standardUserDefaults] stringForKey:kLVUserDefaultsKeyAccountIdTwitter];
     
     if (accessGranted && selectedAccount) {
         isAuthorized = YES;
@@ -35,14 +35,14 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
 
 - (BOOL)shouldShare
 {
-    BOOL shouldShare = [[NSUserDefaults standardUserDefaults] boolForKey:kLUUserDefaultsKeyShouldShareOnTwitter];
+    BOOL shouldShare = [[NSUserDefaults standardUserDefaults] boolForKey:kLVUserDefaultsKeyShouldShareOnTwitter];
     
     return shouldShare;
 }
 
 - (void)setShouldShare:(BOOL)shouldShare
 {
-    [[NSUserDefaults standardUserDefaults] setBool:shouldShare forKey:kLUUserDefaultsKeyShouldShareOnTwitter];
+    [[NSUserDefaults standardUserDefaults] setBool:shouldShare forKey:kLVUserDefaultsKeyShouldShareOnTwitter];
 }
 
 #pragma mark - Authorize
@@ -57,7 +57,7 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
          completion:^(BOOL granted, NSError *error) {
              [[NSOperationQueue mainQueue] addOperationWithBlock:^ {
                  if (granted) {
-                     if ([[NSUserDefaults standardUserDefaults] stringForKey:kLUUserDefaultsKeyAccountIdTwitter]) {
+                     if ([[NSUserDefaults standardUserDefaults] stringForKey:kLVUserDefaultsKeyAccountIdTwitter]) {
                          [self didSucceedAuthorizing];
                      } else {
                          NSArray *accountArray = [accountStore accountsWithAccountType:accountType];
@@ -98,7 +98,7 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
         [self didFailToAuthorize];
     } else {
 		ACAccount *selectedAccount = [accountArray objectAtIndex:buttonIndex];
-        [[NSUserDefaults standardUserDefaults] setObject:selectedAccount.identifier forKey:kLUUserDefaultsKeyAccountIdTwitter];
+        [[NSUserDefaults standardUserDefaults] setObject:selectedAccount.identifier forKey:kLVUserDefaultsKeyAccountIdTwitter];
         [self didSucceedAuthorizing];
 	}
 }
@@ -132,8 +132,8 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
 #pragma mark - Logout
 - (void)logout
 {
-    [[NSUserDefaults standardUserDefaults] removeObjectForKey:kLUUserDefaultsKeyAccountIdTwitter];
-    [[NSUserDefaults standardUserDefaults] setBool:NO forKey:kLUUserDefaultsKeyShouldShareOnTwitter];
+    [[NSUserDefaults standardUserDefaults] removeObjectForKey:kLVUserDefaultsKeyAccountIdTwitter];
+    [[NSUserDefaults standardUserDefaults] setBool:NO forKey:kLVUserDefaultsKeyShouldShareOnTwitter];
 }
 
 #pragma mark - Post
@@ -148,7 +148,7 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
                                                           URL:url
                                                    parameters:params];
         
-        NSString *accountId = [[NSUserDefaults standardUserDefaults] stringForKey:kLUUserDefaultsKeyAccountIdTwitter];
+        NSString *accountId = [[NSUserDefaults standardUserDefaults] stringForKey:kLVUserDefaultsKeyAccountIdTwitter];
         ACAccount *account = [[[ACAccountStore alloc] init] accountWithIdentifier:accountId];
         [request setAccount:account];
         

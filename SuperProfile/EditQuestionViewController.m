@@ -10,7 +10,7 @@
 
 @interface EditQuestionViewController ()
 
-@property (weak, nonatomic) IBOutlet LUPlaceholderTextView *textView;
+@property (weak, nonatomic) IBOutlet LVPlaceholderTextView *textView;
 
 @end
 
@@ -88,13 +88,9 @@
     {
         EditAnswerViewController *controller = (EditAnswerViewController *)segue.destinationViewController;
 
-#warning test
         Question *question = [Question object];
-        //PFObject *question = [PFObject objectWithClassName:kLUQuestionClassKey];
         [question.ACL setPublicWriteAccess:YES];
-        //[question setObject:[PFUser currentUser] forKey:kLUQuestionAutherKey];
         question.auther = [PFUser currentUser];
-        //[question setObject:self.textView.text forKey:kLUQuestionTitleKey];
         question.title = self.textView.text;
         controller.question = question;
     }

@@ -7,6 +7,8 @@
 
 "Common_ActionSheet_Album" = "Choose existing photo";
 
+"Common_ActionSheet_OpenInSafari" = "Open in Safari";
+
 "Common_ActionSheet_Cancel" = "Cancel";
 
 /* LVShareKitTwitter */
@@ -44,6 +46,20 @@
 "SignUpView_Alert_Message_Error_UsernameTaken_%@" = "Username %@ already taken";
 
 "SignUpView_Alert_Message_Error_EmailTaken_%@" = "Email %@ already taken";
+
+"SignUpView_Footer_1" = "By tapping done button, you are indicating that you have agreed the ";
+
+"SignUpView_Footer_2" = "Terms of Service ";
+
+"SignUpView_Footer_3" = "and ";
+
+"SignUpView_Footer_4" = "Privacy Policy";
+
+"SignUpView_Footer_5" = ".";
+
+"SignUpView_URL_Terms" = "http://www.google.com";
+
+"SignUpView_URL_PrivacyPolicy" = "http://www.yahoo.com";
 
 /* LogInView */
 "LogInView_Title" = "Log In";

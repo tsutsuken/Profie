@@ -11,6 +11,6 @@
 @interface EditAnswerViewController : UIViewController <UIActionSheetDelegate, LVShareKitTwitterDelegate>
 
 @property (strong, nonatomic) Question *question;
-@property (strong, nonatomic) PFObject *answer;
+@property (strong, nonatomic) Answer *answer;
 
 @end

@@ -27,8 +27,8 @@
 
 - (void)dealloc
 {
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:LUEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:LUQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:LVEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:LVQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
 }
 
 - (void)viewDidLoad
@@ -76,7 +76,7 @@
     if (!self) {
         return nil;
     }
-    self.parseClassName = kLUAnswerClassKey;
+    self.parseClassName = kLVAnswerClassKey;
     self.pullToRefreshEnabled = NO;
     self.paginationEnabled = YES;
     self.objectsPerPage = 25;
@@ -97,8 +97,8 @@
 		query = [PFQuery orQueryWithSubqueries:@[answerFromFollowingUserQuery, answerFromCurrentUserQuery]];
 	}
     
-    [query includeKey:kLUAnswerAutherKey];
-    [query orderByDescending:kLUCommonCreatedAtKey];
+    [query includeKey:kLVAnswerAutherKey];
+    [query orderByDescending:kLVCommonCreatedAtKey];
     
     return query;
 }
@@ -108,17 +108,17 @@
     PFQuery *answerFromFollowingUserQuery = [PFQuery queryWithClassName:self.parseClassName];
     
     //フォロー中のユーザを取得
-    PFQuery *followingActivitiesQuery = [PFQuery queryWithClassName:kLUActivityClassKey];
-    [followingActivitiesQuery whereKey:kLUActivityTypeKey equalTo:kLUActivityTypeFollow];
-    [followingActivitiesQuery whereKey:kLUActivityFromUserKey equalTo:[PFUser currentUser]];
+    PFQuery *followingActivitiesQuery = [PFQuery queryWithClassName:kLVActivityClassKey];
+    [followingActivitiesQuery whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
+    [followingActivitiesQuery whereKey:kLVActivityFromUserKey equalTo:[PFUser currentUser]];
     followingActivitiesQuery.limit = 1000;
     if (self.answer) {
-        [followingActivitiesQuery whereKey:kLUActivityToUserKey notEqualTo:self.user];//該当画面のユーザを除外
+        [followingActivitiesQuery whereKey:kLVActivityToUserKey notEqualTo:self.user];//該当画面のユーザを除外
     }
     
     //フォロー中ユーザのアンサーのquery
-    [answerFromFollowingUserQuery whereKey:kLUAnswerQuestionKey equalTo:self.question];
-    [answerFromFollowingUserQuery whereKey:kLUAnswerAutherKey matchesKey:kLUActivityToUserKey inQuery:followingActivitiesQuery];
+    [answerFromFollowingUserQuery whereKey:kLVAnswerQuestionKey equalTo:self.question];
+    [answerFromFollowingUserQuery whereKey:kLVAnswerAutherKey matchesKey:kLVActivityToUserKey inQuery:followingActivitiesQuery];
     
     return answerFromFollowingUserQuery;
 }
@@ -126,8 +126,8 @@
 - (PFQuery *)answerFromCurrentUserQuery
 {
     PFQuery *answerFromCurrentUserQuery = [PFQuery queryWithClassName:self.parseClassName];
-    [answerFromCurrentUserQuery whereKey:kLUAnswerQuestionKey equalTo:self.question];
-    [answerFromCurrentUserQuery whereKey:kLUAnswerAutherKey equalTo:[PFUser currentUser]];
+    [answerFromCurrentUserQuery whereKey:kLVAnswerQuestionKey equalTo:self.question];
+    [answerFromCurrentUserQuery whereKey:kLVAnswerAutherKey equalTo:[PFUser currentUser]];
     
     return answerFromCurrentUserQuery;
 }
@@ -138,7 +138,7 @@
 {
     //QuestionView_Title
     UILabel *questionLabel = (UILabel *)[self.questionView viewWithTag:1];
-    questionLabel.text = [self.question objectForKey:kLUQuestionTitleKey];
+    questionLabel.text = self.question.titleWithTag;
     
     //QuestionView_AnswerButton
     [self.answerButton setTitle:NSLocalizedString(@"QuestionDetailView_Button_Answer_StateNormal", nil) forState:UIControlStateNormal];
@@ -166,7 +166,7 @@
     PFRoundedImageView *profileImageView = (PFRoundedImageView *)[self.answerView viewWithTag:LUAnswerViewItemTagProfileImageView];
     profileImageView.delegate = self;
     profileImageView.user = self.user;
-    profileImageView.file = [self.user objectForKey:kLUUserProfilePicSmallKey];
+    profileImageView.file = [self.user objectForKey:kLVUserProfilePicSmallKey];
     [profileImageView loadInBackground];
     
     LVTouchableLabel *userNameLabel = (LVTouchableLabel *)[self.answerView viewWithTag:LUAnswerViewItemTagUserNameLabel];
@@ -175,10 +175,10 @@
     userNameLabel.text = self.user.username;
     
     UILabel *timeLabel = (UILabel *)[self.answerView viewWithTag:LUAnswerViewItemTagTimeLabel];
-    timeLabel.text = [[LUTimeFormatter sharedManager] stringForTimeIntervalFromDate:[NSDate date] toDate:self.answer.createdAt];
+    timeLabel.text = [[LVTimeFormatter sharedManager] stringForTimeIntervalFromDate:[NSDate date] toDate:self.answer.createdAt];
     
     UILabel *answerLabel = (UILabel *)[self.answerView viewWithTag:LUAnswerViewItemTagAnswerLabel];
-    answerLabel.text = [self.answer objectForKey:kLUAnswerTitleKey];
+    answerLabel.text = self.answer.title;
     
     [self addBorderToAnswerView];
 }
@@ -202,9 +202,9 @@
 - (void)reloadAnswerButton
 {
     //回答済みか判定
-    PFQuery *query = [PFQuery queryWithClassName:kLUAnswerClassKey];
-    [query whereKey:kLUAnswerAutherKey equalTo:[PFUser currentUser]];
-    [query whereKey:kLUAnswerQuestionKey equalTo:self.question];
+    PFQuery *query = [PFQuery queryWithClassName:kLVAnswerClassKey];
+    [query whereKey:kLVAnswerAutherKey equalTo:[PFUser currentUser]];
+    [query whereKey:kLVAnswerQuestionKey equalTo:self.question];
     [query countObjectsInBackgroundWithBlock:^(int count, NSError *error) {
         if (!error) {
             if (count == 0) {
@@ -271,20 +271,21 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath object:(PFObject *)object
 {
     AnswerCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-    PFUser *user = [object objectForKey:kLUAnswerAutherKey];
+    Answer *answer = (Answer *)object;
+    PFUser *user = answer.auther;
     
     cell.profileImageView.delegate = self;
     cell.profileImageView.user = user;
-    cell.profileImageView.file = [user objectForKey:kLUUserProfilePicSmallKey];
+    cell.profileImageView.file = [user objectForKey:kLVUserProfilePicSmallKey];
     [cell.profileImageView loadInBackground];
     
     cell.userNameLabel.text = user.username;
     cell.userNameLabel.delegate = self;
     cell.userNameLabel.user = user;
     
-    cell.answerLabel.text = [object objectForKey:kLUAnswerTitleKey];
+    cell.answerLabel.text = answer.title;
     
-    cell.timeLabel.text = [[LUTimeFormatter sharedManager] stringForTimeIntervalFromDate:[NSDate date] toDate:object.createdAt];
+    cell.timeLabel.text = [[LVTimeFormatter sharedManager] stringForTimeIntervalFromDate:[NSDate date] toDate:answer.createdAt];
     
     return cell;
 }
@@ -318,10 +319,10 @@
     UIStoryboard* mainStoryBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     QuestionDetailViewController *vc = (QuestionDetailViewController *)[mainStoryBoard instantiateViewControllerWithIdentifier:@"QuestionDetailView"];
     
-    PFObject *selectedAnswer = [self objectAtIndexPath:indexPath];
+    Answer *selectedAnswer = (Answer *)[self objectAtIndexPath:indexPath];
     vc.question = self.question;
     vc.answer = selectedAnswer;
-    vc.user = [selectedAnswer objectForKey:kLUAnswerAutherKey];
+    vc.user = selectedAnswer.auther;
     
     [self.navigationController pushViewController:vc animated:YES];
 }
@@ -414,7 +415,7 @@
     
     [self.answer deleteInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (succeeded) {
-            [[NSNotificationCenter defaultCenter] postNotificationName:LUQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
+            [[NSNotificationCenter defaultCenter] postNotificationName:LVQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
             [self.navigationController popViewControllerAnimated:YES];
         }
     }];
@@ -422,12 +423,8 @@
 
 - (void)decrementAnswerCountOfQuestion
 {
-    NSNumber *answerCount = (NSNumber *)[self.question objectForKey:kLUQuestionAnswerCountKey];
-    NSNumber *newAnswerCount = @([answerCount intValue] - 1);
-    [self.question setObject:newAnswerCount forKey:kLUQuestionAnswerCountKey];
-    
+    self.question.answerCount--;
     [self.question saveInBackground];
-    LOG(@"newAnswerCount_%@",newAnswerCount);
 }
 
 #pragma mark - PFRoundedImageView delegate
@@ -479,15 +476,15 @@
 
 - (void)setNotifications
 {
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidEditAnswer:) name:LUEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidDeleteAnswer:) name:LUQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidEditAnswer:) name:LVEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidDeleteAnswer:) name:LVQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
 }
 
 - (void)userDidEditAnswer:(NSNotification *)note
 {
     //Reload AnswerLabel
     UILabel *answerLabel = (UILabel *)[self.answerView viewWithTag:LUAnswerViewItemTagAnswerLabel];
-    answerLabel.text = [self.answer objectForKey:kLUAnswerTitleKey];
+    answerLabel.text = self.answer.title;
     
     [self reloadAnswerButton];
     [self loadObjects];

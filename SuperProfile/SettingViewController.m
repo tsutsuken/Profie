@@ -59,7 +59,7 @@
         PFUser *currentUser = [PFUser currentUser];
         
         PFRoundedImageView *imageView = (PFRoundedImageView *)[cell viewWithTag:1];
-        imageView.file = [currentUser objectForKey:kLUUserProfilePicSmallKey];
+        imageView.file = [currentUser objectForKey:kLVUserProfilePicSmallKey];
         [imageView loadInBackground];
         
         UILabel *titleLabel = (UILabel *)[cell viewWithTag:2];
@@ -165,7 +165,7 @@
     [largeImageFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
             NSLog(@"Uploaded largeImageFile");
-            [[PFUser currentUser] setObject:largeImageFile forKey:kLUUserProfilePicLargeKey];
+            [[PFUser currentUser] setObject:largeImageFile forKey:kLVUserProfilePicLargeKey];
             [[PFUser currentUser] saveInBackgroundWithBlock:nil];
         }
     }];
@@ -173,7 +173,7 @@
     [mediumImageFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
             NSLog(@"Uploaded mediumImageFile");
-            [[PFUser currentUser] setObject:mediumImageFile forKey:kLUUserProfilePicMediumKey];
+            [[PFUser currentUser] setObject:mediumImageFile forKey:kLVUserProfilePicMediumKey];
             [[PFUser currentUser] saveInBackgroundWithBlock:nil];
         }
     }];
@@ -181,7 +181,7 @@
     [smallImageFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
             NSLog(@"Uploaded smallImageFile");
-            [[PFUser currentUser] setObject:smallImageFile forKey:kLUUserProfilePicSmallKey];
+            [[PFUser currentUser] setObject:smallImageFile forKey:kLVUserProfilePicSmallKey];
             
             [[PFUser currentUser] saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
                 if (!error) {

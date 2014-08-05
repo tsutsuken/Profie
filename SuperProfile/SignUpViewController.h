@@ -11,7 +11,7 @@
 
 @protocol SignUpViewControllerDelegate;
 
-@interface SignUpViewController : UITableViewController
+@interface SignUpViewController : UITableViewController <UITextViewDelegate ,UIActionSheetDelegate>
 
 @property (nonatomic, assign) id <SignUpViewControllerDelegate> delegate;
 

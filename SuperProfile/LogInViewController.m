@@ -14,6 +14,7 @@
 
 @implementation LogInViewController
 
+#pragma mark - Initialization
 - (void)viewDidLoad
 {
     [super viewDidLoad];

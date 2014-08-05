@@ -11,7 +11,8 @@
 @interface EditAnswerViewController ()
 
 @property (strong, nonatomic) LVShareKitTwitter *shareKitTwitter;
-@property (weak, nonatomic) IBOutlet LUPlaceholderTextView *textView;
+@property (weak, nonatomic) IBOutlet UILabel *questionLabel;
+@property (weak, nonatomic) IBOutlet UITextView *textView;
 @property (strong, nonatomic) UIButton *twitterButton;
 
 @end
@@ -26,12 +27,14 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
 {
     [super viewDidLoad];
     
-    self.title = NSLocalizedString(@"EditAnswerView_Title", nil);
-    
     self.shareKitTwitter = [[LVShareKitTwitter alloc] init];
     self.shareKitTwitter.delegate = self;
     
+    self.title = NSLocalizedString(@"EditAnswerView_Title", nil);
+    
     [self configureNavigationBar];
+    
+    self.questionLabel.text = self.question.titleWithTag;
     
     [self configureTextView];
     
@@ -53,13 +56,15 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
 
 - (void)configureTextView
 {
-    self.textView.placeholder = [self.question objectForKey:kLUQuestionTitleKey];
+    self.automaticallyAdjustsScrollViewInsets = NO;//To aboid bug about textView inset
     
     if (![self isNewAnswer]) {
-        self.textView.text = [self.answer objectForKey:kLUAnswerTitleKey];
+        self.textView.text = self.answer.title;
     }
     
     [self configureTwitterButton];
+    
+    [self.textView becomeFirstResponder];
 }
 
 - (void)configureTwitterButton
@@ -139,7 +144,7 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
     NSString *messageToShare;
     
     NSString *answer = self.textView.text;
-    NSString *question = [self.question valueForKey:kLUQuestionTitleKey];
+    NSString *question = self.question.titleWithTag;
     NSString *profieTag = @"#Profie";
     
     messageToShare = [NSString stringWithFormat:@"%@ %@ %@", answer, question, profieTag];
@@ -167,21 +172,21 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
 
 - (void)saveAnswer
 {
-    PFObject *answer;
+    Answer *answer;
     if ([self isNewAnswer]) {
-        answer = [PFObject objectWithClassName:kLUAnswerClassKey];
-        [answer setObject:[PFUser currentUser] forKey:kLUAnswerAutherKey];
-        [answer setObject:self.question forKey:kLUAnswerQuestionKey];
-        [answer setObject:self.question.objectId forKey:kLUAnswerQuestionIdKey];
+        answer = [Answer object];
+        answer.auther = [PFUser currentUser];
+        answer.question = self.question;
+        answer.questionId = self.question.objectId;
     }
     else {
         answer = self.answer;
 	}
     
-    [answer setObject:self.textView.text forKey:kLUAnswerTitleKey];
+    answer.title = self.textView.text;
     [answer saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (succeeded) {
-            [[NSNotificationCenter defaultCenter] postNotificationName:LUEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
+            [[NSNotificationCenter defaultCenter] postNotificationName:LVEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
         }
     }];
 }
@@ -192,19 +197,8 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
         return;
     }
     
-#warning test
-    /*
-    NSNumber *answerCount = (NSNumber *)[self.question objectForKey:kLUQuestionAnswerCountKey];
-    NSNumber *newAnswerCount = @([answerCount intValue] + 1);
-    [self.question setObject:newAnswerCount forKey:kLUQuestionAnswerCountKey];
+    self.question.answerCount++;
     [self.question saveInBackground];
-     */
-    
-    Question *questionObject = (Question *)self.question;
-    int answerCount = questionObject.answerCount;
-    int newAnswerCount = answerCount + 1;
-    questionObject.answerCount = newAnswerCount;
-    [questionObject saveInBackground];
 }
 
 #pragma mark - TextView

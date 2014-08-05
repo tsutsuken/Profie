@@ -7,6 +7,8 @@
 
 "Common_ActionSheet_Album" = "画像を選択";
 
+"Common_ActionSheet_OpenInSafari" = "Safariで開く";
+
 "Common_ActionSheet_Cancel" = "キャンセル";
 
 /* LVShareKitTwitter */
@@ -44,6 +46,20 @@
 "SignUpView_Alert_Message_Error_UsernameTaken_%@" = "%@というユーザーネームはすでに使われています";
 
 "SignUpView_Alert_Message_Error_EmailTaken_%@" = "%@というメールアドレスはすでに使われています";
+
+"SignUpView_Footer_1" = "完了ボタンを押すことで、";
+
+"SignUpView_Footer_2" = "利用規約";
+
+"SignUpView_Footer_3" = "および";
+
+"SignUpView_Footer_4" = "プライバシーポリシー";
+
+"SignUpView_Footer_5" = "に同意したものとみなされます。";
+
+"SignUpView_URL_Terms" = "http://www.google.co.jp";
+
+"SignUpView_URL_PrivacyPolicy" = "http://www.yahoo.co.jp";
 
 /* LogInView */
 "LogInView_Title" = "ログイン";

@@ -19,13 +19,14 @@
     #import <Parse/Parse.h>
     #import <Parse/PFObject+Subclass.h>
     #import "Question.h"
+    #import "Answer.h"
     #import "GADBannerView.h"
     #import "MBProgressHUD.h"
     #import "UIImage+Tint.h"
-    #import "LUPlaceholderTextView.h"
-    #import "LUConstants.h"
-    #import "LUUtility.h"
-    #import "LUTimeFormatter.h"
+    #import "LVPlaceholderTextView.h"
+    #import "LVConstants.h"
+    #import "LVUtility.h"
+    #import "LVTimeFormatter.h"
     #import "LVShareKitTwitter.h"
     #import "PFUser+Additions.h"
     #import "UIColor+ColorWithHex.h"
@@ -41,6 +42,7 @@
 
 /* Common */
 #define kColorBorder [UIColor colorWithHexString:@"c8c7cc"]
+#define kColorNavigationBar [UIColor colorWithRed:0.000 green:0.549 blue:0.890 alpha:1.000]
 #define kStatusBarHeight 20
 #define kNavigationBarHeight 44
 #define kTabBarHeight 49

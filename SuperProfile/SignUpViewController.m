@@ -9,10 +9,12 @@
 #import "SignUpViewController.h"
 
 @interface SignUpViewController ()
+@property (weak, nonatomic) IBOutlet UITextView *footerTextView;
 @end
 
 @implementation SignUpViewController
 
+#pragma mark - Initialization
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -22,12 +24,62 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone
                                                                                            target:self
                                                                                            action:@selector(didPushDoneButton)];
+    
+    [self configureFooterView];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark FooterView
+- (void)configureFooterView
+{
+    self.footerTextView.delegate = self;
+    self.footerTextView.linkTextAttributes = @{NSForegroundColorAttributeName : [UIColor darkGrayColor]};
+    self.footerTextView.attributedText = [self attributedStringForFooter];
+}
+
+- (NSMutableAttributedString *)attributedStringForFooter
+{
+    NSMutableAttributedString * attributedString = [[NSMutableAttributedString alloc] init];
+    
+    CGFloat fontSize = [UIFont smallSystemFontSize];
+    
+    NSDictionary *attributesForNormalText = @{ NSForegroundColorAttributeName : [UIColor darkGrayColor],
+                                               NSFontAttributeName : [UIFont systemFontOfSize:fontSize]};
+    NSDictionary *attributesForLinkTextTerms = @{NSLinkAttributeName : NSLocalizedString(@"SignUpView_URL_Terms", nil),
+                                            NSFontAttributeName : [UIFont boldSystemFontOfSize:fontSize]};
+    NSDictionary *attributesForLinkTextPrivacyPolicy = @{NSLinkAttributeName : NSLocalizedString(@"SignUpView_URL_PrivacyPolicy", nil),
+                                             NSFontAttributeName : [UIFont boldSystemFontOfSize:fontSize]};
+    
+    NSAttributedString *string1 = [[NSAttributedString alloc] initWithString:NSLocalizedString(@"SignUpView_Footer_1", nil)
+                                                                  attributes:attributesForNormalText];
+    NSAttributedString *string2 = [[NSAttributedString alloc] initWithString:NSLocalizedString(@"SignUpView_Footer_2", nil)
+                                                                  attributes:attributesForLinkTextTerms];
+    NSAttributedString *string3 = [[NSAttributedString alloc] initWithString:NSLocalizedString(@"SignUpView_Footer_3", nil)
+                                                                  attributes:attributesForNormalText];
+    NSAttributedString *string4 = [[NSAttributedString alloc] initWithString:NSLocalizedString(@"SignUpView_Footer_4", nil)
+                                                                  attributes:attributesForLinkTextPrivacyPolicy];
+    NSAttributedString *string5 = [[NSAttributedString alloc] initWithString:NSLocalizedString(@"SignUpView_Footer_5", nil)
+                                                                  attributes:attributesForNormalText];
+    
+    [attributedString appendAttributedString:string1];
+    [attributedString appendAttributedString:string2];
+    [attributedString appendAttributedString:string3];
+    [attributedString appendAttributedString:string4];
+    [attributedString appendAttributedString:string5];
+    
+    return attributedString;
+}
+
+-(BOOL)textView:(UITextView *)textView shouldInteractWithURL:(NSURL *)URL inRange:(NSRange)characterRange
+{
+    [self showActionSheetWithURL:URL];
+    
+    return NO;
 }
 
 #pragma mark - CloseView
@@ -182,6 +234,29 @@
     cell.textField.secureTextEntry = isSecure;
     
     return cell;
+}
+
+#pragma mark - Open Safari
+#pragma mark UIActionSheet
+- (void)showActionSheetWithURL:(NSURL *)URL
+{
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] init];
+    actionSheet.delegate = self;
+    
+    actionSheet.title = URL.absoluteString;
+    [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_OpenInSafari", nil)];
+    [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_Cancel", nil)];
+    actionSheet.cancelButtonIndex = 1;
+    
+    [actionSheet showInView:self.view];
+}
+
+-(void)actionSheet:(UIActionSheet*)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex == 0) {
+        NSString *URLString = actionSheet.title;
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:URLString]];
+    }
 }
 
 @end

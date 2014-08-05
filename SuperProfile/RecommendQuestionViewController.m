@@ -73,7 +73,7 @@
     if (!self) {
         return nil;
     }
-    self.parseClassName = kLUQuestionClassKey;
+    self.parseClassName = kLVQuestionClassKey;
     self.pullToRefreshEnabled = YES;
     self.paginationEnabled = YES;
     self.objectsPerPage = 25;
@@ -91,17 +91,17 @@
         query.cachePolicy = kPFCachePolicyCacheThenNetwork;
     }
     
-    [query whereKey:kLUCommonObjectIdKey doesNotMatchKey:kLUAnswerQuestionIdKey inQuery:[self answerFromCurrentUserQuery]];
-    [query orderByDescending:kLUQuestionAnswerCountKey];
-    [query addDescendingOrder:kLUCommonCreatedAtKey];
+    [query whereKey:kLVCommonObjectIdKey doesNotMatchKey:kLVAnswerQuestionIdKey inQuery:[self answerFromCurrentUserQuery]];
+    [query orderByDescending:kLVQuestionAnswerCountKey];
+    [query addDescendingOrder:kLVCommonCreatedAtKey];
     
     return query;
 }
 
 - (PFQuery *)answerFromCurrentUserQuery
 {
-    PFQuery *answerFromCurrentUserQuery = [PFQuery queryWithClassName:kLUAnswerClassKey];
-    [answerFromCurrentUserQuery whereKey:kLUAnswerAutherKey equalTo:[PFUser currentUser]];
+    PFQuery *answerFromCurrentUserQuery = [PFQuery queryWithClassName:kLVAnswerClassKey];
+    [answerFromCurrentUserQuery whereKey:kLVAnswerAutherKey equalTo:[PFUser currentUser]];
     
     return answerFromCurrentUserQuery;
 }
@@ -112,11 +112,8 @@
 {
     PFTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     
-    UILabel *titleLabel = (UILabel *)[cell.contentView viewWithTag:1];
-    //titleLabel.text = [object objectForKey:kLUQuestionTitleKey];
-    
-#warning test
     Question *question = (Question *)object;
+    UILabel *titleLabel = (UILabel *)[cell.contentView viewWithTag:1];
     titleLabel.text = question.titleWithTag;
     
     return cell;
@@ -150,7 +147,7 @@
     
     if([[segue identifier] isEqualToString:@"showQuestionDetailView"]){
         QuestionDetailViewController *vc = (QuestionDetailViewController *)segue.destinationViewController;
-        PFObject *selectedQuestion = [self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];
+        Question *selectedQuestion = (Question *)[self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];
         vc.question = selectedQuestion;
     }
 }
@@ -173,14 +170,14 @@
 
 - (void)setNotifications
 {
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidEditAnswer:) name:LUEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidDeleteAnswer:) name:LUQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidEditAnswer:) name:LVEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidDeleteAnswer:) name:LVQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
 }
 
 - (void)removeNotifications
 {
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:LUEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:LUQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:LVEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:LVQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
 }
 
 - (void)userDidEditAnswer:(NSNotification *)note

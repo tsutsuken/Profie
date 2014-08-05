@@ -82,7 +82,7 @@
         return nil;
     }
 
-    self.parseClassName = kLUAnswerClassKey;
+    self.parseClassName = kLVAnswerClassKey;
     self.pullToRefreshEnabled = YES;
     self.paginationEnabled = YES;
     self.objectsPerPage = 25;
@@ -100,11 +100,11 @@
         query.cachePolicy = kPFCachePolicyCacheThenNetwork;
     }
     
-    [query whereKey:kLUAnswerAutherKey equalTo:self.user];
+    [query whereKey:kLVAnswerAutherKey equalTo:self.user];
     
-    [query includeKey:kLUAnswerQuestionKey];
-    [query includeKey:kLUAnswerAutherKey];
-    [query orderByDescending:kLUCommonCreatedAtKey];
+    [query includeKey:kLVAnswerQuestionKey];
+    [query includeKey:kLVAnswerAutherKey];
+    [query orderByDescending:kLVCommonCreatedAtKey];
     
     return query;
 }
@@ -168,15 +168,15 @@
 - (void)reloadTableHeaderView
 {
     //ProfileImageView
-    self.profileImageView.file = [self.user objectForKey:kLUUserProfilePicMediumKey];
+    self.profileImageView.file = [self.user objectForKey:kLVUserProfilePicMediumKey];
     [self.profileImageView loadInBackground];
     
     //FollowActionButton
     if (![self.user isCurrentUser]) {
-        PFQuery *queryIsFollowing = [PFQuery queryWithClassName:kLUActivityClassKey];
-        [queryIsFollowing whereKey:kLUActivityTypeKey equalTo:kLUActivityTypeFollow];
-        [queryIsFollowing whereKey:kLUActivityToUserKey equalTo:self.user];
-        [queryIsFollowing whereKey:kLUActivityFromUserKey equalTo:[PFUser currentUser]];
+        PFQuery *queryIsFollowing = [PFQuery queryWithClassName:kLVActivityClassKey];
+        [queryIsFollowing whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
+        [queryIsFollowing whereKey:kLVActivityToUserKey equalTo:self.user];
+        [queryIsFollowing whereKey:kLVActivityFromUserKey equalTo:[PFUser currentUser]];
         [queryIsFollowing setCachePolicy:kPFCachePolicyCacheThenNetwork];
         [queryIsFollowing countObjectsInBackgroundWithBlock:^(int number, NSError *error) {
             if (!error) {
@@ -190,9 +190,9 @@
     }
     
     //FollowerCountButton
-    PFQuery *queryFollowerCount = [PFQuery queryWithClassName:kLUActivityClassKey];
-    [queryFollowerCount whereKey:kLUActivityTypeKey equalTo:kLUActivityTypeFollow];
-    [queryFollowerCount whereKey:kLUActivityToUserKey equalTo:self.user];
+    PFQuery *queryFollowerCount = [PFQuery queryWithClassName:kLVActivityClassKey];
+    [queryFollowerCount whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
+    [queryFollowerCount whereKey:kLVActivityToUserKey equalTo:self.user];
     [queryFollowerCount setCachePolicy:kPFCachePolicyCacheThenNetwork];
     [queryFollowerCount countObjectsInBackgroundWithBlock:^(int count, NSError *error) {
         if (!error) {
@@ -201,9 +201,9 @@
     }];
     
     //FollowingCountButton
-    PFQuery *queryFollowingCount = [PFQuery queryWithClassName:kLUActivityClassKey];
-    [queryFollowingCount whereKey:kLUActivityTypeKey equalTo:kLUActivityTypeFollow];
-    [queryFollowingCount whereKey:kLUActivityFromUserKey equalTo:self.user];
+    PFQuery *queryFollowingCount = [PFQuery queryWithClassName:kLVActivityClassKey];
+    [queryFollowingCount whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
+    [queryFollowingCount whereKey:kLVActivityFromUserKey equalTo:self.user];
     [queryFollowingCount setCachePolicy:kPFCachePolicyCacheThenNetwork];
     [queryFollowingCount countObjectsInBackgroundWithBlock:^(int count, NSError *error) {
         if (!error) {
@@ -233,9 +233,9 @@
     BOOL isSelected = sender.selected;
     
     if (isSelected) {
-        [LUUtility unfollowUserEventually:self.user];
+        [LVUtility unfollowUserEventually:self.user];
     }else {
-		[LUUtility followUserEventually:self.user block:^(BOOL succeeded, NSError *error) {
+		[LVUtility followUserEventually:self.user block:^(BOOL succeeded, NSError *error) {
         }];
 	}
     
@@ -247,20 +247,21 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath object:(PFObject *)object
 {
     AnswerCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-    PFUser *user = [object objectForKey:kLUAnswerAutherKey];
+    Answer *answer = (Answer *)object;
+    Question *question = answer.question;
+    PFUser *user = answer.auther;
     
     cell.profileImageView.user = user;
-    cell.profileImageView.file = [user objectForKey:kLUUserProfilePicSmallKey];
+    cell.profileImageView.file = [user objectForKey:kLVUserProfilePicSmallKey];
     [cell.profileImageView loadInBackground];
     
     cell.userNameLabel.text = user.username;
     
-    PFObject *question = [object objectForKey:kLUAnswerQuestionKey];
-    cell.questionLabel.text = [question objectForKey:kLUQuestionTitleKey];
+    cell.answerLabel.text = answer.title;
     
-    cell.answerLabel.text = [object objectForKey:kLUAnswerTitleKey];
+    cell.questionLabel.text = question.titleWithTag;
     
-    cell.timeLabel.text = [[LUTimeFormatter sharedManager] stringForTimeIntervalFromDate:[NSDate date] toDate:object.createdAt];
+    cell.timeLabel.text = [[LVTimeFormatter sharedManager] stringForTimeIntervalFromDate:[NSDate date] toDate:answer.createdAt];
     
     return cell;
 }
@@ -305,9 +306,9 @@
     }
     else if ([[segue identifier] isEqualToString:@"showQuestionDetailView"]){
         QuestionDetailViewController *vc = (QuestionDetailViewController *)segue.destinationViewController;
-        PFObject *selectedAnswer = [self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];
-        vc.question = [selectedAnswer objectForKey:kLUAnswerQuestionKey];
+        Answer *selectedAnswer = (Answer *)[self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];
         vc.answer = selectedAnswer;
+        vc.question = selectedAnswer.question;
         vc.user = self.user;
     }
 }
@@ -330,14 +331,14 @@
 
 - (void)setNotifications
 {
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidEditAnswer:) name:LUEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidDeleteAnswer:) name:LUQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidEditAnswer:) name:LVEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidDeleteAnswer:) name:LVQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
 }
 
 - (void)removeNotifications
 {
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:LUEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:LUQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:LVEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:LVQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
 }
 
 - (void)userDidEditAnswer:(NSNotification *)note

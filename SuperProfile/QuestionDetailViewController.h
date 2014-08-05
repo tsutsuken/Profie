@@ -23,8 +23,8 @@ typedef enum {
 
 @interface QuestionDetailViewController : PFQueryTableViewController <UIActionSheetDelegate, PFRoundedImageViewDelegate, LVTouchableLabelDelegate, GADBannerViewDelegate>
 
-@property (nonatomic, strong) PFObject *question;
-@property (nonatomic, strong) PFObject *answer;
+@property (nonatomic, strong) Question *question;
+@property (nonatomic, strong) Answer *answer;
 @property (nonatomic, strong) PFUser *user;
 
 @end

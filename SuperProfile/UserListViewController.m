@@ -20,7 +20,7 @@
     if (!self) {
         return nil;
     }
-    self.parseClassName = kLUActivityClassKey;
+    self.parseClassName = kLVActivityClassKey;
     self.pullToRefreshEnabled = YES;
     self.paginationEnabled = YES;
     self.objectsPerPage = 25;
@@ -31,20 +31,20 @@
 - (PFQuery *)queryForTable
 {
     PFQuery *query = [PFQuery queryWithClassName:self.parseClassName];
-    [query includeKey:kLUActivityToUserKey];//フォロー相手を取得
-    [query includeKey:kLUActivityFromUserKey];//フォロワーを取得
-    [query whereKey:kLUActivityTypeKey equalTo:kLUActivityTypeFollow];
+    [query includeKey:kLVActivityToUserKey];//フォロー相手を取得
+    [query includeKey:kLVActivityFromUserKey];//フォロワーを取得
+    [query whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
     
     if (self.dataType == UserListViewDataTypeFollowing) {
-        [query whereKey:kLUActivityFromUserKey equalTo:self.user];
+        [query whereKey:kLVActivityFromUserKey equalTo:self.user];
     }
     else {
-        [query whereKey:kLUActivityToUserKey equalTo:self.user];
+        [query whereKey:kLVActivityToUserKey equalTo:self.user];
     }
 
     query.cachePolicy = kPFCachePolicyCacheThenNetwork;
     
-    [query orderByDescending:kLUCommonCreatedAtKey];
+    [query orderByDescending:kLVCommonCreatedAtKey];
     
     return query;
 }
@@ -56,10 +56,10 @@
     PFObject *activity = [self objectAtIndexPath:indexPath];
     
     if (self.dataType == UserListViewDataTypeFollowing) {
-        user = [activity objectForKey:kLUActivityToUserKey];
+        user = [activity objectForKey:kLVActivityToUserKey];
     }
     else {
-        user = [activity objectForKey:kLUActivityFromUserKey];
+        user = [activity objectForKey:kLVActivityFromUserKey];
     }
 
     return user;
@@ -98,11 +98,11 @@
     
     PFRoundedImageView *profileImageView = (PFRoundedImageView *)[cell.contentView viewWithTag:1];
     profileImageView.user = user;
-    profileImageView.file = [user objectForKey:kLUUserProfilePicSmallKey];
+    profileImageView.file = [user objectForKey:kLVUserProfilePicSmallKey];
     [profileImageView loadInBackground];
     
     UILabel *userNameLabel = (UILabel *)[cell.contentView viewWithTag:2];
-    userNameLabel.text = [user objectForKey:kLUUserUsernameKey];
+    userNameLabel.text = [user objectForKey:kLVUserUsernameKey];
     
     return cell;
 }

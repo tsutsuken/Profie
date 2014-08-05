@@ -12,6 +12,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [self configureAppearance];
     [self configureParse];
 
     return YES;
@@ -26,6 +27,16 @@
     [PFACL setDefaultACL:defaultACL withAccessForCurrentUser:YES];//CurrentUserにRead・Write権を付与
     
     [Question registerSubclass];
+    [Answer registerSubclass];
+}
+
+- (void)configureAppearance
+{
+    [UINavigationBar appearance].barTintColor = kColorNavigationBar;
+    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
+    [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -69,7 +80,7 @@
     UIStoryboard* mainStoryBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     UITabBarController *tabBarController = (UITabBarController *)[mainStoryBoard instantiateViewControllerWithIdentifier:@"MainTabBarController"];
     
-    UINavigationController *nvcForProfileView = (UINavigationController *)[tabBarController.viewControllers objectAtIndex:LUTabBarItemIndexProfile];
+    UINavigationController *nvcForProfileView = (UINavigationController *)[tabBarController.viewControllers objectAtIndex:LVTabBarItemIndexProfile];
     ProfileViewController *profileView = (ProfileViewController *)nvcForProfileView.topViewController;
     profileView.user = [PFUser currentUser];
     
