@@ -21,6 +21,8 @@
     [followActivity setObject:user forKey:kLVActivityToUserKey];
     [followActivity setObject:kLVActivityTypeFollow forKey:kLVActivityTypeKey];
     [followActivity saveEventually:completionBlock];
+    
+    [ANALYTICS trackEvent:kAnEventFollow sender:self];
 }
 
 + (void)unfollowUserEventually:(PFUser *)user
@@ -38,6 +40,8 @@
             }
         }
     }];
+    
+    [ANALYTICS trackEvent:kAnEventUnFollow sender:self];
 }
 
 @end

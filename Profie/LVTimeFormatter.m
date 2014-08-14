@@ -17,22 +17,30 @@ static LVTimeFormatter *_sharedData = nil;
     static dispatch_once_t  onceToken;
     dispatch_once(&onceToken, ^{
         //1度だけ実行するコード
-        _sharedData = [[LVTimeFormatter alloc] init];
+        _sharedData = [[LVTimeFormatter alloc] initSharedManager];
     });
     
     return _sharedData;
 }
 
-- (id)init
+- (id)initSharedManager
 {
     self = [super init];
-    if (self) {
+    if (self)
+    {
         //Initialization
         self.pastDeicticExpression = @"";
         self.suffixExpressionFormat = @"%@%@";
         self.usesAbbreviatedCalendarUnits = YES;
     }
     return self;
+}
+
+//initされることを防ぐ
+- (id)init
+{
+    [self doesNotRecognizeSelector:_cmd];
+    return nil;
 }
 
 @end

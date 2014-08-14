@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
-@interface ProfileViewController : PFQueryTableViewController <GADBannerViewDelegate>
+@interface ProfileViewController : PFQueryTableViewController <GADBannerViewDelegate, UIActionSheetDelegate>
 
 @property (nonatomic, strong) PFUser *user;
 

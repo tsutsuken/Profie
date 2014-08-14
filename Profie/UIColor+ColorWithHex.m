@@ -23,7 +23,7 @@
 	CGFloat g = ((color & 0x00FF00) >> 8) /255.0f;
 	CGFloat b =  (color & 0x0000FF) /255.0f;
     
-	//NSLog(@"HEX to RGB >> r:%f g:%f b:%f a:%f\n",r,g,b,a);
+	//NSLog(@"HEX to RGB >> r:%f g:%f b:%f",r,g,b);
     
 	return [UIColor colorWithRed:r green:g blue:b alpha:1];
 }

@@ -10,16 +10,16 @@
 #import "EditAnswerViewController.h"
 
 typedef enum {
-	LUActionSheetTagCurrentUser = 0,
-	LUActionSheetTagOtherUser = 1,
-} LUActionSheetTag;
+	LVActionSheetTagCurrentUser = 0,
+	LVActionSheetTagOtherUser = 1,
+} LVActionSheetTag;
 
 typedef enum {
-    LUAnswerViewItemTagProfileImageView = 1,
-	LUAnswerViewItemTagUserNameLabel = 2,
-    LUAnswerViewItemTagTimeLabel = 3,
-	LUAnswerViewItemTagAnswerLabel = 4,
-} LUAnswerViewItemTag;
+    LVAnswerViewItemTagProfileImageView = 1,
+	LVAnswerViewItemTagUserNameLabel = 2,
+    LVAnswerViewItemTagTimeLabel = 3,
+	LVAnswerViewItemTagAnswerLabel = 4,
+} LVAnswerViewItemTag;
 
 @interface QuestionDetailViewController : PFQueryTableViewController <UIActionSheetDelegate, PFRoundedImageViewDelegate, LVTouchableLabelDelegate, GADBannerViewDelegate>
 

@@ -48,11 +48,17 @@
     
     if (self.shouldReloadOnAppear) {
         self.shouldReloadOnAppear = NO;
-        [self reloadAnswerButton];
-        [self loadObjects];
+        [self reloadView];
     }
     
     [self configureAd];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [ANALYTICS trackView:self];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -66,6 +72,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)reloadView
+{
+    [self.answer refresh];
+    UILabel *answerLabel = (UILabel *)[self.answerView viewWithTag:LVAnswerViewItemTagAnswerLabel];
+    answerLabel.text = self.answer.title;
+    
+    [self reloadAnswerButton];
+    [self loadObjects];
 }
 
 #pragma mark PFQueryTableView
@@ -98,7 +114,7 @@
 	}
     
     [query includeKey:kLVAnswerAutherKey];
-    [query orderByDescending:kLVCommonCreatedAtKey];
+    [query orderByDescending:kLVCommonUpdatedAtKey];
     
     return query;
 }
@@ -163,21 +179,21 @@
 
 - (void)configureAnswerView
 {
-    PFRoundedImageView *profileImageView = (PFRoundedImageView *)[self.answerView viewWithTag:LUAnswerViewItemTagProfileImageView];
+    PFRoundedImageView *profileImageView = (PFRoundedImageView *)[self.answerView viewWithTag:LVAnswerViewItemTagProfileImageView];
     profileImageView.delegate = self;
     profileImageView.user = self.user;
     profileImageView.file = [self.user objectForKey:kLVUserProfilePicSmallKey];
     [profileImageView loadInBackground];
     
-    LVTouchableLabel *userNameLabel = (LVTouchableLabel *)[self.answerView viewWithTag:LUAnswerViewItemTagUserNameLabel];
+    LVTouchableLabel *userNameLabel = (LVTouchableLabel *)[self.answerView viewWithTag:LVAnswerViewItemTagUserNameLabel];
     userNameLabel.delegate = self;
     userNameLabel.user = self.user;
     userNameLabel.text = self.user.username;
     
-    UILabel *timeLabel = (UILabel *)[self.answerView viewWithTag:LUAnswerViewItemTagTimeLabel];
-    timeLabel.text = [[LVTimeFormatter sharedManager] stringForTimeIntervalFromDate:[NSDate date] toDate:self.answer.createdAt];
+    UILabel *timeLabel = (UILabel *)[self.answerView viewWithTag:LVAnswerViewItemTagTimeLabel];
+    timeLabel.text = [[LVTimeFormatter sharedManager] stringForTimeIntervalFromDate:[NSDate date] toDate:self.answer.updatedAt];
     
-    UILabel *answerLabel = (UILabel *)[self.answerView viewWithTag:LUAnswerViewItemTagAnswerLabel];
+    UILabel *answerLabel = (UILabel *)[self.answerView viewWithTag:LVAnswerViewItemTagAnswerLabel];
     answerLabel.text = self.answer.title;
     
     [self addBorderToAnswerView];
@@ -285,7 +301,7 @@
     
     cell.answerLabel.text = answer.title;
     
-    cell.timeLabel.text = [[LVTimeFormatter sharedManager] stringForTimeIntervalFromDate:[NSDate date] toDate:answer.createdAt];
+    cell.timeLabel.text = [[LVTimeFormatter sharedManager] stringForTimeIntervalFromDate:[NSDate date] toDate:answer.updatedAt];
     
     return cell;
 }
@@ -354,14 +370,14 @@
         
         actionSheet.cancelButtonIndex = 3;
         actionSheet.destructiveButtonIndex = 2;
-        actionSheet.tag = LUActionSheetTagCurrentUser;
+        actionSheet.tag = LVActionSheetTagCurrentUser;
         
     }else {
         [actionSheet addButtonWithTitle:NSLocalizedString(@"QuestionDetailView_ActionSheet_CopyAnswer", nil)];
         [actionSheet addButtonWithTitle:NSLocalizedString(@"QuestionDetailView_ActionSheet_Cancel", nil)];
         
         actionSheet.cancelButtonIndex = 1;
-        actionSheet.tag = LUActionSheetTagOtherUser;
+        actionSheet.tag = LVActionSheetTagOtherUser;
     }
     
     [actionSheet showInView:self.view.window];
@@ -369,7 +385,7 @@
 
 -(void)actionSheet:(UIActionSheet*)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    if (actionSheet.tag == LUActionSheetTagCurrentUser) {
+    if (actionSheet.tag == LVActionSheetTagCurrentUser) {
         switch (buttonIndex) {
             case 0:
                 [self copyAnswer];
@@ -400,7 +416,7 @@
 {
     UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
     
-    UILabel *answerLabel = (UILabel *)[self.answerView viewWithTag:LUAnswerViewItemTagAnswerLabel];
+    UILabel *answerLabel = (UILabel *)[self.answerView viewWithTag:LVAnswerViewItemTagAnswerLabel];
     [pasteboard setValue:answerLabel.text forPasteboardType:@"public.text"];
 }
 
@@ -419,6 +435,8 @@
             [self.navigationController popViewControllerAnimated:YES];
         }
     }];
+    
+    [ANALYTICS trackEvent:kAnEventDeleteAnswer sender:self];
 }
 
 - (void)decrementAnswerCountOfQuestion
@@ -482,12 +500,12 @@
 
 - (void)userDidEditAnswer:(NSNotification *)note
 {
-    //Reload AnswerLabel
-    UILabel *answerLabel = (UILabel *)[self.answerView viewWithTag:LUAnswerViewItemTagAnswerLabel];
-    answerLabel.text = self.answer.title;
-    
-    [self reloadAnswerButton];
-    [self loadObjects];
+    //Check if self.view is visible
+    if (self.isViewLoaded && self.view.window) {
+        [self reloadView];
+    } else {
+		self.shouldReloadOnAppear = YES;
+	}
 }
 
 - (void)userDidDeleteAnswer:(NSNotification *)note

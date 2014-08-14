@@ -4,17 +4,53 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon29x29@2x.png</key>
+		<data>
+		DRHOFcfu/yCNvSnH+HivXhMWDPw=
+		</data>
 		<key>AppIcon40x40@2x.png</key>
 		<data>
-		bY5gRFOoMfcgK0+rQUTDzb9LFiQ=
+		sLIFqGqFZtg0YruThuPiyCW4ckg=
 		</data>
 		<key>AppIcon60x60@2x.png</key>
 		<data>
-		AFBJ0MjA12pUO/A9W6zz9BXTh9g=
+		ITAynb4OvosWBQVx7ijfzwGLo0w=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		N9TKam0fFJ4sjY6RIL0MLmwKNC8=
+		hXJFL0vQAfPdAX1iluUWnwkxdug=
+		</data>
+		<key>CTFeedback.bundle/Base.lproj/CTFeedbackLocalizable.strings</key>
+		<data>
+		SoTeSeDdYV3qYPAjCnosimDpq+0=
+		</data>
+		<key>CTFeedback.bundle/de.lproj/CTFeedbackLocalizable.strings</key>
+		<data>
+		1gGdVXOtWgD/X9/dKhcfFD2ETyI=
+		</data>
+		<key>CTFeedback.bundle/en.lproj/CTFeedbackLocalizable.strings</key>
+		<data>
+		SoTeSeDdYV3qYPAjCnosimDpq+0=
+		</data>
+		<key>CTFeedback.bundle/ja.lproj/CTFeedbackLocalizable.strings</key>
+		<data>
+		dWAcX7FG1LtLbi2hNSmmg4fCCT0=
+		</data>
+		<key>CTFeedback.bundle/ko.lproj/CTFeedbackLocalizable.strings</key>
+		<data>
+		IoSunFPNa3t3wffoyVU+QytIcrA=
+		</data>
+		<key>CTFeedback.bundle/ru.lproj/CTFeedbackLocalizable.strings</key>
+		<data>
+		VfKt8oaUmwUL0tbGWtYLCAsHiKQ=
+		</data>
+		<key>CTFeedback.bundle/zh-Hans.lproj/CTFeedbackLocalizable.strings</key>
+		<data>
+		WRhqd+DYw9C4GDrIWlf0oJeYks4=
+		</data>
+		<key>CTFeedback.bundle/zh-Hant.lproj/CTFeedbackLocalizable.strings</key>
+		<data>
+		/Lb18eIzFdg0iRRwx/Uiu3sB3Ls=
 		</data>
 		<key>FBUserSettingsViewResources.bundle/Contents/Resources/en.lproj/Localizable.strings</key>
 		<data>
@@ -126,175 +162,195 @@
 		</data>
 		<key>MPNotification.storyboardc/MPNotificationViewController.nib/objects.nib</key>
 		<data>
-		5eeJ+Hrp0ED6lUQvVhTPreCQm/o=
+		GajdRxWa9zNxfbAdY/dC7B2Qpzo=
 		</data>
 		<key>MPNotification.storyboardc/MPNotificationViewController.nib/runtime.nib</key>
 		<data>
-		ErQLxDN8xHZ0z1z6w3loo+9Fv5g=
+		3EEGBaHClginKwOoDT8cuJCFgYo=
 		</data>
 		<key>MPNotification.storyboardc/puo-Hy-QiQ-view-Wch-Xc-Avw.nib/objects.nib</key>
 		<data>
-		frslh4YqReRx9W0puUcK1SVSwCM=
+		aeHJewjo3l12DLfRtfy5Mi+ZQO0=
 		</data>
 		<key>MPNotification.storyboardc/puo-Hy-QiQ-view-Wch-Xc-Avw.nib/runtime.nib</key>
 		<data>
-		9dPGyXnzIjQkJ05hrcXVJVOBMO0=
+		lMfeMVjyoDg8EQJGXqGTp6fa9rA=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyMultipleChoiceQuestionViewController.nib/objects.nib</key>
 		<data>
-		WVIA9vpGOPqiKNYImepnb3JJqg0=
+		32uOBlvzZyYHHC4UMbtPPbC+c00=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyMultipleChoiceQuestionViewController.nib/runtime.nib</key>
 		<data>
-		zmJhVWnz3LPoNrYCt+wShjp4pGE=
+		w2RgL741h4S+K8G99sr4B9QWZ38=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyNavigationController.nib/objects.nib</key>
 		<data>
-		2ttLGUqapu7EPsSGaS0XwNE2KcE=
+		HqNC+yQ5DW7gx0NrLHwDPM7RN1w=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyNavigationController.nib/runtime.nib</key>
 		<data>
-		s0O6kZd1EcqOAXyd74eUPhVUU0Y=
+		HRa3XKWnjiGzL7m3sFTEdojjbso=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyTextQuestionViewController.nib/objects.nib</key>
 		<data>
-		ZdLQnG8xhzNFpW/sU8IfZre/ZkY=
+		dZ/jiTGS1swwSq/gHQ2yp3Mxefo=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyTextQuestionViewController.nib/runtime.nib</key>
 		<data>
-		+tIFcglM40E+bmY87P5kYoUQEMs=
+		SvdjHfXNqON5fK1lNz6VJPpzswI=
 		</data>
 		<key>MPSurvey.storyboardc/RIP-po-dgx-view-cp6-lZ-a9t.nib/objects.nib</key>
 		<data>
-		zueBI1tWcd2HHLw7LvUbtfuax1w=
+		qxCeNrBhfyJXBwMtcN5CkNsg5GM=
 		</data>
 		<key>MPSurvey.storyboardc/RIP-po-dgx-view-cp6-lZ-a9t.nib/runtime.nib</key>
 		<data>
-		p7ZyAc5YhddjIUiC4I82mdB6M4A=
+		Ix8q+FgtrjuUsw1d9oy5wQfMBDU=
 		</data>
 		<key>MPSurvey.storyboardc/V5X-Ik-MvF-view-dcL-M9-gG3.nib/objects.nib</key>
 		<data>
-		lNNvHBg/AhcQI0tOwnBroU+s1d4=
+		m3HJCPAhDVilmboZwD3GiFmVZLU=
 		</data>
 		<key>MPSurvey.storyboardc/V5X-Ik-MvF-view-dcL-M9-gG3.nib/runtime.nib</key>
 		<data>
-		dJEkH+kdYHIpvGw+BjoEJc983MA=
+		FKvTReHKK/d8yTjKsjbWOPSvOCQ=
 		</data>
 		<key>MPSurvey.storyboardc/tDf-fb-udT-view-LG7-cL-aRp.nib/objects.nib</key>
 		<data>
-		YuUBhzr8kafeiDgg9sXyGidAh2E=
+		lpqSPxthqoXRXd2TN6L/WIKCSAE=
 		</data>
 		<key>MPSurvey.storyboardc/tDf-fb-udT-view-LG7-cL-aRp.nib/runtime.nib</key>
 		<data>
-		6hG8oquS1L4Mlw/rLOzyi2RgPTo=
+		Eyt+EpejWxjSxFpopeHta4qYhLA=
 		</data>
 		<key>Main.storyboardc/0EN-z2-YNe-view-h6i-tZ-Wi0.nib</key>
 		<data>
-		gL1idWL0ICGTcX32LX0As/tnDww=
+		VyJPE8uwqhVWnNQ9BNXu9ijt8o8=
 		</data>
 		<key>Main.storyboardc/4h7-m4-HX3-view-vNO-ix-p2o.nib</key>
 		<data>
-		xyGrkfDvzuYxqMHcYVQ88enLAqE=
+		3mLVkq83VzoEb3zzitilgpGGIXI=
 		</data>
 		<key>Main.storyboardc/7Df-l5-BWc-view-jed-Qp-wcL.nib</key>
 		<data>
-		NQirZhTXAOSZIwM7Xs2FTzW78HU=
+		GISqY4BjUoGU8q1jiiuvXVI4DzU=
 		</data>
 		<key>Main.storyboardc/Dj3-xR-LId-view-dHe-YT-8Gq.nib</key>
 		<data>
-		oG/7NqT5fsz+lhNM9KBIasUWcK4=
+		N8Rlvb3QRZaoLN7iKDDP4ZA4mk0=
 		</data>
 		<key>Main.storyboardc/LLP-N7-V66-view-aD0-s7-6YB.nib</key>
 		<data>
-		raCpKhacIB9mdXueyJIs1ToAj+w=
+		44NZAM9jPI2ijCNR8XHuWyOSpPE=
 		</data>
 		<key>Main.storyboardc/M2o-aM-soT-view-jCl-nl-rLl.nib</key>
 		<data>
-		SqUB76ABZdiPWJWRfDGSgmeFbY8=
+		3UJE3XhgGiFJ3R7I0ROcpVOHmJE=
 		</data>
 		<key>Main.storyboardc/MainTabBarController.nib</key>
 		<data>
-		kRKSLGx8I0IKV70Hx5uLcq0VttY=
+		N2LrXh6tO/wvFD1HEAczhBkoodQ=
 		</data>
 		<key>Main.storyboardc/ProfileViewController.nib</key>
 		<data>
-		IisiZ+UcT/lROLDFd5sVUwAxzk4=
+		zXu1Zl/BCxv5tlUR2ixPlMecEBU=
 		</data>
 		<key>Main.storyboardc/QuestionDetailView.nib</key>
 		<data>
-		ynUsSXxii5jeRCoDB/raORINbHE=
+		bTzJuet8Us4CAe+tDgLYjWg85l8=
 		</data>
 		<key>Main.storyboardc/SZC-2k-b7d-view-NJY-v7-9yl.nib</key>
 		<data>
-		3pRvfIfXRvhHtK+Cnth9M84ef0A=
+		v+d+zdwXsediI6RMT48RTpsfUP8=
 		</data>
 		<key>Main.storyboardc/UIViewController-D26-Hm-ioe.nib</key>
 		<data>
-		3Slq699pTOIB9jyBlaRtikqSPiM=
+		4S/mkmtxzCw1tGSa5QzZOqsv29Y=
 		</data>
 		<key>Main.storyboardc/UIViewController-E6X-Vu-d8h.nib</key>
 		<data>
-		FMlGIYEqYvRjMjfdnIvzuzw1+tw=
+		M341+KTNl0XXBNy40SboZoecm08=
 		</data>
 		<key>Main.storyboardc/UIViewController-FVT-Xn-asx.nib</key>
 		<data>
-		0P6SJGHqDKDiaFEuTiCtXov3bHI=
+		u2pwEU4JBdvXc/HT/kcaHnys8ZY=
 		</data>
 		<key>Main.storyboardc/UIViewController-M2o-aM-soT.nib</key>
 		<data>
-		Q5EGvMFUQ7ODwnkFQYaOlCR9Xk8=
+		/eObBuLFx/sTy6rdTaT35fvhD/U=
 		</data>
 		<key>Main.storyboardc/UIViewController-SZC-2k-b7d.nib</key>
 		<data>
-		4QuIsg1ZxskHDnWTa9mZM/FW40c=
+		3YVQZclF4IRe0Av6TDgR0wI4MwE=
 		</data>
 		<key>Main.storyboardc/UIViewController-XwK-6o-ZQ3.nib</key>
 		<data>
-		5FJmVlXyZSIOTZxSGKZpTdvJdU4=
+		lyyxHAlAm/UAnYSVqHThkTYA7iY=
 		</data>
 		<key>Main.storyboardc/UIViewController-gt1-5F-VCr.nib</key>
 		<data>
-		yekw3XPLP/Cwqi0VCLVLt8Pnj24=
+		kOdirEbvCWVyvmfmIk7VONxkotw=
 		</data>
 		<key>Main.storyboardc/UIViewController-gzg-CY-0vg.nib</key>
 		<data>
-		E5cmbNd1SuCHdWXS/tRcRahe+KM=
+		aChOufcasSEF3cmRFixl6N6QgtE=
 		</data>
 		<key>Main.storyboardc/UIViewController-src-Kn-vpL.nib</key>
 		<data>
-		rVZgyFowwQMEHD61LqZezszy0CQ=
+		pMlzHUxONdwqXfPJk2vP1/csStY=
 		</data>
 		<key>Main.storyboardc/UIViewController-xSZ-Au-g8I.nib</key>
 		<data>
-		Lq+hEfm70gOr+nkfq7UQEEGwWs8=
+		pQxEhsSu9M8cbK1WfGzT8GRFGGg=
 		</data>
 		<key>Main.storyboardc/XwK-6o-ZQ3-view-NRy-Vb-u0n.nib</key>
 		<data>
-		SMQEi0Xke3SigG6RoEzRoXVHvus=
+		e2zMHqjTQbwfABUJfFBWlmPm3SA=
 		</data>
 		<key>Main.storyboardc/dZ2-YZ-MI7-view-N1y-TD-4Az.nib</key>
 		<data>
-		4LsQTyNCLRZRojrr0h5GxXyyuYA=
+		J4dogP5J+kzEuvHWN1LOwJlbi18=
 		</data>
 		<key>Main.storyboardc/gzg-CY-0vg-view-hzD-Ic-n9L.nib</key>
 		<data>
-		Ijvx/XIW+wTMOqC8vV6nr0pkyts=
+		riLtUPm2/m1jX6RuyLo2l5u9NtA=
 		</data>
 		<key>Main.storyboardc/lAs-Mk-jB5-view-oDX-tI-fE4.nib</key>
 		<data>
-		f622X7Y9Gm8neQ4DTBvWWrbEoZ0=
+		YOuUMmmyb43n4ysqs+Je0pPuKbo=
 		</data>
 		<key>Main.storyboardc/okG-CU-V8C-view-ohr-3I-2af.nib</key>
 		<data>
-		Rc4c5+6YUkIlzUaeIWu05RZ4Ye0=
+		Z175H3KgPMEMU2RmZJONrDMOhB0=
 		</data>
 		<key>Main.storyboardc/xSZ-Au-g8I-view-UcG-fQ-fXC.nib</key>
 		<data>
-		wtaGH7gY9IuJx926ZuRPL2LpwMo=
+		MtwKNu7aU95ODl177g2/xROM+Ow=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Settings.bundle/Acknowledgements.plist</key>
+		<data>
+		012Nxmvr8PpYQ1Ols39QQ5JIuOw=
+		</data>
+		<key>Settings.bundle/Design.plist</key>
+		<data>
+		n5MttiLq8CKhR/0Zf6Mn1IK0/as=
+		</data>
+		<key>Settings.bundle/Library.plist</key>
+		<data>
+		USiyZDyQyFpkLsFaXsagEB9PxA4=
+		</data>
+		<key>Settings.bundle/Root.plist</key>
+		<data>
+		8mSed9Ho+oLphJf2PJzm6NBHg/o=
+		</data>
+		<key>Settings.bundle/en.lproj/Root.strings</key>
+		<data>
+		+x/a5+04WR+qsZRu58B8P9Fxlfc=
 		</data>
 		<key>bg_welcome-568h@2x.png</key>
 		<data>
@@ -348,6 +404,14 @@
 		<data>
 		by4CEt92zEd0LrdhPZeNa3CWwA8=
 		</data>
+		<key>edit_tab.png</key>
+		<data>
+		++2Tw1TuFLT2FvObDDbpyV4aU8g=
+		</data>
+		<key>edit_tab@2x.png</key>
+		<data>
+		MveShV0mW3T2sgmYjdV+rUmAqpw=
+		</data>
 		<key>el.lproj/FormatterKit.strings</key>
 		<data>
 		q2yy6vDgM+NOwr+CSwBM9MXHEqk=
@@ -366,7 +430,7 @@
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<data>
-		WXbQ5Xmus7/efmyEd9Olc1MEnIU=
+		YYzP7V9C9OVSFIkIZfN0XowSSoI=
 		</data>
 		<key>es.lproj/FormatterKit.strings</key>
 		<data>
@@ -392,6 +456,146 @@
 		<data>
 		Enzp+XZ4amVW4pVpOJcsPLVU3JU=
 		</data>
+		<key>iRate.bundle/ar.lproj/Localizable.strings</key>
+		<data>
+		hiuCoRLefh1X9NgkRU8btQU8n94=
+		</data>
+		<key>iRate.bundle/bn.lproj/Localizable.strings</key>
+		<data>
+		gqbX1uCoMxNIwpp8lfScvAYcDeM=
+		</data>
+		<key>iRate.bundle/cs.lproj/Localizable.strings</key>
+		<data>
+		/2T7+RGnfX/KU+XIg2UvBzyrgCs=
+		</data>
+		<key>iRate.bundle/da.lproj/Localizable.strings</key>
+		<data>
+		evbovOFwwkqWGFvJ0U9lK06/wGg=
+		</data>
+		<key>iRate.bundle/de-AT.lproj/Localizable.strings</key>
+		<data>
+		t3fQuQdXWNmr720x0A7AdiY/UwU=
+		</data>
+		<key>iRate.bundle/de.lproj/Localizable.strings</key>
+		<data>
+		ddAq22pPXIPu54N5GYlYcghb76U=
+		</data>
+		<key>iRate.bundle/el.lproj/Localizable.strings</key>
+		<data>
+		k59DlAO36QJl5OZmIFIGbdMjF8E=
+		</data>
+		<key>iRate.bundle/en.lproj/Localizable.strings</key>
+		<data>
+		CqiHY//LVzlF8xyw7qKwFUPHw3A=
+		</data>
+		<key>iRate.bundle/es.lproj/Localizable.strings</key>
+		<data>
+		D2iISqDtMl+lzTf5L7AuaUOIdOk=
+		</data>
+		<key>iRate.bundle/fa.lproj/Localizable.strings</key>
+		<data>
+		naGayFVk8Ol813GM8Rhlqo8Da8Q=
+		</data>
+		<key>iRate.bundle/fr.lproj/Localizable.strings</key>
+		<data>
+		7bw2XZkMUNqrCDZG1npr3cjWD0I=
+		</data>
+		<key>iRate.bundle/he.lproj/Localizable.strings</key>
+		<data>
+		TutPomOiq3PuVxH4m2wSaqGxAvI=
+		</data>
+		<key>iRate.bundle/hi.lproj/Localizable.strings</key>
+		<data>
+		aCw1P66ZFvjWy/PIDRxIVxr9Hs4=
+		</data>
+		<key>iRate.bundle/id.lproj/Localizable.strings</key>
+		<data>
+		ddjhR43F/kTAsZM8z5KEKvljPBo=
+		</data>
+		<key>iRate.bundle/it.lproj/Localizable.strings</key>
+		<data>
+		DLNwS1xRNb21Yevlvid/OAsOR5Q=
+		</data>
+		<key>iRate.bundle/ja.lproj/Localizable.strings</key>
+		<data>
+		05C0ooVjj8+vMNWq+MTboMbhTck=
+		</data>
+		<key>iRate.bundle/ko.lproj/Localizable.strings</key>
+		<data>
+		DZnTTnNwuiXtNKPpDPc7buHYDLg=
+		</data>
+		<key>iRate.bundle/nl.lproj/Localizable.strings</key>
+		<data>
+		gHdTRHzdnFV9HeMQAHu+uvjjvxA=
+		</data>
+		<key>iRate.bundle/no.lproj/Localizable.strings</key>
+		<data>
+		1rkvo1mNWDk4fi/F49VwMcr6Mis=
+		</data>
+		<key>iRate.bundle/pa.lproj/Localizable.strings</key>
+		<data>
+		A21xmGDzRQ+aFvEIzSdW4wj6LKI=
+		</data>
+		<key>iRate.bundle/pl.lproj/Localizable.strings</key>
+		<data>
+		OBx5jt+nbDXRDfjIEv6iu55nn/I=
+		</data>
+		<key>iRate.bundle/pt.lproj/Localizable.strings</key>
+		<data>
+		RKPgbBQcdwmP4mGpMxT74FaXCwo=
+		</data>
+		<key>iRate.bundle/ru.lproj/Localizable.strings</key>
+		<data>
+		lcqqL0K9XcEfcCPg7nQMBidJrKI=
+		</data>
+		<key>iRate.bundle/sk.lproj/Localizable.strings</key>
+		<data>
+		4bZqBDgMx2L7izBd8A1O3nzIgj0=
+		</data>
+		<key>iRate.bundle/sl.lproj/Localizable.strings</key>
+		<data>
+		ESz9vehMzQ55Dszc6N4KtACTG2k=
+		</data>
+		<key>iRate.bundle/sv.lproj/Localizable.strings</key>
+		<data>
+		MTA6m+6OO8uVXYf4mzbzebg6HBQ=
+		</data>
+		<key>iRate.bundle/th.lproj/Localizable.strings</key>
+		<data>
+		jBKcYgZKv8pqUQyRIIbtSn/vlHs=
+		</data>
+		<key>iRate.bundle/tr.lproj/Localizable.strings</key>
+		<data>
+		7HXFl4Uh5gqH/ep0Bzc6VD5mQeI=
+		</data>
+		<key>iRate.bundle/uk.lproj/Localizable.strings</key>
+		<data>
+		u6t+DVc+wzmdm3CQ1bNEgIewFoA=
+		</data>
+		<key>iRate.bundle/ur-IN.lproj/Localizable.strings</key>
+		<data>
+		7wPXLrE6/v9IeD+dn92Sp6OHMeU=
+		</data>
+		<key>iRate.bundle/ur-PK.lproj/Localizable.strings</key>
+		<data>
+		7wPXLrE6/v9IeD+dn92Sp6OHMeU=
+		</data>
+		<key>iRate.bundle/ur.lproj/Localizable.strings</key>
+		<data>
+		7wPXLrE6/v9IeD+dn92Sp6OHMeU=
+		</data>
+		<key>iRate.bundle/vi.lproj/Localizable.strings</key>
+		<data>
+		Q7e2Dxom82jxmjo8hontge4Sbds=
+		</data>
+		<key>iRate.bundle/zh-Hans.lproj/Localizable.strings</key>
+		<data>
+		/zSZv53ZAQYyE+OFHycc1Ero8j4=
+		</data>
+		<key>iRate.bundle/zh-Hant.lproj/Localizable.strings</key>
+		<data>
+		XQi+RRVwps6/iUy5MKHaWxGpU4g=
+		</data>
 		<key>id.lproj/FormatterKit.strings</key>
 		<data>
 		VSLnu3b/uBNnvPkczjJgcEiFZGM=
@@ -406,7 +610,7 @@
 		</data>
 		<key>ja.lproj/Localizable.strings</key>
 		<data>
-		BCRuKnrDWYUAlDB8BrHA+L8/QX4=
+		q5qDup6bHKeM6GfHdECVHJKi+Io=
 		</data>
 		<key>ko.lproj/FormatterKit.strings</key>
 		<data>
@@ -531,17 +735,53 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon29x29@2x.png</key>
+		<data>
+		DRHOFcfu/yCNvSnH+HivXhMWDPw=
+		</data>
 		<key>AppIcon40x40@2x.png</key>
 		<data>
-		bY5gRFOoMfcgK0+rQUTDzb9LFiQ=
+		sLIFqGqFZtg0YruThuPiyCW4ckg=
 		</data>
 		<key>AppIcon60x60@2x.png</key>
 		<data>
-		AFBJ0MjA12pUO/A9W6zz9BXTh9g=
+		ITAynb4OvosWBQVx7ijfzwGLo0w=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		N9TKam0fFJ4sjY6RIL0MLmwKNC8=
+		hXJFL0vQAfPdAX1iluUWnwkxdug=
+		</data>
+		<key>CTFeedback.bundle/Base.lproj/CTFeedbackLocalizable.strings</key>
+		<data>
+		SoTeSeDdYV3qYPAjCnosimDpq+0=
+		</data>
+		<key>CTFeedback.bundle/de.lproj/CTFeedbackLocalizable.strings</key>
+		<data>
+		1gGdVXOtWgD/X9/dKhcfFD2ETyI=
+		</data>
+		<key>CTFeedback.bundle/en.lproj/CTFeedbackLocalizable.strings</key>
+		<data>
+		SoTeSeDdYV3qYPAjCnosimDpq+0=
+		</data>
+		<key>CTFeedback.bundle/ja.lproj/CTFeedbackLocalizable.strings</key>
+		<data>
+		dWAcX7FG1LtLbi2hNSmmg4fCCT0=
+		</data>
+		<key>CTFeedback.bundle/ko.lproj/CTFeedbackLocalizable.strings</key>
+		<data>
+		IoSunFPNa3t3wffoyVU+QytIcrA=
+		</data>
+		<key>CTFeedback.bundle/ru.lproj/CTFeedbackLocalizable.strings</key>
+		<data>
+		VfKt8oaUmwUL0tbGWtYLCAsHiKQ=
+		</data>
+		<key>CTFeedback.bundle/zh-Hans.lproj/CTFeedbackLocalizable.strings</key>
+		<data>
+		WRhqd+DYw9C4GDrIWlf0oJeYks4=
+		</data>
+		<key>CTFeedback.bundle/zh-Hant.lproj/CTFeedbackLocalizable.strings</key>
+		<data>
+		/Lb18eIzFdg0iRRwx/Uiu3sB3Ls=
 		</data>
 		<key>FBUserSettingsViewResources.bundle/Contents/Resources/en.lproj/Localizable.strings</key>
 		<data>
@@ -653,175 +893,195 @@
 		</data>
 		<key>MPNotification.storyboardc/MPNotificationViewController.nib/objects.nib</key>
 		<data>
-		5eeJ+Hrp0ED6lUQvVhTPreCQm/o=
+		GajdRxWa9zNxfbAdY/dC7B2Qpzo=
 		</data>
 		<key>MPNotification.storyboardc/MPNotificationViewController.nib/runtime.nib</key>
 		<data>
-		ErQLxDN8xHZ0z1z6w3loo+9Fv5g=
+		3EEGBaHClginKwOoDT8cuJCFgYo=
 		</data>
 		<key>MPNotification.storyboardc/puo-Hy-QiQ-view-Wch-Xc-Avw.nib/objects.nib</key>
 		<data>
-		frslh4YqReRx9W0puUcK1SVSwCM=
+		aeHJewjo3l12DLfRtfy5Mi+ZQO0=
 		</data>
 		<key>MPNotification.storyboardc/puo-Hy-QiQ-view-Wch-Xc-Avw.nib/runtime.nib</key>
 		<data>
-		9dPGyXnzIjQkJ05hrcXVJVOBMO0=
+		lMfeMVjyoDg8EQJGXqGTp6fa9rA=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyMultipleChoiceQuestionViewController.nib/objects.nib</key>
 		<data>
-		WVIA9vpGOPqiKNYImepnb3JJqg0=
+		32uOBlvzZyYHHC4UMbtPPbC+c00=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyMultipleChoiceQuestionViewController.nib/runtime.nib</key>
 		<data>
-		zmJhVWnz3LPoNrYCt+wShjp4pGE=
+		w2RgL741h4S+K8G99sr4B9QWZ38=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyNavigationController.nib/objects.nib</key>
 		<data>
-		2ttLGUqapu7EPsSGaS0XwNE2KcE=
+		HqNC+yQ5DW7gx0NrLHwDPM7RN1w=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyNavigationController.nib/runtime.nib</key>
 		<data>
-		s0O6kZd1EcqOAXyd74eUPhVUU0Y=
+		HRa3XKWnjiGzL7m3sFTEdojjbso=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyTextQuestionViewController.nib/objects.nib</key>
 		<data>
-		ZdLQnG8xhzNFpW/sU8IfZre/ZkY=
+		dZ/jiTGS1swwSq/gHQ2yp3Mxefo=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyTextQuestionViewController.nib/runtime.nib</key>
 		<data>
-		+tIFcglM40E+bmY87P5kYoUQEMs=
+		SvdjHfXNqON5fK1lNz6VJPpzswI=
 		</data>
 		<key>MPSurvey.storyboardc/RIP-po-dgx-view-cp6-lZ-a9t.nib/objects.nib</key>
 		<data>
-		zueBI1tWcd2HHLw7LvUbtfuax1w=
+		qxCeNrBhfyJXBwMtcN5CkNsg5GM=
 		</data>
 		<key>MPSurvey.storyboardc/RIP-po-dgx-view-cp6-lZ-a9t.nib/runtime.nib</key>
 		<data>
-		p7ZyAc5YhddjIUiC4I82mdB6M4A=
+		Ix8q+FgtrjuUsw1d9oy5wQfMBDU=
 		</data>
 		<key>MPSurvey.storyboardc/V5X-Ik-MvF-view-dcL-M9-gG3.nib/objects.nib</key>
 		<data>
-		lNNvHBg/AhcQI0tOwnBroU+s1d4=
+		m3HJCPAhDVilmboZwD3GiFmVZLU=
 		</data>
 		<key>MPSurvey.storyboardc/V5X-Ik-MvF-view-dcL-M9-gG3.nib/runtime.nib</key>
 		<data>
-		dJEkH+kdYHIpvGw+BjoEJc983MA=
+		FKvTReHKK/d8yTjKsjbWOPSvOCQ=
 		</data>
 		<key>MPSurvey.storyboardc/tDf-fb-udT-view-LG7-cL-aRp.nib/objects.nib</key>
 		<data>
-		YuUBhzr8kafeiDgg9sXyGidAh2E=
+		lpqSPxthqoXRXd2TN6L/WIKCSAE=
 		</data>
 		<key>MPSurvey.storyboardc/tDf-fb-udT-view-LG7-cL-aRp.nib/runtime.nib</key>
 		<data>
-		6hG8oquS1L4Mlw/rLOzyi2RgPTo=
+		Eyt+EpejWxjSxFpopeHta4qYhLA=
 		</data>
 		<key>Main.storyboardc/0EN-z2-YNe-view-h6i-tZ-Wi0.nib</key>
 		<data>
-		gL1idWL0ICGTcX32LX0As/tnDww=
+		VyJPE8uwqhVWnNQ9BNXu9ijt8o8=
 		</data>
 		<key>Main.storyboardc/4h7-m4-HX3-view-vNO-ix-p2o.nib</key>
 		<data>
-		xyGrkfDvzuYxqMHcYVQ88enLAqE=
+		3mLVkq83VzoEb3zzitilgpGGIXI=
 		</data>
 		<key>Main.storyboardc/7Df-l5-BWc-view-jed-Qp-wcL.nib</key>
 		<data>
-		NQirZhTXAOSZIwM7Xs2FTzW78HU=
+		GISqY4BjUoGU8q1jiiuvXVI4DzU=
 		</data>
 		<key>Main.storyboardc/Dj3-xR-LId-view-dHe-YT-8Gq.nib</key>
 		<data>
-		oG/7NqT5fsz+lhNM9KBIasUWcK4=
+		N8Rlvb3QRZaoLN7iKDDP4ZA4mk0=
 		</data>
 		<key>Main.storyboardc/LLP-N7-V66-view-aD0-s7-6YB.nib</key>
 		<data>
-		raCpKhacIB9mdXueyJIs1ToAj+w=
+		44NZAM9jPI2ijCNR8XHuWyOSpPE=
 		</data>
 		<key>Main.storyboardc/M2o-aM-soT-view-jCl-nl-rLl.nib</key>
 		<data>
-		SqUB76ABZdiPWJWRfDGSgmeFbY8=
+		3UJE3XhgGiFJ3R7I0ROcpVOHmJE=
 		</data>
 		<key>Main.storyboardc/MainTabBarController.nib</key>
 		<data>
-		kRKSLGx8I0IKV70Hx5uLcq0VttY=
+		N2LrXh6tO/wvFD1HEAczhBkoodQ=
 		</data>
 		<key>Main.storyboardc/ProfileViewController.nib</key>
 		<data>
-		IisiZ+UcT/lROLDFd5sVUwAxzk4=
+		zXu1Zl/BCxv5tlUR2ixPlMecEBU=
 		</data>
 		<key>Main.storyboardc/QuestionDetailView.nib</key>
 		<data>
-		ynUsSXxii5jeRCoDB/raORINbHE=
+		bTzJuet8Us4CAe+tDgLYjWg85l8=
 		</data>
 		<key>Main.storyboardc/SZC-2k-b7d-view-NJY-v7-9yl.nib</key>
 		<data>
-		3pRvfIfXRvhHtK+Cnth9M84ef0A=
+		v+d+zdwXsediI6RMT48RTpsfUP8=
 		</data>
 		<key>Main.storyboardc/UIViewController-D26-Hm-ioe.nib</key>
 		<data>
-		3Slq699pTOIB9jyBlaRtikqSPiM=
+		4S/mkmtxzCw1tGSa5QzZOqsv29Y=
 		</data>
 		<key>Main.storyboardc/UIViewController-E6X-Vu-d8h.nib</key>
 		<data>
-		FMlGIYEqYvRjMjfdnIvzuzw1+tw=
+		M341+KTNl0XXBNy40SboZoecm08=
 		</data>
 		<key>Main.storyboardc/UIViewController-FVT-Xn-asx.nib</key>
 		<data>
-		0P6SJGHqDKDiaFEuTiCtXov3bHI=
+		u2pwEU4JBdvXc/HT/kcaHnys8ZY=
 		</data>
 		<key>Main.storyboardc/UIViewController-M2o-aM-soT.nib</key>
 		<data>
-		Q5EGvMFUQ7ODwnkFQYaOlCR9Xk8=
+		/eObBuLFx/sTy6rdTaT35fvhD/U=
 		</data>
 		<key>Main.storyboardc/UIViewController-SZC-2k-b7d.nib</key>
 		<data>
-		4QuIsg1ZxskHDnWTa9mZM/FW40c=
+		3YVQZclF4IRe0Av6TDgR0wI4MwE=
 		</data>
 		<key>Main.storyboardc/UIViewController-XwK-6o-ZQ3.nib</key>
 		<data>
-		5FJmVlXyZSIOTZxSGKZpTdvJdU4=
+		lyyxHAlAm/UAnYSVqHThkTYA7iY=
 		</data>
 		<key>Main.storyboardc/UIViewController-gt1-5F-VCr.nib</key>
 		<data>
-		yekw3XPLP/Cwqi0VCLVLt8Pnj24=
+		kOdirEbvCWVyvmfmIk7VONxkotw=
 		</data>
 		<key>Main.storyboardc/UIViewController-gzg-CY-0vg.nib</key>
 		<data>
-		E5cmbNd1SuCHdWXS/tRcRahe+KM=
+		aChOufcasSEF3cmRFixl6N6QgtE=
 		</data>
 		<key>Main.storyboardc/UIViewController-src-Kn-vpL.nib</key>
 		<data>
-		rVZgyFowwQMEHD61LqZezszy0CQ=
+		pMlzHUxONdwqXfPJk2vP1/csStY=
 		</data>
 		<key>Main.storyboardc/UIViewController-xSZ-Au-g8I.nib</key>
 		<data>
-		Lq+hEfm70gOr+nkfq7UQEEGwWs8=
+		pQxEhsSu9M8cbK1WfGzT8GRFGGg=
 		</data>
 		<key>Main.storyboardc/XwK-6o-ZQ3-view-NRy-Vb-u0n.nib</key>
 		<data>
-		SMQEi0Xke3SigG6RoEzRoXVHvus=
+		e2zMHqjTQbwfABUJfFBWlmPm3SA=
 		</data>
 		<key>Main.storyboardc/dZ2-YZ-MI7-view-N1y-TD-4Az.nib</key>
 		<data>
-		4LsQTyNCLRZRojrr0h5GxXyyuYA=
+		J4dogP5J+kzEuvHWN1LOwJlbi18=
 		</data>
 		<key>Main.storyboardc/gzg-CY-0vg-view-hzD-Ic-n9L.nib</key>
 		<data>
-		Ijvx/XIW+wTMOqC8vV6nr0pkyts=
+		riLtUPm2/m1jX6RuyLo2l5u9NtA=
 		</data>
 		<key>Main.storyboardc/lAs-Mk-jB5-view-oDX-tI-fE4.nib</key>
 		<data>
-		f622X7Y9Gm8neQ4DTBvWWrbEoZ0=
+		YOuUMmmyb43n4ysqs+Je0pPuKbo=
 		</data>
 		<key>Main.storyboardc/okG-CU-V8C-view-ohr-3I-2af.nib</key>
 		<data>
-		Rc4c5+6YUkIlzUaeIWu05RZ4Ye0=
+		Z175H3KgPMEMU2RmZJONrDMOhB0=
 		</data>
 		<key>Main.storyboardc/xSZ-Au-g8I-view-UcG-fQ-fXC.nib</key>
 		<data>
-		wtaGH7gY9IuJx926ZuRPL2LpwMo=
+		MtwKNu7aU95ODl177g2/xROM+Ow=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Settings.bundle/Acknowledgements.plist</key>
+		<data>
+		012Nxmvr8PpYQ1Ols39QQ5JIuOw=
+		</data>
+		<key>Settings.bundle/Design.plist</key>
+		<data>
+		n5MttiLq8CKhR/0Zf6Mn1IK0/as=
+		</data>
+		<key>Settings.bundle/Library.plist</key>
+		<data>
+		USiyZDyQyFpkLsFaXsagEB9PxA4=
+		</data>
+		<key>Settings.bundle/Root.plist</key>
+		<data>
+		8mSed9Ho+oLphJf2PJzm6NBHg/o=
+		</data>
+		<key>Settings.bundle/en.lproj/Root.strings</key>
+		<data>
+		+x/a5+04WR+qsZRu58B8P9Fxlfc=
 		</data>
 		<key>bg_welcome-568h@2x.png</key>
 		<data>
@@ -875,6 +1135,14 @@
 		<data>
 		by4CEt92zEd0LrdhPZeNa3CWwA8=
 		</data>
+		<key>edit_tab.png</key>
+		<data>
+		++2Tw1TuFLT2FvObDDbpyV4aU8g=
+		</data>
+		<key>edit_tab@2x.png</key>
+		<data>
+		MveShV0mW3T2sgmYjdV+rUmAqpw=
+		</data>
 		<key>el.lproj/FormatterKit.strings</key>
 		<data>
 		q2yy6vDgM+NOwr+CSwBM9MXHEqk=
@@ -893,7 +1161,7 @@
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<data>
-		WXbQ5Xmus7/efmyEd9Olc1MEnIU=
+		YYzP7V9C9OVSFIkIZfN0XowSSoI=
 		</data>
 		<key>es.lproj/FormatterKit.strings</key>
 		<data>
@@ -919,6 +1187,146 @@
 		<data>
 		Enzp+XZ4amVW4pVpOJcsPLVU3JU=
 		</data>
+		<key>iRate.bundle/ar.lproj/Localizable.strings</key>
+		<data>
+		hiuCoRLefh1X9NgkRU8btQU8n94=
+		</data>
+		<key>iRate.bundle/bn.lproj/Localizable.strings</key>
+		<data>
+		gqbX1uCoMxNIwpp8lfScvAYcDeM=
+		</data>
+		<key>iRate.bundle/cs.lproj/Localizable.strings</key>
+		<data>
+		/2T7+RGnfX/KU+XIg2UvBzyrgCs=
+		</data>
+		<key>iRate.bundle/da.lproj/Localizable.strings</key>
+		<data>
+		evbovOFwwkqWGFvJ0U9lK06/wGg=
+		</data>
+		<key>iRate.bundle/de-AT.lproj/Localizable.strings</key>
+		<data>
+		t3fQuQdXWNmr720x0A7AdiY/UwU=
+		</data>
+		<key>iRate.bundle/de.lproj/Localizable.strings</key>
+		<data>
+		ddAq22pPXIPu54N5GYlYcghb76U=
+		</data>
+		<key>iRate.bundle/el.lproj/Localizable.strings</key>
+		<data>
+		k59DlAO36QJl5OZmIFIGbdMjF8E=
+		</data>
+		<key>iRate.bundle/en.lproj/Localizable.strings</key>
+		<data>
+		CqiHY//LVzlF8xyw7qKwFUPHw3A=
+		</data>
+		<key>iRate.bundle/es.lproj/Localizable.strings</key>
+		<data>
+		D2iISqDtMl+lzTf5L7AuaUOIdOk=
+		</data>
+		<key>iRate.bundle/fa.lproj/Localizable.strings</key>
+		<data>
+		naGayFVk8Ol813GM8Rhlqo8Da8Q=
+		</data>
+		<key>iRate.bundle/fr.lproj/Localizable.strings</key>
+		<data>
+		7bw2XZkMUNqrCDZG1npr3cjWD0I=
+		</data>
+		<key>iRate.bundle/he.lproj/Localizable.strings</key>
+		<data>
+		TutPomOiq3PuVxH4m2wSaqGxAvI=
+		</data>
+		<key>iRate.bundle/hi.lproj/Localizable.strings</key>
+		<data>
+		aCw1P66ZFvjWy/PIDRxIVxr9Hs4=
+		</data>
+		<key>iRate.bundle/id.lproj/Localizable.strings</key>
+		<data>
+		ddjhR43F/kTAsZM8z5KEKvljPBo=
+		</data>
+		<key>iRate.bundle/it.lproj/Localizable.strings</key>
+		<data>
+		DLNwS1xRNb21Yevlvid/OAsOR5Q=
+		</data>
+		<key>iRate.bundle/ja.lproj/Localizable.strings</key>
+		<data>
+		05C0ooVjj8+vMNWq+MTboMbhTck=
+		</data>
+		<key>iRate.bundle/ko.lproj/Localizable.strings</key>
+		<data>
+		DZnTTnNwuiXtNKPpDPc7buHYDLg=
+		</data>
+		<key>iRate.bundle/nl.lproj/Localizable.strings</key>
+		<data>
+		gHdTRHzdnFV9HeMQAHu+uvjjvxA=
+		</data>
+		<key>iRate.bundle/no.lproj/Localizable.strings</key>
+		<data>
+		1rkvo1mNWDk4fi/F49VwMcr6Mis=
+		</data>
+		<key>iRate.bundle/pa.lproj/Localizable.strings</key>
+		<data>
+		A21xmGDzRQ+aFvEIzSdW4wj6LKI=
+		</data>
+		<key>iRate.bundle/pl.lproj/Localizable.strings</key>
+		<data>
+		OBx5jt+nbDXRDfjIEv6iu55nn/I=
+		</data>
+		<key>iRate.bundle/pt.lproj/Localizable.strings</key>
+		<data>
+		RKPgbBQcdwmP4mGpMxT74FaXCwo=
+		</data>
+		<key>iRate.bundle/ru.lproj/Localizable.strings</key>
+		<data>
+		lcqqL0K9XcEfcCPg7nQMBidJrKI=
+		</data>
+		<key>iRate.bundle/sk.lproj/Localizable.strings</key>
+		<data>
+		4bZqBDgMx2L7izBd8A1O3nzIgj0=
+		</data>
+		<key>iRate.bundle/sl.lproj/Localizable.strings</key>
+		<data>
+		ESz9vehMzQ55Dszc6N4KtACTG2k=
+		</data>
+		<key>iRate.bundle/sv.lproj/Localizable.strings</key>
+		<data>
+		MTA6m+6OO8uVXYf4mzbzebg6HBQ=
+		</data>
+		<key>iRate.bundle/th.lproj/Localizable.strings</key>
+		<data>
+		jBKcYgZKv8pqUQyRIIbtSn/vlHs=
+		</data>
+		<key>iRate.bundle/tr.lproj/Localizable.strings</key>
+		<data>
+		7HXFl4Uh5gqH/ep0Bzc6VD5mQeI=
+		</data>
+		<key>iRate.bundle/uk.lproj/Localizable.strings</key>
+		<data>
+		u6t+DVc+wzmdm3CQ1bNEgIewFoA=
+		</data>
+		<key>iRate.bundle/ur-IN.lproj/Localizable.strings</key>
+		<data>
+		7wPXLrE6/v9IeD+dn92Sp6OHMeU=
+		</data>
+		<key>iRate.bundle/ur-PK.lproj/Localizable.strings</key>
+		<data>
+		7wPXLrE6/v9IeD+dn92Sp6OHMeU=
+		</data>
+		<key>iRate.bundle/ur.lproj/Localizable.strings</key>
+		<data>
+		7wPXLrE6/v9IeD+dn92Sp6OHMeU=
+		</data>
+		<key>iRate.bundle/vi.lproj/Localizable.strings</key>
+		<data>
+		Q7e2Dxom82jxmjo8hontge4Sbds=
+		</data>
+		<key>iRate.bundle/zh-Hans.lproj/Localizable.strings</key>
+		<data>
+		/zSZv53ZAQYyE+OFHycc1Ero8j4=
+		</data>
+		<key>iRate.bundle/zh-Hant.lproj/Localizable.strings</key>
+		<data>
+		XQi+RRVwps6/iUy5MKHaWxGpU4g=
+		</data>
 		<key>id.lproj/FormatterKit.strings</key>
 		<data>
 		VSLnu3b/uBNnvPkczjJgcEiFZGM=
@@ -933,7 +1341,7 @@
 		</data>
 		<key>ja.lproj/Localizable.strings</key>
 		<data>
-		BCRuKnrDWYUAlDB8BrHA+L8/QX4=
+		q5qDup6bHKeM6GfHdECVHJKi+Io=
 		</data>
 		<key>ko.lproj/FormatterKit.strings</key>
 		<data>

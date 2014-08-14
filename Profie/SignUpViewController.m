@@ -28,6 +28,13 @@
     [self configureFooterView];
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [ANALYTICS trackView:self];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -48,12 +55,12 @@
     
     CGFloat fontSize = [UIFont smallSystemFontSize];
     
-    NSDictionary *attributesForNormalText = @{ NSForegroundColorAttributeName : [UIColor darkGrayColor],
-                                               NSFontAttributeName : [UIFont systemFontOfSize:fontSize]};
-    NSDictionary *attributesForLinkTextTerms = @{NSLinkAttributeName : NSLocalizedString(@"SignUpView_URL_Terms", nil),
-                                            NSFontAttributeName : [UIFont boldSystemFontOfSize:fontSize]};
-    NSDictionary *attributesForLinkTextPrivacyPolicy = @{NSLinkAttributeName : NSLocalizedString(@"SignUpView_URL_PrivacyPolicy", nil),
-                                             NSFontAttributeName : [UIFont boldSystemFontOfSize:fontSize]};
+    NSDictionary *attributesForNormalText = @{ NSForegroundColorAttributeName:[UIColor darkGrayColor],
+                                               NSFontAttributeName:[UIFont systemFontOfSize:fontSize]};
+    NSDictionary *attributesForLinkTextTerms = @{NSLinkAttributeName:kURLTermsOfUse,
+                                                 NSFontAttributeName:[UIFont boldSystemFontOfSize:fontSize]};
+    NSDictionary *attributesForLinkTextPrivacyPolicy = @{NSLinkAttributeName:kURLPrivacyPolicy,
+                                                         NSFontAttributeName:[UIFont boldSystemFontOfSize:fontSize]};
     
     NSAttributedString *string1 = [[NSAttributedString alloc] initWithString:NSLocalizedString(@"SignUpView_Footer_1", nil)
                                                                   attributes:attributesForNormalText];

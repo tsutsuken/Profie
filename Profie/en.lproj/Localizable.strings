@@ -16,7 +16,7 @@
 "LVShareKitTwitter_Alert_Message_Error_Twitter_AccessDenied" = "To use your Twitter account with this app, open Settings > Twitter and make sure this app is turned on.";
 
 /* WelcomeView */
-"WelcomeView_Label_Subtitle" = "Casual Profile";
+"WelcomeView_Label_Subtitle" = "Profile For SNS";
 
 "WelcomeView_Button_SignUp" = "Sign Up";
 
@@ -56,10 +56,6 @@
 "SignUpView_Footer_4" = "Privacy Policy";
 
 "SignUpView_Footer_5" = ".";
-
-"SignUpView_URL_Terms" = "http://www.google.com";
-
-"SignUpView_URL_PrivacyPolicy" = "http://www.yahoo.com";
 
 /* LogInView */
 "LogInView_Title" = "Log In";
@@ -112,6 +108,8 @@
 
 "ProfileView_Button_FollowAction_Unfollow" = "Unfollow";
 
+"ProfileView_ActionSheet_CopyLink" = "Copy Link To Profile";
+
 /* UserListView */
 "UserListView_Title_Following" = "Following";
 
@@ -124,13 +122,15 @@
 
 "SettingView_Cell_ShareSetting" = "Share Settings";
 
+"SettingView_Cell_Feedback" = "Send Feedback";
+
 "SettingView_Cell_LogOut" = "Log Out";
 
-"SettingView_ActionSheet_Camera" = "Take photo";
+"SettingView_Feedback_Topic_Request" = "Request";
 
-"SettingView_ActionSheet_Album" = "Choose existing photo";
+"SettingView_Feedback_Topic_BugReport" = "Bug Report";
 
-"SettingView_ActionSheet_Cancel" = "Cancel";
+"SettingView_Feedback_Topic_Other" = "Other";
 
 /* ShareSettingView */
 "ShareSettingView_Title" = "Share Settings";

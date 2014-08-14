@@ -21,7 +21,7 @@
 
 - (void)logout;
 
-- (void)postMessageIfNeeded:(NSString *)message;
+- (void)postAnswerIfNeeded:(Answer *)answer;
 @end
 
 @protocol LVShareKitTwitterDelegate <NSObject>

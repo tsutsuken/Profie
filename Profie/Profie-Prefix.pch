@@ -18,6 +18,12 @@
     #import <Accounts/Accounts.h>
     #import <Parse/Parse.h>
     #import <Parse/PFObject+Subclass.h>
+    #import "GAI.h"
+    #import "GAIDictionaryBuilder.h"
+    #import "GAIFields.h"
+    #import <Crashlytics/Crashlytics.h>
+    #import "LVAnalyticsManager.h"
+    #import "iRate.h"
     #import "Question.h"
     #import "Answer.h"
     #import "GADBannerView.h"
@@ -42,7 +48,7 @@
 
 /* Common */
 #define kColorBorder [UIColor colorWithHexString:@"c8c7cc"]
-#define kColorNavigationBar [UIColor colorWithRed:0.000 green:0.549 blue:0.890 alpha:1.000]
+#define kColorNavigationBar [UIColor colorWithHexString:@"007ee8"]//0a96f1
 #define kStatusBarHeight 20
 #define kNavigationBarHeight 44
 #define kTabBarHeight 49
@@ -51,6 +57,20 @@
 #define kSizeProfileImageMedium CGSizeMake(160, 160)
 #define kSizeProfileImageSmall CGSizeMake(100, 100)
 #define kBorderHeight (1.0 / [UIScreen mainScreen].scale)
+#define kMailAdressForFeedback @"info@lvupp.com"
+#define kURLTermsOfUse @"http://www.profie.me/about/terms"
+#define kURLPrivacyPolicy @"http://www.profie.me/about/privacy"
+
+/* Analytics */
+#define kGoogleAnalyticsId @"UA-53564473-1"
+#define ANALYTICS  [LVAnalyticsManager sharedManager]
+#define kAnEventAddAnswer @"Answer Added"
+#define kAnEventEditAnswer @"Answer Edited"
+#define kAnEventDeleteAnswer @"Answer Deleted"
+#define kAnEventShareAnswerOnTwitter @"Answer Shared On Twitter"
+#define kAnEventAddQuestion @"Question Added"
+#define kAnEventFollow @"Followed"
+#define kAnEventUnFollow @"UnFollowed"
 
 /* Ads */
 #define kTestDeviceIdKeniPhone5s @"e68d15d429e34789fa691b0f57e8b878"

@@ -47,7 +47,7 @@
 {
     [super viewDidAppear:animated];
     
-    //[self.textView becomeFirstResponder];
+    [ANALYTICS trackView:self];
 }
 
 - (void)didReceiveMemoryWarning

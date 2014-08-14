@@ -14,8 +14,21 @@
 {
     [self configureAppearance];
     [self configureParse];
+    [self configureAnalyticsSystem];
+    [self configureiRate];
 
     return YES;
+}
+
+- (void)configureAppearance
+{
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    [UINavigationBar appearance].barTintColor = kColorNavigationBar;
+    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
+    [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
+    
+    [[UITabBar appearance] setTintColor:kColorNavigationBar];
 }
 
 - (void)configureParse
@@ -30,13 +43,28 @@
     [Answer registerSubclass];
 }
 
-- (void)configureAppearance
+- (void)configureAnalyticsSystem
 {
-    [UINavigationBar appearance].barTintColor = kColorNavigationBar;
-    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
-    [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
+    [GAI sharedInstance].trackUncaughtExceptions = YES;
+    [[GAI sharedInstance].logger setLogLevel:kGAILogLevelVerbose];
+    [[GAI sharedInstance] trackerWithTrackingId:kGoogleAnalyticsId];
     
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    [Crashlytics startWithAPIKey:@"05bba97476be46a19cd9fe6700e03312cdd38e05"];
+}
+
+- (void)configureiRate
+{
+    //① ＋「②のどちらか」が満たされたら発動
+    
+    //①
+    [iRate sharedInstance].daysUntilPrompt = 2;//アプリの利用開始からの日数。
+    
+    //②
+    [iRate sharedInstance].usesUntilPrompt = 4;//アプリの起動回数
+    //[iRate sharedInstance].eventsUntilPrompt = 10;//特定のイベント
+    
+    //[iRate sharedInstance].appStoreID = 668425656;
+    //[[iRate sharedInstance] promptIfNetworkAvailable];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -94,6 +122,7 @@
 - (void)logOut
 {
     [PFUser logOut];
+    [[[LVShareKitTwitter alloc] init] logout];
     
     UINavigationController *nvc = (UINavigationController *)self.window.rootViewController;
     [nvc popToRootViewControllerAnimated:NO];

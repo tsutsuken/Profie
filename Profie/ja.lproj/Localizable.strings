@@ -16,7 +16,7 @@
 "LVShareKitTwitter_Alert_Message_Error_Twitter_AccessDenied" = "iOSの「設定」 >「Twitter」で、このアプリによるTwitterの使用を許可してください。";
 
 /* WelcomeView */
-"WelcomeView_Label_Subtitle" = "ゆる〜いプロフィール";
+"WelcomeView_Label_Subtitle" = "SNS専用プロフィール";//ゆる〜いプロフィール
 
 "WelcomeView_Button_SignUp" = "登録";
 
@@ -57,10 +57,6 @@
 
 "SignUpView_Footer_5" = "に同意したものとみなされます。";
 
-"SignUpView_URL_Terms" = "http://www.google.co.jp";
-
-"SignUpView_URL_PrivacyPolicy" = "http://www.yahoo.co.jp";
-
 /* LogInView */
 "LogInView_Title" = "ログイン";
 
@@ -70,7 +66,7 @@
 "AnswerTimelineView_Title" = "タイムライン";
 
 /* RecommendQuestionView */
-"RecommendQuestionView_Title" = "人気の質問";
+"RecommendQuestionView_Title" = "回答する";//人気の質問
 
 /* QuestionDetailView */
 "QuestionDetailView_Title" = "質問";
@@ -90,7 +86,7 @@
 "QuestionDetailView_ActionSheet_Cancel" = "キャンセル";
 
 /* EditQuestionView */
-"EditQuestionView_Title" = "質問を作成";
+"EditQuestionView_Title" = "新しい質問";
 
 "EditQuestionView_Button_Next" = "次へ";
 
@@ -112,6 +108,8 @@
 
 "ProfileView_Button_FollowAction_Unfollow" = "フォロー中";
 
+"ProfileView_ActionSheet_CopyLink" = "プロフへのリンクをコピー";
+
 /* UserListView */
 "UserListView_Title_Following" = "フォロー";
 
@@ -124,13 +122,15 @@
 
 "SettingView_Cell_ShareSetting" = "シェア設定";
 
+"SettingView_Cell_Feedback" = "フィードバックを送る";
+
 "SettingView_Cell_LogOut" = "ログアウト";
 
-"SettingView_ActionSheet_Camera" = "写真を撮る";
+"SettingView_Feedback_Topic_Request" = "リクエスト";
 
-"SettingView_ActionSheet_Album" = "画像を選択";
+"SettingView_Feedback_Topic_BugReport" = "問題を報告";
 
-"SettingView_ActionSheet_Cancel" = "キャンセル";
+"SettingView_Feedback_Topic_Other" = "その他";
 
 /* ShareSettingView */
 "ShareSettingView_Title" = "シェア設定";

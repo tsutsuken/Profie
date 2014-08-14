@@ -36,6 +36,13 @@
     [self configureAd];
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [ANALYTICS trackView:self];
+}
+
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
@@ -85,7 +92,7 @@
     
     [query includeKey:kLVAnswerQuestionKey];
     [query includeKey:kLVAnswerAutherKey];
-    [query orderByDescending:kLVCommonCreatedAtKey];
+    [query orderByDescending:kLVCommonUpdatedAtKey];
     
     return query;
 }
@@ -112,7 +119,7 @@
     
     cell.questionLabel.text = question.titleWithTag;
     
-    cell.timeLabel.text = [[LVTimeFormatter sharedManager] stringForTimeIntervalFromDate:[NSDate date] toDate:answer.createdAt];
+    cell.timeLabel.text = [[LVTimeFormatter sharedManager] stringForTimeIntervalFromDate:[NSDate date] toDate:answer.updatedAt];
     
     return cell;
 }

@@ -41,9 +41,18 @@
 {
     [super viewDidLoad];
     
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction
+                                                                                           target:self
+                                                                                           action:@selector(didPushExportButton)];
+    
     [self setNotifications];
     
     [self configureTableHeaderView];
+}
+
+- (void)didPushExportButton
+{
+    [self showActionSheetForExportButton];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -58,6 +67,13 @@
     }
     
     [self configureAd];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [ANALYTICS trackView:self];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -104,7 +120,7 @@
     
     [query includeKey:kLVAnswerQuestionKey];
     [query includeKey:kLVAnswerAutherKey];
-    [query orderByDescending:kLVCommonCreatedAtKey];
+    [query orderByDescending:kLVCommonUpdatedAtKey];
     
     return query;
 }
@@ -261,7 +277,7 @@
     
     cell.questionLabel.text = question.titleWithTag;
     
-    cell.timeLabel.text = [[LVTimeFormatter sharedManager] stringForTimeIntervalFromDate:[NSDate date] toDate:answer.createdAt];
+    cell.timeLabel.text = [[LVTimeFormatter sharedManager] stringForTimeIntervalFromDate:[NSDate date] toDate:answer.updatedAt];
     
     return cell;
 }
@@ -325,6 +341,38 @@
 - (void)showQuestionDetailView
 {
     [self performSegueWithIdentifier:@"showQuestionDetailView" sender:self];
+}
+
+#pragma mark - Export Button Action
+
+- (void)showActionSheetForExportButton
+{
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] init];
+    
+    actionSheet.delegate = self;
+    actionSheet.cancelButtonIndex = 1;
+    [actionSheet addButtonWithTitle:NSLocalizedString(@"ProfileView_ActionSheet_CopyLink", nil)];
+    [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_Cancel", nil)];
+    
+    [actionSheet showInView:self.view];
+}
+
+-(void)actionSheet:(UIActionSheet*)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    switch (buttonIndex) {
+        case 0:
+            [self copyLinkForProfiePage];
+            break;
+        case 1:
+            //Cancel
+            break;
+    }
+}
+
+- (void)copyLinkForProfiePage
+{
+    NSString *link = [NSString stringWithFormat:@"profie.me/%@", [PFUser currentUser].username];
+    [[UIPasteboard generalPasteboard] setValue:link forPasteboardType:@"public.text"];
 }
 
 #pragma mark - NSNotification

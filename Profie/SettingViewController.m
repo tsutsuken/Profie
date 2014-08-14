@@ -26,6 +26,13 @@
     self.title = NSLocalizedString(@"SettingView_Title", nil);
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [ANALYTICS trackView:self];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -43,7 +50,7 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 3;
+    return 4;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -70,6 +77,10 @@
 		UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
         cell.textLabel.text = NSLocalizedString(@"SettingView_Cell_ShareSetting", nil);
         return cell;
+	} else if (indexPath.section == 2) {
+		UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+        cell.textLabel.text = NSLocalizedString(@"SettingView_Cell_Feedback", nil);
+        return cell;
 	} else {
 		UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"LogOutCell" forIndexPath:indexPath];
         cell.textLabel.text = NSLocalizedString(@"SettingView_Cell_LogOut", nil);
@@ -85,6 +96,8 @@
         [self showImageSelectionActionSheet];
     } else if (indexPath.section == 1) {
         [self showShareSettingView];
+    } else if (indexPath.section == 2) {
+        [self showFeedbackView];
     } else {
 		[self logOut];
 	}
@@ -101,9 +114,9 @@
     
     actionSheet.delegate = self;
     actionSheet.cancelButtonIndex = 2;
-    [actionSheet addButtonWithTitle:NSLocalizedString(@"SettingView_ActionSheet_Camera", nil)];
-    [actionSheet addButtonWithTitle:NSLocalizedString(@"SettingView_ActionSheet_Album", nil)];
-    [actionSheet addButtonWithTitle:NSLocalizedString(@"SettingView_ActionSheet_Cancel", nil)];
+    [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_Camera", nil)];
+    [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_Album", nil)];
+    [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_Cancel", nil)];
     
     [actionSheet showInView:self.view];
 }
@@ -203,11 +216,31 @@
 }
 
 #pragma mark - Show Other View
-#pragma mark EditProfileView
-
+#pragma mark ShareSettingView
 - (void)showShareSettingView
 {
     [self performSegueWithIdentifier:@"showShareSettingView" sender:self];
+}
+
+#pragma mark FeedbackView
+- (void)showFeedbackView
+{
+    NSArray *topics = [self topics];
+    
+    CTFeedbackViewController *vc = [CTFeedbackViewController controllerWithTopics:topics localizedTopics:topics];
+    vc.toRecipients = @[kMailAdressForFeedback];
+    vc.hidesAppBuildCell = YES;
+    
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (NSArray *)topics
+{
+    return @[
+             NSLocalizedString(@"SettingView_Feedback_Topic_Request", nil),
+             NSLocalizedString(@"SettingView_Feedback_Topic_BugReport", nil),
+             NSLocalizedString(@"SettingView_Feedback_Topic_Other", nil),
+             ];
 }
 
 @end

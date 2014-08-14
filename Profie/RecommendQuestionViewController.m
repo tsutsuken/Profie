@@ -35,13 +35,14 @@
     
     [self setNotifications];
 
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCompose
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
                                                                                            target:self
                                                                                            action:@selector(showEditQuestionView)];
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    LOG_METHOD;
     [super viewWillAppear:animated];
     
     if (self.shouldReloadOnAppear) {
@@ -50,6 +51,13 @@
     }
     
     [self configureAd];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [ANALYTICS trackView:self];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -136,7 +144,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self showQuestionDetailView];
+    [self showEditAnswerView];
 }
 
 #pragma mark - Show Other View
@@ -144,11 +152,11 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     LOG(@"%@", [segue identifier]);
-    
-    if([[segue identifier] isEqualToString:@"showQuestionDetailView"]){
-        QuestionDetailViewController *vc = (QuestionDetailViewController *)segue.destinationViewController;
+    if ([[segue identifier] isEqualToString:@"showEditAnswerView"]) {
+        UINavigationController *nvc = (UINavigationController *)segue.destinationViewController;
+        EditAnswerViewController *controller = (EditAnswerViewController *)nvc.topViewController;
         Question *selectedQuestion = (Question *)[self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];
-        vc.question = selectedQuestion;
+        controller.question = selectedQuestion;
     }
 }
 
@@ -158,12 +166,19 @@
 {
     [self performSegueWithIdentifier:@"showEditQuestionView" sender:self];
 }
-
+/*
 #pragma mark QuestionDetailView
 
 - (void)showQuestionDetailView
 {
     [self performSegueWithIdentifier:@"showQuestionDetailView" sender:self];
+}
+*/
+#pragma mark QuestionDetailView
+
+- (void)showEditAnswerView
+{
+    [self performSegueWithIdentifier:@"showEditAnswerView" sender:self];
 }
 
 #pragma mark - NSNotification
@@ -182,7 +197,12 @@
 
 - (void)userDidEditAnswer:(NSNotification *)note
 {
-    self.shouldReloadOnAppear = YES;
+    //Check if self.view is visible
+    if (self.isViewLoaded && self.view.window) {
+        [self loadObjects];
+    } else {
+		self.shouldReloadOnAppear = YES;
+	}
 }
 
 - (void)userDidDeleteAnswer:(NSNotification *)note

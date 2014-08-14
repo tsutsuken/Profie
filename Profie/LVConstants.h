@@ -20,6 +20,7 @@ extern NSString *const LVQuestionDetailViewControllerUserDidDeleteAnswerNotifica
 // Field keys
 extern NSString *const kLVCommonObjectIdKey;
 extern NSString *const kLVCommonCreatedAtKey;
+extern NSString *const kLVCommonUpdatedAtKey;
 
 #pragma mark - PFObject User Class
 // Field keys

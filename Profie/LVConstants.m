@@ -16,6 +16,7 @@ NSString *const LVQuestionDetailViewControllerUserDidDeleteAnswerNotification   
 // Field keys
 NSString *const kLVCommonObjectIdKey        = @"objectId";
 NSString *const kLVCommonCreatedAtKey       = @"createdAt";
+NSString *const kLVCommonUpdatedAtKey       = @"updatedAt";
 
 #pragma mark - User Class
 // Field keys

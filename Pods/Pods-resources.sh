@@ -258,6 +258,8 @@ install_resource "Mixpanel/Mixpanel/MPCloseBtn.png"
 install_resource "Mixpanel/Mixpanel/MPCloseBtn@2x.png"
 install_resource "Mixpanel/Mixpanel/MPNotification.storyboard"
 install_resource "Mixpanel/Mixpanel/MPSurvey.storyboard"
+install_resource "iRate/iRate/iRate.bundle"
+install_resource "${BUILT_PRODUCTS_DIR}/CTFeedback.bundle"
 
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 if [[ "${ACTION}" == "install" ]]; then

@@ -93,6 +93,13 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
     }
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [ANALYTICS trackView:self];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -135,21 +142,6 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
 {
     [self saveObjects];
     [self dismissViewControllerAnimated:YES completion:nil];
-    
-    [self.shareKitTwitter postMessageIfNeeded:[self messageToShare]];
-}
-
-- (NSString *)messageToShare
-{
-    NSString *messageToShare;
-    
-    NSString *answer = self.textView.text;
-    NSString *question = self.question.titleWithTag;
-    NSString *profieTag = @"#Profie";
-    
-    messageToShare = [NSString stringWithFormat:@"%@ %@ %@", answer, question, profieTag];
-    
-    return messageToShare;
 }
 
 - (void)saveObjects
@@ -160,6 +152,8 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
             if (succeeded) {
                 //AnswerをSaveする前に、QuestionをSaveする必要がある。objectIdとか使うし
                 [self saveAnswer];
+                
+                [ANALYTICS trackEvent:kAnEventAddQuestion sender:self];
             }
         }];
     }
@@ -178,15 +172,21 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
         answer.auther = [PFUser currentUser];
         answer.question = self.question;
         answer.questionId = self.question.objectId;
+        
+        [ANALYTICS trackEvent:kAnEventAddAnswer sender:self];
     }
     else {
         answer = self.answer;
+        
+        [ANALYTICS trackEvent:kAnEventEditAnswer sender:self];
 	}
     
     answer.title = self.textView.text;
     [answer saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (succeeded) {
             [[NSNotificationCenter defaultCenter] postNotificationName:LVEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
+            
+            [self.shareKitTwitter postAnswerIfNeeded:answer];
         }
     }];
 }

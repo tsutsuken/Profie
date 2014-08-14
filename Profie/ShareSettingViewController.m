@@ -28,12 +28,6 @@
     [self configureTwitterCell];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 - (void)configureTwitterCell
 {
     [self.switchView addTarget:self action:@selector(didChangeValueForSwitch:) forControlEvents:UIControlEventValueChanged];
@@ -41,6 +35,19 @@
     if ([self.shareKitTwitter isAuthorized]) {
         self.switchView.on = YES;
     }
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [ANALYTICS trackView:self];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - Twitter

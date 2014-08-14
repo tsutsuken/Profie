@@ -137,10 +137,11 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
 }
 
 #pragma mark - Post
-- (void)postMessageIfNeeded:(NSString *)message
+- (void)postAnswerIfNeeded:(Answer *)answer
 {
     if ([self shouldShare] && [self isAuthorized]){
         NSURL *url = [NSURL URLWithString:@"https://api.twitter.com/1.1/statuses/update.json"];
+        NSString *message = [self messageWithAnswer:answer];
         NSDictionary *params = [NSDictionary dictionaryWithObject:message forKey:@"status"];
         
         SLRequest *request = [SLRequest requestForServiceType:SLServiceTypeTwitter
@@ -155,7 +156,22 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
         [request performRequestWithHandler:^(NSData *responseData, NSHTTPURLResponse *urlResponse, NSError *error) {
             NSLog(@"responseData=%@", [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding]);
         }];
+        
+        [ANALYTICS trackEvent:kAnEventShareAnswerOnTwitter sender:self];
     }
+}
+
+- (NSString *)messageWithAnswer:(Answer *)answer
+{
+    NSString *message;
+    
+    NSString *questionTitle = answer.question.titleWithTag;
+    NSString *profieTag = @"#Profie";
+    NSString *linkForAnswer = [NSString stringWithFormat:@"profie.me/%@/answer/%@", [PFUser currentUser].username, answer.objectId];
+    
+    message = [NSString stringWithFormat:@"%@ %@ %@ %@", answer.title, questionTitle, profieTag, linkForAnswer];
+    
+    return message;
 }
 
 @end

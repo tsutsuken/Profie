@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>FooterText</key>
+			<string>This application makes use of the following design resources:</string>
+			<key>Title</key>
+			<string>Acknowledgements</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>User Icon
+This icon is licensed under Creative
+Commons Attribution and must be attributed as:
+User by Michael Rowe from The Noun Project
+			</string>
+			<key>Title</key>
+			<string>User Icon</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Hash Icon
+This icon is licensed under Creative
+Commons Attribution and must be attributed as:
+
+    Hash by Michael Rowe from The Noun Project
+			</string>
+			<key>Title</key>
+			<string>Hash Icon</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Home Icon
+This icon is licensed under Creative
+Commons Attribution and must be attributed as:
+
+    Home by Edward Boatman from The Noun Project
+			</string>
+			<key>Title</key>
+			<string>Home Icon</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Edit Icon
+This icon is licensed under Creative
+Commons Attribution and must be attributed as:
+
+    Edit by Pham Thi Dieu Linh from The Noun Project
+			</string>
+			<key>Title</key>
+			<string>Edit Icon</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Dots Icon
+This icon is licensed under Creative
+Commons Attribution and must be attributed as:
+
+    Dots by Alex Fuller from The Noun Project
+			</string>
+			<key>Title</key>
+			<string>Dots Icon</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Design</string>
+	<key>Title</key>
+	<string>Design</string>
+</dict>
+</plist>
