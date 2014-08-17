@@ -16,7 +16,7 @@
     [self configureParse];
     [self configureAnalyticsSystem];
     [self configureiRate];
-
+    
     return YES;
 }
 
