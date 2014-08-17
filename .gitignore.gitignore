@@ -6,7 +6,8 @@ build/
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
 !*.xcworkspace/contents.xcworkspacedata
-**/xcuserdata/
+xcuserdata
+profile
 
 #CocoaPod
 Pods/
