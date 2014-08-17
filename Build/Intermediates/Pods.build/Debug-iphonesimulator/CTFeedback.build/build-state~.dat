@@ -1,0 +1,169 @@
+TCTFeedback
+v6
+r1
+cCheck dependencies
+cCpResource CTFeedback/Resources/Base.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/Base.lproj
+cCpResource CTFeedback/Resources/de.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/de.lproj
+cCpResource CTFeedback/Resources/en.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/en.lproj
+cCpResource CTFeedback/Resources/ja.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/ja.lproj
+cCpResource CTFeedback/Resources/ko.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/ko.lproj
+cCpResource CTFeedback/Resources/ru.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/ru.lproj
+cCpResource CTFeedback/Resources/zh-Hans.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/zh-Hans.lproj
+cCpResource CTFeedback/Resources/zh-Hant.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/zh-Hant.lproj
+cTouch /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle
+t1408066841
+s340
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/Base.lproj
+t1408066841
+s102
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/de.lproj
+t1408066841
+s102
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/en.lproj
+t1408066841
+s102
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/ja.lproj
+t1408066841
+s102
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/ko.lproj
+t1408066841
+s102
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/ru.lproj
+t1408066841
+s102
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/zh-Hans.lproj
+t1408066841
+s102
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/zh-Hant.lproj
+t1408066841
+s102
+
+N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/Base.lproj
+c0000000053E0CF920000000000000066
+t1407242130
+s102
+
+N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/de.lproj
+c0000000053E0CF920000000000000066
+t1407242130
+s102
+
+N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/en.lproj
+c0000000053E0CF920000000000000066
+t1407242130
+s102
+
+N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/ja.lproj
+c0000000053E0CF920000000000000066
+t1407242130
+s102
+
+N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/ko.lproj
+c0000000053E0CF920000000000000066
+t1407242130
+s102
+
+N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/ru.lproj
+c0000000053E0CF920000000000000066
+t1407242130
+s102
+
+N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/zh-Hans.lproj
+c0000000053E0CF920000000000000066
+t1407242130
+s102
+
+N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/zh-Hant.lproj
+c0000000053E0CF920000000000000066
+t1407242130
+s102
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2e53fb989c9db941^42952a999c9db941^---0#1#1#--18"Check dependencies36"2791D274-FA60-4BF3-A4B3-87083BD1C39B-
+
+CCpResource CTFeedback/Resources/Base.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/Base.lproj
+s429759640.990231
+e429759641.040096
+r1
+xCpResource
+xCTFeedback/Resources/Base.lproj
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/Base.lproj
+bD56C5B60-3237-410E-9A26-280E3966D0AD
+
+CCpResource CTFeedback/Resources/de.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/de.lproj
+s429759640.990992
+e429759641.040139
+r1
+xCpResource
+xCTFeedback/Resources/de.lproj
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/de.lproj
+bD56C5B60-3237-410E-9A26-280E3966D0AD
+
+CCpResource CTFeedback/Resources/en.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/en.lproj
+s429759640.991241
+e429759641.051389
+r1
+xCpResource
+xCTFeedback/Resources/en.lproj
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/en.lproj
+bD56C5B60-3237-410E-9A26-280E3966D0AD
+
+CCpResource CTFeedback/Resources/ja.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/ja.lproj
+s429759640.993258
+e429759641.040267
+r1
+xCpResource
+xCTFeedback/Resources/ja.lproj
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/ja.lproj
+bD56C5B60-3237-410E-9A26-280E3966D0AD
+
+CCpResource CTFeedback/Resources/ko.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/ko.lproj
+s429759641.040650
+e429759641.051997
+r1
+xCpResource
+xCTFeedback/Resources/ko.lproj
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/ko.lproj
+bD56C5B60-3237-410E-9A26-280E3966D0AD
+
+CCpResource CTFeedback/Resources/ru.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/ru.lproj
+s429759641.040927
+e429759641.052327
+r1
+xCpResource
+xCTFeedback/Resources/ru.lproj
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/ru.lproj
+bD56C5B60-3237-410E-9A26-280E3966D0AD
+
+CCpResource CTFeedback/Resources/zh-Hans.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/zh-Hans.lproj
+s429759641.041691
+e429759641.052537
+r1
+xCpResource
+xCTFeedback/Resources/zh-Hans.lproj
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/zh-Hans.lproj
+bD56C5B60-3237-410E-9A26-280E3966D0AD
+
+CCpResource CTFeedback/Resources/zh-Hant.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/zh-Hant.lproj
+s429759641.051727
+e429759641.054306
+r1
+xCpResource
+xCTFeedback/Resources/zh-Hant.lproj
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle/zh-Hant.lproj
+bD56C5B60-3237-410E-9A26-280E3966D0AD
+
+CTouch /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/CTFeedback.bundle
+r0
+

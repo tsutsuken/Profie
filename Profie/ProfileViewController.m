@@ -15,10 +15,8 @@
 
 @property (weak, nonatomic) IBOutlet PFRoundedImageView *profileImageView;
 @property (weak, nonatomic) IBOutlet UILabel *userNameLabel;
-@property (weak, nonatomic) IBOutlet UIButton *followingCountButton;
-@property (weak, nonatomic) IBOutlet UIButton *followerCountButton;
 @property (weak, nonatomic) IBOutlet UIButton *settingButton;
-@property (weak, nonatomic) IBOutlet UIButton *followActionButton;
+@property (weak, nonatomic) IBOutlet UIButton *shareButton;
 @property (weak, nonatomic) IBOutlet UIView *actionView;
 
 @end
@@ -41,18 +39,9 @@
 {
     [super viewDidLoad];
     
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction
-                                                                                           target:self
-                                                                                           action:@selector(didPushExportButton)];
-    
     [self setNotifications];
     
     [self configureTableHeaderView];
-}
-
-- (void)didPushExportButton
-{
-    [self showActionSheetForExportButton];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -132,38 +121,15 @@
 {
     //UserNameLabel
     self.userNameLabel.text =  [self.user username];
-
-    //FollowerCountButton
-    [self.followerCountButton setTitle:[self titleForFollowerCountButtonWithCount:0] forState:UIControlStateNormal];
-    
-    //FollowingCountButton
-    [self.followingCountButton setTitle:[NSString stringWithFormat:NSLocalizedString(@"ProfileView_Button_FollowingCount_%d", nil), 0]
-                               forState:UIControlStateNormal];
     
     //SettingButton
-    if ([self.user isCurrentUser]) {
-        [self.settingButton addTarget:self action:@selector(didPushSettingButton) forControlEvents:UIControlEventTouchUpInside];
-    }
-    else{
-        self.settingButton.hidden = YES;
-    }
+    [self.settingButton addTarget:self action:@selector(didPushSettingButton) forControlEvents:UIControlEventTouchUpInside];
     
-    //FollowActionButton
-    if ([self.user isCurrentUser]) {
-        self.followActionButton.hidden = YES;
-    }
-    else{
-        [self configureFollowActionButton];
-    }
+    //ShareButton
+    [self.shareButton setTitle:NSLocalizedString(@"ProfileView_ShareButton_Title", nil) forState:UIControlStateNormal];
+    [self.shareButton addTarget:self action:@selector(didPushShareButton) forControlEvents:UIControlEventTouchUpInside];
     
     [self addBorderToActionView];
-}
-
-- (void)configureFollowActionButton
-{
-    [self.followActionButton setTitle:NSLocalizedString(@"ProfileView_Button_FollowAction_Follow", nil) forState:UIControlStateNormal];
-    [self.followActionButton setTitle:NSLocalizedString(@"ProfileView_Button_FollowAction_Unfollow", nil) forState:UIControlStateSelected];
-    [self.followActionButton addTarget:self action:@selector(didPushFollowActionButton:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)addBorderToActionView
@@ -186,76 +152,57 @@
     //ProfileImageView
     self.profileImageView.file = [self.user objectForKey:kLVUserProfilePicMediumKey];
     [self.profileImageView loadInBackground];
-    
-    //FollowActionButton
-    if (![self.user isCurrentUser]) {
-        PFQuery *queryIsFollowing = [PFQuery queryWithClassName:kLVActivityClassKey];
-        [queryIsFollowing whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
-        [queryIsFollowing whereKey:kLVActivityToUserKey equalTo:self.user];
-        [queryIsFollowing whereKey:kLVActivityFromUserKey equalTo:[PFUser currentUser]];
-        [queryIsFollowing setCachePolicy:kPFCachePolicyCacheThenNetwork];
-        [queryIsFollowing countObjectsInBackgroundWithBlock:^(int number, NSError *error) {
-            if (!error) {
-                if (number == 0) {
-                    self.followActionButton.selected = NO;
-                } else {
-                    self.followActionButton.selected = YES;
-                }
-            }
-        }];
-    }
-    
-    //FollowerCountButton
-    PFQuery *queryFollowerCount = [PFQuery queryWithClassName:kLVActivityClassKey];
-    [queryFollowerCount whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
-    [queryFollowerCount whereKey:kLVActivityToUserKey equalTo:self.user];
-    [queryFollowerCount setCachePolicy:kPFCachePolicyCacheThenNetwork];
-    [queryFollowerCount countObjectsInBackgroundWithBlock:^(int count, NSError *error) {
-        if (!error) {
-            [self.followerCountButton setTitle:[self titleForFollowerCountButtonWithCount:count] forState:UIControlStateNormal];
-        }
-    }];
-    
-    //FollowingCountButton
-    PFQuery *queryFollowingCount = [PFQuery queryWithClassName:kLVActivityClassKey];
-    [queryFollowingCount whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
-    [queryFollowingCount whereKey:kLVActivityFromUserKey equalTo:self.user];
-    [queryFollowingCount setCachePolicy:kPFCachePolicyCacheThenNetwork];
-    [queryFollowingCount countObjectsInBackgroundWithBlock:^(int count, NSError *error) {
-        if (!error) {
-            [self.followingCountButton setTitle:[NSString stringWithFormat:NSLocalizedString(@"ProfileView_Button_FollowingCount_%d", nil), count]
-                                       forState:UIControlStateNormal];
-        }
-    }];
 }
 
-- (NSString *)titleForFollowerCountButtonWithCount:(int)count
-{
-    NSString *suffix = (count==1?@"":NSLocalizedString(@"Common_Suffix_Plural", nil));
-    NSString *title = [NSString stringWithFormat:NSLocalizedString(@"ProfileView_Button_FollowerCount_%d_%@", nil), count, suffix];
-    
-    return title;
-}
-
-#pragma mark Action
+#pragma mark SettingButton
 
 - (void)didPushSettingButton
 {
     [self showSettingView];
 }
 
-- (void)didPushFollowActionButton:(UIButton *)sender
+#pragma mark ShareButton
+
+- (void)didPushShareButton
 {
-    BOOL isSelected = sender.selected;
+    [self showActionSheetForShareProfile];
+}
+
+- (void)showActionSheetForShareProfile
+{
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] init];
     
-    if (isSelected) {
-        [LVUtility unfollowUserEventually:self.user];
-    }else {
-		[LVUtility followUserEventually:self.user block:^(BOOL succeeded, NSError *error) {
-        }];
-	}
+    actionSheet.cancelButtonIndex = 2;
+    [actionSheet addButtonWithTitle:NSLocalizedString(@"ProfileView_ActionSheet_CopyLink", nil)];
+    [actionSheet addButtonWithTitle:NSLocalizedString(@"ProfileView_ActionSheet_OpenInSafari", nil)];
+    [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_Cancel", nil)];
+    actionSheet.tapBlock = ^(UIActionSheet *actionSheet, NSInteger buttonIndex){
+        switch (buttonIndex) {
+            case 0:
+                [self copyLinkForProfile];
+                break;
+            case 1:
+                [self openProfileInSafari];
+                break;
+            case 2:
+                //Cancel
+                break;
+        }
+    };
     
-    sender.selected = !isSelected;
+    [actionSheet showInView:self.view];
+}
+
+- (void)copyLinkForProfile
+{
+    NSString *link = [NSString stringWithFormat:@"profie.me/%@", [PFUser currentUser].username];
+    [[UIPasteboard generalPasteboard] setValue:link forPasteboardType:@"public.text"];
+}
+
+- (void)openProfileInSafari
+{
+    NSString *URLString = [NSString stringWithFormat:@"http://www.profie.me/%@", [PFUser currentUser].username];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:URLString]];
 }
 
 #pragma mark - Table view data source
@@ -299,7 +246,51 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self showQuestionDetailView];
+    [self showActionSheetForEditAnswer];
+}
+
+#pragma mark - Edit Answer
+
+- (void)showActionSheetForEditAnswer
+{
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] init];
+    
+    actionSheet.destructiveButtonIndex = 1;
+    actionSheet.cancelButtonIndex = 2;
+    [actionSheet addButtonWithTitle:NSLocalizedString(@"ProfileView_ActionSheet_EditAnswer", nil)];
+    [actionSheet addButtonWithTitle:NSLocalizedString(@"ProfileView_ActionSheet_DeleteAnswer", nil)];
+    [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_Cancel", nil)];
+    actionSheet.tapBlock = ^(UIActionSheet *actionSheet, NSInteger buttonIndex){
+        switch (buttonIndex) {
+            case 0:
+                [self showEditAnswerView];
+                break;
+            case 1:
+                [self deleteAnswer];
+                break;
+            case 2:
+                //Cancel
+                [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
+                //didSelectRowAtIndexPathでやると、適切なAnswerを取得できない
+                break;
+        }
+    };
+    
+    [actionSheet showInView:self.view];
+}
+
+- (void)deleteAnswer
+{
+    Answer *selectedAnswer = (Answer *)[self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];
+    [selectedAnswer deleteInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+        if (succeeded) {
+            [[NSNotificationCenter defaultCenter] postNotificationName:kLVNotificationDidDeleteAnswer object:nil];
+        }
+    }];
+    
+    [selectedAnswer.question decrementAnswerCount];
+    
+    [ANALYTICS trackEvent:kAnEventDeleteAnswer sender:self];
 }
 
 #pragma mark - Show Other View
@@ -307,96 +298,59 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     LOG(@"%@", [segue identifier]);
-    
-    if ([[segue identifier] isEqualToString:@"showFollowingListView"])
-    {
-        UserListViewController *vc = (UserListViewController *)segue.destinationViewController;
-        vc.user = self.user;
-        vc.dataType = UserListViewDataTypeFollowing;
-    }
-    else if ([[segue identifier] isEqualToString:@"showFollowerListView"])
-    {
-        UserListViewController *vc = (UserListViewController *)segue.destinationViewController;
-        vc.user = self.user;
-        vc.dataType = UserListViewDataTypeFollower;
-    }
-    else if ([[segue identifier] isEqualToString:@"showQuestionDetailView"]){
-        QuestionDetailViewController *vc = (QuestionDetailViewController *)segue.destinationViewController;
+    if ([[segue identifier] isEqualToString:@"showEditAnswerView"]) {
+        UINavigationController *nvc = (UINavigationController *)segue.destinationViewController;
+        EditAnswerViewController *controller = (EditAnswerViewController *)nvc.topViewController;
         Answer *selectedAnswer = (Answer *)[self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];
-        vc.answer = selectedAnswer;
-        vc.question = selectedAnswer.question;
-        vc.user = self.user;
+        controller.answer = selectedAnswer;
+        controller.question = selectedAnswer.question;
     }
 }
 
-#pragma mark EditProfileView
+#pragma mark SettingView
 
 - (void)showSettingView
 {
     [self performSegueWithIdentifier:@"showSettingView" sender:self];
 }
 
-#pragma mark QuestionDetailView
+#pragma mark EditAnswerView
 
-- (void)showQuestionDetailView
+- (void)showEditAnswerView
 {
-    [self performSegueWithIdentifier:@"showQuestionDetailView" sender:self];
+    [self performSegueWithIdentifier:@"showEditAnswerView" sender:self];
 }
 
-#pragma mark - Export Button Action
-
-- (void)showActionSheetForExportButton
-{
-    UIActionSheet *actionSheet = [[UIActionSheet alloc] init];
-    
-    actionSheet.delegate = self;
-    actionSheet.cancelButtonIndex = 1;
-    [actionSheet addButtonWithTitle:NSLocalizedString(@"ProfileView_ActionSheet_CopyLink", nil)];
-    [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_Cancel", nil)];
-    
-    [actionSheet showInView:self.view];
-}
-
--(void)actionSheet:(UIActionSheet*)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-    switch (buttonIndex) {
-        case 0:
-            [self copyLinkForProfiePage];
-            break;
-        case 1:
-            //Cancel
-            break;
-    }
-}
-
-- (void)copyLinkForProfiePage
-{
-    NSString *link = [NSString stringWithFormat:@"profie.me/%@", [PFUser currentUser].username];
-    [[UIPasteboard generalPasteboard] setValue:link forPasteboardType:@"public.text"];
-}
 
 #pragma mark - NSNotification
 
 - (void)setNotifications
 {
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidEditAnswer:) name:LVEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidDeleteAnswer:) name:LVQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidEditAnswer:) name:kLVNotificationDidEditAnswer object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidDeleteAnswer:) name:kLVNotificationDidDeleteAnswer object:nil];
 }
 
 - (void)removeNotifications
 {
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:LVEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:LVQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:kLVNotificationDidEditAnswer object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:kLVNotificationDidDeleteAnswer object:nil];
 }
 
 - (void)userDidEditAnswer:(NSNotification *)note
 {
     self.shouldReloadOnAppear = YES;
+    
+    //Check if self.view is visible
+    if (self.isViewLoaded && self.view.window) {
+        [self loadObjects];
+    } else {
+		self.shouldReloadOnAppear = YES;
+	}
 }
 
 - (void)userDidDeleteAnswer:(NSNotification *)note
 {
-    self.shouldReloadOnAppear = YES;
+    [self loadObjects];
 }
 
 #pragma mark - Ads
@@ -421,7 +375,9 @@
 #if DEBUG
     request.testDevices = @[kTestDeviceIdKeniPhone5s];
 #endif
-    [self.bannerView loadRequest:request];
+    //[self.bannerView loadRequest:request];
+    
+#warning test
 }
 
 - (void)removeAd

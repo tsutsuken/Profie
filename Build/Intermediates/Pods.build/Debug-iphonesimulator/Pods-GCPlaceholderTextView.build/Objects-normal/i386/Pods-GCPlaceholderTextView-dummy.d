@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/p27e4a/github/SuperProfile/Pods/Pods-GCPlaceholderTextView-dummy.m
+  /Users/p27e4a/github/Profie/Pods/Pods-GCPlaceholderTextView-dummy.m

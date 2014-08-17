@@ -2,22 +2,22 @@ TPods-Mixpanel
 v6
 r1
 cCheck dependencies
-cProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-apycloapvhigtkgzfxuforvgvlxh/Pods-Mixpanel-prefix.pch.pch Pods-Mixpanel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-ammxuaewvdnrkagitzprbounxjbh/Pods-Mixpanel-prefix.pch.pch Pods-Mixpanel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotification.o /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotificationViewController.o /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPNotificationViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurvey.o /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPSurvey.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyNavigationController.o /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPSurveyNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestion.o /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPSurveyQuestion.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestionViewController.o /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPSurveyQuestionViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Mixpanel.o /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/Mixpanel.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/NSData+MPBase64.o /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/NSData+MPBase64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Pods-Mixpanel-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-Mixpanel-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIColor+MPColor.o /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/UIColor+MPColor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPAverageColor.o /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/UIImage+MPAverageColor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPImageEffects.o /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/UIImage+MPImageEffects.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIView+MPSnapshotImage.o /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-Mixpanel.a normal i386
+cProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch.pch Pods-Mixpanel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-gppshryjbjqxvdenfaaipfbrsuxa/Pods-Mixpanel-prefix.pch.pch Pods-Mixpanel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotification.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotificationViewController.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotificationViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurvey.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurvey.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyNavigationController.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestion.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestion.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestionViewController.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestionViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Mixpanel.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/Mixpanel.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/NSData+MPBase64.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/NSData+MPBase64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Pods-Mixpanel-dummy.o /Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIColor+MPColor.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIColor+MPColor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPAverageColor.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPAverageColor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPImageEffects.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPImageEffects.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIView+MPSnapshotImage.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-Mixpanel.a normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
 c0000000053532C1C0000000000011540
@@ -73,6 +73,210 @@ N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/
 c0000000053532D460000000000000ADC
 t1397960006
 s2780
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotification.o
+t1408066848
+s29080
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotificationViewController.o
+t1408066849
+s169288
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurvey.o
+t1408066849
+s20004
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyNavigationController.o
+t1408066849
+s119576
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestion.o
+t1408066849
+s20784
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestionViewController.o
+t1408066849
+s160012
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Mixpanel.o
+t1408066850
+s327008
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/NSData+MPBase64.o
+t1408066849
+s11468
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Pods-Mixpanel-dummy.o
+t1408066849
+s3380
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Pods-Mixpanel.LinkFileList
+c0000000053ED65200000000000000743
+t1408066848
+s1859
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIColor+MPColor.o
+t1408066849
+s45324
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPAverageColor.o
+t1408066849
+s13512
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPImageEffects.o
+t1408066850
+s24200
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIView+MPSnapshotImage.o
+t1408066850
+s43088
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch.pch
+t1408066848
+s131772
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-gppshryjbjqxvdenfaaipfbrsuxa/Pods-Mixpanel-prefix.pch.pch
+t1408066848
+s131360
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-Mixpanel.a
+t1408066850
+s998128
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotification.h
+c000000005382D25C00000000000002B2
+t1401082460
+s690
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotification.m
+c000000005382D25C00000000000015C5
+t1401082460
+s5573
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotificationViewController.h
+c000000005382D25C00000000000003B3
+t1401082460
+s947
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotificationViewController.m
+c000000005382D25C0000000000005A25
+t1401082460
+s23077
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurvey.h
+c000000005382D25C0000000000000161
+t1401082460
+s353
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurvey.m
+c000000005382D25C0000000000000C8B
+t1401082460
+s3211
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyNavigationController.h
+c000000005382D25C0000000000000220
+t1401082460
+s544
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyNavigationController.m
+c000000005382D25C0000000000004579
+t1401082460
+s17785
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestion.h
+c000000005382D25C00000000000001ED
+t1401082460
+s493
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestion.m
+c000000005382D25C0000000000000E47
+t1401082460
+s3655
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestionViewController.h
+c000000005382D25C0000000000000232
+t1401082460
+s562
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestionViewController.m
+c000000005382D25C000000000000443C
+t1401082460
+s17468
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/Mixpanel.h
+c000000005382D25C0000000000004FB1
+t1401082460
+s20401
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/Mixpanel.m
+c000000005382D25C000000000000E26F
+t1401082460
+s57967
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/NSData+MPBase64.h
+c000000005382D25C000000000000035E
+t1401082460
+s862
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/NSData+MPBase64.m
+c000000005382D25C0000000000002047
+t1401082460
+s8263
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIColor+MPColor.h
+c000000005382D25C0000000000000111
+t1401082460
+s273
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIColor+MPColor.m
+c000000005382D25C000000000000091A
+t1401082460
+s2330
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPAverageColor.h
+c000000005382D25C0000000000000082
+t1401082460
+s130
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPAverageColor.m
+c000000005382D25C0000000000000838
+t1401082460
+s2104
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPImageEffects.h
+c000000005382D25C00000000000015AC
+t1401082460
+s5548
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPImageEffects.m
+c000000005382D25C00000000000033A4
+t1401082460
+s13220
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.h
+c000000005382D25C0000000000000084
+t1401082460
+s132
+
+N/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.m
+c000000005382D25C000000000000068D
+t1401082460
+s1677
+
+N/Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-dummy.m
+c0000000053EC63210000000000000082
+t1408000801
+s130
+
+N/Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-prefix.pch
+c0000000053EC6321000000000000004D
+t1408000801
+s77
+
+N/Users/p27e4a/github/Profie/Pods/Pods-environment.h
+c0000000053EC632100000000000013AD
+t1408000801
+s5037
 
 N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotification.o
 t1403408595
@@ -375,6 +579,45 @@ c000000005364EF340000000000000372
 t1399123764
 s882
 
+CBuild AST from /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotification.m
+r0
+
+CBuild AST from /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotificationViewController.m
+r0
+
+CBuild AST from /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurvey.m
+r0
+
+CBuild AST from /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyNavigationController.m
+r0
+
+CBuild AST from /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestion.m
+r0
+
+CBuild AST from /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestionViewController.m
+r0
+
+CBuild AST from /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/Mixpanel.m
+r0
+
+CBuild AST from /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/NSData+MPBase64.m
+r0
+
+CBuild AST from /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIColor+MPColor.m
+r0
+
+CBuild AST from /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPAverageColor.m
+r0
+
+CBuild AST from /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPImageEffects.m
+r0
+
+CBuild AST from /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.m
+r0
+
+CBuild AST from /Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-dummy.m
+r0
+
 CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPNotification.m
 r0
 
@@ -416,7 +659,236 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies26ffd34f8856b941^d87ffd4f8856b941^---0#1#1#--18"Check dependencies36"D88E56A7-A28C-4624-BA7A-E03ED9207510-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf0a3caa19e9db941^6422f9a19e9db941^---0#1#1#--18"Check dependencies36"2F93A5FC-A9AB-4376-9602-5DC9B4213E40-
+
+CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotification.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759648.755708
+e429759648.861888
+r1
+xCompileC
+x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotification.o
+x/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotification.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotification.m
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotification.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotification.m249"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotification.o Mixpanel/Mixpanel/MPNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler419ec1a09c9db941^5b99dca09c9db941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotification.m0000000000000000^4315"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotification.o Mixpanel/Mixpanel/MPNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotification.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotification.dia -c /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotification.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotification.o36"F0AD756C-5C2D-412A-8BF3-7D2BA1C94038-
+b2AE0EBED-C08A-47DA-8771-861AECB72F2D
+
+CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotificationViewController.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotificationViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759648.880718
+e429759649.315242
+r1
+xCompileC
+x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotificationViewController.o
+x/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotificationViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotificationViewController.m
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotificationViewController.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotification.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIColor+MPColor.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPAverageColor.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPImageEffects.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotificationViewController.m277"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotificationViewController.o Mixpanel/Mixpanel/MPNotificationViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf19ce1a09c9db941^ed7f50a19c9db941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotificationViewController.m0000000000000000^4399"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotificationViewController.o Mixpanel/Mixpanel/MPNotificationViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotificationViewController.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotificationViewController.dia -c /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotificationViewController.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotificationViewController.o36"F3A1EA5C-EB48-4EF5-BAF4-25CFC14FF73B-
+b2AE0EBED-C08A-47DA-8771-861AECB72F2D
+
+CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurvey.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurvey.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759648.971655
+e429759649.062161
+r1
+xCompileC
+x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurvey.o
+x/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurvey.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurvey.m
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurvey.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestion.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurvey.m237"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurvey.o Mixpanel/Mixpanel/MPSurvey.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler69e3f8a09c9db941^46ec0fa19c9db941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurvey.m0000000000000000^4279"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurvey.o Mixpanel/Mixpanel/MPSurvey.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurvey.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurvey.dia -c /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurvey.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurvey.o36"113DE61B-2EF9-4129-906A-FCFD7F29AD4A-
+b2AE0EBED-C08A-47DA-8771-861AECB72F2D
+
+CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyNavigationController.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759649.071451
+e429759649.313188
+r1
+xCompileC
+x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyNavigationController.o
+x/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyNavigationController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyNavigationController.m
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurvey.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyNavigationController.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/Mixpanel.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestion.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestionViewController.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPAverageColor.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPImageEffects.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIColor+MPColor.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyNavigationController.m277"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyNavigationController.o Mixpanel/Mixpanel/MPSurveyNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerfc6e12a19c9db941^105d50a19c9db941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyNavigationController.m0000000000000000^4399"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyNavigationController.o Mixpanel/Mixpanel/MPSurveyNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyNavigationController.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyNavigationController.dia -c /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyNavigationController.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyNavigationController.o36"37BA833F-FDAE-4485-8347-069B7F7BE7AA-
+b2AE0EBED-C08A-47DA-8771-861AECB72F2D
+
+CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestion.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestion.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759649.216776
+e429759649.462851
+r1
+xCompileC
+x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestion.o
+x/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestion.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestion.m
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestion.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestion.m253"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestion.o Mixpanel/Mixpanel/MPSurveyQuestion.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7bbc38a19c9db941^848276a19c9db941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestion.m0000000000000000^4327"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestion.o Mixpanel/Mixpanel/MPSurveyQuestion.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestion.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestion.dia -c /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestion.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestion.o36"594ED522-B763-4A2A-980F-036B81F08EE8-
+b2AE0EBED-C08A-47DA-8771-861AECB72F2D
+
+CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestionViewController.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestionViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759649.315679
+e429759649.753298
+r1
+xCompileC
+x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestionViewController.o
+x/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestionViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestionViewController.m
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestionViewController.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestion.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestionViewController.m281"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestionViewController.o Mixpanel/Mixpanel/MPSurveyQuestionViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb49351a19c9db941^bad8c0a19c9db941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestionViewController.m0000000000000000^4411"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestionViewController.o Mixpanel/Mixpanel/MPSurveyQuestionViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestionViewController.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestionViewController.dia -c /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyQuestionViewController.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPSurveyQuestionViewController.o36"E7593FD0-81B6-45B3-AAA5-573EFCC5FE33-
+b2AE0EBED-C08A-47DA-8771-861AECB72F2D
+
+CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Mixpanel.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/Mixpanel.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759649.465009
+e429759650.587094
+r1
+xCompileC
+x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Mixpanel.o
+x/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/Mixpanel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/Mixpanel.m
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurveyNavigationController.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/Mixpanel.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPSurvey.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotification.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotificationViewController.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/NSData+MPBase64.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/Mixpanel.m237"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Mixpanel.o Mixpanel/Mixpanel/Mixpanel.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf91478a19c9db941^ad6996a29c9db941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/Mixpanel.m0000000000000000^4279"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Mixpanel.o Mixpanel/Mixpanel/Mixpanel.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Mixpanel.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Mixpanel.dia -c /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/Mixpanel.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Mixpanel.o36"66EBBD0C-14E7-48DB-8C18-64D5B6ADD697-
+b2AE0EBED-C08A-47DA-8771-861AECB72F2D
+
+CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/NSData+MPBase64.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/NSData+MPBase64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759649.468541
+e429759649.561415
+r1
+xCompileC
+x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/NSData+MPBase64.o
+x/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/NSData+MPBase64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/NSData+MPBase64.m
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/NSData+MPBase64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/NSData+MPBase64.m251"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/NSData+MPBase64.o Mixpanel/Mixpanel/NSData+MPBase64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere56278a19c9db941^49b98fa19c9db941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/NSData+MPBase64.m0000000000000000^4321"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/NSData+MPBase64.o Mixpanel/Mixpanel/NSData+MPBase64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/NSData+MPBase64.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/NSData+MPBase64.dia -c /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/NSData+MPBase64.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/NSData+MPBase64.o36"A69B2D80-90F1-4D4B-9D9B-255A62FC51DE-
+b2AE0EBED-C08A-47DA-8771-861AECB72F2D
+
+CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Pods-Mixpanel-dummy.o /Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759649.649520
+e429759649.721370
+r1
+xCompileC
+x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Pods-Mixpanel-dummy.o
+x/Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-dummy.m241"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Pods-Mixpanel-dummy.o Pods-Mixpanel-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera86ea6a19c9db941^e2cbb8a19c9db941^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-dummy.m0000000000000000^4298"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Pods-Mixpanel-dummy.o Pods-Mixpanel-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-gppshryjbjqxvdenfaaipfbrsuxa/Pods-Mixpanel-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Pods-Mixpanel-dummy.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Pods-Mixpanel-dummy.dia -c /Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-dummy.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Pods-Mixpanel-dummy.o36"91C5E517-699C-400C-BDD8-26E6132F6157-
+b2AE0EBED-C08A-47DA-8771-861AECB72F2D
+
+CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIColor+MPColor.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIColor+MPColor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759649.753613
+e429759649.872926
+r1
+xCompileC
+x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIColor+MPColor.o
+x/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIColor+MPColor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIColor+MPColor.m
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIColor+MPColor.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIColor+MPColor.m251"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIColor+MPColor.o Mixpanel/Mixpanel/UIColor+MPColor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera110c1a19c9db941^4678dfa19c9db941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIColor+MPColor.m0000000000000000^4321"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIColor+MPColor.o Mixpanel/Mixpanel/UIColor+MPColor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIColor+MPColor.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIColor+MPColor.dia -c /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIColor+MPColor.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIColor+MPColor.o36"29A44368-89BF-4209-A6F3-8BBAE6813F15-
+b2AE0EBED-C08A-47DA-8771-861AECB72F2D
+
+CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPAverageColor.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPAverageColor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759649.843978
+e429759649.945682
+r1
+xCompileC
+x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPAverageColor.o
+x/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPAverageColor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPAverageColor.m
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPAverageColor.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPAverageColor.m265"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPAverageColor.o Mixpanel/Mixpanel/UIImage+MPAverageColor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6e34d8a19c9db941^9126f2a19c9db941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPAverageColor.m0000000000000000^4363"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPAverageColor.o Mixpanel/Mixpanel/UIImage+MPAverageColor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPAverageColor.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPAverageColor.dia -c /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPAverageColor.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPAverageColor.o36"0174FFC1-FC1E-4CF6-A93D-DDEA581F2F52-
+b2AE0EBED-C08A-47DA-8771-861AECB72F2D
+
+CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPImageEffects.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPImageEffects.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759649.931799
+e429759650.718654
+r1
+xCompileC
+x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPImageEffects.o
+x/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPImageEffects.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPImageEffects.m
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPImageEffects.h
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIColor+MPColor.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPImageEffects.m265"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPImageEffects.o Mixpanel/Mixpanel/UIImage+MPImageEffects.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler03b3eea19c9db941^61fdb7a29c9db941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPImageEffects.m0000000000000000^4363"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPImageEffects.o Mixpanel/Mixpanel/UIImage+MPImageEffects.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPImageEffects.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPImageEffects.dia -c /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIImage+MPImageEffects.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIImage+MPImageEffects.o36"0526DD7F-0EF9-4DB4-988B-7AE01B30D7E4-
+b2AE0EBED-C08A-47DA-8771-861AECB72F2D
+
+CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIView+MPSnapshotImage.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759650.002260
+e429759650.121431
+r1
+xCompileC
+x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIView+MPSnapshotImage.o
+x/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.m
+d/Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.m265"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIView+MPSnapshotImage.o Mixpanel/Mixpanel/UIView+MPSnapshotImage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler91b700a29c9db941^13801fa29c9db941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.m0000000000000000^4363"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIView+MPSnapshotImage.o Mixpanel/Mixpanel/UIView+MPSnapshotImage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIView+MPSnapshotImage.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIView+MPSnapshotImage.dia -c /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/UIView+MPSnapshotImage.o36"4F9723E5-960A-46EE-B155-80FE6F9345B7-
+b2AE0EBED-C08A-47DA-8771-861AECB72F2D
 
 CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/MPNotification.o /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/MPNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s425101395.058368
@@ -876,6 +1348,17 @@ d/Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.m275"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/x86_64/UIView+MPSnapshotImage.o Mixpanel/Mixpanel/UIView+MPSnapshotImage.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler33c5d4086a51b941^677bf4086a51b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.m0000000000000000^4162"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/x86_64/UIView+MPSnapshotImage.o Mixpanel/Mixpanel/UIView+MPSnapshotImage.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources/x86_64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-gzjheephldtygedflwxfwgwcprei/Pods-Mixpanel-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/x86_64/UIView+MPSnapshotImage.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/x86_64/UIView+MPSnapshotImage.dia -c /Users/p27e4a/github/SuperProfile/Pods/Mixpanel/Mixpanel/UIView+MPSnapshotImage.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/x86_64/UIView+MPSnapshotImage.o36"ECFDE73B-27F1-42D1-AD12-BAEB7768D6BE-
 bFE197016-47DA-442B-9732-3BB70E26A9D6
 
+CLibtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-Mixpanel.a normal i386
+s429759650.913859
+e429759651.008124
+r1
+xLibtool
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-Mixpanel.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Libtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-Mixpanel.a normal i386103"Libtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-Mixpanel.a normal i3863d0beaa29c9db941^541d02a39c9db941^---0#0#1#--1107"Libtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-Mixpanel.a normal i386    cd /Users/p27e4a/github/Profie/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -filelist /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/i386/Pods-Mixpanel.LinkFileList -framework Accelerate -framework CoreGraphics -framework CoreTelephony -framework Foundation -framework QuartzCore -framework SystemConfiguration -framework UIKit -o /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-Mixpanel.a36"7B48C84B-CE99-425C-9BD3-35CE62E7246E-
+b2AE0EBED-C08A-47DA-8771-861AECB72F2D
+
 CLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-Mixpanel.a normal i386
 s425101397.321990
 e425101397.357405
@@ -897,6 +1380,12 @@ xnormal
 xx86_64
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-Mixpanel.a normal x86_64111"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-Mixpanel.a normal x86_640797ae0a6a51b941^2a6f470b6a51b941^---0#0#1#--1143"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-Mixpanel.a normal x86_64    cd /Users/p27e4a/github/SuperProfile/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator -filelist /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Objects-normal/x86_64/Pods-Mixpanel.LinkFileList -framework Accelerate -framework CoreGraphics -framework CoreTelephony -framework Foundation -framework QuartzCore -framework SystemConfiguration -framework UIKit -o /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-Mixpanel.a36"86F66ED0-C134-44C3-8D47-31E9B71FA9FE-
 bFE197016-47DA-442B-9732-3BB70E26A9D6
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/Profie-cgqxhzxhjnczztelqvpkhhgtubdh/Index/PrecompiledHeaders/Pods-Mixpanel-prefix-aalcfgqxeyjsyaedcxfoakcvammc_ast/Pods-Mixpanel-prefix.pch.pch Pods-Mixpanel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/Profie-cgqxhzxhjnczztelqvpkhhgtubdh/Index/PrecompiledHeaders/Pods-Mixpanel-prefix-cjbprejevnwxoweqwianqdrbvpwa_ast/Pods-Mixpanel-prefix.pch.pch Pods-Mixpanel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
 
 CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-Mixpanel-prefix-baneicyaqzfcoxchhvzdzgcuradi_ast/Pods-Mixpanel-prefix.pch.pch Pods-Mixpanel-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
@@ -933,6 +1422,38 @@ r0
 
 CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-Mixpanel-prefix-fsfsxorjbkfwxpevtlrflijeavzz_ast/Pods-Mixpanel-prefix.pch.pch Pods-Mixpanel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
+
+CProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch.pch Pods-Mixpanel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759648.442869
+e429759648.508190
+r1
+xProcessPCH
+x/Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch.pch
+xPods-Mixpanel-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-prefix.pch
+d/Users/p27e4a/github/Profie/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Pods-Mixpanel-prefix.pch249"ProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch.pch Pods-Mixpanel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler308371a09c9db941^3b1b82a09c9db941^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-prefix.pch0000000000000000^4181"ProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch.pch Pods-Mixpanel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch.d -c /Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-prefix.pch -o /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-bcqqnizdleupgxfasbqdlipjktse/Pods-Mixpanel-prefix.pch.pch36"FEA5975E-34DB-4FEA-B196-518F2652A5A1-
+b2AE0EBED-C08A-47DA-8771-861AECB72F2D
+
+CProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-gppshryjbjqxvdenfaaipfbrsuxa/Pods-Mixpanel-prefix.pch.pch Pods-Mixpanel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759648.549895
+e429759648.633297
+r1
+xProcessPCH
+x/Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-gppshryjbjqxvdenfaaipfbrsuxa/Pods-Mixpanel-prefix.pch.pch
+xPods-Mixpanel-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-prefix.pch
+d/Users/p27e4a/github/Profie/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Pods-Mixpanel-prefix.pch249"ProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-gppshryjbjqxvdenfaaipfbrsuxa/Pods-Mixpanel-prefix.pch.pch Pods-Mixpanel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler47768da09c9db941^191fa2a09c9db941^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-prefix.pch0000000000000000^4170"ProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-gppshryjbjqxvdenfaaipfbrsuxa/Pods-Mixpanel-prefix.pch.pch Pods-Mixpanel-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/Pods-Mixpanel-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Mixpanel.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-gppshryjbjqxvdenfaaipfbrsuxa/Pods-Mixpanel-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-gppshryjbjqxvdenfaaipfbrsuxa/Pods-Mixpanel-prefix.pch.d -c /Users/p27e4a/github/Profie/Pods/Pods-Mixpanel-prefix.pch -o /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-gppshryjbjqxvdenfaaipfbrsuxa/Pods-Mixpanel-prefix.pch.pch36"DE655A91-E7E3-4CA8-BA11-510141730A5C-
+b2AE0EBED-C08A-47DA-8771-861AECB72F2D
 
 CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-Mixpanel-prefix-ablbkttmxkbdfiamysdwyyquuofq/Pods-Mixpanel-prefix.pch.pch Pods-Mixpanel-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s420343629.891505

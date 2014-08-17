@@ -41,7 +41,7 @@
     if ([UIScreen mainScreen].bounds.size.height == 568) {
         
         // 640*1136 device
-        image = [UIImage imageNamed:@"bg_welcome-568h@2x.png"];
+        image = [UIImage imageNamed:@"bg_welcome-568h.png"];
     } else {
         
         // Other

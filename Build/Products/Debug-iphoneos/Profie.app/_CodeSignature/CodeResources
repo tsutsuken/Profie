@@ -6,11 +6,11 @@
 	<dict>
 		<key>AppIcon29x29@2x.png</key>
 		<data>
-		DRHOFcfu/yCNvSnH+HivXhMWDPw=
+		mhfeURqddlbRO0OMc3Th3VgIa7A=
 		</data>
 		<key>AppIcon40x40@2x.png</key>
 		<data>
-		sLIFqGqFZtg0YruThuPiyCW4ckg=
+		BSnlabQEiyInu93UdpAu7sUBhP0=
 		</data>
 		<key>AppIcon60x60@2x.png</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		hXJFL0vQAfPdAX1iluUWnwkxdug=
+		MIdWIyW1h0HCQzU1N6m1Xxb4Z6Q=
 		</data>
 		<key>CTFeedback.bundle/Base.lproj/CTFeedbackLocalizable.strings</key>
 		<data>
@@ -162,171 +162,151 @@
 		</data>
 		<key>MPNotification.storyboardc/MPNotificationViewController.nib/objects.nib</key>
 		<data>
-		GajdRxWa9zNxfbAdY/dC7B2Qpzo=
+		iQceBKiLtCBfiyPDN3X7qRyVeow=
 		</data>
 		<key>MPNotification.storyboardc/MPNotificationViewController.nib/runtime.nib</key>
 		<data>
-		3EEGBaHClginKwOoDT8cuJCFgYo=
+		ScN/QY1J7pWLVWOG0bafyS9q7uM=
 		</data>
 		<key>MPNotification.storyboardc/puo-Hy-QiQ-view-Wch-Xc-Avw.nib/objects.nib</key>
 		<data>
-		aeHJewjo3l12DLfRtfy5Mi+ZQO0=
+		yY22GN7pLyOEhDvyU7/JmADc60M=
 		</data>
 		<key>MPNotification.storyboardc/puo-Hy-QiQ-view-Wch-Xc-Avw.nib/runtime.nib</key>
 		<data>
-		lMfeMVjyoDg8EQJGXqGTp6fa9rA=
+		vFj4IsrnqCxSgH845BEW6S5ah8U=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyMultipleChoiceQuestionViewController.nib/objects.nib</key>
 		<data>
-		32uOBlvzZyYHHC4UMbtPPbC+c00=
+		tQ0f/isrTSu9ECwh3+bPEXupTTA=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyMultipleChoiceQuestionViewController.nib/runtime.nib</key>
 		<data>
-		w2RgL741h4S+K8G99sr4B9QWZ38=
+		X9ksfCL/qpvrmTMJxdwLvmkR4dw=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyNavigationController.nib/objects.nib</key>
 		<data>
-		HqNC+yQ5DW7gx0NrLHwDPM7RN1w=
+		XbH12pQLQw0kHvGn5Q4A2a5F/No=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyNavigationController.nib/runtime.nib</key>
 		<data>
-		HRa3XKWnjiGzL7m3sFTEdojjbso=
+		uLSOXr7e2481Mss0gcAshK/UTbk=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyTextQuestionViewController.nib/objects.nib</key>
 		<data>
-		dZ/jiTGS1swwSq/gHQ2yp3Mxefo=
+		7r1ng1bD6YeVatp2gZvV9syN4x8=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyTextQuestionViewController.nib/runtime.nib</key>
 		<data>
-		SvdjHfXNqON5fK1lNz6VJPpzswI=
+		WPPvk9bC9jQeWpVRwEHxoAAZbMM=
 		</data>
 		<key>MPSurvey.storyboardc/RIP-po-dgx-view-cp6-lZ-a9t.nib/objects.nib</key>
 		<data>
-		qxCeNrBhfyJXBwMtcN5CkNsg5GM=
+		TgUPqZ55EnLZWKMULlmeHxOj0Mc=
 		</data>
 		<key>MPSurvey.storyboardc/RIP-po-dgx-view-cp6-lZ-a9t.nib/runtime.nib</key>
 		<data>
-		Ix8q+FgtrjuUsw1d9oy5wQfMBDU=
+		MaRR3dM4ha2gCdQul4JwKZgzJKU=
 		</data>
 		<key>MPSurvey.storyboardc/V5X-Ik-MvF-view-dcL-M9-gG3.nib/objects.nib</key>
 		<data>
-		m3HJCPAhDVilmboZwD3GiFmVZLU=
+		fg2K0HyoO3eJwqp32ex5KLELdB0=
 		</data>
 		<key>MPSurvey.storyboardc/V5X-Ik-MvF-view-dcL-M9-gG3.nib/runtime.nib</key>
 		<data>
-		FKvTReHKK/d8yTjKsjbWOPSvOCQ=
+		Enh7aKL6g3rpJ3WD0sXgeLfuYfs=
 		</data>
 		<key>MPSurvey.storyboardc/tDf-fb-udT-view-LG7-cL-aRp.nib/objects.nib</key>
 		<data>
-		lpqSPxthqoXRXd2TN6L/WIKCSAE=
+		HrKqR7qoNHomx7g/XHdhaDtC8T4=
 		</data>
 		<key>MPSurvey.storyboardc/tDf-fb-udT-view-LG7-cL-aRp.nib/runtime.nib</key>
 		<data>
-		Eyt+EpejWxjSxFpopeHta4qYhLA=
-		</data>
-		<key>Main.storyboardc/0EN-z2-YNe-view-h6i-tZ-Wi0.nib</key>
-		<data>
-		VyJPE8uwqhVWnNQ9BNXu9ijt8o8=
+		xcNfLXxQuZbqWP1BXDrSeix4XUg=
 		</data>
 		<key>Main.storyboardc/4h7-m4-HX3-view-vNO-ix-p2o.nib</key>
 		<data>
-		3mLVkq83VzoEb3zzitilgpGGIXI=
+		7z3vYRRNTAXRkRBVoMO/abZyFyU=
 		</data>
 		<key>Main.storyboardc/7Df-l5-BWc-view-jed-Qp-wcL.nib</key>
 		<data>
-		GISqY4BjUoGU8q1jiiuvXVI4DzU=
+		X9i+p1xJQne5M5zeEEgNrkDIHUI=
 		</data>
 		<key>Main.storyboardc/Dj3-xR-LId-view-dHe-YT-8Gq.nib</key>
 		<data>
-		N8Rlvb3QRZaoLN7iKDDP4ZA4mk0=
+		SQ2LpyjITfJpRqdMV3etBDduxyc=
 		</data>
 		<key>Main.storyboardc/LLP-N7-V66-view-aD0-s7-6YB.nib</key>
 		<data>
-		44NZAM9jPI2ijCNR8XHuWyOSpPE=
+		7nLp/Au8kGr9lE4FMi8b6UK33Tg=
 		</data>
 		<key>Main.storyboardc/M2o-aM-soT-view-jCl-nl-rLl.nib</key>
 		<data>
-		3UJE3XhgGiFJ3R7I0ROcpVOHmJE=
+		0Fq+MT/NRq6jyg3cjMiol060HeQ=
 		</data>
 		<key>Main.storyboardc/MainTabBarController.nib</key>
 		<data>
-		N2LrXh6tO/wvFD1HEAczhBkoodQ=
+		rYCPLAgVA9/s765xB4b2aUYVOfs=
 		</data>
 		<key>Main.storyboardc/ProfileViewController.nib</key>
 		<data>
-		zXu1Zl/BCxv5tlUR2ixPlMecEBU=
-		</data>
-		<key>Main.storyboardc/QuestionDetailView.nib</key>
-		<data>
-		bTzJuet8Us4CAe+tDgLYjWg85l8=
+		lD3TWIvGJ7SGjMOEm7gPIUaz7CY=
 		</data>
 		<key>Main.storyboardc/SZC-2k-b7d-view-NJY-v7-9yl.nib</key>
 		<data>
-		v+d+zdwXsediI6RMT48RTpsfUP8=
+		dKg48mgTfuO710wkHYjl5nRjMDU=
 		</data>
 		<key>Main.storyboardc/UIViewController-D26-Hm-ioe.nib</key>
 		<data>
-		4S/mkmtxzCw1tGSa5QzZOqsv29Y=
+		2pKCUGmM7Fr+gkDo78E9N3CFgC4=
 		</data>
 		<key>Main.storyboardc/UIViewController-E6X-Vu-d8h.nib</key>
 		<data>
-		M341+KTNl0XXBNy40SboZoecm08=
+		EqLRqAJT6w3VDnAc6+E5bKaIIlA=
 		</data>
 		<key>Main.storyboardc/UIViewController-FVT-Xn-asx.nib</key>
 		<data>
-		u2pwEU4JBdvXc/HT/kcaHnys8ZY=
+		ZQFb2NKUq0/40cRwQnH+tet7l98=
 		</data>
 		<key>Main.storyboardc/UIViewController-M2o-aM-soT.nib</key>
 		<data>
-		/eObBuLFx/sTy6rdTaT35fvhD/U=
+		rtgmd/IQaC8NRW4pHnOeukmsgZA=
 		</data>
 		<key>Main.storyboardc/UIViewController-SZC-2k-b7d.nib</key>
 		<data>
-		3YVQZclF4IRe0Av6TDgR0wI4MwE=
+		EilId7WXvKAlNFLUjCdXZOEo3gE=
 		</data>
 		<key>Main.storyboardc/UIViewController-XwK-6o-ZQ3.nib</key>
 		<data>
-		lyyxHAlAm/UAnYSVqHThkTYA7iY=
+		4jD716xB3sfjdltRNAQLy1s7oWE=
 		</data>
 		<key>Main.storyboardc/UIViewController-gt1-5F-VCr.nib</key>
 		<data>
-		kOdirEbvCWVyvmfmIk7VONxkotw=
-		</data>
-		<key>Main.storyboardc/UIViewController-gzg-CY-0vg.nib</key>
-		<data>
-		aChOufcasSEF3cmRFixl6N6QgtE=
+		VW6bAQCTwOinZht635uDR7GKMF8=
 		</data>
 		<key>Main.storyboardc/UIViewController-src-Kn-vpL.nib</key>
 		<data>
-		pMlzHUxONdwqXfPJk2vP1/csStY=
+		zpAphfvrZ9g4G++I6kyRfjCsA4g=
 		</data>
 		<key>Main.storyboardc/UIViewController-xSZ-Au-g8I.nib</key>
 		<data>
-		pQxEhsSu9M8cbK1WfGzT8GRFGGg=
+		WOvjb4+Rxgn/a2LZOxvHaEgcEQw=
 		</data>
 		<key>Main.storyboardc/XwK-6o-ZQ3-view-NRy-Vb-u0n.nib</key>
 		<data>
-		e2zMHqjTQbwfABUJfFBWlmPm3SA=
-		</data>
-		<key>Main.storyboardc/dZ2-YZ-MI7-view-N1y-TD-4Az.nib</key>
-		<data>
-		J4dogP5J+kzEuvHWN1LOwJlbi18=
-		</data>
-		<key>Main.storyboardc/gzg-CY-0vg-view-hzD-Ic-n9L.nib</key>
-		<data>
-		riLtUPm2/m1jX6RuyLo2l5u9NtA=
+		aiYU0EizDu/v4WcDZ+tf0t7H43s=
 		</data>
 		<key>Main.storyboardc/lAs-Mk-jB5-view-oDX-tI-fE4.nib</key>
 		<data>
-		YOuUMmmyb43n4ysqs+Je0pPuKbo=
+		wk0910g0kCdknvgMAC1a/xBW/wQ=
 		</data>
 		<key>Main.storyboardc/okG-CU-V8C-view-ohr-3I-2af.nib</key>
 		<data>
-		Z175H3KgPMEMU2RmZJONrDMOhB0=
+		mnZCCTgMwf8FF9hNxbbQR0KMLJI=
 		</data>
 		<key>Main.storyboardc/xSZ-Au-g8I-view-UcG-fQ-fXC.nib</key>
 		<data>
-		MtwKNu7aU95ODl177g2/xROM+Ow=
+		i/uzu3+g2D8Pilabs2tdv6bQi/s=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -338,7 +318,7 @@
 		</data>
 		<key>Settings.bundle/Design.plist</key>
 		<data>
-		n5MttiLq8CKhR/0Zf6Mn1IK0/as=
+		3wWNDaXC/PcPbfdkWLZs2cEUqs8=
 		</data>
 		<key>Settings.bundle/Library.plist</key>
 		<data>
@@ -380,30 +360,6 @@
 		<data>
 		Shyjyt3tWQndRnuTcSU8o+T6LrM=
 		</data>
-		<key>dot_lightGray.png</key>
-		<data>
-		EmBUq4+TMCp1YYlvjToDOkhAWf8=
-		</data>
-		<key>dot_lightGray@2x.png</key>
-		<data>
-		EmBUq4+TMCp1YYlvjToDOkhAWf8=
-		</data>
-		<key>dot_white.png</key>
-		<data>
-		6DKhKpqmuQjooc+8Qu5RLiYWDLc=
-		</data>
-		<key>dot_white@2x.png</key>
-		<data>
-		6DKhKpqmuQjooc+8Qu5RLiYWDLc=
-		</data>
-		<key>dots.png</key>
-		<data>
-		PlbcgdayOhx2wmcRpevzbblWkx0=
-		</data>
-		<key>dots@2x.png</key>
-		<data>
-		by4CEt92zEd0LrdhPZeNa3CWwA8=
-		</data>
 		<key>edit_tab.png</key>
 		<data>
 		++2Tw1TuFLT2FvObDDbpyV4aU8g=
@@ -430,7 +386,7 @@
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<data>
-		YYzP7V9C9OVSFIkIZfN0XowSSoI=
+		2P34GifCfv6x5Gf7bljpfkPClgc=
 		</data>
 		<key>es.lproj/FormatterKit.strings</key>
 		<data>
@@ -447,14 +403,6 @@
 		<key>gear@2x.png</key>
 		<data>
 		jSdxe1fevhxZyH6+fvZTK2h8sOM=
-		</data>
-		<key>home_tab.png</key>
-		<data>
-		rjZuy6/i8qNK5WV2U5tcLoolQOw=
-		</data>
-		<key>home_tab@2x.png</key>
-		<data>
-		Enzp+XZ4amVW4pVpOJcsPLVU3JU=
 		</data>
 		<key>iRate.bundle/ar.lproj/Localizable.strings</key>
 		<data>
@@ -610,7 +558,7 @@
 		</data>
 		<key>ja.lproj/Localizable.strings</key>
 		<data>
-		q5qDup6bHKeM6GfHdECVHJKi+Io=
+		8LDRo/r9wEkFTvR42kNfoE/Dr7A=
 		</data>
 		<key>ko.lproj/FormatterKit.strings</key>
 		<data>
@@ -627,22 +575,6 @@
 		<key>nn.lproj/FormatterKit.strings</key>
 		<data>
 		nCefXIFJG2zjVJbHHKZyhwOmYzY=
-		</data>
-		<key>person_add.png</key>
-		<data>
-		GPKjE1pH0wv0NOfUVW0z9IBH1js=
-		</data>
-		<key>person_add@2x.png</key>
-		<data>
-		YcqBTrMSK5WTeE9rTcfLF7YQMA4=
-		</data>
-		<key>person_check.png</key>
-		<data>
-		cjt1RA5O3+jzDiIIqynu8Dpc+rs=
-		</data>
-		<key>person_check@2x.png</key>
-		<data>
-		VblYrBLY1lLko4ICPAwF7GgRyzU=
 		</data>
 		<key>person_medium.png</key>
 		<data>
@@ -680,17 +612,17 @@
 		<data>
 		0P/qXvGIqjJVmURd22ieToFJv48=
 		</data>
-		<key>question_tab.png</key>
-		<data>
-		zrn4EbILfU6umtc+UJn/HtEuWxU=
-		</data>
-		<key>question_tab@2x.png</key>
-		<data>
-		eLM+ShvCSexn4Uvob7xkQSd9EU8=
-		</data>
 		<key>ru.lproj/FormatterKit.strings</key>
 		<data>
 		Il+p9mZK5Weg1q95a5+6KdPMQNM=
+		</data>
+		<key>share.png</key>
+		<data>
+		0EluhrZ93GqDx5duNnQmj7Ol26o=
+		</data>
+		<key>share@2x.png</key>
+		<data>
+		CxePKjiwvrwFJG80J1yIBGabmtM=
 		</data>
 		<key>sv.lproj/FormatterKit.strings</key>
 		<data>
@@ -737,11 +669,11 @@
 	<dict>
 		<key>AppIcon29x29@2x.png</key>
 		<data>
-		DRHOFcfu/yCNvSnH+HivXhMWDPw=
+		mhfeURqddlbRO0OMc3Th3VgIa7A=
 		</data>
 		<key>AppIcon40x40@2x.png</key>
 		<data>
-		sLIFqGqFZtg0YruThuPiyCW4ckg=
+		BSnlabQEiyInu93UdpAu7sUBhP0=
 		</data>
 		<key>AppIcon60x60@2x.png</key>
 		<data>
@@ -749,7 +681,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		hXJFL0vQAfPdAX1iluUWnwkxdug=
+		MIdWIyW1h0HCQzU1N6m1Xxb4Z6Q=
 		</data>
 		<key>CTFeedback.bundle/Base.lproj/CTFeedbackLocalizable.strings</key>
 		<data>
@@ -893,171 +825,151 @@
 		</data>
 		<key>MPNotification.storyboardc/MPNotificationViewController.nib/objects.nib</key>
 		<data>
-		GajdRxWa9zNxfbAdY/dC7B2Qpzo=
+		iQceBKiLtCBfiyPDN3X7qRyVeow=
 		</data>
 		<key>MPNotification.storyboardc/MPNotificationViewController.nib/runtime.nib</key>
 		<data>
-		3EEGBaHClginKwOoDT8cuJCFgYo=
+		ScN/QY1J7pWLVWOG0bafyS9q7uM=
 		</data>
 		<key>MPNotification.storyboardc/puo-Hy-QiQ-view-Wch-Xc-Avw.nib/objects.nib</key>
 		<data>
-		aeHJewjo3l12DLfRtfy5Mi+ZQO0=
+		yY22GN7pLyOEhDvyU7/JmADc60M=
 		</data>
 		<key>MPNotification.storyboardc/puo-Hy-QiQ-view-Wch-Xc-Avw.nib/runtime.nib</key>
 		<data>
-		lMfeMVjyoDg8EQJGXqGTp6fa9rA=
+		vFj4IsrnqCxSgH845BEW6S5ah8U=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyMultipleChoiceQuestionViewController.nib/objects.nib</key>
 		<data>
-		32uOBlvzZyYHHC4UMbtPPbC+c00=
+		tQ0f/isrTSu9ECwh3+bPEXupTTA=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyMultipleChoiceQuestionViewController.nib/runtime.nib</key>
 		<data>
-		w2RgL741h4S+K8G99sr4B9QWZ38=
+		X9ksfCL/qpvrmTMJxdwLvmkR4dw=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyNavigationController.nib/objects.nib</key>
 		<data>
-		HqNC+yQ5DW7gx0NrLHwDPM7RN1w=
+		XbH12pQLQw0kHvGn5Q4A2a5F/No=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyNavigationController.nib/runtime.nib</key>
 		<data>
-		HRa3XKWnjiGzL7m3sFTEdojjbso=
+		uLSOXr7e2481Mss0gcAshK/UTbk=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyTextQuestionViewController.nib/objects.nib</key>
 		<data>
-		dZ/jiTGS1swwSq/gHQ2yp3Mxefo=
+		7r1ng1bD6YeVatp2gZvV9syN4x8=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyTextQuestionViewController.nib/runtime.nib</key>
 		<data>
-		SvdjHfXNqON5fK1lNz6VJPpzswI=
+		WPPvk9bC9jQeWpVRwEHxoAAZbMM=
 		</data>
 		<key>MPSurvey.storyboardc/RIP-po-dgx-view-cp6-lZ-a9t.nib/objects.nib</key>
 		<data>
-		qxCeNrBhfyJXBwMtcN5CkNsg5GM=
+		TgUPqZ55EnLZWKMULlmeHxOj0Mc=
 		</data>
 		<key>MPSurvey.storyboardc/RIP-po-dgx-view-cp6-lZ-a9t.nib/runtime.nib</key>
 		<data>
-		Ix8q+FgtrjuUsw1d9oy5wQfMBDU=
+		MaRR3dM4ha2gCdQul4JwKZgzJKU=
 		</data>
 		<key>MPSurvey.storyboardc/V5X-Ik-MvF-view-dcL-M9-gG3.nib/objects.nib</key>
 		<data>
-		m3HJCPAhDVilmboZwD3GiFmVZLU=
+		fg2K0HyoO3eJwqp32ex5KLELdB0=
 		</data>
 		<key>MPSurvey.storyboardc/V5X-Ik-MvF-view-dcL-M9-gG3.nib/runtime.nib</key>
 		<data>
-		FKvTReHKK/d8yTjKsjbWOPSvOCQ=
+		Enh7aKL6g3rpJ3WD0sXgeLfuYfs=
 		</data>
 		<key>MPSurvey.storyboardc/tDf-fb-udT-view-LG7-cL-aRp.nib/objects.nib</key>
 		<data>
-		lpqSPxthqoXRXd2TN6L/WIKCSAE=
+		HrKqR7qoNHomx7g/XHdhaDtC8T4=
 		</data>
 		<key>MPSurvey.storyboardc/tDf-fb-udT-view-LG7-cL-aRp.nib/runtime.nib</key>
 		<data>
-		Eyt+EpejWxjSxFpopeHta4qYhLA=
-		</data>
-		<key>Main.storyboardc/0EN-z2-YNe-view-h6i-tZ-Wi0.nib</key>
-		<data>
-		VyJPE8uwqhVWnNQ9BNXu9ijt8o8=
+		xcNfLXxQuZbqWP1BXDrSeix4XUg=
 		</data>
 		<key>Main.storyboardc/4h7-m4-HX3-view-vNO-ix-p2o.nib</key>
 		<data>
-		3mLVkq83VzoEb3zzitilgpGGIXI=
+		7z3vYRRNTAXRkRBVoMO/abZyFyU=
 		</data>
 		<key>Main.storyboardc/7Df-l5-BWc-view-jed-Qp-wcL.nib</key>
 		<data>
-		GISqY4BjUoGU8q1jiiuvXVI4DzU=
+		X9i+p1xJQne5M5zeEEgNrkDIHUI=
 		</data>
 		<key>Main.storyboardc/Dj3-xR-LId-view-dHe-YT-8Gq.nib</key>
 		<data>
-		N8Rlvb3QRZaoLN7iKDDP4ZA4mk0=
+		SQ2LpyjITfJpRqdMV3etBDduxyc=
 		</data>
 		<key>Main.storyboardc/LLP-N7-V66-view-aD0-s7-6YB.nib</key>
 		<data>
-		44NZAM9jPI2ijCNR8XHuWyOSpPE=
+		7nLp/Au8kGr9lE4FMi8b6UK33Tg=
 		</data>
 		<key>Main.storyboardc/M2o-aM-soT-view-jCl-nl-rLl.nib</key>
 		<data>
-		3UJE3XhgGiFJ3R7I0ROcpVOHmJE=
+		0Fq+MT/NRq6jyg3cjMiol060HeQ=
 		</data>
 		<key>Main.storyboardc/MainTabBarController.nib</key>
 		<data>
-		N2LrXh6tO/wvFD1HEAczhBkoodQ=
+		rYCPLAgVA9/s765xB4b2aUYVOfs=
 		</data>
 		<key>Main.storyboardc/ProfileViewController.nib</key>
 		<data>
-		zXu1Zl/BCxv5tlUR2ixPlMecEBU=
-		</data>
-		<key>Main.storyboardc/QuestionDetailView.nib</key>
-		<data>
-		bTzJuet8Us4CAe+tDgLYjWg85l8=
+		lD3TWIvGJ7SGjMOEm7gPIUaz7CY=
 		</data>
 		<key>Main.storyboardc/SZC-2k-b7d-view-NJY-v7-9yl.nib</key>
 		<data>
-		v+d+zdwXsediI6RMT48RTpsfUP8=
+		dKg48mgTfuO710wkHYjl5nRjMDU=
 		</data>
 		<key>Main.storyboardc/UIViewController-D26-Hm-ioe.nib</key>
 		<data>
-		4S/mkmtxzCw1tGSa5QzZOqsv29Y=
+		2pKCUGmM7Fr+gkDo78E9N3CFgC4=
 		</data>
 		<key>Main.storyboardc/UIViewController-E6X-Vu-d8h.nib</key>
 		<data>
-		M341+KTNl0XXBNy40SboZoecm08=
+		EqLRqAJT6w3VDnAc6+E5bKaIIlA=
 		</data>
 		<key>Main.storyboardc/UIViewController-FVT-Xn-asx.nib</key>
 		<data>
-		u2pwEU4JBdvXc/HT/kcaHnys8ZY=
+		ZQFb2NKUq0/40cRwQnH+tet7l98=
 		</data>
 		<key>Main.storyboardc/UIViewController-M2o-aM-soT.nib</key>
 		<data>
-		/eObBuLFx/sTy6rdTaT35fvhD/U=
+		rtgmd/IQaC8NRW4pHnOeukmsgZA=
 		</data>
 		<key>Main.storyboardc/UIViewController-SZC-2k-b7d.nib</key>
 		<data>
-		3YVQZclF4IRe0Av6TDgR0wI4MwE=
+		EilId7WXvKAlNFLUjCdXZOEo3gE=
 		</data>
 		<key>Main.storyboardc/UIViewController-XwK-6o-ZQ3.nib</key>
 		<data>
-		lyyxHAlAm/UAnYSVqHThkTYA7iY=
+		4jD716xB3sfjdltRNAQLy1s7oWE=
 		</data>
 		<key>Main.storyboardc/UIViewController-gt1-5F-VCr.nib</key>
 		<data>
-		kOdirEbvCWVyvmfmIk7VONxkotw=
-		</data>
-		<key>Main.storyboardc/UIViewController-gzg-CY-0vg.nib</key>
-		<data>
-		aChOufcasSEF3cmRFixl6N6QgtE=
+		VW6bAQCTwOinZht635uDR7GKMF8=
 		</data>
 		<key>Main.storyboardc/UIViewController-src-Kn-vpL.nib</key>
 		<data>
-		pMlzHUxONdwqXfPJk2vP1/csStY=
+		zpAphfvrZ9g4G++I6kyRfjCsA4g=
 		</data>
 		<key>Main.storyboardc/UIViewController-xSZ-Au-g8I.nib</key>
 		<data>
-		pQxEhsSu9M8cbK1WfGzT8GRFGGg=
+		WOvjb4+Rxgn/a2LZOxvHaEgcEQw=
 		</data>
 		<key>Main.storyboardc/XwK-6o-ZQ3-view-NRy-Vb-u0n.nib</key>
 		<data>
-		e2zMHqjTQbwfABUJfFBWlmPm3SA=
-		</data>
-		<key>Main.storyboardc/dZ2-YZ-MI7-view-N1y-TD-4Az.nib</key>
-		<data>
-		J4dogP5J+kzEuvHWN1LOwJlbi18=
-		</data>
-		<key>Main.storyboardc/gzg-CY-0vg-view-hzD-Ic-n9L.nib</key>
-		<data>
-		riLtUPm2/m1jX6RuyLo2l5u9NtA=
+		aiYU0EizDu/v4WcDZ+tf0t7H43s=
 		</data>
 		<key>Main.storyboardc/lAs-Mk-jB5-view-oDX-tI-fE4.nib</key>
 		<data>
-		YOuUMmmyb43n4ysqs+Je0pPuKbo=
+		wk0910g0kCdknvgMAC1a/xBW/wQ=
 		</data>
 		<key>Main.storyboardc/okG-CU-V8C-view-ohr-3I-2af.nib</key>
 		<data>
-		Z175H3KgPMEMU2RmZJONrDMOhB0=
+		mnZCCTgMwf8FF9hNxbbQR0KMLJI=
 		</data>
 		<key>Main.storyboardc/xSZ-Au-g8I-view-UcG-fQ-fXC.nib</key>
 		<data>
-		MtwKNu7aU95ODl177g2/xROM+Ow=
+		i/uzu3+g2D8Pilabs2tdv6bQi/s=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -1069,7 +981,7 @@
 		</data>
 		<key>Settings.bundle/Design.plist</key>
 		<data>
-		n5MttiLq8CKhR/0Zf6Mn1IK0/as=
+		3wWNDaXC/PcPbfdkWLZs2cEUqs8=
 		</data>
 		<key>Settings.bundle/Library.plist</key>
 		<data>
@@ -1111,30 +1023,6 @@
 		<data>
 		Shyjyt3tWQndRnuTcSU8o+T6LrM=
 		</data>
-		<key>dot_lightGray.png</key>
-		<data>
-		EmBUq4+TMCp1YYlvjToDOkhAWf8=
-		</data>
-		<key>dot_lightGray@2x.png</key>
-		<data>
-		EmBUq4+TMCp1YYlvjToDOkhAWf8=
-		</data>
-		<key>dot_white.png</key>
-		<data>
-		6DKhKpqmuQjooc+8Qu5RLiYWDLc=
-		</data>
-		<key>dot_white@2x.png</key>
-		<data>
-		6DKhKpqmuQjooc+8Qu5RLiYWDLc=
-		</data>
-		<key>dots.png</key>
-		<data>
-		PlbcgdayOhx2wmcRpevzbblWkx0=
-		</data>
-		<key>dots@2x.png</key>
-		<data>
-		by4CEt92zEd0LrdhPZeNa3CWwA8=
-		</data>
 		<key>edit_tab.png</key>
 		<data>
 		++2Tw1TuFLT2FvObDDbpyV4aU8g=
@@ -1161,7 +1049,7 @@
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<data>
-		YYzP7V9C9OVSFIkIZfN0XowSSoI=
+		2P34GifCfv6x5Gf7bljpfkPClgc=
 		</data>
 		<key>es.lproj/FormatterKit.strings</key>
 		<data>
@@ -1178,14 +1066,6 @@
 		<key>gear@2x.png</key>
 		<data>
 		jSdxe1fevhxZyH6+fvZTK2h8sOM=
-		</data>
-		<key>home_tab.png</key>
-		<data>
-		rjZuy6/i8qNK5WV2U5tcLoolQOw=
-		</data>
-		<key>home_tab@2x.png</key>
-		<data>
-		Enzp+XZ4amVW4pVpOJcsPLVU3JU=
 		</data>
 		<key>iRate.bundle/ar.lproj/Localizable.strings</key>
 		<data>
@@ -1341,7 +1221,7 @@
 		</data>
 		<key>ja.lproj/Localizable.strings</key>
 		<data>
-		q5qDup6bHKeM6GfHdECVHJKi+Io=
+		8LDRo/r9wEkFTvR42kNfoE/Dr7A=
 		</data>
 		<key>ko.lproj/FormatterKit.strings</key>
 		<data>
@@ -1358,22 +1238,6 @@
 		<key>nn.lproj/FormatterKit.strings</key>
 		<data>
 		nCefXIFJG2zjVJbHHKZyhwOmYzY=
-		</data>
-		<key>person_add.png</key>
-		<data>
-		GPKjE1pH0wv0NOfUVW0z9IBH1js=
-		</data>
-		<key>person_add@2x.png</key>
-		<data>
-		YcqBTrMSK5WTeE9rTcfLF7YQMA4=
-		</data>
-		<key>person_check.png</key>
-		<data>
-		cjt1RA5O3+jzDiIIqynu8Dpc+rs=
-		</data>
-		<key>person_check@2x.png</key>
-		<data>
-		VblYrBLY1lLko4ICPAwF7GgRyzU=
 		</data>
 		<key>person_medium.png</key>
 		<data>
@@ -1411,17 +1275,17 @@
 		<data>
 		0P/qXvGIqjJVmURd22ieToFJv48=
 		</data>
-		<key>question_tab.png</key>
-		<data>
-		zrn4EbILfU6umtc+UJn/HtEuWxU=
-		</data>
-		<key>question_tab@2x.png</key>
-		<data>
-		eLM+ShvCSexn4Uvob7xkQSd9EU8=
-		</data>
 		<key>ru.lproj/FormatterKit.strings</key>
 		<data>
 		Il+p9mZK5Weg1q95a5+6KdPMQNM=
+		</data>
+		<key>share.png</key>
+		<data>
+		0EluhrZ93GqDx5duNnQmj7Ol26o=
+		</data>
+		<key>share@2x.png</key>
+		<data>
+		CxePKjiwvrwFJG80J1yIBGabmtM=
 		</data>
 		<key>sv.lproj/FormatterKit.strings</key>
 		<data>

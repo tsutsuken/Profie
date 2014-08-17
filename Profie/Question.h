@@ -17,4 +17,7 @@
 + (NSString *)parseClassName;
 - (NSString *)titleWithTag;
 
+- (void)incrementAnswerCount;
+- (void)decrementAnswerCount;
+
 @end

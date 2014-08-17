@@ -166,15 +166,8 @@
 {
     [self performSegueWithIdentifier:@"showEditQuestionView" sender:self];
 }
-/*
-#pragma mark QuestionDetailView
 
-- (void)showQuestionDetailView
-{
-    [self performSegueWithIdentifier:@"showQuestionDetailView" sender:self];
-}
-*/
-#pragma mark QuestionDetailView
+#pragma mark EditAnswerView
 
 - (void)showEditAnswerView
 {
@@ -185,14 +178,14 @@
 
 - (void)setNotifications
 {
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidEditAnswer:) name:LVEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidDeleteAnswer:) name:LVQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidEditAnswer:) name:kLVNotificationDidEditAnswer object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidDeleteAnswer:) name:kLVNotificationDidDeleteAnswer object:nil];
 }
 
 - (void)removeNotifications
 {
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:LVEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:LVQuestionDetailViewControllerUserDidDeleteAnswerNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:kLVNotificationDidEditAnswer object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:kLVNotificationDidDeleteAnswer object:nil];
 }
 
 - (void)userDidEditAnswer:(NSNotification *)note
@@ -232,7 +225,9 @@
 #if DEBUG
     request.testDevices = @[kTestDeviceIdKeniPhone5s];
 #endif
-    [self.bannerView loadRequest:request];
+    //[self.bannerView loadRequest:request];
+    
+#warning test
 }
 
 - (void)removeAd

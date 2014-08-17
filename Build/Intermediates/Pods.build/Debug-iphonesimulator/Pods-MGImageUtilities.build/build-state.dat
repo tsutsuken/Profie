@@ -2,10 +2,10 @@ TPods-MGImageUtilities
 v6
 r1
 cCheck dependencies
-cProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-MGImageUtilities-prefix-fncywwvahfhokmayewosqvucabgj/Pods-MGImageUtilities-prefix.pch.pch Pods-MGImageUtilities-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/Pods-MGImageUtilities-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-MGImageUtilities-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/UIImage+Tint.o /Users/p27e4a/github/SuperProfile/Pods/MGImageUtilities/Classes/UIImage+Tint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-MGImageUtilities.a normal i386
+cProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-MGImageUtilities-prefix-adotoddeiganvybtprcieldxanxm/Pods-MGImageUtilities-prefix.pch.pch Pods-MGImageUtilities-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/Pods-MGImageUtilities-dummy.o /Users/p27e4a/github/Profie/Pods/Pods-MGImageUtilities-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/UIImage+Tint.o /Users/p27e4a/github/Profie/Pods/MGImageUtilities/Classes/UIImage+Tint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-MGImageUtilities.a normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 c0000000053532C240000000000A90C10
@@ -31,6 +31,52 @@ N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/
 c0000000053532D460000000000000ADC
 t1397960006
 s2780
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/Pods-MGImageUtilities-dummy.o
+t1408066848
+s3444
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/Pods-MGImageUtilities.LinkFileList
+c0000000053ED651F000000000000012F
+t1408066847
+s303
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/UIImage+Tint.o
+t1408066848
+s11132
+
+N/Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-MGImageUtilities-prefix-adotoddeiganvybtprcieldxanxm/Pods-MGImageUtilities-prefix.pch.pch
+t1408066848
+s131588
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-MGImageUtilities.a
+t1408066848
+s14968
+
+N/Users/p27e4a/github/Profie/Pods/MGImageUtilities/Classes/UIImage+Tint.h
+c0000000053A2BE40000000000000012C
+t1403174464
+s300
+
+N/Users/p27e4a/github/Profie/Pods/MGImageUtilities/Classes/UIImage+Tint.m
+c0000000053A2BE410000000000000691
+t1403174465
+s1681
+
+N/Users/p27e4a/github/Profie/Pods/Pods-MGImageUtilities-dummy.m
+c0000000053EC63210000000000000092
+t1408000801
+s146
+
+N/Users/p27e4a/github/Profie/Pods/Pods-MGImageUtilities-prefix.pch
+c0000000053EC6321000000000000004D
+t1408000801
+s77
+
+N/Users/p27e4a/github/Profie/Pods/Pods-environment.h
+c0000000053EC632100000000000013AD
+t1408000801
+s5037
 
 N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/Pods-MGImageUtilities-dummy.o
 t1403408592
@@ -68,6 +114,12 @@ c0000000053A4F462000000000000004D
 t1403319394
 s77
 
+CBuild AST from /Users/p27e4a/github/Profie/Pods/MGImageUtilities/Classes/UIImage+Tint.m
+r0
+
+CBuild AST from /Users/p27e4a/github/Profie/Pods/Pods-MGImageUtilities-dummy.m
+r0
+
 CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/MGImageUtilities/Classes/UIImage+Tint.m
 r0
 
@@ -76,7 +128,38 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies62bc2e4f8856b941^2fbf674f8856b941^---0#1#1#--18"Check dependencies36"93AB4A71-886D-460F-A40E-BDA08F703C74-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies94bec4a19e9db941^44a4dea19e9db941^---0#1#1#--18"Check dependencies36"3E554EF6-9361-43D3-8311-CA2527A85A9F-
+
+CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/Pods-MGImageUtilities-dummy.o /Users/p27e4a/github/Profie/Pods/Pods-MGImageUtilities-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759648.281744
+e429759648.335349
+r1
+xCompileC
+x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/Pods-MGImageUtilities-dummy.o
+x/Users/p27e4a/github/Profie/Pods/Pods-MGImageUtilities-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Pods-MGImageUtilities-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/p27e4a/github/Profie/Pods/Pods-MGImageUtilities-dummy.m265"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/Pods-MGImageUtilities-dummy.o Pods-MGImageUtilities-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc64e48a09c9db941^badb55a09c9db941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/p27e4a/github/Profie/Pods/Pods-MGImageUtilities-dummy.m0000000000000000^4482"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/Pods-MGImageUtilities-dummy.o Pods-MGImageUtilities-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Pods-MGImageUtilities-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Pods-MGImageUtilities-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Pods-MGImageUtilities-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Pods-MGImageUtilities-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-MGImageUtilities-prefix-adotoddeiganvybtprcieldxanxm/Pods-MGImageUtilities-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/Pods-MGImageUtilities-dummy.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/Pods-MGImageUtilities-dummy.dia -c /Users/p27e4a/github/Profie/Pods/Pods-MGImageUtilities-dummy.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/Pods-MGImageUtilities-dummy.o36"9DAE72CA-C436-4903-802C-FBF96485811D-
+bA315A007-C2ED-43D9-9694-5811F04D5445
+
+CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/UIImage+Tint.o /Users/p27e4a/github/Profie/Pods/MGImageUtilities/Classes/UIImage+Tint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759648.337010
+e429759648.442409
+r1
+xCompileC
+x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/UIImage+Tint.o
+x/Users/p27e4a/github/Profie/Pods/MGImageUtilities/Classes/UIImage+Tint.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/MGImageUtilities/Classes/UIImage+Tint.m
+d/Users/p27e4a/github/Profie/Pods/MGImageUtilities/Classes/UIImage+Tint.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/p27e4a/github/Profie/Pods/MGImageUtilities/Classes/UIImage+Tint.m260"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/UIImage+Tint.o MGImageUtilities/Classes/UIImage+Tint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler376d56a09c9db941^150271a09c9db941^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/p27e4a/github/Profie/Pods/MGImageUtilities/Classes/UIImage+Tint.m0000000000000000^4442"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/UIImage+Tint.o MGImageUtilities/Classes/UIImage+Tint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Pods-MGImageUtilities-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Pods-MGImageUtilities-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Pods-MGImageUtilities-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Pods-MGImageUtilities-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-MGImageUtilities-prefix-adotoddeiganvybtprcieldxanxm/Pods-MGImageUtilities-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/UIImage+Tint.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/UIImage+Tint.dia -c /Users/p27e4a/github/Profie/Pods/MGImageUtilities/Classes/UIImage+Tint.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/UIImage+Tint.o36"674A84CC-38F7-47EC-AEFA-E1A056407AB3-
+bA315A007-C2ED-43D9-9694-5811F04D5445
 
 CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/Pods-MGImageUtilities-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-MGImageUtilities-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s425101392.264337
@@ -109,6 +192,17 @@ d/Users/p27e4a/github/SuperProfile/Pods/MGImageUtilities/Classes/UIImage+Tint.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/p27e4a/github/SuperProfile/Pods/MGImageUtilities/Classes/UIImage+Tint.m266"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/UIImage+Tint.o MGImageUtilities/Classes/UIImage+Tint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler90d989508856b941^bc3b62518856b941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/p27e4a/github/SuperProfile/Pods/MGImageUtilities/Classes/UIImage+Tint.m0000000000000000^4364"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/UIImage+Tint.o MGImageUtilities/Classes/UIImage+Tint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Pods-MGImageUtilities-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Pods-MGImageUtilities-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Pods-MGImageUtilities-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Pods-MGImageUtilities-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/DerivedSources/i386 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-MGImageUtilities-prefix-fncywwvahfhokmayewosqvucabgj/Pods-MGImageUtilities-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/UIImage+Tint.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/UIImage+Tint.dia -c /Users/p27e4a/github/SuperProfile/Pods/MGImageUtilities/Classes/UIImage+Tint.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/UIImage+Tint.o36"32A904D4-DB01-40CB-A9BF-563E0AECE800-
 b1E63D69B-2A34-4056-9E4A-3FDE9A906383
 
+CLibtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-MGImageUtilities.a normal i386
+s429759648.560700
+e429759648.570958
+r1
+xLibtool
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-MGImageUtilities.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Libtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-MGImageUtilities.a normal i386111"Libtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-MGImageUtilities.a normal i386d3a18fa09c9db941^43e791a09c9db941^---0#0#1#--998"Libtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-MGImageUtilities.a normal i386    cd /Users/p27e4a/github/Profie/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -filelist /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/Pods-MGImageUtilities.LinkFileList -framework Foundation -o /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-MGImageUtilities.a36"321CBD93-09A6-43F1-B09B-CDAAB838E275-
+bA315A007-C2ED-43D9-9694-5811F04D5445
+
 CLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-MGImageUtilities.a normal i386
 s425101393.485262
 e425101393.563630
@@ -120,8 +214,27 @@ xi386
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-MGImageUtilities.a normal i386117"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-MGImageUtilities.a normal i386ac587c518856b941^6a4c90518856b941^---0#0#1#--1028"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-MGImageUtilities.a normal i386    cd /Users/p27e4a/github/SuperProfile/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator -filelist /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Objects-normal/i386/Pods-MGImageUtilities.LinkFileList -framework Foundation -o /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-MGImageUtilities.a36"68A6AD6A-8160-4EA1-BB5A-99167CF2FD2D-
 b1E63D69B-2A34-4056-9E4A-3FDE9A906383
 
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/Profie-cgqxhzxhjnczztelqvpkhhgtubdh/Index/PrecompiledHeaders/Pods-MGImageUtilities-prefix-eqxekfafyzbbtnfiyhkapihklhsf_ast/Pods-MGImageUtilities-prefix.pch.pch Pods-MGImageUtilities-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
 CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-MGImageUtilities-prefix-afpgwjflvcouubckcbgizsezsdqw_ast/Pods-MGImageUtilities-prefix.pch.pch Pods-MGImageUtilities-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
+
+CProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-MGImageUtilities-prefix-adotoddeiganvybtprcieldxanxm/Pods-MGImageUtilities-prefix.pch.pch Pods-MGImageUtilities-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429759648.127226
+e429759648.194582
+r1
+xProcessPCH
+x/Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-MGImageUtilities-prefix-adotoddeiganvybtprcieldxanxm/Pods-MGImageUtilities-prefix.pch.pch
+xPods-MGImageUtilities-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/Profie/Pods/Pods-MGImageUtilities-prefix.pch
+d/Users/p27e4a/github/Profie/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile Pods-MGImageUtilities-prefix.pch273"ProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-MGImageUtilities-prefix-adotoddeiganvybtprcieldxanxm/Pods-MGImageUtilities-prefix.pch.pch Pods-MGImageUtilities-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler57b520a09c9db941^9ed231a09c9db941^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/p27e4a/github/Profie/Pods/Pods-MGImageUtilities-prefix.pch0000000000000000^4338"ProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-MGImageUtilities-prefix-adotoddeiganvybtprcieldxanxm/Pods-MGImageUtilities-prefix.pch.pch Pods-MGImageUtilities-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Pods-MGImageUtilities-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Pods-MGImageUtilities-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Pods-MGImageUtilities-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/Pods-MGImageUtilities-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-MGImageUtilities.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-MGImageUtilities-prefix-adotoddeiganvybtprcieldxanxm/Pods-MGImageUtilities-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-MGImageUtilities-prefix-adotoddeiganvybtprcieldxanxm/Pods-MGImageUtilities-prefix.pch.d -c /Users/p27e4a/github/Profie/Pods/Pods-MGImageUtilities-prefix.pch -o /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-MGImageUtilities-prefix-adotoddeiganvybtprcieldxanxm/Pods-MGImageUtilities-prefix.pch.pch36"31A46E91-A34C-43BF-8DBA-EB6748C262CC-
+bA315A007-C2ED-43D9-9694-5811F04D5445
 
 CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-MGImageUtilities-prefix-fncywwvahfhokmayewosqvucabgj/Pods-MGImageUtilities-prefix.pch.pch Pods-MGImageUtilities-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s425101391.788260

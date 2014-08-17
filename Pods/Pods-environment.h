@@ -108,6 +108,12 @@
 #define COCOAPODS_VERSION_MINOR_Mixpanel 3
 #define COCOAPODS_VERSION_PATCH_Mixpanel 5
 
+// UIActionSheet+Blocks
+#define COCOAPODS_POD_AVAILABLE_UIActionSheet_Blocks
+#define COCOAPODS_VERSION_MAJOR_UIActionSheet_Blocks 0
+#define COCOAPODS_VERSION_MINOR_UIActionSheet_Blocks 8
+#define COCOAPODS_VERSION_PATCH_UIActionSheet_Blocks 1
+
 // iRate
 #define COCOAPODS_POD_AVAILABLE_iRate
 #define COCOAPODS_VERSION_MAJOR_iRate 1

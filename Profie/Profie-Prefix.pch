@@ -24,24 +24,23 @@
     #import <Crashlytics/Crashlytics.h>
     #import "LVAnalyticsManager.h"
     #import "iRate.h"
+    #import "UIActionSheet+Blocks.h"
     #import "Question.h"
     #import "Answer.h"
     #import "GADBannerView.h"
     #import "MBProgressHUD.h"
+
     #import "UIImage+Tint.h"
     #import "LVPlaceholderTextView.h"
     #import "LVConstants.h"
-    #import "LVUtility.h"
     #import "LVTimeFormatter.h"
     #import "LVShareKitTwitter.h"
     #import "PFUser+Additions.h"
     #import "UIColor+ColorWithHex.h"
     #import "ProfileViewController.h"
-    #import "UserListViewController.h"
     #import "UIImage+Resize.h"
     #import "PFRoundedImageView.h"
     #import "LVTouchableLabel.h"
-    #import "QuestionDetailViewController.h"
     #import "AnswerCell.h"
     #import "LVBorderButton.h"
 #endif
@@ -69,8 +68,6 @@
 #define kAnEventDeleteAnswer @"Answer Deleted"
 #define kAnEventShareAnswerOnTwitter @"Answer Shared On Twitter"
 #define kAnEventAddQuestion @"Question Added"
-#define kAnEventFollow @"Followed"
-#define kAnEventUnFollow @"UnFollowed"
 
 /* Ads */
 #define kTestDeviceIdKeniPhone5s @"e68d15d429e34789fa691b0f57e8b878"

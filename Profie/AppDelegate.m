@@ -112,7 +112,6 @@
     ProfileViewController *profileView = (ProfileViewController *)nvcForProfileView.topViewController;
     profileView.user = [PFUser currentUser];
     
-    
     UINavigationController *nvc = (UINavigationController *)self.window.rootViewController;
     FirstViewController *firstViewController = (FirstViewController *)nvc.topViewController;
     

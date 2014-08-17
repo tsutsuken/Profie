@@ -160,8 +160,6 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
     else {
 		[self saveAnswer];
 	}
-    
-    [self incrementAnswerCountOfQuestion];
 }
 
 - (void)saveAnswer
@@ -172,6 +170,8 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
         answer.auther = [PFUser currentUser];
         answer.question = self.question;
         answer.questionId = self.question.objectId;
+        
+        [answer.question incrementAnswerCount];
         
         [ANALYTICS trackEvent:kAnEventAddAnswer sender:self];
     }
@@ -184,21 +184,11 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
     answer.title = self.textView.text;
     [answer saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (succeeded) {
-            [[NSNotificationCenter defaultCenter] postNotificationName:LVEditAnswerViewControllerUserDidEditAnswerNotification object:nil];
+            [[NSNotificationCenter defaultCenter] postNotificationName:kLVNotificationDidEditAnswer object:nil];
             
             [self.shareKitTwitter postAnswerIfNeeded:answer];
         }
     }];
-}
-
-- (void)incrementAnswerCountOfQuestion
-{
-    if (![self isNewAnswer]) {
-        return;
-    }
-    
-    self.question.answerCount++;
-    [self.question saveInBackground];
 }
 
 #pragma mark - TextView

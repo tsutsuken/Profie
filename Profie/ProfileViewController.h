@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import "EditAnswerViewController.h"
 
-@interface ProfileViewController : PFQueryTableViewController <GADBannerViewDelegate, UIActionSheetDelegate>
+@interface ProfileViewController : PFQueryTableViewController <GADBannerViewDelegate>
 
 @property (nonatomic, strong) PFUser *user;
 

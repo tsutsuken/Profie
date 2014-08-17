@@ -166,7 +166,7 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
     NSString *message;
     
     NSString *questionTitle = answer.question.titleWithTag;
-    NSString *profieTag = @"#Profie";
+    NSString *profieTag = @"#profie";
     NSString *linkForAnswer = [NSString stringWithFormat:@"profie.me/%@/answer/%@", [PFUser currentUser].username, answer.objectId];
     
     message = [NSString stringWithFormat:@"%@ %@ %@ %@", answer.title, questionTitle, profieTag, linkForAnswer];

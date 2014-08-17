@@ -24,4 +24,16 @@
     return [NSString stringWithFormat:@"#%@", self.title];
 }
 
+- (void)incrementAnswerCount
+{
+    self.answerCount++;
+    [self saveInBackground];
+}
+
+- (void)decrementAnswerCount
+{
+    self.answerCount--;
+    [self saveInBackground];
+}
+
 @end

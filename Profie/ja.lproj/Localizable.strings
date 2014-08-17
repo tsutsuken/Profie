@@ -16,7 +16,7 @@
 "LVShareKitTwitter_Alert_Message_Error_Twitter_AccessDenied" = "iOSの「設定」 >「Twitter」で、このアプリによるTwitterの使用を許可してください。";
 
 /* WelcomeView */
-"WelcomeView_Label_Subtitle" = "SNS専用プロフィール";//ゆる〜いプロフィール
+"WelcomeView_Label_Subtitle" = "プロフ作成アプリ";//ゆる〜いプロフィール
 
 "WelcomeView_Button_SignUp" = "登録";
 
@@ -68,23 +68,6 @@
 /* RecommendQuestionView */
 "RecommendQuestionView_Title" = "回答する";//人気の質問
 
-/* QuestionDetailView */
-"QuestionDetailView_Title" = "質問";
-
-"QuestionDetailView_Button_Answer_StateNormal" = "回答する";
-
-"QuestionDetailView_Button_Answer_StateDisabled" = "回答済み";
-
-"QuestionDetailView_SectionHeader" = "友達の回答";
-
-"QuestionDetailView_ActionSheet_CopyAnswer" = "回答をコピー";
-
-"QuestionDetailView_ActionSheet_EditAnswer" = "回答を編集";
-
-"QuestionDetailView_ActionSheet_DeleteAnswer" = "回答を削除";
-
-"QuestionDetailView_ActionSheet_Cancel" = "キャンセル";
-
 /* EditQuestionView */
 "EditQuestionView_Title" = "新しい質問";
 
@@ -98,22 +81,15 @@
 /* ProfileView */
 "ProfileView_Title" = "プロフィール";
 
-"ProfileView_Button_FollowerCount_%d_%@" = "%dフォロワー%@";
-
-"ProfileView_Button_FollowingCount_%d" = "%dフォロー";
-
-"ProfileView_Button_FollowAction_Loading" = "読み込み中";
-
-"ProfileView_Button_FollowAction_Follow" = "フォローする";
-
-"ProfileView_Button_FollowAction_Unfollow" = "フォロー中";
+"ProfileView_ShareButton_Title" = "シェア";
 
 "ProfileView_ActionSheet_CopyLink" = "プロフへのリンクをコピー";
 
-/* UserListView */
-"UserListView_Title_Following" = "フォロー";
+"ProfileView_ActionSheet_OpenInSafari" = "プロフをSafariで見る";
 
-"UserListView_Title_Follower" = "フォロワー";
+"ProfileView_ActionSheet_EditAnswer" = "回答を編集";
+
+"ProfileView_ActionSheet_DeleteAnswer" = "回答を削除";
 
 /* SettingView */
 "SettingView_Title" = "設定";
