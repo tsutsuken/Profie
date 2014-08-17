@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/DeviceAPI/FBAppBridge.m \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/DeviceAPI/FBAppBridge.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/FBAppCall.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/FBAccessTokenData.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/FBSession.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/FBAppLinkData.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/FBDialogsData.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/DeviceAPI/FBAppBridgeScheme.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/DeviceAPI/FBAppBridgeTypeToJSONConverter.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/DeviceAPI/FBAppCall+Internal.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/Base64/FBBase64.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/Core/FBUtility.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/Core/FBFetchedAppSettings.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/Core/FBLogger.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/Cryptography/FBCrypto.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/DeviceAPI/FBDialogsData+Internal.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/FBError.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/Login/FBSession+Internal.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/Login/FBSessionAppEventsState.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/Login/FBSystemAccountStoreAdapter.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/FBTask.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/FBTaskCompletionSource.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/Core/FBSettings+Internal.h \
+  /Users/p27e4a/github/Profie/Pods/Facebook-iOS-SDK/src/FBSettings.h

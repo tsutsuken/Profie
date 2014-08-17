@@ -1,0 +1,175 @@
+TPods-SAMTextView
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-bxwtnxjinehmocgxaoutrowclthk/Pods-SAMTextView-prefix.pch.pch Pods-SAMTextView-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-fpvbjesetomlothggyslzyclsmwj/Pods-SAMTextView-prefix.pch.pch Pods-SAMTextView-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/Pods-SAMTextView-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-SAMTextView-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/SAMTextView.o /Users/p27e4a/github/SuperProfile/Pods/SAMTextView/SAMTextView/SAMTextView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-SAMTextView.a normal arm64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053532C19000000000000036B
+t1397959705
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053532C1B000000000000019E
+t1397959707
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053532C2100000000004D7BC0
+t1397959713
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053532C240000000000A90C10
+t1397959716
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053532C300000000002759920
+t1397959728
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053532D460000000000000ADC
+t1397960006
+s2780
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/Pods-SAMTextView-dummy.o
+t1406019715
+s4236
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/Pods-SAMTextView.LinkFileList
+c0000000053CE2881000000000000011F
+t1406019713
+s287
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/SAMTextView.o
+t1406019715
+s63412
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-bxwtnxjinehmocgxaoutrowclthk/Pods-SAMTextView-prefix.pch.pch
+t1406019713
+s133496
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-fpvbjesetomlothggyslzyclsmwj/Pods-SAMTextView-prefix.pch.pch
+t1406019715
+s133908
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-SAMTextView.a
+t2
+s0
+
+N/Users/p27e4a/github/SuperProfile/Pods/Pods-SAMTextView-dummy.m
+c0000000053CE27E60000000000000088
+t1406019558
+s136
+
+N/Users/p27e4a/github/SuperProfile/Pods/Pods-SAMTextView-prefix.pch
+c0000000053CE27E6000000000000004D
+t1406019558
+s77
+
+N/Users/p27e4a/github/SuperProfile/Pods/SAMTextView/SAMTextView/SAMTextView.m
+c0000000053CE25CB0000000000000E37
+t1406019019
+s3639
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/Pods-SAMTextView-dummy.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/SAMTextView/SAMTextView/SAMTextView.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0bd49e01607eb941^43c9d801607eb941^---0#1#1#--18"Check dependencies36"524D7C87-26C2-4E8C-88AD-99D0C6414393-
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/Pods-SAMTextView-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-SAMTextView-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712515.118837
+e427712515.165575
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/Pods-SAMTextView-dummy.o
+x/Users/p27e4a/github/SuperProfile/Pods/Pods-SAMTextView-dummy.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-SAMTextView-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/p27e4a/github/SuperProfile/Pods/Pods-SAMTextView-dummy.m251"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/Pods-SAMTextView-dummy.o Pods-SAMTextView-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compileraf931e03607eb941^52632a03607eb941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-SAMTextView-dummy.m0000000000000000^4630"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/Pods-SAMTextView-dummy.o Pods-SAMTextView-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Pods-SAMTextView-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Pods-SAMTextView-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Pods-SAMTextView-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Pods-SAMTextView-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-bxwtnxjinehmocgxaoutrowclthk/Pods-SAMTextView-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/Pods-SAMTextView-dummy.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/Pods-SAMTextView-dummy.dia -c /Users/p27e4a/github/SuperProfile/Pods/Pods-SAMTextView-dummy.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/Pods-SAMTextView-dummy.o36"3D57FEF6-E9CB-4682-9B4A-6A50B256786B-
+bDE0DCCA5-148D-431D-98E6-E60D67547573
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/SAMTextView.o /Users/p27e4a/github/SuperProfile/Pods/SAMTextView/SAMTextView/SAMTextView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712515.302536
+e427712515.662442
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/SAMTextView.o
+x/Users/p27e4a/github/SuperProfile/Pods/SAMTextView/SAMTextView/SAMTextView.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/SAMTextView/SAMTextView/SAMTextView.m
+d/Users/p27e4a/github/SuperProfile/Pods/SAMTextView/SAMTextView/SAMTextView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/p27e4a/github/SuperProfile/Pods/SAMTextView/SAMTextView/SAMTextView.m253"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/SAMTextView.o SAMTextView/SAMTextView/SAMTextView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler5f9b4d03607eb941^ed9da903607eb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/p27e4a/github/SuperProfile/Pods/SAMTextView/SAMTextView/SAMTextView.m0000000000000000^4623"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/SAMTextView.o SAMTextView/SAMTextView/SAMTextView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Pods-SAMTextView-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Pods-SAMTextView-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Pods-SAMTextView-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Pods-SAMTextView-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-fpvbjesetomlothggyslzyclsmwj/Pods-SAMTextView-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/SAMTextView.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/SAMTextView.dia -c /Users/p27e4a/github/SuperProfile/Pods/SAMTextView/SAMTextView/SAMTextView.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/SAMTextView.o36"82B310A6-352B-4721-B7D1-7FB52FD2EFFF-
+bDE0DCCA5-148D-431D-98E6-E60D67547573
+
+CLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-SAMTextView.a normal arm64
+s427712515.783315
+e427712515.791914
+r1
+xLibtool
+x/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-SAMTextView.a
+xnormal
+xarm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-SAMTextView.a normal arm64106"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-SAMTextView.a normal arm646fa0c803607eb941^66bbca03607eb941^---0#0#1#--1003"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-SAMTextView.a normal arm64    cd /Users/p27e4a/github/SuperProfile/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -filelist /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Objects-normal/arm64/Pods-SAMTextView.LinkFileList -framework CoreGraphics -framework Foundation -framework UIKit -o /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-SAMTextView.a36"2BD9F96D-FF3E-45D9-A17C-770F6F94BE6F-
+bDE0DCCA5-148D-431D-98E6-E60D67547573
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-SAMTextView-prefix-dkilenwjnbwbdablhaevdjynzces_ast/Pods-SAMTextView-prefix.pch.pch Pods-SAMTextView-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-SAMTextView-prefix-fvdcucbiduvnwdevcadmbdradqzk_ast/Pods-SAMTextView-prefix.pch.pch Pods-SAMTextView-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-bxwtnxjinehmocgxaoutrowclthk/Pods-SAMTextView-prefix.pch.pch Pods-SAMTextView-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712513.900802
+e427712513.962035
+r1
+xProcessPCH
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-bxwtnxjinehmocgxaoutrowclthk/Pods-SAMTextView-prefix.pch.pch
+xPods-SAMTextView-prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-SAMTextView-prefix.pch
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Precompile Pods-SAMTextView-prefix.pch265"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-bxwtnxjinehmocgxaoutrowclthk/Pods-SAMTextView-prefix.pch.pch Pods-SAMTextView-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler6dc9e601607eb941^ec4ff601607eb941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-SAMTextView-prefix.pch0000000000000000^4514"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-bxwtnxjinehmocgxaoutrowclthk/Pods-SAMTextView-prefix.pch.pch Pods-SAMTextView-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Pods-SAMTextView-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Pods-SAMTextView-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Pods-SAMTextView-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Pods-SAMTextView-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-bxwtnxjinehmocgxaoutrowclthk/Pods-SAMTextView-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-bxwtnxjinehmocgxaoutrowclthk/Pods-SAMTextView-prefix.pch.d -c /Users/p27e4a/github/SuperProfile/Pods/Pods-SAMTextView-prefix.pch -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-bxwtnxjinehmocgxaoutrowclthk/Pods-SAMTextView-prefix.pch.pch36"8FEEA763-F7DF-4205-8C9A-CD4E2EA1EA21-
+bDE0DCCA5-148D-431D-98E6-E60D67547573
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-fpvbjesetomlothggyslzyclsmwj/Pods-SAMTextView-prefix.pch.pch Pods-SAMTextView-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712513.952000
+e427712515.037950
+r1
+xProcessPCH
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-fpvbjesetomlothggyslzyclsmwj/Pods-SAMTextView-prefix.pch.pch
+xPods-SAMTextView-prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-SAMTextView-prefix.pch
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Precompile Pods-SAMTextView-prefix.pch265"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-fpvbjesetomlothggyslzyclsmwj/Pods-SAMTextView-prefix.pch.pch Pods-SAMTextView-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler0ddef301607eb941^53b10903607eb941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-SAMTextView-prefix.pch0000000000000000^4525"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-fpvbjesetomlothggyslzyclsmwj/Pods-SAMTextView-prefix.pch.pch Pods-SAMTextView-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Pods-SAMTextView-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Pods-SAMTextView-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Pods-SAMTextView-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/Pods-SAMTextView-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SAMTextView.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-fpvbjesetomlothggyslzyclsmwj/Pods-SAMTextView-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-fpvbjesetomlothggyslzyclsmwj/Pods-SAMTextView-prefix.pch.d -c /Users/p27e4a/github/SuperProfile/Pods/Pods-SAMTextView-prefix.pch -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-SAMTextView-prefix-fpvbjesetomlothggyslzyclsmwj/Pods-SAMTextView-prefix.pch.pch36"6A4C99EC-B671-45A8-B09B-D1E57B61847E-
+bDE0DCCA5-148D-431D-98E6-E60D67547573
+

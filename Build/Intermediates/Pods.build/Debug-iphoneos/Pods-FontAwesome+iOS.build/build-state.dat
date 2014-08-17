@@ -1,0 +1,431 @@
+TPods-FontAwesome+iOS
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-fcwsqpbptsqgubawmqecbzoucqoh/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-ghjshpbaxuvmpdbnnzusxxrttama/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/FAImageView.o /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/FAImageView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/NSString+FontAwesome.o /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/NSString+FontAwesome.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/Pods-FontAwesome+iOS-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIFont+FontAwesome.o /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIFont+FontAwesome.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIImage+FontAwesome.o /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIImage+FontAwesome.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-FontAwesome+iOS.a normal arm64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053532C19000000000000036B
+t1397959705
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053532C1B000000000000019E
+t1397959707
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053532C2100000000004D7BC0
+t1397959713
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053532C240000000000A90C10
+t1397959716
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053532C300000000002759920
+t1397959728
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053532D460000000000000ADC
+t1397960006
+s2780
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/FAImageView.o
+t1403175369
+s60748
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/NSString+FontAwesome.o
+t1403174696
+s202932
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/Pods-FontAwesome+iOS-dummy.o
+t1403174695
+s4268
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/Pods-FontAwesome+iOS.LinkFileList
+c0000000053A2A03300000000000002ED
+t1403166771
+s749
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIFont+FontAwesome.o
+t1403174696
+s7400
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIImage+FontAwesome.o
+t1403183352
+s18364
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-akvrsdooxwgpmbbgrhyhwckukoor/Pods-FontAwesome+iOS-prefix.pch.pch
+t1403166778
+s123752
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-espyikllxchnmgcpmcnxrgusjhba/Pods-FontAwesome+iOS-prefix.pch.pch
+t1403166778
+s124752
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-fcwsqpbptsqgubawmqecbzoucqoh/Pods-FontAwesome+iOS-prefix.pch.pch
+t1403174692
+s125284
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-ghjshpbaxuvmpdbnnzusxxrttama/Pods-FontAwesome+iOS-prefix.pch.pch
+t1403174691
+s124284
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-FontAwesome+iOS.a
+t1403183352
+s294648
+
+N/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/FAImageView.h
+c0000000053A29F1C000000000000076E
+t1403166492
+s1902
+
+N/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/FAImageView.m
+c0000000053A2C1C10000000000000B67
+t1403175361
+s2919
+
+N/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/NSString+FontAwesome.h
+c0000000053A29F1C000000000000C458
+t1403166492
+s50264
+
+N/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/NSString+FontAwesome.m
+c0000000053A29F1C000000000000744F
+t1403166492
+s29775
+
+N/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIFont+FontAwesome.h
+c0000000053A29F1C00000000000005A7
+t1403166492
+s1447
+
+N/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIFont+FontAwesome.m
+c0000000053A29F1C00000000000001FB
+t1403166492
+s507
+
+N/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIImage+FontAwesome.h
+c0000000053A29F1C000000000000018F
+t1403166492
+s399
+
+N/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIImage+FontAwesome.m
+c0000000053A2E0F000000000000009CD
+t1403183344
+s2509
+
+N/Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-dummy.m
+c0000000053A2BE420000000000000090
+t1403174466
+s144
+
+N/Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-prefix.pch
+c0000000053A2BE42000000000000004D
+t1403174466
+s77
+
+N/Users/p27e4a/github/SuperProfile/Pods/Pods-environment.h
+c0000000053A2BE42000000000000102F
+t1403174466
+s4143
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/FAImageView.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/NSString+FontAwesome.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIFont+FontAwesome.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIImage+FontAwesome.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies403354d71853b941^6a4fcdd81853b941^---0#1#1#--18"Check dependencies36"EEBB8D69-2C10-44C6-87F1-D13879BF0139-
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/FAImageView.o /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/FAImageView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424868165.055893
+e424868169.784318
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/FAImageView.o
+x/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/FAImageView.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/FAImageView.m
+d/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/FAImageView.h
+d/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/NSString+FontAwesome.h
+d/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIFont+FontAwesome.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/FAImageView.m249"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/FAImageView.o FontAwesome+iOS/FAImageView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilera0700e45f952b941^deccc849f952b941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/FAImageView.m0000000000000000^4178"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/FAImageView.o FontAwesome+iOS/FAImageView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-fcwsqpbptsqgubawmqecbzoucqoh/Pods-FontAwesome+iOS-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/FAImageView.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/FAImageView.dia -c /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/FAImageView.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/FAImageView.o36"9C8AB8BD-C8A1-44C4-86B4-F8DB770ABFA4-
+b6996009D-FF93-4D88-AB25-712B8C589E1F
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/NSString+FontAwesome.o /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/NSString+FontAwesome.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424867492.072707
+e424867496.182418
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/NSString+FontAwesome.o
+x/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/NSString+FontAwesome.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/NSString+FontAwesome.m
+d/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/NSString+FontAwesome.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/NSString+FontAwesome.m267"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/NSString+FontAwesome.o FontAwesome+iOS/NSString+FontAwesome.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler65de12a4f652b941^53b42ea8f652b941^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/NSString+FontAwesome.m0000000000000000^4232"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/NSString+FontAwesome.o FontAwesome+iOS/NSString+FontAwesome.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-fcwsqpbptsqgubawmqecbzoucqoh/Pods-FontAwesome+iOS-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/NSString+FontAwesome.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/NSString+FontAwesome.dia -c /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/NSString+FontAwesome.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/NSString+FontAwesome.o36"316A95A0-D769-41EB-84B5-36B5B448D8CE-
+bEFE76285-A701-4099-BD4D-A9C40D9A64A4
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/Pods-FontAwesome+iOS-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424867495.085044
+e424867495.778728
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/Pods-FontAwesome+iOS-dummy.o
+x/Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-dummy.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-dummy.m263"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/Pods-FontAwesome+iOS-dummy.o Pods-FontAwesome+iOS-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler690116a7f652b941^d95ac7a7f652b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-dummy.m0000000000000000^4202"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/Pods-FontAwesome+iOS-dummy.o Pods-FontAwesome+iOS-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-ghjshpbaxuvmpdbnnzusxxrttama/Pods-FontAwesome+iOS-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/Pods-FontAwesome+iOS-dummy.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/Pods-FontAwesome+iOS-dummy.dia -c /Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-dummy.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/Pods-FontAwesome+iOS-dummy.o36"2B3BC396-7A12-4F78-A875-FF0EE781D127-
+bEFE76285-A701-4099-BD4D-A9C40D9A64A4
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIFont+FontAwesome.o /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIFont+FontAwesome.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424867496.183173
+e424867496.628452
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIFont+FontAwesome.o
+x/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIFont+FontAwesome.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIFont+FontAwesome.m
+d/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIFont+FontAwesome.h
+d/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/NSString+FontAwesome.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIFont+FontAwesome.m263"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIFont+FontAwesome.o FontAwesome+iOS/UIFont+FontAwesome.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler361f2fa8f652b941^e2e6a0a8f652b941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIFont+FontAwesome.m0000000000000000^4220"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIFont+FontAwesome.o FontAwesome+iOS/UIFont+FontAwesome.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-fcwsqpbptsqgubawmqecbzoucqoh/Pods-FontAwesome+iOS-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIFont+FontAwesome.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIFont+FontAwesome.dia -c /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIFont+FontAwesome.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIFont+FontAwesome.o36"BCC5900C-E2CC-42B5-838D-872F57C1C43E-
+bEFE76285-A701-4099-BD4D-A9C40D9A64A4
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIImage+FontAwesome.o /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIImage+FontAwesome.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424876145.784319
+e424876152.128447
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIImage+FontAwesome.o
+x/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIImage+FontAwesome.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIImage+FontAwesome.m
+d/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIImage+FontAwesome.h
+d/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/NSString+FontAwesome.h
+o/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIImage+FontAwesome.m:49:2: warning: test [-W#warnings]
+o#warning test
+o ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIImage+FontAwesome.m265"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIImage+FontAwesome.o FontAwesome+iOS/UIImage+FontAwesome.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf6edc8711853b941^72e120781853b941^-149"/Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIImage+FontAwesome.m:49:2: warning: test [-W#warnings]#warning test ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@4"Test-424876152#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@83"file:///Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIImage+FontAwesome.m0000000000000000^48#1#48#1#1819#0#18"#warning Directive--0#0#1#-19%DVTDocumentLocation4@83"file:///Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIImage+FontAwesome.m0000000000000000^4226"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIImage+FontAwesome.o FontAwesome+iOS/UIImage+FontAwesome.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-fcwsqpbptsqgubawmqecbzoucqoh/Pods-FontAwesome+iOS-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIImage+FontAwesome.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIImage+FontAwesome.dia -c /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIImage+FontAwesome.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/UIImage+FontAwesome.o36"326C5455-56B8-4E08-8572-D17AE93EA5F9-
+bBA10A8D0-8847-46F8-A05A-D154D63B42B8
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/armv7/FAImageView.o /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/FAImageView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/armv7/NSString+FontAwesome.o /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/NSString+FontAwesome.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/armv7/Pods-FontAwesome+iOS-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/armv7/UIFont+FontAwesome.o /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIFont+FontAwesome.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/armv7/UIImage+FontAwesome.o /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIImage+FontAwesome.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/armv7s/FAImageView.o /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/FAImageView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/armv7s/NSString+FontAwesome.o /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/NSString+FontAwesome.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/armv7s/Pods-FontAwesome+iOS-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/armv7s/UIFont+FontAwesome.o /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIFont+FontAwesome.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/armv7s/UIImage+FontAwesome.o /Users/p27e4a/github/SuperProfile/Pods/FontAwesome+iOS/UIImage+FontAwesome.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCreateUniversalBinary /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-FontAwesome+iOS.a normal armv7\ armv7s\ arm64
+r0
+
+CLibtool /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/libPods-FontAwesome+iOS.a normal arm64
+r0
+
+CLibtool /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/armv7/libPods-FontAwesome+iOS.a normal armv7
+r0
+
+CLibtool /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/armv7s/libPods-FontAwesome+iOS.a normal armv7s
+r0
+
+CLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-FontAwesome+iOS.a normal arm64
+s424876152.129378
+e424876152.455470
+r1
+xLibtool
+x/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-FontAwesome+iOS.a
+xnormal
+xarm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-FontAwesome+iOS.a normal arm64110"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-FontAwesome+iOS.a normal arm64db3121781853b941^6b9d74781853b941^---0#0#1#--1019"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-FontAwesome+iOS.a normal arm64    cd /Users/p27e4a/github/SuperProfile/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -filelist /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Objects-normal/arm64/Pods-FontAwesome+iOS.LinkFileList -framework CoreGraphics -framework Foundation -framework UIKit -o /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-FontAwesome+iOS.a36"0742F68C-4130-483F-8C0E-EA080BB46CC8-
+bBA10A8D0-8847-46F8-A05A-D154D63B42B8
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-acbkqzfxdluhfgbafdappbuyagik_ast/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-ahzwlitlljwjeoempoootfrwgkla_ast/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-bnbggsymvklykrgrtdybeskkfyhx_ast/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-bquxkirqltqrwnfqmslmdwklfrxw_ast/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-cbxxyqzjhvdqgzgztcrvooryvbzi_ast/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-cimfgqieqaddxogjaigqywlagcsn_ast/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-ebfxbpchoemjuqarmuofpllpmvdb_ast/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-ervwcrtfkbvamxgsyvgtwmramxdp_ast/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-expxhofizidnhjgvnelefloyyshr_ast/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-fqsnbjrrakcptndsdorlettssxwq_ast/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-gbtpipxjxmzwicezzuqopslvzdnm_ast/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-gsgpxbljylbvxxbginkdeczlieuy_ast/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-aeodgbghxfpgjmazdlohsioyrtvc/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-akctlgokyoweurgixpzawwdhingu/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-akvrsdooxwgpmbbgrhyhwckukoor/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424859572.092487
+e424859578.543342
+r1
+xProcessPCH
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-akvrsdooxwgpmbbgrhyhwckukoor/Pods-FontAwesome+iOS-prefix.pch.pch
+xPods-FontAwesome+iOS-prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-prefix.pch
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Pods-FontAwesome+iOS-prefix.pch277"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-akvrsdooxwgpmbbgrhyhwckukoor/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler34d517b4d752b941^f6258bbad752b941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-prefix.pch0000000000000000^4012"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-akvrsdooxwgpmbbgrhyhwckukoor/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-akvrsdooxwgpmbbgrhyhwckukoor/Pods-FontAwesome+iOS-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-akvrsdooxwgpmbbgrhyhwckukoor/Pods-FontAwesome+iOS-prefix.pch.d -c /Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-prefix.pch -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-akvrsdooxwgpmbbgrhyhwckukoor/Pods-FontAwesome+iOS-prefix.pch.pch36"35F27DDF-EF2E-4B7D-9464-49B2280CF6BD-
+bF7BC0683-E9BC-41EB-84EE-8D532C386F1C
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-atosunypkqwzkrcrimycfyjukcya/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-auweqayhpzqklfbvhvjkjargfssr/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-bduvdzwzigauobfzpmzabyjdzhyf/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-bfdoclsmidrrveakdoakyazyvqxm/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-espyikllxchnmgcpmcnxrgusjhba/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424859572.091283
+e424859578.544256
+r1
+xProcessPCH
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-espyikllxchnmgcpmcnxrgusjhba/Pods-FontAwesome+iOS-prefix.pch.pch
+xPods-FontAwesome+iOS-prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-prefix.pch
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Pods-FontAwesome+iOS-prefix.pch277"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-espyikllxchnmgcpmcnxrgusjhba/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerca8c17b4d752b941^a3578bbad752b941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-prefix.pch0000000000000000^4046"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-espyikllxchnmgcpmcnxrgusjhba/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-espyikllxchnmgcpmcnxrgusjhba/Pods-FontAwesome+iOS-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-espyikllxchnmgcpmcnxrgusjhba/Pods-FontAwesome+iOS-prefix.pch.d -c /Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-prefix.pch -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-espyikllxchnmgcpmcnxrgusjhba/Pods-FontAwesome+iOS-prefix.pch.pch36"9D095A92-5C62-42B4-9FA2-64DCE413A06D-
+bF7BC0683-E9BC-41EB-84EE-8D532C386F1C
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-fcwsqpbptsqgubawmqecbzoucqoh/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424867486.236884
+e424867492.034318
+r1
+xProcessPCH
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-fcwsqpbptsqgubawmqecbzoucqoh/Pods-FontAwesome+iOS-prefix.pch.pch
+xPods-FontAwesome+iOS-prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-prefix.pch
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Pods-FontAwesome+iOS-prefix.pch277"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-fcwsqpbptsqgubawmqecbzoucqoh/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf7064f9ef652b941^85ec08a4f652b941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-prefix.pch0000000000000000^4112"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-fcwsqpbptsqgubawmqecbzoucqoh/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-fcwsqpbptsqgubawmqecbzoucqoh/Pods-FontAwesome+iOS-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-fcwsqpbptsqgubawmqecbzoucqoh/Pods-FontAwesome+iOS-prefix.pch.d -c /Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-prefix.pch -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-fcwsqpbptsqgubawmqecbzoucqoh/Pods-FontAwesome+iOS-prefix.pch.pch36"94E27F90-D203-4A20-BDB4-A692EAF9A2E2-
+bEFE76285-A701-4099-BD4D-A9C40D9A64A4
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-ghjshpbaxuvmpdbnnzusxxrttama/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424867486.236907
+e424867491.914967
+r1
+xProcessPCH
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-ghjshpbaxuvmpdbnnzusxxrttama/Pods-FontAwesome+iOS-prefix.pch.pch
+xPods-FontAwesome+iOS-prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-prefix.pch
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Pods-FontAwesome+iOS-prefix.pch277"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-ghjshpbaxuvmpdbnnzusxxrttama/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilera4fa4e9ef652b941^b268eaa3f652b941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-prefix.pch0000000000000000^4078"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-ghjshpbaxuvmpdbnnzusxxrttama/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/Pods-FontAwesome+iOS-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FontAwesome+iOS -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-FontAwesome+iOS.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-ghjshpbaxuvmpdbnnzusxxrttama/Pods-FontAwesome+iOS-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-ghjshpbaxuvmpdbnnzusxxrttama/Pods-FontAwesome+iOS-prefix.pch.d -c /Users/p27e4a/github/SuperProfile/Pods/Pods-FontAwesome+iOS-prefix.pch -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-ghjshpbaxuvmpdbnnzusxxrttama/Pods-FontAwesome+iOS-prefix.pch.pch36"F661647A-4EAE-4665-9701-2466EF16DCE5-
+bEFE76285-A701-4099-BD4D-A9C40D9A64A4
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-goxlhihpavdxgubbbsnztldkuhyk/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-FontAwesome+iOS-prefix-habohmyejpkuxecixadazhsoodap/Pods-FontAwesome+iOS-prefix.pch.pch Pods-FontAwesome+iOS-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
