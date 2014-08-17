@@ -319,7 +319,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciescc4095fd6ea0b941^c616fefd6ea0b941^---0#1#1#--18"Check dependencies36"7E449E62-7B39-470A-8DF3-21F12E72D875-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3f6f422670a0b941^dcf4772670a0b941^---0#1#1#--18"Check dependencies36"3367AFA6-6E07-459C-94CC-7187B5FB685A-
 
 CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Mixpanel.build/Objects-normal/arm64/MPNotification.o /Users/p27e4a/github/Profie/Pods/Mixpanel/Mixpanel/MPNotification.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s429939005.806465

@@ -91,7 +91,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies732b50fc6ea0b941^b01d5cfd6ea0b941^---0#1#1#--18"Check dependencies36"3BF1BFB9-02F1-4CA8-AA1A-E2013979F5AE-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf4e0222670a0b941^0c772e2670a0b941^---0#1#1#--18"Check dependencies36"4AF14859-B78B-4376-AD25-0693459F6BD6-
 
 CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-GCPlaceholderTextView.build/Objects-normal/arm64/GCPlaceholderTextView.o /Users/p27e4a/github/Profie/Pods/GCPlaceholderTextView/GCPlaceholderTextView/GCPlaceholderTextView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s429938998.231597
