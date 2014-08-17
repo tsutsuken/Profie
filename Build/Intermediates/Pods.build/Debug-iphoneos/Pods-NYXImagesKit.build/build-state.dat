@@ -1,0 +1,719 @@
+TPods-NYXImagesKit
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-ggnbplrzhyufeleusgohyjfcqxgt/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXImagesHelper.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXProgressiveImageView.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/Pods-NYXImagesKit-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Blurring.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Enhancing.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Enhancing.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Filtering.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Masking.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Masking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Reflection.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Reflection.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Resizing.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Resizing.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Rotating.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Rotating.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Saving.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Saving.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIScrollView+Screenshot.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIScrollView+Screenshot.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIView+Screenshot.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIView+Screenshot.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-NYXImagesKit.a normal arm64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053532C19000000000000036B
+t1397959705
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053532C1B000000000000019E
+t1397959707
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c0000000053532C1C0000000000011540
+t1397959708
+s70976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000053532C1E0000000000075BA0
+t1397959710
+s482208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c0000000053532C220000000000433410
+t1397959714
+s4404240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053532C240000000000A90C10
+t1397959716
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c0000000053532C250000000000836810
+t1397959717
+s8611856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000053532C280000000000210E90
+t1397959720
+s2166416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000053532C2C0000000000649DB0
+t1397959724
+s6593968
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053532D460000000000000ADC
+t1397960006
+s2780
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXImagesHelper.o
+t1401267766
+s11352
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXProgressiveImageView.o
+t1401267768
+s91732
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/Pods-NYXImagesKit-dummy.o
+t1401267768
+s4240
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/Pods-NYXImagesKit.LinkFileList
+c000000005385A6350000000000000766
+t1401267765
+s1894
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Blurring.o
+t1401267770
+s11772
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Enhancing.o
+t1401267770
+s15508
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Filtering.o
+t1401267771
+s40156
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Masking.o
+t1401267772
+s11612
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Reflection.o
+t1401267772
+s9912
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Resizing.o
+t1401267772
+s19536
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Rotating.o
+t1401267772
+s18420
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Saving.o
+t1401267773
+s25064
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIScrollView+Screenshot.o
+t1401267773
+s38856
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIView+Screenshot.o
+t1401267773
+s38400
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch.pch
+t1401267765
+s120164
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-ggnbplrzhyufeleusgohyjfcqxgt/Pods-NYXImagesKit-prefix.pch.pch
+t1401267766
+s118076
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-NYXImagesKit.a
+t1401267773
+s339016
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.h
+c00000000538599E9000000000000011B
+t1401264617
+s283
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.m
+c00000000538599E900000000000006DB
+t1401264617
+s1755
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Enhancing.h
+c00000000538599E90000000000000104
+t1401264617
+s260
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Enhancing.m
+c00000000538599E900000000000006DA
+t1401264617
+s1754
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.h
+c00000000538599E9000000000000029A
+t1401264617
+s666
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m
+c00000000538599E90000000000006034
+t1401264617
+s24628
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Masking.h
+c00000000538599E90000000000000111
+t1401264617
+s273
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Masking.m
+c00000000538599E9000000000000073A
+t1401264617
+s1850
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Reflection.h
+c00000000538599E9000000000000060F
+t1401264617
+s1551
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Reflection.m
+c00000000538599E90000000000000B4A
+t1401264617
+s2890
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Resizing.h
+c00000000538599E900000000000004C4
+t1401264617
+s1220
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Resizing.m
+c00000000538599E900000000000014DC
+t1401264617
+s5340
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Rotating.h
+c00000000538599E900000000000001E5
+t1401264617
+s485
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Rotating.m
+c00000000538599E90000000000000EFD
+t1401264617
+s3837
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Saving.h
+c00000000538599E9000000000000036E
+t1401264617
+s878
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Saving.m
+c00000000538599E90000000000000F6C
+t1401264617
+s3948
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIScrollView+Screenshot.h
+c00000000538599E90000000000000109
+t1401264617
+s265
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIScrollView+Screenshot.m
+c00000000538599E900000000000002AE
+t1401264617
+s686
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIView+Screenshot.h
+c00000000538599E900000000000000EF
+t1401264617
+s239
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIView+Screenshot.m
+c00000000538599E9000000000000022F
+t1401264617
+s559
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.h
+c00000000538599E9000000000000042B
+t1401264617
+s1067
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.m
+c00000000538599E90000000000002CC3
+t1401264617
+s11459
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.h
+c00000000538599E9000000000000087B
+t1401264617
+s2171
+
+N/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.m
+c00000000538599E90000000000000E2C
+t1401264617
+s3628
+
+N/Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-dummy.m
+c00000000538599EC000000000000008A
+t1401264620
+s138
+
+N/Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-prefix.pch
+c00000000538599EC000000000000004D
+t1401264620
+s77
+
+N/Users/p27e4a/github/SuperProfile/Pods/Pods-environment.h
+c00000000538599EC000000000000050D
+t1401264620
+s1293
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Enhancing.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Masking.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Reflection.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Resizing.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Rotating.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Saving.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIScrollView+Screenshot.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIView+Screenshot.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.m
+r0
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa774dc16ef35b941^41b93117ef35b941^---0#1#1#--18"Check dependencies36"9CD72B34-3F87-4F21-95BC-1F4160703216-
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXImagesHelper.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422960566.587928
+e422960566.787473
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXImagesHelper.o
+x/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.m
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.m258"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXImagesHelper.o NYXImagesKit/Helper/NYXImagesHelper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc1c596b6dd35b941^d098c9b6dd35b941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.m0000000000000000^4028"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXImagesHelper.o NYXImagesKit/Helper/NYXImagesHelper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXImagesHelper.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXImagesHelper.dia -c /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXImagesHelper.o36"5D1A51C1-5BEF-4728-BE83-0D36D468AD2D-
+b5925B804-0DB3-4155-997B-4A50D5A7C1D7
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXProgressiveImageView.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422960566.788804
+e422960568.778093
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXProgressiveImageView.o
+x/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.m
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.h
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.h
+o/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.m:359:24: warning: implicit conversion loses integer precision: 'unsigned long' to 'CC_LONG' (aka 'unsigned int') [-Wshorten-64-to-32]
+o    CC_MD5(concat_str, strlen(concat_str), result);
+o    ~~~~~~             ^~~~~~~~~~~~~~~~~~
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.m275"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXProgressiveImageView.o NYXImagesKit/Classes/NYXProgressiveImageView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc213cab6dd35b941^e239c7b8dd35b941^-334"/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.m:359:24: warning: implicit conversion loses integer precision: 'unsigned long' to 'CC_LONG' (aka 'unsigned int') [-Wshorten-64-to-32]    CC_MD5(concat_str, strlen(concat_str), result);    ~~~~~~             ^~~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@94"Implicit conversion loses integer precision: 'unsigned long' to 'CC_LONG' (aka 'unsigned int')-422960568#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@92"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.m0000000000000000^358#23#358#23#10294#0#22"Value Conversion Issue2(3@92"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.m0000000000000000^358#23#358#41#10294#17#3@92"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.m0000000000000000^358#4#358#10#10275#0#-0#0#1#-19%DVTDocumentLocation4@92"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.m0000000000000000^4078"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXProgressiveImageView.o NYXImagesKit/Classes/NYXProgressiveImageView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXProgressiveImageView.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXProgressiveImageView.dia -c /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/NYXProgressiveImageView.o36"8EC6430E-3BE9-43AC-B0EF-F66364F6295C-
+b5925B804-0DB3-4155-997B-4A50D5A7C1D7
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/Pods-NYXImagesKit-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422960568.631761
+e422960568.778667
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/Pods-NYXImagesKit-dummy.o
+x/Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-dummy.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-dummy.m254"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/Pods-NYXImagesKit-dummy.o Pods-NYXImagesKit-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler67d3a1b8dd35b941^7253c7b8dd35b941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-dummy.m0000000000000000^4002"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/Pods-NYXImagesKit-dummy.o Pods-NYXImagesKit-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-ggnbplrzhyufeleusgohyjfcqxgt/Pods-NYXImagesKit-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/Pods-NYXImagesKit-dummy.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/Pods-NYXImagesKit-dummy.dia -c /Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-dummy.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/Pods-NYXImagesKit-dummy.o36"1E53E160-2847-4769-AE9D-F90396C5E041-
+b5925B804-0DB3-4155-997B-4A50D5A7C1D7
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Blurring.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422960568.779802
+e422960570.099792
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Blurring.o
+x/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.m
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.h
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.h
+o/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.m:51:110: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int32_t' (aka 'int') [-Wshorten-64-to-32]
+o        vImageConvolveWithBias_ARGB8888(&src, &dest, NULL, 0, 0, __s_gaussianblur_kernel_5x5, 5, 5, 256/*divisor*/, bias, NULL, kvImageCopyInPlace);
+o        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                             ^~~~
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.m264"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Blurring.o NYXImagesKit/Categories/UIImage+Blurring.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb7d2c7b8dd35b941^07b339badd35b941^-506"/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.m:51:110: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int32_t' (aka 'int') [-Wshorten-64-to-32]        vImageConvolveWithBias_ARGB8888(&src, &dest, NULL, 0, 0, __s_gaussianblur_kernel_5x5, 5, 5, 256/*divisor*/, bias, NULL, kvImageCopyInPlace);        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                             ^~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@94"Implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int32_t' (aka 'int')-422960570#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@88"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.m0000000000000000^50#109#50#109#1447#0#22"Value Conversion Issue2(3@88"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.m0000000000000000^50#109#50#113#1447#0#3@88"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.m0000000000000000^50#1#50#32#1339#0#-0#0#1#-19%DVTDocumentLocation4@88"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.m0000000000000000^4042"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Blurring.o NYXImagesKit/Categories/UIImage+Blurring.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Blurring.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Blurring.dia -c /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Blurring.o36"5E19A81C-8FFF-4BB7-85D9-AB893731100C-
+b5925B804-0DB3-4155-997B-4A50D5A7C1D7
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Enhancing.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Enhancing.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422960570.092775
+e422960570.529875
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Enhancing.o
+x/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Enhancing.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Enhancing.m
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Enhancing.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Enhancing.m266"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Enhancing.o NYXImagesKit/Categories/UIImage+Enhancing.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilere6e617badd35b941^950bb1badd35b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Enhancing.m0000000000000000^4048"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Enhancing.o NYXImagesKit/Categories/UIImage+Enhancing.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Enhancing.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Enhancing.dia -c /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Enhancing.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Enhancing.o36"57EC64E8-B19B-4127-918F-86A10FA51CC0-
+b5925B804-0DB3-4155-997B-4A50D5A7C1D7
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Filtering.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422960570.683242
+e422960571.572088
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Filtering.o
+x/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.h
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.h
+o/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m:305:102: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int32_t' (aka 'int') [-Wshorten-64-to-32]
+o        vImageConvolveWithBias_ARGB8888(&src, &dest, NULL, 0, 0, __s_emboss_kernel_3x3, 3, 3, 1/*divisor*/, bias, NULL, kvImageCopyInPlace);
+o        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                     ^~~~
+o/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m:627:103: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int32_t' (aka 'int') [-Wshorten-64-to-32]
+o        vImageConvolveWithBias_ARGB8888(&src, &dest, NULL, 0, 0, __s_sharpen_kernel_3x3, 3, 3, 1/*divisor*/, bias, NULL, kvImageCopyInPlace);
+o        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                      ^~~~
+o/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m:668:105: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int32_t' (aka 'int') [-Wshorten-64-to-32]
+o        vImageConvolveWithBias_ARGB8888(&src, &dest, NULL, 0, 0, __s_unsharpen_kernel_3x3, 3, 3, 9/*divisor*/, bias, NULL, kvImageCopyInPlace);
+o        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                        ^~~~
+o3 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m266"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Filtering.o NYXImagesKit/Categories/UIImage+Filtering.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf640afbadd35b941^507392bbdd35b941^-1443"/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m:305:102: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int32_t' (aka 'int') [-Wshorten-64-to-32]        vImageConvolveWithBias_ARGB8888(&src, &dest, NULL, 0, 0, __s_emboss_kernel_3x3, 3, 3, 1/*divisor*/, bias, NULL, kvImageCopyInPlace);        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                     ^~~~/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m:627:103: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int32_t' (aka 'int') [-Wshorten-64-to-32]        vImageConvolveWithBias_ARGB8888(&src, &dest, NULL, 0, 0, __s_sharpen_kernel_3x3, 3, 3, 1/*divisor*/, bias, NULL, kvImageCopyInPlace);        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                      ^~~~/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m:668:105: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int32_t' (aka 'int') [-Wshorten-64-to-32]        vImageConvolveWithBias_ARGB8888(&src, &dest, NULL, 0, 0, __s_unsharpen_kernel_3x3, 3, 3, 9/*divisor*/, bias, NULL, kvImageCopyInPlace);        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                        ^~~~3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@94"Implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int32_t' (aka 'int')-422960571#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@89"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m0000000000000000^304#101#304#101#10608#0#22"Value Conversion Issue2(3@89"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m0000000000000000^304#101#304#105#10608#0#3@89"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m0000000000000000^304#1#304#32#10508#0#-2@94"Implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int32_t' (aka 'int')-422960571#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@89"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m0000000000000000^626#102#626#102#22953#0#22"Value Conversion Issue2(3@89"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m0000000000000000^626#102#626#106#22953#0#3@89"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m0000000000000000^626#1#626#32#22852#0#-2@94"Implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int32_t' (aka 'int')-422960571#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@89"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m0000000000000000^667#104#667#104#24296#0#22"Value Conversion Issue2(3@89"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m0000000000000000^667#104#667#108#24296#0#3@89"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m0000000000000000^667#1#667#32#24193#0#-0#0#1#-19%DVTDocumentLocation4@89"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m0000000000000000^4048"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Filtering.o NYXImagesKit/Categories/UIImage+Filtering.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Filtering.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Filtering.dia -c /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Filtering.o36"76A3A8BA-4CB4-473F-8FCD-C6C4BD5B206E-
+b5925B804-0DB3-4155-997B-4A50D5A7C1D7
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Masking.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Masking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422960571.572691
+e422960572.129645
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Masking.o
+x/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Masking.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Masking.m
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Masking.h
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Masking.m262"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Masking.o NYXImagesKit/Categories/UIImage+Masking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf9c092bbdd35b941^422221bcdd35b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Masking.m0000000000000000^4036"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Masking.o NYXImagesKit/Categories/UIImage+Masking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Masking.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Masking.dia -c /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Masking.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Masking.o36"34C4E290-7FC9-4A5A-8C7B-D0BAB58348ED-
+b5925B804-0DB3-4155-997B-4A50D5A7C1D7
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Reflection.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Reflection.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422960572.225101
+e422960572.441120
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Reflection.o
+x/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Reflection.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Reflection.m
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Reflection.h
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Reflection.m268"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Reflection.o NYXImagesKit/Categories/UIImage+Reflection.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7cb739bcdd35b941^41f470bcdd35b941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Reflection.m0000000000000000^4054"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Reflection.o NYXImagesKit/Categories/UIImage+Reflection.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Reflection.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Reflection.dia -c /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Reflection.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Reflection.o36"54F4AB06-30A5-4DF6-B308-68147C340987-
+b5925B804-0DB3-4155-997B-4A50D5A7C1D7
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Resizing.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Resizing.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422960572.442137
+e422960572.727803
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Resizing.o
+x/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Resizing.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Resizing.m
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Resizing.h
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Resizing.m264"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Resizing.o NYXImagesKit/Categories/UIImage+Resizing.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler9e7971bcdd35b941^b550babcdd35b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Resizing.m0000000000000000^4042"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Resizing.o NYXImagesKit/Categories/UIImage+Resizing.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Resizing.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Resizing.dia -c /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Resizing.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Resizing.o36"DAFDBF0E-72CA-4F2D-B617-499DE3F5D42D-
+b5925B804-0DB3-4155-997B-4A50D5A7C1D7
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Rotating.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Rotating.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422960572.767526
+e422960572.920245
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Rotating.o
+x/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Rotating.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Rotating.m
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Rotating.h
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Rotating.m264"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Rotating.o NYXImagesKit/Categories/UIImage+Rotating.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler58adc4bcdd35b941^b395ebbcdd35b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Rotating.m0000000000000000^4042"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Rotating.o NYXImagesKit/Categories/UIImage+Rotating.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Rotating.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Rotating.dia -c /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Rotating.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Rotating.o36"E9F516C8-58C7-4625-A559-E009B4284127-
+b5925B804-0DB3-4155-997B-4A50D5A7C1D7
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Saving.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Saving.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422960572.923148
+e422960573.499453
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Saving.o
+x/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Saving.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Saving.m
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Saving.h
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Saving.m260"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Saving.o NYXImagesKit/Categories/UIImage+Saving.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler49a1ecbcdd35b941^8cdc7fbddd35b941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Saving.m0000000000000000^4030"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Saving.o NYXImagesKit/Categories/UIImage+Saving.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Saving.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Saving.dia -c /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Saving.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIImage+Saving.o36"49DEA3B5-AC73-4306-BE60-58323FE120CE-
+b5925B804-0DB3-4155-997B-4A50D5A7C1D7
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIScrollView+Screenshot.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIScrollView+Screenshot.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422960573.209382
+e422960573.505504
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIScrollView+Screenshot.o
+x/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIScrollView+Screenshot.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIScrollView+Screenshot.m
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIScrollView+Screenshot.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIScrollView+Screenshot.m278"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIScrollView+Screenshot.o NYXImagesKit/Categories/UIScrollView+Screenshot.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf1d635bddd35b941^f8c688bddd35b941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIScrollView+Screenshot.m0000000000000000^4084"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIScrollView+Screenshot.o NYXImagesKit/Categories/UIScrollView+Screenshot.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIScrollView+Screenshot.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIScrollView+Screenshot.dia -c /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIScrollView+Screenshot.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIScrollView+Screenshot.o36"064FA6E3-6ABF-4ED5-8118-948399E8F4B2-
+b5925B804-0DB3-4155-997B-4A50D5A7C1D7
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIView+Screenshot.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIView+Screenshot.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422960573.587957
+e422960573.686531
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIView+Screenshot.o
+x/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIView+Screenshot.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIView+Screenshot.m
+d/Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIView+Screenshot.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIView+Screenshot.m266"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIView+Screenshot.o NYXImagesKit/Categories/UIView+Screenshot.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler3ed096bddd35b941^26c5afbddd35b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIView+Screenshot.m0000000000000000^4048"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIView+Screenshot.o NYXImagesKit/Categories/UIView+Screenshot.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIView+Screenshot.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIView+Screenshot.dia -c /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIView+Screenshot.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/UIView+Screenshot.o36"7B2E44E2-A284-4FAA-A0C5-D5315527D90F-
+b5925B804-0DB3-4155-997B-4A50D5A7C1D7
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7/NYXImagesHelper.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7/NYXProgressiveImageView.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7/Pods-NYXImagesKit-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7/UIImage+Blurring.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7/UIImage+Enhancing.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Enhancing.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7/UIImage+Filtering.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7/UIImage+Masking.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Masking.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7/UIImage+Reflection.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Reflection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7/UIImage+Resizing.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Resizing.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7/UIImage+Rotating.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Rotating.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7/UIImage+Saving.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Saving.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7/UIScrollView+Screenshot.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIScrollView+Screenshot.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7/UIView+Screenshot.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIView+Screenshot.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7s/NYXImagesHelper.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Helper/NYXImagesHelper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7s/NYXProgressiveImageView.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Classes/NYXProgressiveImageView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7s/Pods-NYXImagesKit-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7s/UIImage+Blurring.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Blurring.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7s/UIImage+Enhancing.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Enhancing.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7s/UIImage+Filtering.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Filtering.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7s/UIImage+Masking.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Masking.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7s/UIImage+Reflection.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Reflection.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7s/UIImage+Resizing.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Resizing.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7s/UIImage+Rotating.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Rotating.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7s/UIImage+Saving.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIImage+Saving.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7s/UIScrollView+Screenshot.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIScrollView+Screenshot.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7s/UIView+Screenshot.o /Users/p27e4a/github/SuperProfile/Pods/NYXImagesKit/Categories/UIView+Screenshot.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCreateUniversalBinary /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-NYXImagesKit.a normal armv7\ armv7s\ arm64
+r0
+
+CLibtool /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/libPods-NYXImagesKit.a normal arm64
+r0
+
+CLibtool /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7/libPods-NYXImagesKit.a normal armv7
+r0
+
+CLibtool /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/armv7s/libPods-NYXImagesKit.a normal armv7s
+r0
+
+CLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-NYXImagesKit.a normal arm64
+s422960573.689565
+e422960573.879836
+r1
+xLibtool
+x/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-NYXImagesKit.a
+xnormal
+xarm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-NYXImagesKit.a normal arm64107"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-NYXImagesKit.a normal arm6416a1b0bddd35b941^073fe1bddd35b941^---0#0#1#--1105"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-NYXImagesKit.a normal arm64    cd /Users/p27e4a/github/SuperProfile/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -filelist /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Objects-normal/arm64/Pods-NYXImagesKit.LinkFileList -framework Accelerate -framework AssetsLibrary -framework CoreImage -framework Foundation -framework ImageIO -framework MobileCoreServices -framework QuartzCore -o /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-NYXImagesKit.a36"50C07CBF-AA1D-4402-904E-A47A0E06C51B-
+b5925B804-0DB3-4155-997B-4A50D5A7C1D7
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-NYXImagesKit-prefix-botlembkxbpgpjhdskugaosmwqfk_ast/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-NYXImagesKit-prefix-bythynkvfimcztbbsxntgrolnfir_ast/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dejtbausnshuitfwdgrkynmmeeog_ast/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-NYXImagesKit-prefix-gipkodqugujpcheushzquimysehh_ast/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-NYXImagesKit-prefix-gjnybmrnrcrjjsgjnxbtzfqjfnre_ast/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-NYXImagesKit-prefix-glutmndaedorpohiztdyiudjgelw_ast/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-avhndylgprtfvyfxzlbprhypgwuu/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-bbymgjrausurchconvxgkhikclrn/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422960565.192758
+e422960565.642329
+r1
+xProcessPCH
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch.pch
+xPods-NYXImagesKit-prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-prefix.pch
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-NYXImagesKit-prefix.pch268"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler058931b5dd35b941^c32cbcb5dd35b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-prefix.pch0000000000000000^3918"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch.d -c /Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-prefix.pch -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-dlrjaznmlwlxzyhisdxaacgwqezw/Pods-NYXImagesKit-prefix.pch.pch36"20628D5A-D8E2-4A69-83FF-E416780E6526-
+b5925B804-0DB3-4155-997B-4A50D5A7C1D7
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-fixnfbnmalixjnhbygyopnqfioji/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-ggnbplrzhyufeleusgohyjfcqxgt/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422960566.203898
+e422960566.583515
+r1
+xProcessPCH
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-ggnbplrzhyufeleusgohyjfcqxgt/Pods-NYXImagesKit-prefix.pch.pch
+xPods-NYXImagesKit-prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-prefix.pch
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-NYXImagesKit-prefix.pch268"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-ggnbplrzhyufeleusgohyjfcqxgt/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc57534b6dd35b941^496695b6dd35b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-prefix.pch0000000000000000^3884"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-ggnbplrzhyufeleusgohyjfcqxgt/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/Pods-NYXImagesKit-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/NYXImagesKit -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-NYXImagesKit.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-ggnbplrzhyufeleusgohyjfcqxgt/Pods-NYXImagesKit-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-ggnbplrzhyufeleusgohyjfcqxgt/Pods-NYXImagesKit-prefix.pch.d -c /Users/p27e4a/github/SuperProfile/Pods/Pods-NYXImagesKit-prefix.pch -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-ggnbplrzhyufeleusgohyjfcqxgt/Pods-NYXImagesKit-prefix.pch.pch36"4F0A98BA-4F63-47CC-975C-EEC7FDC71B6A-
+b5925B804-0DB3-4155-997B-4A50D5A7C1D7
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-NYXImagesKit-prefix-gwwqxahmcjomlxgozhycfelykped/Pods-NYXImagesKit-prefix.pch.pch Pods-NYXImagesKit-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+

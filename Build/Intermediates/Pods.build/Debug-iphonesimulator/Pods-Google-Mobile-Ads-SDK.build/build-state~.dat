@@ -1,0 +1,147 @@
+TPods-Google-Mobile-Ads-SDK
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-Google-Mobile-Ads-SDK-prefix-gkbptzgmvvzbxpavzjplhhfpnsyb/Pods-Google-Mobile-Ads-SDK-prefix.pch.pch Pods-Google-Mobile-Ads-SDK-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Objects-normal/i386/Pods-Google-Mobile-Ads-SDK-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-Google-Mobile-Ads-SDK-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-Google-Mobile-Ads-SDK.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000053532C1F0000000000632990
+t1397959711
+s6498704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000053532C1F0000000000CF7800
+t1397959711
+s13596672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053532C2100000000004D7BC0
+t1397959713
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+c0000000053532C230000000000226D10
+t1397959715
+s2256144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053532C240000000000A90C10
+t1397959716
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c0000000053532C2800000000003D1D20
+t1397959720
+s4005152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c0000000053532C2C0000000000099D80
+t1397959724
+s630144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000053532C2C00000000001A2B00
+t1397959724
+s1714944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053532C6500000000000003B4
+t1397959781
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053532C79000000000000019E
+t1397959801
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053532D460000000000000ADC
+t1397960006
+s2780
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Objects-normal/i386/Pods-Google-Mobile-Ads-SDK-dummy.o
+t1403408584
+s3500
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Objects-normal/i386/Pods-Google-Mobile-Ads-SDK.LinkFileList
+c0000000053A650B900000000000000AF
+t1403408569
+s175
+
+N/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-Google-Mobile-Ads-SDK-prefix-gkbptzgmvvzbxpavzjplhhfpnsyb/Pods-Google-Mobile-Ads-SDK-prefix.pch.pch
+t1403408583
+s123760
+
+N/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-Google-Mobile-Ads-SDK.a
+t2
+s0
+
+N/Users/p27e4a/github/SuperProfile/Pods/Pods-Google-Mobile-Ads-SDK-dummy.m
+c0000000053A4F462000000000000009C
+t1403319394
+s156
+
+N/Users/p27e4a/github/SuperProfile/Pods/Pods-Google-Mobile-Ads-SDK-prefix.pch
+c0000000053A4F462000000000000004D
+t1403319394
+s77
+
+CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/Pods-Google-Mobile-Ads-SDK-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese4a153388856b941^2a52ad398856b941^---0#1#1#--18"Check dependencies36"41C437B4-995A-4322-95DE-FFC42E95C25C-
+
+CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Objects-normal/i386/Pods-Google-Mobile-Ads-SDK-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-Google-Mobile-Ads-SDK-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425101384.375085
+e425101384.833235
+r1
+xCompileC
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Objects-normal/i386/Pods-Google-Mobile-Ads-SDK-dummy.o
+x/Users/p27e4a/github/SuperProfile/Pods/Pods-Google-Mobile-Ads-SDK-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-Google-Mobile-Ads-SDK-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/p27e4a/github/SuperProfile/Pods/Pods-Google-Mobile-Ads-SDK-dummy.m286"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Objects-normal/i386/Pods-Google-Mobile-Ads-SDK-dummy.o Pods-Google-Mobile-Ads-SDK-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler543a60488856b941^374fd5488856b941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-Google-Mobile-Ads-SDK-dummy.m0000000000000000^4519"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Objects-normal/i386/Pods-Google-Mobile-Ads-SDK-dummy.o Pods-Google-Mobile-Ads-SDK-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Pods-Google-Mobile-Ads-SDK-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Pods-Google-Mobile-Ads-SDK-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Pods-Google-Mobile-Ads-SDK-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Pods-Google-Mobile-Ads-SDK-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/DerivedSources/i386 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-Google-Mobile-Ads-SDK-prefix-gkbptzgmvvzbxpavzjplhhfpnsyb/Pods-Google-Mobile-Ads-SDK-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Objects-normal/i386/Pods-Google-Mobile-Ads-SDK-dummy.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Objects-normal/i386/Pods-Google-Mobile-Ads-SDK-dummy.dia -c /Users/p27e4a/github/SuperProfile/Pods/Pods-Google-Mobile-Ads-SDK-dummy.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Objects-normal/i386/Pods-Google-Mobile-Ads-SDK-dummy.o36"9F2B9E01-1681-4B88-976C-3130DC840B72-
+bD74C851D-2558-44CF-8C3F-E4CB4D6AF6E0
+
+CLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-Google-Mobile-Ads-SDK.a normal i386
+s425101385.964943
+e425101386.174809
+r1
+xLibtool
+x/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-Google-Mobile-Ads-SDK.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-Google-Mobile-Ads-SDK.a normal i386122"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-Google-Mobile-Ads-SDK.a normal i3868927f7498856b941^0dc22c4a8856b941^---0#0#1#--1308"Libtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-Google-Mobile-Ads-SDK.a normal i386    cd /Users/p27e4a/github/SuperProfile/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator -L/Users/p27e4a/github/SuperProfile/Pods/Google-Mobile-Ads-SDK/GoogleMobileAdsSdkiOS-6.9.2 -filelist /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Objects-normal/i386/Pods-Google-Mobile-Ads-SDK.LinkFileList -framework AVFoundation -framework AudioToolbox -framework CoreGraphics -framework CoreTelephony -framework Foundation -framework MessageUI -framework StoreKit -framework SystemConfiguration -o /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/libPods-Google-Mobile-Ads-SDK.a36"14C27FE9-87F4-49EF-8271-1D17D082B4F9-
+bD74C851D-2558-44CF-8C3F-E4CB4D6AF6E0
+
+CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-Google-Mobile-Ads-SDK-prefix-aefaokwzgejlgkdghedakawulucj_ast/Pods-Google-Mobile-Ads-SDK-prefix.pch.pch Pods-Google-Mobile-Ads-SDK-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-Google-Mobile-Ads-SDK-prefix-gkbptzgmvvzbxpavzjplhhfpnsyb/Pods-Google-Mobile-Ads-SDK-prefix.pch.pch Pods-Google-Mobile-Ads-SDK-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s425101369.678344
+e425101383.999269
+r1
+xProcessPCH
+x/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-Google-Mobile-Ads-SDK-prefix-gkbptzgmvvzbxpavzjplhhfpnsyb/Pods-Google-Mobile-Ads-SDK-prefix.pch.pch
+xPods-Google-Mobile-Ads-SDK-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-Google-Mobile-Ads-SDK-prefix.pch
+d/Users/p27e4a/github/SuperProfile/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Precompile Pods-Google-Mobile-Ads-SDK-prefix.pch294"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-Google-Mobile-Ads-SDK-prefix-gkbptzgmvvzbxpavzjplhhfpnsyb/Pods-Google-Mobile-Ads-SDK-prefix.pch.pch Pods-Google-Mobile-Ads-SDK-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler56d7ad398856b941^18d0ff478856b941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-Google-Mobile-Ads-SDK-prefix.pch0000000000000000^4359"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-Google-Mobile-Ads-SDK-prefix-gkbptzgmvvzbxpavzjplhhfpnsyb/Pods-Google-Mobile-Ads-SDK-prefix.pch.pch Pods-Google-Mobile-Ads-SDK-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Pods-Google-Mobile-Ads-SDK-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Pods-Google-Mobile-Ads-SDK-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Pods-Google-Mobile-Ads-SDK-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/Pods-Google-Mobile-Ads-SDK-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/DerivedSources/i386 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Google-Mobile-Ads-SDK.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-Google-Mobile-Ads-SDK-prefix-gkbptzgmvvzbxpavzjplhhfpnsyb/Pods-Google-Mobile-Ads-SDK-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-Google-Mobile-Ads-SDK-prefix-gkbptzgmvvzbxpavzjplhhfpnsyb/Pods-Google-Mobile-Ads-SDK-prefix.pch.d -c /Users/p27e4a/github/SuperProfile/Pods/Pods-Google-Mobile-Ads-SDK-prefix.pch -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-Google-Mobile-Ads-SDK-prefix-gkbptzgmvvzbxpavzjplhhfpnsyb/Pods-Google-Mobile-Ads-SDK-prefix.pch.pch36"8348D82B-8BD4-4585-B409-38E370081D45-
+bD74C851D-2558-44CF-8C3F-E4CB4D6AF6E0
+

@@ -1,0 +1,88 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <objc/runtime.h>
+    #import <Social/Social.h>
+    #import <Accounts/Accounts.h>
+    #import <Parse/Parse.h>
+    #import <Parse/PFObject+Subclass.h>
+    #import "GAI.h"
+    #import "GAIDictionaryBuilder.h"
+    #import "GAIFields.h"
+    #import <Crashlytics/Crashlytics.h>
+    #import "LVAnalyticsManager.h"
+    #import "iRate.h"
+    #import "UIActionSheet+Blocks.h"
+    #import "Question.h"
+    #import "Answer.h"
+    #import "GADBannerView.h"
+    #import "MBProgressHUD.h"
+
+    #import "UIImage+Tint.h"
+    #import "LVPlaceholderTextView.h"
+    #import "LVConstants.h"
+    #import "LVTimeFormatter.h"
+    #import "LVShareKitTwitter.h"
+    #import "PFUser+Additions.h"
+    #import "UIColor+ColorWithHex.h"
+    #import "ProfileViewController.h"
+    #import "UIImage+Resize.h"
+    #import "PFRoundedImageView.h"
+    #import "LVTouchableLabel.h"
+    #import "AnswerCell.h"
+    #import "LVBorderButton.h"
+#endif
+
+/* Common */
+#define kColorBorder [UIColor colorWithHexString:@"c8c7cc"]
+#define kColorNavigationBar [UIColor colorWithHexString:@"007ee8"]//0a96f1
+#define kStatusBarHeight 20
+#define kNavigationBarHeight 44
+#define kTabBarHeight 49
+#define kProfileHeaderStretchHeight 100
+#define kSizeProfileImageLarge CGSizeMake(400, 400)
+#define kSizeProfileImageMedium CGSizeMake(160, 160)
+#define kSizeProfileImageSmall CGSizeMake(100, 100)
+#define kBorderHeight (1.0 / [UIScreen mainScreen].scale)
+#define kMailAdressForFeedback @"info@lvupp.com"
+#define kURLTermsOfUse @"http://www.profie.me/about/terms"
+#define kURLPrivacyPolicy @"http://www.profie.me/about/privacy"
+
+/* Analytics */
+#define kGoogleAnalyticsId @"UA-53564473-1"
+#define ANALYTICS  [LVAnalyticsManager sharedManager]
+#define kAnEventAddAnswer @"Answer Added"
+#define kAnEventEditAnswer @"Answer Edited"
+#define kAnEventDeleteAnswer @"Answer Deleted"
+#define kAnEventShareAnswerOnTwitter @"Answer Shared On Twitter"
+#define kAnEventAddQuestion @"Question Added"
+
+/* Ads */
+#define kTestDeviceIdKeniPhone5s @"e68d15d429e34789fa691b0f57e8b878"
+#define kAdUnitIdAnswerTimelineView @"ca-app-pub-2783947426964967/9350837936"
+#define kAdUnitIdRecommendQuestionView @"ca-app-pub-2783947426964967/8445854337"
+#define kAdUnitIdProfileView @"ca-app-pub-2783947426964967/5492387934"
+#define kAdUnitIdQuestionDetailView @"ca-app-pub-2783947426964967/7806725933"
+
+/* Log */
+#define LOG(...) NSLog(__VA_ARGS__)
+#define LOG_PRINTF(FORMAT, ...) printf("%s\n", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#define LOG_METHOD NSLog(@"%s", __func__)
+#define LOG_METHOD_AND_ABORT LOG_METHOD; abort()
+#define LOG_POINT(p, comment) NSLog(@"%@:%f, %f", comment, p.x, p.y)
+#define LOG_SIZE(p, comment) NSLog(@"%@:%f, %f", comment, p.width, p.height)
+#define LOG_RECT(p, comment) NSLog(@"%@:%f, %f - %f, %f", comment, p.origin.x, p.origin.y, p.size.width, p.size.height)
+#define LOG_BOOL(bool, comment)  NSLog(@"%@:%@",comment,(bool ? @"YES":@"NO"))
+#define LOG_DATE(date, comment)  NSLog(@"%@:%@",comment,[date description])

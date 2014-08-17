@@ -1,0 +1,115 @@
+
+
+/* Common */
+"Common_Suffix_Plural" = "s";
+
+"Common_ActionSheet_Camera" = "Take photo";
+
+"Common_ActionSheet_Album" = "Choose existing photo";
+
+"Common_ActionSheet_OpenInSafari" = "Open in Safari";
+
+"Common_ActionSheet_Cancel" = "Cancel";
+
+/* LVShareKitTwitter */
+
+"LVShareKitTwitter_Alert_Message_Error_Twitter_AccessDenied" = "To use your Twitter account with this app, open Settings > Twitter and make sure this app is turned on.";
+
+/* WelcomeView */
+"WelcomeView_Label_Subtitle" = "Profile For SNS";
+
+"WelcomeView_Button_SignUp" = "Sign Up";
+
+"WelcomeView_Button_LogIn" = "Log In";
+
+/* SignUpAndLogInView */
+
+"SignUpAndLogInView_Cell_Username_Title" = "Username";
+
+"SignUpAndLogInView_Cell_Username_Placeholder" = "Username";
+
+"SignUpAndLogInView_Cell_Password_Title" = "Password";
+
+"SignUpAndLogInView_Cell_Password_Placeholder" = "Password";
+
+"SignUpAndLogInView_Alert_Title_Error" = "Sorry :'(";
+
+"SignUpAndLogInView_Alert_Message_Error_Empty" = "Make sure you fill out all of the information";
+
+/* SignUpView */
+"SignUpView_Title" = "Sign Up";
+
+"SignUpView_Cell_Email_Title" = "Email";
+
+"SignUpView_Cell_Email_Placeholder" = "example@abc.com";
+
+"SignUpView_Alert_Message_Error_UsernameTaken_%@" = "Username %@ already taken";
+
+"SignUpView_Alert_Message_Error_EmailTaken_%@" = "Email %@ already taken";
+
+"SignUpView_Footer_1" = "By tapping done button, you are indicating that you have agreed the ";
+
+"SignUpView_Footer_2" = "Terms of Service ";
+
+"SignUpView_Footer_3" = "and ";
+
+"SignUpView_Footer_4" = "Privacy Policy";
+
+"SignUpView_Footer_5" = ".";
+
+/* LogInView */
+"LogInView_Title" = "Log In";
+
+"LogInView_Alert_Message_Error_Incorrect" = "Incorrect username or password";
+
+/* AnswerTimelineView */
+"AnswerTimelineView_Title" = "Timeline";
+
+/* RecommendQuestionView */
+"RecommendQuestionView_Title" = "Questions";
+
+/* EditQuestionView */
+"EditQuestionView_Title" = "Add Question";
+
+"EditQuestionView_Button_Next" = "Next";
+
+"EditQuestionView_Placeholder" = "Question";
+
+/* EditAnswerView */
+"EditAnswerView_Title" = "Edit Answer";
+
+/* ProfileView */
+"ProfileView_Title" = "Profile";
+
+"ProfileView_ShareButton_Title" = "Share";
+
+"ProfileView_ActionSheet_CopyLink" = "Copy Link To Profile";
+
+"ProfileView_ActionSheet_OpenInSafari" = "Open Profile In Safari";
+
+"ProfileView_ActionSheet_EditAnswer" = "Edit Answer";
+
+"ProfileView_ActionSheet_DeleteAnswer" = "Delete Answer";
+
+/* SettingView */
+"SettingView_Title" = "Settings";
+
+"SettingView_Cell_ProfileImage" = "Photo";
+
+"SettingView_Cell_ShareSetting" = "Share Settings";
+
+"SettingView_Cell_Feedback" = "Send Feedback";
+
+"SettingView_Cell_LogOut" = "Log Out";
+
+"SettingView_Feedback_Topic_Request" = "Request";
+
+"SettingView_Feedback_Topic_BugReport" = "Bug Report";
+
+"SettingView_Feedback_Topic_Other" = "Other";
+
+/* ShareSettingView */
+"ShareSettingView_Title" = "Share Settings";
+
+
+

@@ -1,0 +1,12 @@
+# Mac
+.DS_Store
+
+# Xcode
+build/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcworkspace/contents.xcworkspacedata
+**/xcuserdata/
+
+#CocoaPod
+Pods/

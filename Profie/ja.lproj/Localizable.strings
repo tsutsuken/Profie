@@ -1,0 +1,114 @@
+
+
+/* Common */
+"Common_Suffix_Plural" = "";
+
+"Common_ActionSheet_Camera" = "写真を撮る";
+
+"Common_ActionSheet_Album" = "画像を選択";
+
+"Common_ActionSheet_OpenInSafari" = "Safariで開く";
+
+"Common_ActionSheet_Cancel" = "キャンセル";
+
+/* LVShareKitTwitter */
+
+"LVShareKitTwitter_Alert_Message_Error_Twitter_AccessDenied" = "iOSの「設定」 >「Twitter」で、このアプリによるTwitterの使用を許可してください。";
+
+/* WelcomeView */
+"WelcomeView_Label_Subtitle" = "プロフ作成アプリ";//ゆる〜いプロフィール
+
+"WelcomeView_Button_SignUp" = "登録";
+
+"WelcomeView_Button_LogIn" = "ログイン";
+
+/* SignUpAndLogInView */
+
+"SignUpAndLogInView_Cell_Username_Title" = "ユーザーネーム";
+
+"SignUpAndLogInView_Cell_Username_Placeholder" = "半角英数字";
+
+"SignUpAndLogInView_Cell_Password_Title" = "パスワード";
+
+"SignUpAndLogInView_Cell_Password_Placeholder" = "パスワード";
+
+"SignUpAndLogInView_Alert_Title_Error" = "ゴメンナサイ :'(";
+
+"SignUpAndLogInView_Alert_Message_Error_Empty" = "未入力の項目があります";
+
+/* SignUpView */
+"SignUpView_Title" = "登録";
+
+"SignUpView_Cell_Email_Title" = "メールアドレス";
+
+"SignUpView_Cell_Email_Placeholder" = "example@abc.com";
+
+"SignUpView_Alert_Message_Error_UsernameTaken_%@" = "%@というユーザーネームはすでに使われています";
+
+"SignUpView_Alert_Message_Error_EmailTaken_%@" = "%@というメールアドレスはすでに使われています";
+
+"SignUpView_Footer_1" = "完了ボタンを押すことで、";
+
+"SignUpView_Footer_2" = "利用規約";
+
+"SignUpView_Footer_3" = "および";
+
+"SignUpView_Footer_4" = "プライバシーポリシー";
+
+"SignUpView_Footer_5" = "に同意したものとみなされます。";
+
+/* LogInView */
+"LogInView_Title" = "ログイン";
+
+"LogInView_Alert_Message_Error_Incorrect" = "ユーザーネームまたはパスワードが違います";
+
+/* AnswerTimelineView */
+"AnswerTimelineView_Title" = "タイムライン";
+
+/* RecommendQuestionView */
+"RecommendQuestionView_Title" = "回答する";//人気の質問
+
+/* EditQuestionView */
+"EditQuestionView_Title" = "新しい質問";
+
+"EditQuestionView_Button_Next" = "次へ";
+
+"EditQuestionView_Placeholder" = "質問";
+
+/* EditAnswerView */
+"EditAnswerView_Title" = "回答する";
+
+/* ProfileView */
+"ProfileView_Title" = "プロフィール";
+
+"ProfileView_ShareButton_Title" = "シェア";
+
+"ProfileView_ActionSheet_CopyLink" = "プロフへのリンクをコピー";
+
+"ProfileView_ActionSheet_OpenInSafari" = "プロフをSafariで見る";
+
+"ProfileView_ActionSheet_EditAnswer" = "回答を編集";
+
+"ProfileView_ActionSheet_DeleteAnswer" = "回答を削除";
+
+/* SettingView */
+"SettingView_Title" = "設定";
+
+"SettingView_Cell_ProfileImage" = "プロフィール画像";
+
+"SettingView_Cell_ShareSetting" = "シェア設定";
+
+"SettingView_Cell_Feedback" = "フィードバックを送る";
+
+"SettingView_Cell_LogOut" = "ログアウト";
+
+"SettingView_Feedback_Topic_Request" = "リクエスト";
+
+"SettingView_Feedback_Topic_BugReport" = "問題を報告";
+
+"SettingView_Feedback_Topic_Other" = "その他";
+
+/* ShareSettingView */
+"ShareSettingView_Title" = "シェア設定";
+
+

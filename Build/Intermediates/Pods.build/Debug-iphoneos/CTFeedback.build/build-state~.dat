@@ -1,0 +1,177 @@
+TCTFeedback
+v6
+r1
+cCheck dependencies
+cCpResource CTFeedback/Resources/Base.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/Base.lproj
+cCpResource CTFeedback/Resources/de.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/de.lproj
+cCpResource CTFeedback/Resources/en.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/en.lproj
+cCpResource CTFeedback/Resources/ja.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ja.lproj
+cCpResource CTFeedback/Resources/ko.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ko.lproj
+cCpResource CTFeedback/Resources/ru.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ru.lproj
+cCpResource CTFeedback/Resources/zh-Hans.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/zh-Hans.lproj
+cCpResource CTFeedback/Resources/zh-Hant.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/zh-Hant.lproj
+cTouch /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle
+t1408246195
+s340
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/Base.lproj
+t1408246195
+s102
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/de.lproj
+t1408246195
+s102
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/en.lproj
+t1408246195
+s102
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ja.lproj
+t1408246195
+s102
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ko.lproj
+t1408246195
+s102
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ru.lproj
+t1408246195
+s102
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/zh-Hans.lproj
+t1408246195
+s102
+
+N/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/zh-Hant.lproj
+t1408246195
+s102
+
+N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/Base.lproj
+c0000000053E0CF920000000000000066
+t1407242130
+s102
+
+N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/de.lproj
+c0000000053E0CF920000000000000066
+t1407242130
+s102
+
+N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/en.lproj
+c0000000053E0CF920000000000000066
+t1407242130
+s102
+
+N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/ja.lproj
+c0000000053E0CF920000000000000066
+t1407242130
+s102
+
+N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/ko.lproj
+c0000000053E0CF920000000000000066
+t1407242130
+s102
+
+N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/ru.lproj
+c0000000053E0CF920000000000000066
+t1407242130
+s102
+
+N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/zh-Hans.lproj
+c0000000053E0CF920000000000000066
+t1407242130
+s102
+
+N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/zh-Hant.lproj
+c0000000053E0CF920000000000000066
+t1407242130
+s102
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies40bf8b3359a0b941^d6c6983359a0b941^---0#1#1#--18"Check dependencies36"0928DB83-E7B4-473E-AE48-507E3E02BDE5-
+
+CCpResource CTFeedback/Resources/Base.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/Base.lproj
+s429938995.586303
+e429938995.611955
+r1
+xCpResource
+xCTFeedback/Resources/Base.lproj
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/Base.lproj
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/Base.lproj129"CpResource CTFeedback/Resources/Base.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/Base.lproj53ea963359a0b941^e9b69c3359a0b941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/Base.lproj0034f4c8dcffdf42^737"CpResource CTFeedback/Resources/Base.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/Base.lproj    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/Base.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle36"28042DBD-3507-4C5A-ACDA-723756810E2D-
+bCC2101FD-5068-40A9-B372-A87939356EB0
+
+CCpResource CTFeedback/Resources/de.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/de.lproj
+s429938995.589786
+e429938995.622529
+r1
+xCpResource
+xCTFeedback/Resources/de.lproj
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/de.lproj
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/de.lproj125"CpResource CTFeedback/Resources/de.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/de.lproje811973359a0b941^53799f3359a0b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/de.lproj0034f4c8dcffdf42^731"CpResource CTFeedback/Resources/de.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/de.lproj    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/de.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle36"959A8982-F47D-4E52-B721-80AE8C73397D-
+bCC2101FD-5068-40A9-B372-A87939356EB0
+
+CCpResource CTFeedback/Resources/en.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/en.lproj
+s429938995.592384
+e429938995.611657
+r1
+xCpResource
+xCTFeedback/Resources/en.lproj
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/en.lproj
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/en.lproj125"CpResource CTFeedback/Resources/en.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/en.lproje1ef973359a0b941^fa9b9c3359a0b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/en.lproj0034f4c8dcffdf42^731"CpResource CTFeedback/Resources/en.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/en.lproj    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/en.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle36"FC9497D8-1E59-46B6-B529-393DB0700D3C-
+bCC2101FD-5068-40A9-B372-A87939356EB0
+
+CCpResource CTFeedback/Resources/ja.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ja.lproj
+s429938995.594378
+e429938995.611877
+r1
+xCpResource
+xCTFeedback/Resources/ja.lproj
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ja.lproj
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ja.lproj125"CpResource CTFeedback/Resources/ja.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ja.lprojed83983359a0b941^44c19c3359a0b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ja.lproj0034f4c8dcffdf42^731"CpResource CTFeedback/Resources/ja.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ja.lproj    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/ja.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle36"C860DA95-BA50-4C9E-856C-516A2E23FF92-
+bCC2101FD-5068-40A9-B372-A87939356EB0
+
+CCpResource CTFeedback/Resources/ko.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ko.lproj
+s429938995.612741
+e429938995.614844
+r1
+xCpResource
+xCTFeedback/Resources/ko.lproj
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ko.lproj
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ko.lproj125"CpResource CTFeedback/Resources/ko.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ko.lproj740b9d3359a0b941^f2799d3359a0b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ko.lproj0034f4c8dcffdf42^731"CpResource CTFeedback/Resources/ko.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ko.lproj    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/ko.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle36"1F0581FC-4546-4B67-8E78-E8D72256E7B0-
+bCC2101FD-5068-40A9-B372-A87939356EB0
+
+CCpResource CTFeedback/Resources/ru.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ru.lproj
+s429938995.612767
+e429938995.614764
+r1
+xCpResource
+xCTFeedback/Resources/ru.lproj
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ru.lproj
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ru.lproj125"CpResource CTFeedback/Resources/ru.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ru.lproj94179d3359a0b941^166a9d3359a0b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ru.lproj0034f4c8dcffdf42^731"CpResource CTFeedback/Resources/ru.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/ru.lproj    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/ru.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle36"1C8F1BD8-EFD5-45E6-81EF-B9BFCC5DA453-
+bCC2101FD-5068-40A9-B372-A87939356EB0
+
+CCpResource CTFeedback/Resources/zh-Hans.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/zh-Hans.lproj
+s429938995.612983
+e429938995.615118
+r1
+xCpResource
+xCTFeedback/Resources/zh-Hans.lproj
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/zh-Hans.lproj
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/zh-Hans.lproj135"CpResource CTFeedback/Resources/zh-Hans.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/zh-Hans.lproj6e189d3359a0b941^cc7e9d3359a0b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/zh-Hans.lproj0034f4c8dcffdf42^746"CpResource CTFeedback/Resources/zh-Hans.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/zh-Hans.lproj    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/zh-Hans.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle36"36706556-3BB6-4D8B-85FC-53AEBFC35278-
+bCC2101FD-5068-40A9-B372-A87939356EB0
+
+CCpResource CTFeedback/Resources/zh-Hant.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/zh-Hant.lproj
+s429938995.615275
+e429938995.616655
+r1
+xCpResource
+xCTFeedback/Resources/zh-Hant.lproj
+x/Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/zh-Hant.lproj
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/zh-Hant.lproj135"CpResource CTFeedback/Resources/zh-Hant.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/zh-Hant.lprojc39b9d3359a0b941^a0dd9d3359a0b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/zh-Hant.lproj0034f4c8dcffdf42^746"CpResource CTFeedback/Resources/zh-Hant.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle/zh-Hant.lproj    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/zh-Hant.lproj /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle36"B06F809F-4410-49E4-8509-D12A8062FE96-
+bCC2101FD-5068-40A9-B372-A87939356EB0
+
+CTouch /Users/p27e4a/github/Profie/Build/Products/Debug-iphoneos/CTFeedback.bundle
+r0
+
