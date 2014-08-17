@@ -1,2 +1,0 @@
-#!/bin/sh
-./Crashlytics.framework/run 05bba97476be46a19cd9fe6700e03312cdd38e05 76e7ade7f91c98eb5c98ee4471d527039cba04a2d1e0d93d9a378dfe782c7d1e
