@@ -1,214 +1,0 @@
-TCTFeedback
-v6
-r1
-cCheck dependencies
-cSymLink /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/BuildProductsPath/Release-iphoneos/CTFeedback.bundle /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle
-cCpResource CTFeedback/Resources/Base.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/Base.lproj
-cCpResource CTFeedback/Resources/de.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/de.lproj
-cCpResource CTFeedback/Resources/en.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/en.lproj
-cCpResource CTFeedback/Resources/ja.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ja.lproj
-cCpResource CTFeedback/Resources/ko.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ko.lproj
-cCpResource CTFeedback/Resources/ru.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ru.lproj
-cCpResource CTFeedback/Resources/zh-Hans.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/zh-Hans.lproj
-cCpResource CTFeedback/Resources/zh-Hant.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/zh-Hant.lproj
-cTouch /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle
-cSetOwnerAndGroup p27e4a:staff /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle
-cSetMode u+w,go-w,a+rX /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/BuildProductsPath/Release-iphoneos/CTFeedback.bundle
-t2
-s0
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle
-t1408025137
-s340
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/Base.lproj
-t1408025137
-s102
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/de.lproj
-t1408025137
-s102
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/en.lproj
-t1408025137
-s102
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ja.lproj
-t1408025137
-s102
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ko.lproj
-t1408025137
-s102
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ru.lproj
-t1408025137
-s102
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/zh-Hans.lproj
-t1408025137
-s102
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/zh-Hant.lproj
-t1408025137
-s102
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/Base.lproj
-c0000000053E0CF920000000000000066
-t1407242130
-s102
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/de.lproj
-c0000000053E0CF920000000000000066
-t1407242130
-s102
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/en.lproj
-c0000000053E0CF920000000000000066
-t1407242130
-s102
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/ja.lproj
-c0000000053E0CF920000000000000066
-t1407242130
-s102
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/ko.lproj
-c0000000053E0CF920000000000000066
-t1407242130
-s102
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/ru.lproj
-c0000000053E0CF920000000000000066
-t1407242130
-s102
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/zh-Hans.lproj
-c0000000053E0CF920000000000000066
-t1407242130
-s102
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/zh-Hant.lproj
-c0000000053E0CF920000000000000066
-t1407242130
-s102
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1addd1b1f99cb941^1a52d5b1f99cb941^---0#1#1#--18"Check dependencies36"F56B7E97-E06E-4C8A-8411-45DDFED94198-
-
-CCpResource CTFeedback/Resources/Base.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/Base.lproj
-s429717937.867223
-e429717937.901371
-r1
-xCpResource
-xCTFeedback/Resources/Base.lproj
-x/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/Base.lproj
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection156"Copy /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/Base.lproj194"CpResource CTFeedback/Resources/Base.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/Base.lproj6c23deb1f99cb941^aab7e6b1f99cb941^---0#0#1#-19%DVTDocumentLocation2@158"file:///Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/Base.lproj00344810dfffdf42^741"CpResource CTFeedback/Resources/Base.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/Base.lproj    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/Base.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle36"D7CC35ED-FCBC-4F4E-9D0E-9DB7D9D91DC3-
-b2B50C044-8833-49F1-9AA0-75C1EDD9AB96
-
-CCpResource CTFeedback/Resources/de.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/de.lproj
-s429717937.868590
-e429717937.901512
-r1
-xCpResource
-xCTFeedback/Resources/de.lproj
-x/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/de.lproj
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Copy /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/de.lproj190"CpResource CTFeedback/Resources/de.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/de.lproj9083deb1f99cb941^aebae6b1f99cb941^---0#0#1#-19%DVTDocumentLocation2@156"file:///Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/de.lproj00344810dfffdf42^735"CpResource CTFeedback/Resources/de.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/de.lproj    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/de.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle36"96FC1CE3-2C7C-458A-8896-979082EC0F37-
-b2B50C044-8833-49F1-9AA0-75C1EDD9AB96
-
-CCpResource CTFeedback/Resources/en.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/en.lproj
-s429717937.869926
-e429717937.901528
-r1
-xCpResource
-xCTFeedback/Resources/en.lproj
-x/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/en.lproj
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Copy /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/en.lproj190"CpResource CTFeedback/Resources/en.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/en.lprojfed2deb1f99cb941^35ede6b1f99cb941^---0#0#1#-19%DVTDocumentLocation2@156"file:///Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/en.lproj00344810dfffdf42^735"CpResource CTFeedback/Resources/en.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/en.lproj    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/en.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle36"17277DE0-FBA6-4C56-872C-D40A8117E16D-
-b2B50C044-8833-49F1-9AA0-75C1EDD9AB96
-
-CCpResource CTFeedback/Resources/ja.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ja.lproj
-s429717937.870235
-e429717937.900984
-r1
-xCpResource
-xCTFeedback/Resources/ja.lproj
-x/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ja.lproj
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Copy /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ja.lproj190"CpResource CTFeedback/Resources/ja.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ja.lproj5ce8deb1f99cb941^e3aae6b1f99cb941^---0#0#1#-19%DVTDocumentLocation2@156"file:///Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ja.lproj00344810dfffdf42^735"CpResource CTFeedback/Resources/ja.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ja.lproj    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/ja.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle36"77866BEA-E979-4FC3-A3E2-2F3A8E83F0C3-
-b2B50C044-8833-49F1-9AA0-75C1EDD9AB96
-
-CCpResource CTFeedback/Resources/ko.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ko.lproj
-s429717937.902472
-e429717937.939880
-r1
-xCpResource
-xCTFeedback/Resources/ko.lproj
-x/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ko.lproj
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Copy /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ko.lproj190"CpResource CTFeedback/Resources/ko.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ko.lprojc83fe7b1f99cb941^dc9f0fb2f99cb941^---0#0#1#-19%DVTDocumentLocation2@156"file:///Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ko.lproj00344810dfffdf42^735"CpResource CTFeedback/Resources/ko.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ko.lproj    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/ko.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle36"5A115D30-B202-485C-B468-DEE047390D82-
-b2B50C044-8833-49F1-9AA0-75C1EDD9AB96
-
-CCpResource CTFeedback/Resources/ru.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ru.lproj
-s429717937.902687
-e429717937.939963
-r1
-xCpResource
-xCTFeedback/Resources/ru.lproj
-x/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ru.lproj
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Copy /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ru.lproj190"CpResource CTFeedback/Resources/ru.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ru.lproj3333e7b1f99cb941^04aa0fb2f99cb941^---0#0#1#-19%DVTDocumentLocation2@156"file:///Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ru.lproj00344810dfffdf42^735"CpResource CTFeedback/Resources/ru.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/ru.lproj    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/ru.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle36"67578834-3000-4331-BE06-ACD41538983A-
-b2B50C044-8833-49F1-9AA0-75C1EDD9AB96
-
-CCpResource CTFeedback/Resources/zh-Hans.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/zh-Hans.lproj
-s429717937.903712
-e429717937.939927
-r1
-xCpResource
-xCTFeedback/Resources/zh-Hans.lproj
-x/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/zh-Hans.lproj
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"Copy /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/zh-Hans.lproj200"CpResource CTFeedback/Resources/zh-Hans.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/zh-Hans.lproj1e89e7b1f99cb941^94a40fb2f99cb941^---0#0#1#-19%DVTDocumentLocation2@161"file:///Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/zh-Hans.lproj00344810dfffdf42^750"CpResource CTFeedback/Resources/zh-Hans.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/zh-Hans.lproj    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/zh-Hans.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle36"FAB070D6-6115-4449-ABEB-5D02310E0168-
-b2B50C044-8833-49F1-9AA0-75C1EDD9AB96
-
-CCpResource CTFeedback/Resources/zh-Hant.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/zh-Hant.lproj
-s429717937.904615
-e429717937.939949
-r1
-xCpResource
-xCTFeedback/Resources/zh-Hant.lproj
-x/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/zh-Hant.lproj
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"Copy /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/zh-Hant.lproj200"CpResource CTFeedback/Resources/zh-Hant.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/zh-Hant.lproj94bfe7b1f99cb941^65a70fb2f99cb941^---0#0#1#-19%DVTDocumentLocation2@161"file:///Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/zh-Hant.lproj00344810dfffdf42^750"CpResource CTFeedback/Resources/zh-Hant.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/zh-Hant.lproj    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/p27e4a/github/Profie/Pods/CTFeedback/Resources/zh-Hant.lproj /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle36"B7ABDE7F-27D0-4F24-8B92-59B8ADD32C05-
-b2B50C044-8833-49F1-9AA0-75C1EDD9AB96
-
-CSetMode u+w,go-w,a+rX /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle
-s429717938.054589
-e429717938.061252
-r1
-xSetMode
-xu+w,go-w,a+rX
-x/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"SetMode u+w,go-w,a+rX /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle162"SetMode u+w,go-w,a+rX /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle55150eb2f99cb941^2dea0fb2f99cb941^---0#0#1#-19%DVTDocumentLocation2@148"file:///Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/0000000000000000^565"SetMode u+w,go-w,a+rX /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /bin/chmod -RH u+w,go-w,a+rX /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle36"66966B44-F18E-44BC-AEE6-97FF618E8D68-
-b2B50C044-8833-49F1-9AA0-75C1EDD9AB96
-
-CSetOwnerAndGroup p27e4a:staff /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle
-s429717937.942662
-e429717938.054095
-r1
-xSetOwnerAndGroup
-xp27e4a:staff
-x/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection170"SetOwnerAndGroup p27e4a:staff /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle170"SetOwnerAndGroup p27e4a:staff /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle4c8cf1b1f99cb941^5ad40fb2f99cb941^---0#0#1#-19%DVTDocumentLocation2@148"file:///Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle/0000000000000000^577"SetOwnerAndGroup p27e4a:staff /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/sbin/chown -RH p27e4a:staff /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle36"A5608657-0045-4469-877E-5ED7FA3C79B9-
-b2B50C044-8833-49F1-9AA0-75C1EDD9AB96
-
-CSymLink /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/BuildProductsPath/Release-iphoneos/CTFeedback.bundle /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle
-s429717937.830449
-e429717937.866340
-r1
-xSymLink
-x/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/BuildProductsPath/Release-iphoneos/CTFeedback.bundle
-x/Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Process /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/BuildProductsPath/Release-iphoneos/CTFeedback.bundle277"SymLink /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/BuildProductsPath/Release-iphoneos/CTFeedback.bundle /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundlea4abd4b1f99cb941^92cdddb1f99cb941^---0#0#1#--792"SymLink /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/BuildProductsPath/Release-iphoneos/CTFeedback.bundle /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /bin/ln -sf /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/BuildProductsPath/Release-iphoneos/CTFeedback.bundle36"F1F30A53-54F7-492F-A817-1B057A7AC860-
-b2B50C044-8833-49F1-9AA0-75C1EDD9AB96
-
-CTouch /Users/p27e4a/github/Profie/Build/Intermediates/ArchiveIntermediates/Profie/IntermediateBuildFilesPath/UninstalledProducts/CTFeedback.bundle
-r0
-

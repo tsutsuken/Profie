@@ -1,341 +1,0 @@
-TPods-CTFeedback
-v6
-r1
-cCheck dependencies
-cProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-asipdxbdthaydeagjdomithojsml/Pods-CTFeedback-prefix.pch.pch Pods-CTFeedback-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-adglpdbuezvipxcdezhlvmaggubb/Pods-CTFeedback-prefix.pch.pch Pods-CTFeedback-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCopyPlistFile /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/PlatformNames.plist CTFeedback/Classes/PlatformNames.plist
-cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCell.o /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCellItem.o /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCellItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackTopicsViewController.o /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackTopicsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackViewController.o /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/NSBundle+CTFeedback.o /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/NSBundle+CTFeedback.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/Pods-CTFeedback-dummy.o /Users/p27e4a/github/Profie/Pods/Pods-CTFeedback-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-CTFeedback.a normal i386
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c0000000053532C240000000000A90C10
-t1397959716
-s11078672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
-c0000000053532C2800000000003D1D20
-t1397959720
-s4005152
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
-c0000000053119F8A0000000000000198
-t1393663882
-s408
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
-c0000000053532C6500000000000003B4
-t1397959781
-s948
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000053532C79000000000000019E
-t1397959801
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c0000000053532D460000000000000ADC
-t1397960006
-s2780
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCell.o
-t1408066846
-s43724
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCellItem.o
-t1408066846
-s84892
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackTopicsViewController.o
-t1408066846
-s57768
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackViewController.o
-t1408066846
-s161596
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/NSBundle+CTFeedback.o
-t1408066846
-s9028
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/Pods-CTFeedback-dummy.o
-t1408066846
-s3396
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/Pods-CTFeedback.LinkFileList
-c0000000053ED65190000000000000372
-t1408066841
-s882
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-adglpdbuezvipxcdezhlvmaggubb/Pods-CTFeedback-prefix.pch.pch
-t1408066845
-s131420
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-asipdxbdthaydeagjdomithojsml/Pods-CTFeedback-prefix.pch.pch
-t1408066845
-s125780
-
-N/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/PlatformNames.plist
-t1408066845
-s1123
-
-N/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-CTFeedback.a
-t1408066847
-s364544
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCell.h
-c0000000053E0CF920000000000000118
-t1407242130
-s280
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCell.m
-c0000000053E0CF920000000000000305
-t1407242130
-s773
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCellItem.h
-c0000000053E0CF920000000000000449
-t1407242130
-s1097
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCellItem.m
-c0000000053E0CF920000000000000E30
-t1407242130
-s3632
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackTopicsViewController.h
-c0000000053E0CF9200000000000001A6
-t1407242130
-s422
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackTopicsViewController.m
-c0000000053E0CF9200000000000007CA
-t1407242130
-s1994
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackViewController.h
-c0000000053E0CF920000000000000637
-t1407242130
-s1591
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackViewController.m
-c0000000053E0CF920000000000004AA0
-t1407242130
-s19104
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/NSBundle+CTFeedback.h
-c0000000053E0CF920000000000000117
-t1407242130
-s279
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/NSBundle+CTFeedback.m
-c0000000053E0CF920000000000000226
-t1407242130
-s550
-
-N/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/PlatformNames.plist
-c0000000053E0CF92000000000000095C
-t1407242130
-s2396
-
-N/Users/p27e4a/github/Profie/Pods/Pods-CTFeedback-dummy.m
-c0000000053EC63210000000000000086
-t1408000801
-s134
-
-N/Users/p27e4a/github/Profie/Pods/Pods-CTFeedback-prefix.pch
-c0000000053EC6321000000000000004D
-t1408000801
-s77
-
-N/Users/p27e4a/github/Profie/Pods/Pods-environment.h
-c0000000053EC632100000000000013AD
-t1408000801
-s5037
-
-CBuild AST from /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCell.m
-r0
-
-CBuild AST from /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCellItem.m
-r0
-
-CBuild AST from /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackTopicsViewController.m
-r0
-
-CBuild AST from /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackViewController.m
-r0
-
-CBuild AST from /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/NSBundle+CTFeedback.m
-r0
-
-CBuild AST from /Users/p27e4a/github/Profie/Pods/Pods-CTFeedback-dummy.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies802b8da19e9db941^048d8da19e9db941^---0#1#1#--18"Check dependencies36"A8893297-4815-492A-9DAE-D6212B3BC4CC-
-
-CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCell.o /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s429759645.921068
-e429759646.165671
-r1
-xCompileC
-x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCell.o
-x/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCell.m
-d/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCell.h
-d/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCellItem.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCell.m252"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCell.o CTFeedback/Classes/CTFeedbackCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb3eeeb9d9c9db941^c9b02a9e9c9db941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCell.m0000000000000000^4351"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCell.o CTFeedback/Classes/CTFeedbackCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-asipdxbdthaydeagjdomithojsml/Pods-CTFeedback-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCell.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCell.dia -c /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCell.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCell.o36"2C4A5751-8E6D-4D54-BF1A-332E8BA09218-
-bAE4E8E86-8884-46D9-9BC9-219655D70FCA
-
-CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCellItem.o /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCellItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s429759645.951507
-e429759646.196915
-r1
-xCompileC
-x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCellItem.o
-x/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCellItem.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCellItem.m
-d/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCellItem.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCellItem.m260"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCellItem.o CTFeedback/Classes/CTFeedbackCellItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerabcdf39d9c9db941^6325329e9c9db941^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCellItem.m0000000000000000^4375"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCellItem.o CTFeedback/Classes/CTFeedbackCellItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-asipdxbdthaydeagjdomithojsml/Pods-CTFeedback-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCellItem.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCellItem.dia -c /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCellItem.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackCellItem.o36"EF72872C-9E65-42EE-8120-003ABD75D1B1-
-bAE4E8E86-8884-46D9-9BC9-219655D70FCA
-
-CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackTopicsViewController.o /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackTopicsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s429759646.131838
-e429759646.288815
-r1
-xCompileC
-x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackTopicsViewController.o
-x/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackTopicsViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackTopicsViewController.m
-d/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackTopicsViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackTopicsViewController.m284"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackTopicsViewController.o CTFeedback/Classes/CTFeedbackTopicsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler00e3219e9c9db941^f1f1499e9c9db941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackTopicsViewController.m0000000000000000^4447"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackTopicsViewController.o CTFeedback/Classes/CTFeedbackTopicsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-asipdxbdthaydeagjdomithojsml/Pods-CTFeedback-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackTopicsViewController.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackTopicsViewController.dia -c /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackTopicsViewController.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackTopicsViewController.o36"AE68180B-630A-4C4D-8D5A-600B6E315999-
-bAE4E8E86-8884-46D9-9BC9-219655D70FCA
-
-CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackViewController.o /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s429759646.198324
-e429759646.722036
-r1
-xCompileC
-x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackViewController.o
-x/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackViewController.m
-d/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackViewController.h
-d/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCell.h
-d/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackCellItem.h
-d/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackTopicsViewController.h
-d/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/NSBundle+CTFeedback.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackViewController.m272"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackViewController.o CTFeedback/Classes/CTFeedbackViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler41f2329e9c9db941^4416b99e9c9db941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackViewController.m0000000000000000^4411"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackViewController.o CTFeedback/Classes/CTFeedbackViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-asipdxbdthaydeagjdomithojsml/Pods-CTFeedback-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackViewController.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackViewController.dia -c /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/CTFeedbackViewController.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/CTFeedbackViewController.o36"DEB1B38A-1A07-4630-88BB-967AB30A1F51-
-bAE4E8E86-8884-46D9-9BC9-219655D70FCA
-
-CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/NSBundle+CTFeedback.o /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/NSBundle+CTFeedback.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s429759646.529524
-e429759646.722130
-r1
-xCompileC
-x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/NSBundle+CTFeedback.o
-x/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/NSBundle+CTFeedback.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/NSBundle+CTFeedback.m
-d/Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/NSBundle+CTFeedback.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/NSBundle+CTFeedback.m262"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/NSBundle+CTFeedback.o CTFeedback/Classes/NSBundle+CTFeedback.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere5b4879e9c9db941^651ab99e9c9db941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/NSBundle+CTFeedback.m0000000000000000^4381"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/NSBundle+CTFeedback.o CTFeedback/Classes/NSBundle+CTFeedback.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-asipdxbdthaydeagjdomithojsml/Pods-CTFeedback-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/NSBundle+CTFeedback.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/NSBundle+CTFeedback.dia -c /Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/NSBundle+CTFeedback.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/NSBundle+CTFeedback.o36"F7715924-1301-4B59-821B-726A27AF8840-
-bAE4E8E86-8884-46D9-9BC9-219655D70FCA
-
-CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/Pods-CTFeedback-dummy.o /Users/p27e4a/github/Profie/Pods/Pods-CTFeedback-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s429759646.722440
-e429759646.856664
-r1
-xCompileC
-x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/Pods-CTFeedback-dummy.o
-x/Users/p27e4a/github/Profie/Pods/Pods-CTFeedback-dummy.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/Profie/Pods/Pods-CTFeedback-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/p27e4a/github/Profie/Pods/Pods-CTFeedback-dummy.m247"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/Pods-CTFeedback-dummy.o Pods-CTFeedback-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4757b99e9c9db941^334edb9e9c9db941^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/p27e4a/github/Profie/Pods/Pods-CTFeedback-dummy.m0000000000000000^4344"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/Pods-CTFeedback-dummy.o Pods-CTFeedback-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-adglpdbuezvipxcdezhlvmaggubb/Pods-CTFeedback-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/Pods-CTFeedback-dummy.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/Pods-CTFeedback-dummy.dia -c /Users/p27e4a/github/Profie/Pods/Pods-CTFeedback-dummy.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/Pods-CTFeedback-dummy.o36"699C4E32-6540-45C3-9273-AF3900E72E3D-
-bAE4E8E86-8884-46D9-9BC9-219655D70FCA
-
-CCopyPlistFile /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/PlatformNames.plist CTFeedback/Classes/PlatformNames.plist
-s429759645.835653
-e429759645.863277
-r1
-xCopyPlistFile
-x/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/PlatformNames.plist
-xCTFeedback/Classes/PlatformNames.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy CTFeedback/Classes/PlatformNames.plist137"CopyPlistFile /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/PlatformNames.plist CTFeedback/Classes/PlatformNames.plist9c14d69d9c9db941^5000dd9d9c9db941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/p27e4a/github/Profie/Pods/CTFeedback/Classes/PlatformNames.plist0000000000000000^529"CopyPlistFile /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/PlatformNames.plist CTFeedback/Classes/PlatformNames.plist    cd /Users/p27e4a/github/Profie/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -- CTFeedback/Classes/PlatformNames.plist36"5BB0CDFA-09E0-451A-BEE7-0007ECA6E5BE-
-bAE4E8E86-8884-46D9-9BC9-219655D70FCA
-
-CLibtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-CTFeedback.a normal i386
-s429759647.195193
-e429759647.208030
-r1
-xLibtool
-x/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-CTFeedback.a
-xnormal
-xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Libtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-CTFeedback.a normal i386105"Libtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-CTFeedback.a normal i3866212329f9c9db941^0344359f9c9db941^---0#0#1#--995"Libtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-CTFeedback.a normal i386    cd /Users/p27e4a/github/Profie/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -filelist /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Objects-normal/i386/Pods-CTFeedback.LinkFileList -framework Foundation -framework MessageUI -o /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-CTFeedback.a36"E5E7B3DB-EDBF-482E-8806-6D157E11EC22-
-bAE4E8E86-8884-46D9-9BC9-219655D70FCA
-
-CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/Profie-cgqxhzxhjnczztelqvpkhhgtubdh/Index/PrecompiledHeaders/Pods-CTFeedback-prefix-crtolwencquzuecxvrcjhnbmilzh_ast/Pods-CTFeedback-prefix.pch.pch Pods-CTFeedback-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/Profie-cgqxhzxhjnczztelqvpkhhgtubdh/Index/PrecompiledHeaders/Pods-CTFeedback-prefix-fzhdmbhuwyzvfobklrvdibhnjyzj_ast/Pods-CTFeedback-prefix.pch.pch Pods-CTFeedback-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-adglpdbuezvipxcdezhlvmaggubb/Pods-CTFeedback-prefix.pch.pch Pods-CTFeedback-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s429759645.811472
-e429759645.875081
-r1
-xProcessPCH
-x/Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-adglpdbuezvipxcdezhlvmaggubb/Pods-CTFeedback-prefix.pch.pch
-xPods-CTFeedback-prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/Profie/Pods/Pods-CTFeedback-prefix.pch
-d/Users/p27e4a/github/Profie/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Pods-CTFeedback-prefix.pch255"ProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-adglpdbuezvipxcdezhlvmaggubb/Pods-CTFeedback-prefix.pch.pch Pods-CTFeedback-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd3facf9d9c9db941^12bedf9d9c9db941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/p27e4a/github/Profie/Pods/Pods-CTFeedback-prefix.pch0000000000000000^4212"ProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-adglpdbuezvipxcdezhlvmaggubb/Pods-CTFeedback-prefix.pch.pch Pods-CTFeedback-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-adglpdbuezvipxcdezhlvmaggubb/Pods-CTFeedback-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-adglpdbuezvipxcdezhlvmaggubb/Pods-CTFeedback-prefix.pch.d -c /Users/p27e4a/github/Profie/Pods/Pods-CTFeedback-prefix.pch -o /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-adglpdbuezvipxcdezhlvmaggubb/Pods-CTFeedback-prefix.pch.pch36"B58886A4-DD2C-47B3-8D2B-6D40198D61A8-
-bAE4E8E86-8884-46D9-9BC9-219655D70FCA
-
-CProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-asipdxbdthaydeagjdomithojsml/Pods-CTFeedback-prefix.pch.pch Pods-CTFeedback-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s429759641.780324
-e429759645.811910
-r1
-xProcessPCH
-x/Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-asipdxbdthaydeagjdomithojsml/Pods-CTFeedback-prefix.pch.pch
-xPods-CTFeedback-prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/Profie/Pods/Pods-CTFeedback-prefix.pch
-d/Users/p27e4a/github/Profie/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Pods-CTFeedback-prefix.pch255"ProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-asipdxbdthaydeagjdomithojsml/Pods-CTFeedback-prefix.pch.pch Pods-CTFeedback-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera6f1c7999c9db941^99d9cf9d9c9db941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/p27e4a/github/Profie/Pods/Pods-CTFeedback-prefix.pch0000000000000000^4223"ProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-asipdxbdthaydeagjdomithojsml/Pods-CTFeedback-prefix.pch.pch Pods-CTFeedback-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/Pods-CTFeedback-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-CTFeedback.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -fobjc-arc --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-asipdxbdthaydeagjdomithojsml/Pods-CTFeedback-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-asipdxbdthaydeagjdomithojsml/Pods-CTFeedback-prefix.pch.d -c /Users/p27e4a/github/Profie/Pods/Pods-CTFeedback-prefix.pch -o /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-CTFeedback-prefix-asipdxbdthaydeagjdomithojsml/Pods-CTFeedback-prefix.pch.pch36"5B888797-10B5-47BE-8B7C-EA1F8AEE87A0-
-bAE4E8E86-8884-46D9-9BC9-219655D70FCA
-

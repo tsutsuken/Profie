@@ -1,885 +1,0 @@
-TPods-libwebp
-v6
-r1
-cCheck dependencies
-cProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-heyjwohrhjmtnielkryidepjjthw/Pods-libwebp-prefix.pch.pch Pods-libwebp-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch.pch Pods-libwebp-prefix.pch normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/Pods-libwebp-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-libwebp-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-5D32E34819073D8C.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/alpha.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-6E433332C6AEA4A7.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/alpha.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha_processing.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/alpha_processing.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/analysis.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/analysis.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/backward_references.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/backward_references.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_reader.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_reader.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_writer.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_writer.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/buffer.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/buffer.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/color_cache.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/color_cache.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/config.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/config.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cost.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/cost.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cpu.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/cpu.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec_neon.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
-c0000000053532C19000000000000036B
-t1397959705
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000053532C1B000000000000019E
-t1397959707
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c0000000053532D460000000000000ADC
-t1397960006
-s2780
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/Pods-libwebp-dummy.o
-t2
-s0
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-5D32E34819073D8C.o
-t2
-s0
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-6E433332C6AEA4A7.o
-t2
-s0
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha_processing.o
-t2
-s0
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/analysis.o
-t2
-s0
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/backward_references.o
-t2
-s0
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_reader.o
-t2
-s0
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_writer.o
-t2
-s0
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/buffer.o
-t2
-s0
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/color_cache.o
-t2
-s0
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/config.o
-t2
-s0
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cost.o
-t2
-s0
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cpu.o
-t2
-s0
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec.o
-t2
-s0
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec_neon.o
-t2
-s0
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch.pch
-t1406019714
-s130324
-
-N/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-heyjwohrhjmtnielkryidepjjthw/Pods-libwebp-prefix.pch.pch
-t1406019714
-s133488
-
-N/Users/p27e4a/github/SuperProfile/Pods/Pods-libwebp-dummy.m
-c0000000053CE27E60000000000000080
-t1406019558
-s128
-
-N/Users/p27e4a/github/SuperProfile/Pods/Pods-libwebp-prefix.pch
-c0000000053CE27E6000000000000004D
-t1406019558
-s77
-
-N/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/alpha.c
-c0000000053CE27E40000000000001469
-t1406019556
-s5225
-
-N/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/buffer.c
-c0000000053CE27E40000000000001B33
-t1406019556
-s6963
-
-N/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/cpu.c
-c0000000053CE27E400000000000009C0
-t1406019556
-s2496
-
-N/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec.c
-c0000000053CE27E40000000000005A29
-t1406019556
-s23081
-
-N/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c
-c0000000053CE27E400000000000047C1
-t1406019556
-s18369
-
-N/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/alpha.c
-c0000000053CE27E40000000000003746
-t1406019556
-s14150
-
-N/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/analysis.c
-c0000000053CE27E400000000000041BC
-t1406019556
-s16828
-
-N/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/backward_references.c
-c0000000053CE27E40000000000007623
-t1406019556
-s30243
-
-N/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/config.c
-c0000000053CE27E40000000000001201
-t1406019556
-s4609
-
-N/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/cost.c
-c0000000053CE27E4000000000000632C
-t1406019556
-s25388
-
-N/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/alpha_processing.c
-c0000000053CE27E4000000000000256B
-t1406019556
-s9579
-
-N/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_reader.c
-c0000000053CE27E40000000000001AF5
-t1406019556
-s6901
-
-N/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_writer.c
-c0000000053CE27E4000000000000229A
-t1406019556
-s8858
-
-N/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/color_cache.c
-c0000000053CE27E400000000000004D8
-t1406019556
-s1240
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/Pods-libwebp-dummy.m
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/alpha.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/buffer.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/frame.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/idec.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/io.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/layer.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/quant.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/tree.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/vp8.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/vp8l.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/webp.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/demux/demux.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/cpu.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_sse2.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/enc.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/enc_neon.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/enc_sse2.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/lossless.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/upsampling.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/upsampling_neon.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/upsampling_sse2.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/yuv.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/alpha.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/analysis.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/backward_references.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/config.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/cost.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/filter.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/frame.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/histogram.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/iterator.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/layer.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/picture.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/quant.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/syntax.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/token.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/tree.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/vp8l.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/webpenc.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/mux/muxedit.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/mux/muxinternal.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/mux/muxread.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/alpha_processing.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_reader.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_writer.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/color_cache.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/filters.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/huffman.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/huffman_encode.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/quant_levels.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/quant_levels_dec.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/random.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/rescaler.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/thread.c
-r0
-
-CBuild AST from /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/utils.c
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf9a14602607eb941^28478502607eb941^---0#1#1#--18"Check dependencies36"6EFBE2F5-CE2B-4105-BF1D-9CB75880A8FA-
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/Pods-libwebp-dummy.o /Users/p27e4a/github/SuperProfile/Pods/Pods-libwebp-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s427712514.879131
-e427712514.918243
-r1
-xCompileC
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/Pods-libwebp-dummy.o
-x/Users/p27e4a/github/SuperProfile/Pods/Pods-libwebp-dummy.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/Pods-libwebp-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/p27e4a/github/SuperProfile/Pods/Pods-libwebp-dummy.m239"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/Pods-libwebp-dummy.o Pods-libwebp-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler9739e102607eb941^5913eb02607eb941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-libwebp-dummy.m0000000000000000^4605"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/Pods-libwebp-dummy.o Pods-libwebp-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-heyjwohrhjmtnielkryidepjjthw/Pods-libwebp-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/Pods-libwebp-dummy.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/Pods-libwebp-dummy.dia -c /Users/p27e4a/github/SuperProfile/Pods/Pods-libwebp-dummy.m -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/Pods-libwebp-dummy.o36"AFF9C524-6A09-496D-B682-36DF7D7F7846-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-5D32E34819073D8C.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/alpha.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-s427712514.918518
-e427712515.277243
-r1
-xCompileC
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-5D32E34819073D8C.o
-x/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/alpha.c
-xnormal
-xarm64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/alpha.c
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/vp8enci.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/encode.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/types.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dsp.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_writer.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/thread.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/filters.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/quant_levels.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/format_constants.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/vp8li.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/histogram.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/backward_references.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/alpha.c236"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-5D32E34819073D8C.o libwebp/src/enc/alpha.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compilerff42eb02607eb941^87144703607eb941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/alpha.c0000000000000000^4432"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-5D32E34819073D8C.o libwebp/src/enc/alpha.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -D_THREAD_SAFE -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-5D32E34819073D8C.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-5D32E34819073D8C.dia -c /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/alpha.c -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-5D32E34819073D8C.o36"836EC952-B872-4DAD-8CF2-122A734C15D8-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-6E433332C6AEA4A7.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/alpha.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-s427712515.098138
-e427712515.316792
-r1
-xCompileC
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-6E433332C6AEA4A7.o
-x/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/alpha.c
-xnormal
-xarm64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/alpha.c
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/alphai.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/webpi.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/rescaler.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/types.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/decode_vp8.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/decode.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/filters.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/vp8i.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/vp8li.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_reader.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/color_cache.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/huffman.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/format_constants.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/random.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/thread.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dsp.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/quant_levels_dec.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/alpha.c236"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-6E433332C6AEA4A7.o libwebp/src/dec/alpha.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compilercc441903607eb941^48195103607eb941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/alpha.c0000000000000000^4432"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-6E433332C6AEA4A7.o libwebp/src/dec/alpha.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -D_THREAD_SAFE -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-6E433332C6AEA4A7.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-6E433332C6AEA4A7.dia -c /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/alpha.c -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha-6E433332C6AEA4A7.o36"26E16197-B04E-414B-ADB8-193488752625-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha_processing.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/alpha_processing.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-s427712515.277674
-e427712515.316257
-r1
-xCompileC
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha_processing.o
-x/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/alpha_processing.c
-xnormal
-xarm64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/alpha_processing.c
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/alpha_processing.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/types.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/alpha_processing.c243"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha_processing.o libwebp/src/utils/alpha_processing.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler103f4703607eb941^f0fa5003607eb941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/alpha_processing.c0000000000000000^4434"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha_processing.o libwebp/src/utils/alpha_processing.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -D_THREAD_SAFE -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha_processing.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha_processing.dia -c /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/alpha_processing.c -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/alpha_processing.o36"CBB3BBD3-5604-4B04-B637-0F4C5BED0726-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/analysis.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/analysis.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-s427712515.446444
-e427712515.531093
-r1
-xCompileC
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/analysis.o
-x/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/analysis.c
-xnormal
-xarm64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/analysis.c
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/vp8enci.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/encode.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/types.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dsp.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_writer.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/thread.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/cost.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/utils.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/analysis.c225"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/analysis.o libwebp/src/enc/analysis.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compilerd09b7203607eb941^1ff58703607eb941^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/analysis.c0000000000000000^4382"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/analysis.o libwebp/src/enc/analysis.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -D_THREAD_SAFE -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/analysis.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/analysis.dia -c /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/analysis.c -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/analysis.o36"0DB734F3-39A7-4D75-93F9-575E496EB820-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/backward_references.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/backward_references.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-s427712515.632179
-e427712515.741743
-r1
-xCompileC
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/backward_references.o
-x/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/backward_references.c
-xnormal
-xarm64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/backward_references.c
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/backward_references.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/types.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/format_constants.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/histogram.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/lossless.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/decode.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/color_cache.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/utils.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/backward_references.c247"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/backward_references.o libwebp/src/enc/backward_references.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compileracfda103607eb941^54e3bd03607eb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/backward_references.c0000000000000000^4448"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/backward_references.o libwebp/src/enc/backward_references.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -D_THREAD_SAFE -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/backward_references.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/backward_references.dia -c /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/backward_references.c -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/backward_references.o36"B740FFAF-844D-4CC4-A74A-451A4F9CE0E4-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_reader.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_reader.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-s427712515.742072
-e427712515.805699
-r1
-xCompileC
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_reader.o
-x/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_reader.c
-xnormal
-xarm64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_reader.c
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_reader.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/types.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_reader.c231"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_reader.o libwebp/src/utils/bit_reader.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler5875be03607eb941^af42ce03607eb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_reader.c0000000000000000^4398"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_reader.o libwebp/src/utils/bit_reader.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -D_THREAD_SAFE -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_reader.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_reader.dia -c /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_reader.c -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_reader.o36"9D45DD0E-77E2-4ED4-84F2-A503455A42DB-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_writer.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_writer.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-s427712515.807046
-e427712515.864708
-r1
-xCompileC
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_writer.o
-x/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_writer.c
-xnormal
-xarm64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_writer.c
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_writer.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/types.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_writer.c231"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_writer.o libwebp/src/utils/bit_writer.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compilerc2c1ce03607eb941^ba6bdd03607eb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_writer.c0000000000000000^4398"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_writer.o libwebp/src/utils/bit_writer.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -D_THREAD_SAFE -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_writer.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_writer.dia -c /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_writer.c -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/bit_writer.o36"69E60E41-41E2-429B-8D7A-AC03AF97C437-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/buffer.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/buffer.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-s427712515.913099
-e427712515.979338
-r1
-xCompileC
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/buffer.o
-x/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/buffer.c
-xnormal
-xarm64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/buffer.c
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/vp8i.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/vp8li.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/webpi.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/rescaler.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/types.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/decode_vp8.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/decode.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_reader.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/color_cache.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/huffman.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/format_constants.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/random.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/thread.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dsp.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/utils.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/buffer.c221"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/buffer.o libwebp/src/dec/buffer.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler3f35ea03607eb941^a5bcfa03607eb941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/buffer.c0000000000000000^4370"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/buffer.o libwebp/src/dec/buffer.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -D_THREAD_SAFE -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/buffer.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/buffer.dia -c /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/buffer.c -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/buffer.o36"294FC85F-DE22-47DA-83CE-643302F4F45F-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/color_cache.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/color_cache.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-s427712516.119978
-e427712516.159980
-r1
-xCompileC
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/color_cache.o
-x/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/color_cache.c
-xnormal
-xarm64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/color_cache.c
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/color_cache.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/types.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/utils.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/color_cache.c233"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/color_cache.o libwebp/src/utils/color_cache.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler35271f04607eb941^dbf72804607eb941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/color_cache.c0000000000000000^4404"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/color_cache.o libwebp/src/utils/color_cache.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -D_THREAD_SAFE -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/color_cache.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/color_cache.dia -c /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/color_cache.c -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/color_cache.o36"6F506514-118B-47E8-AFAB-F10E5C5A8D85-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/config.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/config.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-s427712516.227848
-e427712516.287982
-r1
-xCompileC
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/config.o
-x/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/config.c
-xnormal
-xarm64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/config.c
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/encode.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/types.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/config.c221"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/config.o libwebp/src/enc/config.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler14793a04607eb941^29af4904607eb941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/config.c0000000000000000^4370"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/config.o libwebp/src/enc/config.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -D_THREAD_SAFE -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/config.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/config.dia -c /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/config.c -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/config.o36"CFEBD072-1200-4BF3-B201-02E09171A8B9-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cost.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/cost.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-s427712516.301314
-e427712516.365069
-r1
-xCompileC
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cost.o
-x/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/cost.c
-xnormal
-xarm64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/cost.c
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/cost.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/vp8enci.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/encode.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/types.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dsp.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_writer.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/thread.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/cost.c217"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cost.o libwebp/src/enc/cost.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler1f494d04607eb941^8e755d04607eb941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/cost.c0000000000000000^4358"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cost.o libwebp/src/enc/cost.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -D_THREAD_SAFE -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cost.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cost.dia -c /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/cost.c -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cost.o36"22BD17DF-45A3-4D03-ACBC-84221E3246CF-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cpu.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/cpu.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-s427712516.419451
-e427712516.455312
-r1
-xCompileC
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cpu.o
-x/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/cpu.c
-xnormal
-xarm64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/cpu.c
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dsp.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/types.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/cpu.c215"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cpu.o libwebp/src/dsp/cpu.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler1a866b04607eb941^64937404607eb941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/cpu.c0000000000000000^4352"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cpu.o libwebp/src/dsp/cpu.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -D_THREAD_SAFE -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cpu.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cpu.dia -c /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/cpu.c -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/cpu.o36"6E353630-8059-48CF-89D6-9B3FD7ECC02E-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-s427712516.554652
-e427712516.670525
-r1
-xCompileC
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec.o
-x/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec.c
-xnormal
-xarm64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec.c
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dsp.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/types.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/vp8i.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/vp8li.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/webpi.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/rescaler.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/decode_vp8.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/decode.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_reader.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/color_cache.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/huffman.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/format_constants.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/random.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/thread.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec.c215"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec.o libwebp/src/dsp/dec.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler46248e04607eb941^f4a9ab04607eb941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec.c0000000000000000^4352"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec.o libwebp/src/dsp/dec.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -D_THREAD_SAFE -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec.dia -c /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec.c -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec.o36"F12C8450-8FDA-449B-953D-A9995C651359-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec_neon.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-s427712516.742242
-e427712516.796078
-r0
-xCompileC
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec_neon.o
-x/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c
-xnormal
-xarm64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dsp.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/types.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/vp8i.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/vp8li.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/webpi.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/rescaler.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/decode_vp8.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/decode.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/bit_reader.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/color_cache.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/huffman.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/webp/format_constants.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/random.h
-d/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/thread.h
-o/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c:110:17: error: unknown register name 'q0' in asm
-o    : "memory", QRegs
-o                ^
-o/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c:21:15: note: expanded from macro 'QRegs'
-o#define QRegs "q0", "q1", "q2", "q3",                                          \
-o              ^
-o/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c:136:17: error: unknown register name 'r4' in asm
-o    : "memory", "r4", "r5", "r6", QRegs
-o                ^
-o/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c:304:17: error: unknown register name 'q0' in asm
-o    : "memory", "q0", "q1", "q2", "q8", "q9", "q10", "q11"  /* clobbered */
-o                ^
-o/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c:342:17: error: unknown register name 'q0' in asm
-o    : "memory", "q0", "q1", "q2", "q3"  /* clobbered */
-o                ^
-o/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c:408:17: error: unknown register name 'q0' in asm
-o    : "memory", "q0", "q1", "q2", "q3",
-o                ^
-o5 errors generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c225"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec_neon.o libwebp/src/dsp/dec_neon.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler7975be04607eb941^cee0cb04607eb941^-1123"/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c:110:17: error: unknown register name 'q0' in asm    : "memory", QRegs                ^/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c:21:15: note: expanded from macro 'QRegs'#define QRegs "q0", "q1", "q2", "q3",                                          \              ^/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c:136:17: error: unknown register name 'r4' in asm    : "memory", "r4", "r5", "r6", QRegs                ^/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c:304:17: error: unknown register name 'q0' in asm    : "memory", "q0", "q1", "q2", "q8", "q9", "q10", "q11"  /* clobbered */                ^/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c:342:17: error: unknown register name 'q0' in asm    : "memory", "q0", "q1", "q2", "q3"  /* clobbered */                ^/Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c:408:17: error: unknown register name 'q0' in asm    : "memory", "q0", "q1", "q2", "q3",                ^5 errors generated.5(36%IDEClangDiagnosticActivityLogMessage2@33"Unknown register name 'q0' in asm-427712516#18446744073709551615#0#1(2@27"Expanded from macro 'QRegs'-427712516#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@72"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c0000000000000000^20#14#20#14#714#0#21"Apple LLVM 5.1 Notice--2#27"com.apple.dt.IDE.diagnostic3@72"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c0000000000000000^109#16#109#16#6209#0#21"Inline Assembly Issue--2@33"Unknown register name 'r4' in asm-427712516#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@72"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c0000000000000000^135#16#135#16#7163#0#21"Inline Assembly Issue--2@33"Unknown register name 'q0' in asm-427712516#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@72"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c0000000000000000^303#16#303#16#13106#0#21"Inline Assembly Issue--2@33"Unknown register name 'q0' in asm-427712516#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@72"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c0000000000000000^341#16#341#16#14420#0#21"Inline Assembly Issue--2@33"Unknown register name 'q0' in asm-427712516#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@72"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c0000000000000000^407#16#407#16#17698#0#21"Inline Assembly Issue--0#0#1#-19%DVTDocumentLocation4@72"file:///Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c0000000000000000^4382"CompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec_neon.o libwebp/src/dsp/dec_neon.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -D_THREAD_SAFE -include /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec_neon.d --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec_neon.dia -c /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_neon.c -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec_neon.o36"ED68C192-7E3F-4AED-AEE4-7EE26649468B-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/dec_sse2.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/dec_sse2.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/demux.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/demux/demux.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/enc.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/enc.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/enc_neon.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/enc_neon.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/enc_sse2.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/enc_sse2.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/filter.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/filter.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/filters.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/filters.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/frame-E4CD4CE808564B.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/frame.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/frame-F5B388548C03539C.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/frame.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/histogram.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/histogram.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/huffman.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/huffman.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/huffman_encode.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/huffman_encode.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/idec.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/idec.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/io.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/io.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/iterator.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/iterator.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/layer-49C71B77C245F585.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/layer.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/layer-931414797F505E9C.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/layer.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/lossless.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/lossless.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/muxedit.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/mux/muxedit.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/muxinternal.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/mux/muxinternal.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/muxread.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/mux/muxread.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/picture.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/picture.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/quant-439D7421E4582966.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/quant.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/quant-AEFA4BE708045E73.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/quant.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/quant_levels.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/quant_levels.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/quant_levels_dec.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/quant_levels_dec.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/random.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/random.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/rescaler.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/rescaler.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/syntax.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/syntax.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/thread.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/thread.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/token.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/token.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/tree-B31BA8220BA39C6F.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/tree.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/tree-EFBF3E0E77E8378D.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/tree.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/upsampling.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/upsampling.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/upsampling_neon.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/upsampling_neon.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/upsampling_sse2.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/upsampling_sse2.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/utils.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/utils/utils.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/vp8.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/vp8.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/vp8l-5E9EBC54796E8DA3.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/vp8l.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/vp8l-6E99C5804D17F4D3.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/vp8l.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/webp.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dec/webp.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/webpenc.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/enc/webpenc.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Objects-normal/arm64/yuv.o /Users/p27e4a/github/SuperProfile/Pods/libwebp/src/dsp/yuv.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CLibtool /Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/libPods-libwebp.a normal arm64
-r0
-
-CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-libwebp-prefix-amfbpoxabruchwcgekapenvxzuly_ast/Pods-libwebp-prefix.pch.pch Pods-libwebp-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/SuperProfile-aypyzkcxqimoonfbdeqdgjgjfpgv/Index/PrecompiledHeaders/Pods-libwebp-prefix-amvmerjchepsfwefejfokqbnipuf_ast/Pods-libwebp-prefix.pch.pch Pods-libwebp-prefix.pch normal arm64 c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch.pch Pods-libwebp-prefix.pch normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
-s427712514.671286
-e427712514.693843
-r1
-xProcessPCH
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch.pch
-xPods-libwebp-prefix.pch
-xnormal
-xarm64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/Pods-libwebp-prefix.pch
-d/Users/p27e4a/github/SuperProfile/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Precompile Pods-libwebp-prefix.pch243"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch.pch Pods-libwebp-prefix.pch normal arm64 c com.apple.compilers.llvm.clang.1_0.compilerc409ac02607eb941^fe9db102607eb941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-libwebp-prefix.pch0000000000000000^4302"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch.pch Pods-libwebp-prefix.pch normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos -D_THREAD_SAFE --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch.d -c /Users/p27e4a/github/SuperProfile/Pods/Pods-libwebp-prefix.pch -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-eyobyubcdddwfcedweaspnisjxkf/Pods-libwebp-prefix.pch.pch36"2E267649-9C07-405A-92A1-B7EFCBF820F9-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
-CProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-heyjwohrhjmtnielkryidepjjthw/Pods-libwebp-prefix.pch.pch Pods-libwebp-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s427712514.604180
-e427712514.670942
-r1
-xProcessPCH
-x/Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-heyjwohrhjmtnielkryidepjjthw/Pods-libwebp-prefix.pch.pch
-xPods-libwebp-prefix.pch
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/SuperProfile/Pods/Pods-libwebp-prefix.pch
-d/Users/p27e4a/github/SuperProfile/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Precompile Pods-libwebp-prefix.pch253"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-heyjwohrhjmtnielkryidepjjthw/Pods-libwebp-prefix.pch.pch Pods-libwebp-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf1d59a02607eb941^44c2ab02607eb941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/p27e4a/github/SuperProfile/Pods/Pods-libwebp-prefix.pch0000000000000000^4497"ProcessPCH /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-heyjwohrhjmtnielkryidepjjthw/Pods-libwebp-prefix.pch.pch Pods-libwebp-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/SuperProfile/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-generated-files.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-own-target-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-all-target-headers.hmap -iquote /Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/Pods-libwebp-project-headers.hmap -I/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos/include -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/BuildHeaders/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Pods/Headers -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/FormatterKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/SuperProfile/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/SuperProfile/Pods/Headers/Mixpanel -I/Users/p27e4a/github/SuperProfile/Pods/Headers/PKMultipartInputStream -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SAMTextView -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/SSKeychain -I/Users/p27e4a/github/SuperProfile/Pods/Headers/ShareKit -I/Users/p27e4a/github/SuperProfile/Pods/Headers/UIActivityIndicator-for-SDWebImage -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp -I/Users/p27e4a/github/SuperProfile/Pods/Headers/libwebp/webp -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources/arm64 -I/Users/p27e4a/github/SuperProfile/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-libwebp.build/DerivedSources -F/Users/p27e4a/github/SuperProfile/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-heyjwohrhjmtnielkryidepjjthw/Pods-libwebp-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-heyjwohrhjmtnielkryidepjjthw/Pods-libwebp-prefix.pch.d -c /Users/p27e4a/github/SuperProfile/Pods/Pods-libwebp-prefix.pch -o /Users/p27e4a/github/SuperProfile/Build/Intermediates/PrecompiledHeaders/Pods-libwebp-prefix-heyjwohrhjmtnielkryidepjjthw/Pods-libwebp-prefix.pch.pch36"03344474-3A5B-497A-AA0B-4D50F4BE7BC6-
-b3E37EBF2-E4E2-4D92-BE36-12A0E76EF152
-
