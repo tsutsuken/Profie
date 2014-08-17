@@ -1,132 +1,0 @@
-TPods-GoogleAnalytics-iOS-SDK
-v6
-r1
-cCheck dependencies
-cProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-GoogleAnalytics-iOS-SDK-prefix-dkguutdcslzqauddtlpfolhhnnua/Pods-GoogleAnalytics-iOS-SDK-prefix.pch.pch Pods-GoogleAnalytics-iOS-SDK-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Objects-normal/i386/Pods-GoogleAnalytics-iOS-SDK-dummy.o /Users/p27e4a/github/Profie/Pods/Pods-GoogleAnalytics-iOS-SDK-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-GoogleAnalytics-iOS-SDK.a normal i386
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c0000000053532C1F000000000063A500
-t1397959711
-s6530304
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c0000000053532C2000000000008F30A0
-t1397959712
-s9384096
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c0000000053532C240000000000A90C10
-t1397959716
-s11078672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
-c0000000053532C2C00000000001A2B00
-t1397959724
-s1714944
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
-c0000000053119F8A0000000000000198
-t1393663882
-s408
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
-c0000000053532C6500000000000003B4
-t1397959781
-s948
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000053532C79000000000000019E
-t1397959801
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c0000000053532D460000000000000ADC
-t1397960006
-s2780
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Objects-normal/i386/Pods-GoogleAnalytics-iOS-SDK-dummy.o
-t1408066848
-s3500
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Objects-normal/i386/Pods-GoogleAnalytics-iOS-SDK.LinkFileList
-c0000000053ED651F00000000000000AD
-t1408066847
-s173
-
-N/Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-GoogleAnalytics-iOS-SDK-prefix-dkguutdcslzqauddtlpfolhhnnua/Pods-GoogleAnalytics-iOS-SDK-prefix.pch.pch
-t1408066847
-s131988
-
-N/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-GoogleAnalytics-iOS-SDK.a
-t1408066848
-s3832
-
-N/Users/p27e4a/github/Profie/Pods/Pods-GoogleAnalytics-iOS-SDK-dummy.m
-c0000000053EC632100000000000000A0
-t1408000801
-s160
-
-N/Users/p27e4a/github/Profie/Pods/Pods-GoogleAnalytics-iOS-SDK-prefix.pch
-c0000000053EC6321000000000000004D
-t1408000801
-s77
-
-N/Users/p27e4a/github/Profie/Pods/Pods-environment.h
-c0000000053EC632100000000000013AD
-t1408000801
-s5037
-
-CBuild AST from /Users/p27e4a/github/Profie/Pods/Pods-GoogleAnalytics-iOS-SDK-dummy.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6281aba19e9db941^213ac8a19e9db941^---0#1#1#--18"Check dependencies36"97ED760C-5C4B-46DB-BF93-4AC902055B37-
-
-CCompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Objects-normal/i386/Pods-GoogleAnalytics-iOS-SDK-dummy.o /Users/p27e4a/github/Profie/Pods/Pods-GoogleAnalytics-iOS-SDK-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s429759647.959746
-e429759648.023912
-r1
-xCompileC
-x/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Objects-normal/i386/Pods-GoogleAnalytics-iOS-SDK-dummy.o
-x/Users/p27e4a/github/Profie/Pods/Pods-GoogleAnalytics-iOS-SDK-dummy.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/Profie/Pods/Pods-GoogleAnalytics-iOS-SDK-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/p27e4a/github/Profie/Pods/Pods-GoogleAnalytics-iOS-SDK-dummy.m286"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Objects-normal/i386/Pods-GoogleAnalytics-iOS-SDK-dummy.o Pods-GoogleAnalytics-iOS-SDK-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler077cf69f9c9db941^1f4c06a09c9db941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/p27e4a/github/Profie/Pods/Pods-GoogleAnalytics-iOS-SDK-dummy.m0000000000000000^4778"CompileC /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Objects-normal/i386/Pods-GoogleAnalytics-iOS-SDK-dummy.o Pods-GoogleAnalytics-iOS-SDK-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Pods-GoogleAnalytics-iOS-SDK-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Pods-GoogleAnalytics-iOS-SDK-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Pods-GoogleAnalytics-iOS-SDK-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Pods-GoogleAnalytics-iOS-SDK-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libz -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -include /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-GoogleAnalytics-iOS-SDK-prefix-dkguutdcslzqauddtlpfolhhnnua/Pods-GoogleAnalytics-iOS-SDK-prefix.pch -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Objects-normal/i386/Pods-GoogleAnalytics-iOS-SDK-dummy.d --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Objects-normal/i386/Pods-GoogleAnalytics-iOS-SDK-dummy.dia -c /Users/p27e4a/github/Profie/Pods/Pods-GoogleAnalytics-iOS-SDK-dummy.m -o /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Objects-normal/i386/Pods-GoogleAnalytics-iOS-SDK-dummy.o36"AB0B5868-94CE-466C-B123-980C3DC46729-
-b5B2ABD80-8D41-47FC-9CA8-F8D582D64488
-
-CLibtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-GoogleAnalytics-iOS-SDK.a normal i386
-s429759648.194848
-e429759648.203786
-r1
-xLibtool
-x/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-GoogleAnalytics-iOS-SDK.a
-xnormal
-xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Libtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-GoogleAnalytics-iOS-SDK.a normal i386118"Libtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-GoogleAnalytics-iOS-SDK.a normal i386fdfa31a09c9db941^8c2d34a09c9db941^---0#0#1#--1157"Libtool /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-GoogleAnalytics-iOS-SDK.a normal i386    cd /Users/p27e4a/github/Profie/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator -L/Users/p27e4a/github/Profie/Pods/GoogleAnalytics-iOS-SDK -filelist /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Objects-normal/i386/Pods-GoogleAnalytics-iOS-SDK.LinkFileList -framework CFNetwork -framework CoreData -framework Foundation -framework SystemConfiguration -o /Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/libPods-GoogleAnalytics-iOS-SDK.a36"DE7B78E7-0146-4ADC-BC64-F9F63DA275A7-
-b5B2ABD80-8D41-47FC-9CA8-F8D582D64488
-
-CProcessPCH /Users/p27e4a/Library/Developer/Xcode/DerivedData/Profie-cgqxhzxhjnczztelqvpkhhgtubdh/Index/PrecompiledHeaders/Pods-GoogleAnalytics-iOS-SDK-prefix-gqzbilulpqpvincpjahsvawkydnh_ast/Pods-GoogleAnalytics-iOS-SDK-prefix.pch.pch Pods-GoogleAnalytics-iOS-SDK-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-GoogleAnalytics-iOS-SDK-prefix-dkguutdcslzqauddtlpfolhhnnua/Pods-GoogleAnalytics-iOS-SDK-prefix.pch.pch Pods-GoogleAnalytics-iOS-SDK-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s429759647.757276
-e429759647.841457
-r1
-xProcessPCH
-x/Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-GoogleAnalytics-iOS-SDK-prefix-dkguutdcslzqauddtlpfolhhnnua/Pods-GoogleAnalytics-iOS-SDK-prefix.pch.pch
-xPods-GoogleAnalytics-iOS-SDK-prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/p27e4a/github/Profie/Pods/Pods-GoogleAnalytics-iOS-SDK-prefix.pch
-d/Users/p27e4a/github/Profie/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Precompile Pods-GoogleAnalytics-iOS-SDK-prefix.pch294"ProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-GoogleAnalytics-iOS-SDK-prefix-dkguutdcslzqauddtlpfolhhnnua/Pods-GoogleAnalytics-iOS-SDK-prefix.pch.pch Pods-GoogleAnalytics-iOS-SDK-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler9203c29f9c9db941^f46bd79f9c9db941^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/p27e4a/github/Profie/Pods/Pods-GoogleAnalytics-iOS-SDK-prefix.pch0000000000000000^4620"ProcessPCH /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-GoogleAnalytics-iOS-SDK-prefix-dkguutdcslzqauddtlpfolhhnnua/Pods-GoogleAnalytics-iOS-SDK-prefix.pch.pch Pods-GoogleAnalytics-iOS-SDK-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/p27e4a/github/Profie/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/p27e4a/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Pods-GoogleAnalytics-iOS-SDK-generated-files.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Pods-GoogleAnalytics-iOS-SDK-own-target-headers.hmap -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Pods-GoogleAnalytics-iOS-SDK-all-target-headers.hmap -iquote /Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/Pods-GoogleAnalytics-iOS-SDK-project-headers.hmap -I/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator/include -I/Users/p27e4a/github/Profie/Pods/BuildHeaders -I/Users/p27e4a/github/Profie/Pods/BuildHeaders/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers -I/Users/p27e4a/github/Profie/Pods/Headers/CTFeedback -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/p27e4a/github/Profie/Pods/Headers/FormatterKit -I/Users/p27e4a/github/Profie/Pods/Headers/GCPlaceholderTextView -I/Users/p27e4a/github/Profie/Pods/Headers/Google-Mobile-Ads-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/GoogleAnalytics-iOS-SDK -I/Users/p27e4a/github/Profie/Pods/Headers/MBProgressHUD -I/Users/p27e4a/github/Profie/Pods/Headers/MGImageUtilities -I/Users/p27e4a/github/Profie/Pods/Headers/Mixpanel -I/Users/p27e4a/github/Profie/Pods/Headers/UIActionSheet+Blocks -I/Users/p27e4a/github/Profie/Pods/Headers/iRate -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/include/libz -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/DerivedSources/i386 -I/Users/p27e4a/github/Profie/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GoogleAnalytics-iOS-SDK.build/DerivedSources -F/Users/p27e4a/github/Profie/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-GoogleAnalytics-iOS-SDK-prefix-dkguutdcslzqauddtlpfolhhnnua/Pods-GoogleAnalytics-iOS-SDK-prefix.pch.dia -MMD -MT dependencies -MF /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-GoogleAnalytics-iOS-SDK-prefix-dkguutdcslzqauddtlpfolhhnnua/Pods-GoogleAnalytics-iOS-SDK-prefix.pch.d -c /Users/p27e4a/github/Profie/Pods/Pods-GoogleAnalytics-iOS-SDK-prefix.pch -o /Users/p27e4a/github/Profie/Build/Intermediates/PrecompiledHeaders/Pods-GoogleAnalytics-iOS-SDK-prefix-dkguutdcslzqauddtlpfolhhnnua/Pods-GoogleAnalytics-iOS-SDK-prefix.pch.pch36"10A1AFFB-871D-4025-827E-C76C68DB8B63-
-b5B2ABD80-8D41-47FC-9CA8-F8D582D64488
-
