@@ -17,7 +17,6 @@
     [self configureAnalyticsSystem];
     [self configureiRate];
     
-    
     return YES;
 }
 
