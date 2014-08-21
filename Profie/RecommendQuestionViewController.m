@@ -225,9 +225,9 @@
 #if DEBUG
     request.testDevices = @[kTestDeviceIdKeniPhone5s];
 #endif
-    //[self.bannerView loadRequest:request];
+    [self.bannerView loadRequest:request];
     
-#warning test
+//#warning test
 }
 
 - (void)removeAd

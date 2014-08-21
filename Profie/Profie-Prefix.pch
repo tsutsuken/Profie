@@ -68,6 +68,8 @@
 #define kAnEventDeleteAnswer @"Answer Deleted"
 #define kAnEventShareAnswerOnTwitter @"Answer Shared On Twitter"
 #define kAnEventAddQuestion @"Question Added"
+#define kAnEventCopyLinkForProfile @"Link Copied"
+#define kAnEventOpenProfileInSafari @"Link Opened In Safari"
 
 /* Ads */
 #define kTestDeviceIdKeniPhone5s @"e68d15d429e34789fa691b0f57e8b878"

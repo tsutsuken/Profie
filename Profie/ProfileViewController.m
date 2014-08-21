@@ -197,12 +197,16 @@
 {
     NSString *link = [NSString stringWithFormat:@"profie.me/%@", [PFUser currentUser].username];
     [[UIPasteboard generalPasteboard] setValue:link forPasteboardType:@"public.text"];
+    
+    [ANALYTICS trackEvent:kAnEventCopyLinkForProfile sender:self];
 }
 
 - (void)openProfileInSafari
 {
     NSString *URLString = [NSString stringWithFormat:@"http://www.profie.me/%@", [PFUser currentUser].username];
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:URLString]];
+    
+    [ANALYTICS trackEvent:kAnEventOpenProfileInSafari sender:self];
 }
 
 #pragma mark - Table view data source
@@ -375,9 +379,9 @@
 #if DEBUG
     request.testDevices = @[kTestDeviceIdKeniPhone5s];
 #endif
-    //[self.bannerView loadRequest:request];
+    [self.bannerView loadRequest:request];
     
-#warning test
+//#warning test
 }
 
 - (void)removeAd
