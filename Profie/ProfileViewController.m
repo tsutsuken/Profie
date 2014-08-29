@@ -237,11 +237,16 @@
 {
     CGFloat heightForCell;
     
-    AnswerCell *cell = (AnswerCell *)[self tableView:self.tableView cellForRowAtIndexPath:indexPath];
-    [cell layoutSubviews];
-    CGFloat heightForContentView = [cell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
-    
-    heightForCell = heightForContentView + 1;
+    if (indexPath.row == self.objects.count) {
+        //cellForNextPage
+        heightForCell = 0;
+    } else {
+        AnswerCell *cell = (AnswerCell *)[self tableView:self.tableView cellForRowAtIndexPath:indexPath];
+        [cell layoutSubviews];
+        CGFloat heightForContentView = [cell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
+        
+        heightForCell = heightForContentView + 1;
+	}
     
     return heightForCell;
 }
@@ -295,6 +300,17 @@
     [selectedAnswer.question decrementAnswerCount];
     
     [ANALYTICS trackEvent:kAnEventDeleteAnswer sender:self];
+}
+
+#pragma mark - UIScrollView delegate
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    if (scrollView.contentSize.height - scrollView.contentOffset.y < (self.view.bounds.size.height)) {
+        if (![self isLoading]) {
+            [self loadNextPage];
+        }
+    }
 }
 
 #pragma mark - Show Other View

@@ -33,7 +33,13 @@
 
 - (void)configureParse
 {
+#if DEBUG
+    NSLog(@"！！！Parse_Testデータ使用中！！！");
+    [Parse setApplicationId:@"AGI9zKvHt3kFh0L6hPP8s00GtFVLdGNrhRzWXFDK" clientKey:@"Wb5G0dMXWc7VEG65PhYxZZbePzxyNc577XSm90UH"];
+#else
+    NSLog(@"！！！Parse_本番データ使用中！！！");
     [Parse setApplicationId:@"Xm1YKW4pz3tkVYZYipveTbo9N5LPY2zwsbQhvtk9" clientKey:@"N4gQ1oQb8V4SVWxHD5ezlZTmu16tTRQkJFeJXPbf"];
+#endif
     
     PFACL *defaultACL = [PFACL ACL];//Read・Write共に、全員にNo
     [defaultACL setPublicReadAccess:YES];

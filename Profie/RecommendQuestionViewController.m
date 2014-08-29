@@ -131,11 +131,16 @@
 {
     CGFloat heightForCell;
     
-    PFTableViewCell *cell = (PFTableViewCell *)[self tableView:self.tableView cellForRowAtIndexPath:indexPath];
-    [cell layoutSubviews];
-    CGFloat heightForContentView = [cell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
-    
-    heightForCell = heightForContentView + 1;
+    if (indexPath.row == self.objects.count) {
+        //cellForNextPage
+        heightForCell = 0;
+    } else {
+        PFTableViewCell *cell = (PFTableViewCell *)[self tableView:self.tableView cellForRowAtIndexPath:indexPath];
+        [cell layoutSubviews];
+        CGFloat heightForContentView = [cell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
+        
+        heightForCell = heightForContentView + 1;
+	}
     
     return heightForCell;
 }
@@ -145,6 +150,16 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [self showEditAnswerView];
+}
+
+#pragma mark - UIScrollView delegate
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    if (scrollView.contentSize.height - scrollView.contentOffset.y < (self.view.bounds.size.height)) {
+        if (![self isLoading]) {            [self loadNextPage];
+        }
+    }
 }
 
 #pragma mark - Show Other View
