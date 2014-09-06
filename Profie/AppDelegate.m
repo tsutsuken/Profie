@@ -24,7 +24,12 @@
 {
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     
+#if DEBUG
+    [UINavigationBar appearance].barTintColor = kColorNavigationBarForTest;
+#else
     [UINavigationBar appearance].barTintColor = kColorNavigationBar;
+#endif
+    
     [UINavigationBar appearance].tintColor = [UIColor whiteColor];
     [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
     
@@ -34,10 +39,10 @@
 - (void)configureParse
 {
 #if DEBUG
-    NSLog(@"！！！Parse_Testデータ使用中！！！");
+    NSLog(@"Parse_TestDB");
     [Parse setApplicationId:@"AGI9zKvHt3kFh0L6hPP8s00GtFVLdGNrhRzWXFDK" clientKey:@"Wb5G0dMXWc7VEG65PhYxZZbePzxyNc577XSm90UH"];
 #else
-    NSLog(@"！！！Parse_本番データ使用中！！！");
+    NSLog(@"Parse_MasterDB");
     [Parse setApplicationId:@"Xm1YKW4pz3tkVYZYipveTbo9N5LPY2zwsbQhvtk9" clientKey:@"N4gQ1oQb8V4SVWxHD5ezlZTmu16tTRQkJFeJXPbf"];
 #endif
     
@@ -51,11 +56,13 @@
 
 - (void)configureAnalyticsSystem
 {
+#if !DEBUG
     [GAI sharedInstance].trackUncaughtExceptions = YES;
     [[GAI sharedInstance].logger setLogLevel:kGAILogLevelVerbose];
     [[GAI sharedInstance] trackerWithTrackingId:kGoogleAnalyticsId];
     
     [Crashlytics startWithAPIKey:@"05bba97476be46a19cd9fe6700e03312cdd38e05"];
+#endif
 }
 
 - (void)configureiRate

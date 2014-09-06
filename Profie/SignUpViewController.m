@@ -93,24 +93,80 @@
 
 - (void)didPushDoneButton
 {
-    [self signUp];
+    [self precheckForSignUp];
+}
+#pragma mark - Table view data source
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 3;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    LVEditableCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    
+    NSString *title;
+    NSString *placeholder;
+    UIKeyboardType keyboardType = UIKeyboardTypeDefault;
+    BOOL isSecure = NO;
+    
+    switch (indexPath.row) {
+        case 0:
+            title = NSLocalizedString(@"SignUpAndLogInView_Cell_Username_Title", nil);
+            placeholder = NSLocalizedString(@"SignUpAndLogInView_Cell_Username_Placeholder", nil);
+            keyboardType = UIKeyboardTypeASCIICapable;
+            break;
+            
+        case 1:
+            title = NSLocalizedString(@"SignUpAndLogInView_Cell_Password_Title", nil);
+            placeholder = NSLocalizedString(@"SignUpAndLogInView_Cell_Password_Placeholder", nil);
+            isSecure = YES;
+            break;
+            
+        case 2:
+            title = NSLocalizedString(@"SignUpView_Cell_Email_Title", nil);
+            placeholder = NSLocalizedString(@"SignUpView_Cell_Email_Placeholder", nil);
+            keyboardType = UIKeyboardTypeEmailAddress;
+            break;
+            
+        default:
+            break;
+    }
+    
+    cell.titleLabel.text = title;
+    cell.textField.placeholder = placeholder;
+    cell.textField.keyboardType = keyboardType;
+    cell.textField.secureTextEntry = isSecure;
+    
+    
+    return cell;
 }
 
 #pragma mark - SignUp
 
-- (void)signUp
+- (void)precheckForSignUp
 {
-    NSArray *inputDataArray = [self inputDataArray];
-    
-    if ([self shouldProceedSignUpWithInputDataArray:inputDataArray]) {
-        [self proceedSignUpWithInputDataArray:inputDataArray];
+    if ([self isAllDataInputted]) {
+        if ([self isUsernameCorrect]) {
+            [self signUp];
+        } else {
+            [self showAlertWithMessage:NSLocalizedString(@"SignUpAndLogInView_Alert_Message_Error_IncorrectUsername", nil)];
+        }
     }else {
         [self showAlertWithMessage:NSLocalizedString(@"SignUpAndLogInView_Alert_Message_Error_Empty", nil)];
     }
 }
 
-- (void)proceedSignUpWithInputDataArray:(NSArray *)inputDataArray
+- (void)signUp
 {
+    NSArray *inputDataArray = [self inputDataArray];
+    
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     [self.view endEditing:YES];
     
@@ -131,6 +187,40 @@
     }];
 }
 
+- (BOOL)isAllDataInputted
+{
+    BOOL isAllDataInputted = YES;
+    
+    NSArray *inputDataArray = [self inputDataArray];
+    
+    //Check if the value is empty
+    for (int i = 0; i < inputDataArray.count; i++) {
+        NSString *string = [inputDataArray objectAtIndex:i];
+        if (!string || !string.length) {
+            isAllDataInputted = NO;
+            break;
+        }
+    }
+    
+    return isAllDataInputted;
+}
+
+- (BOOL)isUsernameCorrect
+{
+    BOOL isUserNameCorrect = YES;
+    
+    NSArray *inputDataArray = [self inputDataArray];
+    NSString *username = [inputDataArray objectAtIndex:0];
+    
+    if ([username includesCharactersOtherThanAlphaNumericSymbol]) {
+        isUserNameCorrect = NO;
+    } else if ( username.length < 3 || username.length > 15) {
+        isUserNameCorrect = NO;
+    }
+    
+    return isUserNameCorrect;
+}
+
 - (NSArray *)inputDataArray
 {
     NSMutableArray *inputDataArray = [[NSMutableArray alloc] init];
@@ -145,22 +235,6 @@
     }
     
     return [inputDataArray copy];
-}
-
-- (BOOL)shouldProceedSignUpWithInputDataArray:(NSArray *)inputDataArray
-{
-    BOOL shouldProceedSignUp = YES;
-    
-    //Check if the value is empty
-    for (int i = 0; i < inputDataArray.count; i++) {
-        NSString *string = [inputDataArray objectAtIndex:i];
-        if (!string || !string.length) {
-            shouldProceedSignUp = NO;
-            break;
-        }
-    }
-    
-    return shouldProceedSignUp;
 }
 
 #pragma mark Alert
@@ -195,53 +269,6 @@
     return errorString;
 }
 
-#pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    return 1;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    return 3;
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    LVEditableCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-    
-    NSString *title;
-    NSString *placeholder;
-    BOOL isSecure = NO;
-    
-    switch (indexPath.row) {
-        case 0:
-            title = NSLocalizedString(@"SignUpAndLogInView_Cell_Username_Title", nil);
-            placeholder = NSLocalizedString(@"SignUpAndLogInView_Cell_Username_Placeholder", nil);
-            break;
-            
-        case 1:
-            title = NSLocalizedString(@"SignUpAndLogInView_Cell_Password_Title", nil);
-            placeholder = NSLocalizedString(@"SignUpAndLogInView_Cell_Password_Placeholder", nil);
-            isSecure = YES;
-            break;
-            
-        case 2:
-            title = NSLocalizedString(@"SignUpView_Cell_Email_Title", nil);
-            placeholder = NSLocalizedString(@"SignUpView_Cell_Email_Placeholder", nil);
-            break;
-            
-        default:
-            break;
-    }
-    
-    cell.titleLabel.text = title;
-    cell.textField.placeholder = placeholder;
-    cell.textField.secureTextEntry = isSecure;
-    
-    return cell;
-}
 
 #pragma mark - Open Safari
 #pragma mark UIActionSheet

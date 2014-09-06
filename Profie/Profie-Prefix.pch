@@ -30,6 +30,7 @@
     #import "GADBannerView.h"
     #import "MBProgressHUD.h"
 
+    #import "NSString+Additions.h"
     #import "UIImage+Tint.h"
     #import "LVPlaceholderTextView.h"
     #import "LVConstants.h"
@@ -47,7 +48,8 @@
 
 /* Common */
 #define kColorBorder [UIColor colorWithHexString:@"c8c7cc"]
-#define kColorNavigationBar [UIColor colorWithHexString:@"007ee8"]//0a96f1
+#define kColorNavigationBar [UIColor colorWithHexString:@"007ee8"]
+#define kColorNavigationBarForTest [UIColor colorWithHexString:@"e51c23"]
 #define kStatusBarHeight 20
 #define kNavigationBarHeight 44
 #define kTabBarHeight 49

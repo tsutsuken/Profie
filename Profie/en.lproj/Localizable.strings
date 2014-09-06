@@ -36,6 +36,8 @@
 
 "SignUpAndLogInView_Alert_Message_Error_Empty" = "Make sure you fill out all of the information";
 
+"SignUpAndLogInView_Alert_Message_Error_IncorrectUsername" = "Username must be 15 characters or less and contain only letters, numbers, and underscores and no spaces.";
+
 /* SignUpView */
 "SignUpView_Title" = "Sign Up";
 

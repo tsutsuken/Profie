@@ -27,6 +27,7 @@
 		1F166CA419A057F50056C5EF /* edit_tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F166CA019A057F50056C5EF /* edit_tab@2x.png */; };
 		1F166CA519A057F50056C5EF /* edit_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F166CA119A057F50056C5EF /* edit_tab.png */; };
 		1F1A5044199B052E0041DE9A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F1A5043199B052E0041DE9A /* Settings.bundle */; };
+		1F3CFB8719BA9E3E001E71E2 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3CFB8619BA9E3E001E71E2 /* NSString+Additions.m */; };
 		1F74CC85194465D70008D14B /* LVTimeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F74CC84194465D70008D14B /* LVTimeFormatter.m */; };
 		1F83B8DD191A2B6D004CD869 /* EditAnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F83B8DC191A2B6D004CD869 /* EditAnswerViewController.m */; };
 		1F8AE4461992371D00237F3E /* LVAnalyticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AE4451992371D00237F3E /* LVAnalyticsManager.m */; };
@@ -118,6 +119,8 @@
 		1F166CA019A057F50056C5EF /* edit_tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit_tab@2x.png"; sourceTree = "<group>"; };
 		1F166CA119A057F50056C5EF /* edit_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit_tab.png; sourceTree = "<group>"; };
 		1F1A5043199B052E0041DE9A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		1F3CFB8519BA9E3E001E71E2 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		1F3CFB8619BA9E3E001E71E2 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
 		1F74CC83194465D70008D14B /* LVTimeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTimeFormatter.h; sourceTree = "<group>"; };
 		1F74CC84194465D70008D14B /* LVTimeFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTimeFormatter.m; sourceTree = "<group>"; };
 		1F83B8DB191A2B6D004CD869 /* EditAnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditAnswerViewController.h; sourceTree = "<group>"; };
@@ -335,6 +338,8 @@
 				1FB6F0DF197E643200B09E19 /* LVShareKitTwitter.m */,
 				1F8AE4441992371D00237F3E /* LVAnalyticsManager.h */,
 				1F8AE4451992371D00237F3E /* LVAnalyticsManager.m */,
+				1F3CFB8519BA9E3E001E71E2 /* NSString+Additions.h */,
+				1F3CFB8619BA9E3E001E71E2 /* NSString+Additions.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -749,6 +754,7 @@
 				1FCCA8C6190BE96900B4E3B7 /* AppDelegate.m in Sources */,
 				1F83B8DD191A2B6D004CD869 /* EditAnswerViewController.m in Sources */,
 				1FC523551936CADF0060D1BB /* PFRoundedImageView.m in Sources */,
+				1F3CFB8719BA9E3E001E71E2 /* NSString+Additions.m in Sources */,
 				1FC8822C194FF07400A896B9 /* UIColor+ColorWithHex.m in Sources */,
 				1FB6F0E0197E643200B09E19 /* LVShareKitTwitter.m in Sources */,
 				1FBB62AD1935E6C5001281F9 /* UIImage+Resize.m in Sources */,
