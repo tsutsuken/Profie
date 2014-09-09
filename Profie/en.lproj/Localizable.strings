@@ -85,6 +85,16 @@
 
 "ProfileView_ShareButton_Title" = "Share";
 
+"ProfileView_Button_FollowerCount_%d_%@" = "%d follower%@";
+
+"ProfileView_Button_FollowingCount_%d" = "%d following";
+
+"ProfileView_Button_FollowAction_Loading" = "Loading";
+
+"ProfileView_Button_FollowAction_Follow" = "Follow";
+
+"ProfileView_Button_FollowAction_Unfollow" = "Unfollow";
+
 "ProfileView_ActionSheet_CopyLink" = "Copy Link To Profile";
 
 "ProfileView_ActionSheet_OpenInSafari" = "Open Profile In Safari";
@@ -92,6 +102,11 @@
 "ProfileView_ActionSheet_EditAnswer" = "Edit Answer";
 
 "ProfileView_ActionSheet_DeleteAnswer" = "Delete Answer";
+
+/* UserListView */
+"UserListView_Title_Following" = "Following";
+
+"UserListView_Title_Follower" = "Follower";
 
 /* SettingView */
 "SettingView_Title" = "Settings";

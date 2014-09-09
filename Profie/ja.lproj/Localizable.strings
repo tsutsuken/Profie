@@ -83,6 +83,16 @@
 /* ProfileView */
 "ProfileView_Title" = "プロフィール";
 
+"ProfileView_Button_FollowerCount_%d_%@" = "%dフォロワー%@";
+
+"ProfileView_Button_FollowingCount_%d" = "%dフォロー";
+
+"ProfileView_Button_FollowAction_Loading" = "読み込み中";
+
+"ProfileView_Button_FollowAction_Follow" = "フォローする";
+
+"ProfileView_Button_FollowAction_Unfollow" = "フォロー中";
+
 "ProfileView_ShareButton_Title" = "シェア";
 
 "ProfileView_ActionSheet_CopyLink" = "プロフへのリンクをコピー";
@@ -92,6 +102,11 @@
 "ProfileView_ActionSheet_EditAnswer" = "回答を編集";
 
 "ProfileView_ActionSheet_DeleteAnswer" = "回答を削除";
+
+/* UserListView */
+"UserListView_Title_Following" = "フォロー";
+
+"UserListView_Title_Follower" = "フォロワー";
 
 /* SettingView */
 "SettingView_Title" = "設定";

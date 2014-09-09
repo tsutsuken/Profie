@@ -15,8 +15,10 @@
 
 @property (weak, nonatomic) IBOutlet PFRoundedImageView *profileImageView;
 @property (weak, nonatomic) IBOutlet UILabel *userNameLabel;
-@property (weak, nonatomic) IBOutlet UIButton *settingButton;
+@property (weak, nonatomic) IBOutlet UIButton *followerCountButton;
+@property (weak, nonatomic) IBOutlet UIButton *followingCountButton;
 @property (weak, nonatomic) IBOutlet UIButton *shareButton;
+@property (weak, nonatomic) IBOutlet UIButton *followActionButton;
 @property (weak, nonatomic) IBOutlet UIView *actionView;
 
 @end
@@ -39,9 +41,21 @@
 {
     [super viewDidLoad];
     
+    if ([self.user isEqualToCurrentUser]) {
+        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"gear"]
+                                                                                  style:UIBarButtonItemStyleBordered
+                                                                                 target:self
+                                                                                 action:@selector(didPushSettingButton)];
+    }
+    
     [self setNotifications];
     
     [self configureTableHeaderView];
+}
+
+- (void)didPushSettingButton
+{
+    [self showSettingView];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -122,14 +136,38 @@
     //UserNameLabel
     self.userNameLabel.text =  [self.user username];
     
-    //SettingButton
-    [self.settingButton addTarget:self action:@selector(didPushSettingButton) forControlEvents:UIControlEventTouchUpInside];
+    //FollowerCountButton
+    [self.followerCountButton setTitle:[self titleForFollowerCountButtonWithCount:0] forState:UIControlStateNormal];
+    
+    //FollowingCountButton
+    [self.followingCountButton setTitle:[NSString stringWithFormat:NSLocalizedString(@"ProfileView_Button_FollowingCount_%d", nil), 0]
+                               forState:UIControlStateNormal];
     
     //ShareButton
-    [self.shareButton setTitle:NSLocalizedString(@"ProfileView_ShareButton_Title", nil) forState:UIControlStateNormal];
-    [self.shareButton addTarget:self action:@selector(didPushShareButton) forControlEvents:UIControlEventTouchUpInside];
+    if ([self.user isEqualToCurrentUser]) {
+        [self.shareButton setTitle:NSLocalizedString(@"ProfileView_ShareButton_Title", nil) forState:UIControlStateNormal];
+        [self.shareButton addTarget:self action:@selector(didPushShareButton) forControlEvents:UIControlEventTouchUpInside];
+    }
+    else{
+        self.shareButton.hidden = YES;
+    }
+    
+    //FollowActionButton
+    if ([self.user isEqualToCurrentUser]) {
+        self.followActionButton.hidden = YES;
+    }
+    else{
+        [self configureFollowActionButton];
+    }
     
     [self addBorderToActionView];
+}
+
+- (void)configureFollowActionButton
+{
+    [self.followActionButton setTitle:NSLocalizedString(@"ProfileView_Button_FollowAction_Follow", nil) forState:UIControlStateNormal];
+    [self.followActionButton setTitle:NSLocalizedString(@"ProfileView_Button_FollowAction_Unfollow", nil) forState:UIControlStateSelected];
+    [self.followActionButton addTarget:self action:@selector(didPushFollowActionButton:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)addBorderToActionView
@@ -145,6 +183,14 @@
     [self.self.actionView.layer addSublayer:bottomBorder];
 }
 
+- (NSString *)titleForFollowerCountButtonWithCount:(int)count
+{
+    NSString *suffix = (count==1?@"":NSLocalizedString(@"Common_Suffix_Plural", nil));
+    NSString *title = [NSString stringWithFormat:NSLocalizedString(@"ProfileView_Button_FollowerCount_%d_%@", nil), count, suffix];
+    
+    return title;
+}
+
 #pragma mark Reload
 
 - (void)reloadTableHeaderView
@@ -152,16 +198,61 @@
     //ProfileImageView
     self.profileImageView.file = [self.user objectForKey:kLVUserProfilePicMediumKey];
     [self.profileImageView loadInBackground];
+    
+    //FollowerCountButton
+    PFQuery *queryFollowerCount = [PFQuery queryWithClassName:kLVActivityClassKey];
+    [queryFollowerCount whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
+    [queryFollowerCount whereKey:kLVActivityToUserKey equalTo:self.user];
+    [queryFollowerCount setCachePolicy:kPFCachePolicyCacheThenNetwork];
+    [queryFollowerCount countObjectsInBackgroundWithBlock:^(int count, NSError *error) {
+        if (!error) {
+            [self.followerCountButton setTitle:[self titleForFollowerCountButtonWithCount:count] forState:UIControlStateNormal];
+        }
+    }];
+    
+    //FollowingCountButton
+    PFQuery *queryFollowingCount = [PFQuery queryWithClassName:kLVActivityClassKey];
+    [queryFollowingCount whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
+    [queryFollowingCount whereKey:kLVActivityFromUserKey equalTo:self.user];
+    [queryFollowingCount setCachePolicy:kPFCachePolicyCacheThenNetwork];
+    [queryFollowingCount countObjectsInBackgroundWithBlock:^(int count, NSError *error) {
+        if (!error) {
+            [self.followingCountButton setTitle:[NSString stringWithFormat:NSLocalizedString(@"ProfileView_Button_FollowingCount_%d", nil), count]
+                                       forState:UIControlStateNormal];
+        }
+    }];
+    
+    //FollowActionButton
+    PFQuery *queryIsFollowing = [PFQuery queryWithClassName:kLVActivityClassKey];
+    [queryIsFollowing whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
+    [queryIsFollowing whereKey:kLVActivityToUserKey equalTo:self.user];
+    [queryIsFollowing whereKey:kLVActivityFromUserKey equalTo:[PFUser currentUser]];
+    [queryIsFollowing setCachePolicy:kPFCachePolicyCacheThenNetwork];
+    [queryIsFollowing countObjectsInBackgroundWithBlock:^(int number, NSError *error) {
+        if (!error) {
+            if (number == 0) {
+                self.followActionButton.selected = NO;
+            } else {
+                self.followActionButton.selected = YES;
+            }
+        }
+    }];
 }
 
-#pragma mark SettingButton
+#pragma mark Action
 
-- (void)didPushSettingButton
+- (void)didPushFollowActionButton:(UIButton *)sender
 {
-    [self showSettingView];
+    BOOL isSelected = sender.selected;
+    
+    if (isSelected) {
+        [LVUtility unfollowUserEventually:self.user];
+    }else {
+		[LVUtility followUserEventually:self.user block:^(BOOL succeeded, NSError *error) {}];
+	}
+    
+    sender.selected = !isSelected;
 }
-
-#pragma mark ShareButton
 
 - (void)didPushShareButton
 {
@@ -318,7 +409,19 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     LOG(@"%@", [segue identifier]);
-    if ([[segue identifier] isEqualToString:@"showEditAnswerView"]) {
+    if ([[segue identifier] isEqualToString:@"showFollowingListView"])
+    {
+        UserListViewController *vc = (UserListViewController *)segue.destinationViewController;
+        vc.user = self.user;
+        vc.dataType = UserListViewDataTypeFollowing;
+    }
+    else if ([[segue identifier] isEqualToString:@"showFollowerListView"])
+    {
+        UserListViewController *vc = (UserListViewController *)segue.destinationViewController;
+        vc.user = self.user;
+        vc.dataType = UserListViewDataTypeFollower;
+    }
+    else if ([[segue identifier] isEqualToString:@"showEditAnswerView"]) {
         UINavigationController *nvc = (UINavigationController *)segue.destinationViewController;
         EditAnswerViewController *controller = (EditAnswerViewController *)nvc.topViewController;
         Answer *selectedAnswer = (Answer *)[self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];

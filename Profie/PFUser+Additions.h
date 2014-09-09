@@ -11,6 +11,6 @@
 @interface PFUser (Additions)
 
 //isAuthenticatedだと、queryで取得したPFUserでは、NOになってしまう
-- (BOOL)isCurrentUser;
+- (BOOL)isEqualToCurrentUser;
 
 @end

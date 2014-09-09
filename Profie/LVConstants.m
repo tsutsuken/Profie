@@ -25,18 +25,25 @@ NSString *const kLVUserProfilePicSmallKey  = @"profilePictureSmall";
 NSString *const kLVUserProfilePicMediumKey = @"profilePictureMedium";
 NSString *const kLVUserProfilePicLargeKey = @"profilePictureLarge";
 
+#pragma mark - Activity Class
+// Class key
+NSString *const kLVActivityClassKey = @"Activity";
+// Field keys
+NSString *const kLVActivityTypeKey        = @"type";
+NSString *const kLVActivityFromUserKey    = @"fromUser";
+NSString *const kLVActivityToUserKey      = @"toUser";
+// Type values
+NSString *const kLVActivityTypeFollow     = @"follow";
+
 #pragma mark - Question Class
 // Class key
 NSString *const kLVQuestionClassKey = @"Question";
-
 // Field keys
 NSString *const kLVQuestionAnswerCountKey  = @"answerCount";
-
 
 #pragma mark - Answer Class
 // Class key
 NSString *const kLVAnswerClassKey = @"Answer";
-
 // Field keys
 NSString *const kLVAnswerAutherKey       = @"auther";
 NSString *const kLVAnswerQuestionKey     = @"question";

@@ -10,15 +10,15 @@
 
 @implementation PFUser (Additions)
 
-- (BOOL)isCurrentUser
+- (BOOL)isEqualToCurrentUser
 {
-    BOOL isCurrentUser = NO;
+    BOOL isEqualToCurrentUser = NO;
     
     if ([self.objectId isEqualToString:[[PFUser currentUser] objectId]]) {
-        isCurrentUser = YES;
+        isEqualToCurrentUser = YES;
     }
     
-    return isCurrentUser;
+    return isEqualToCurrentUser;
 }
 
 @end
