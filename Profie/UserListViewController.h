@@ -15,7 +15,7 @@ typedef NS_ENUM(NSInteger, UserListViewDataType) {
 
 @interface UserListViewController : PFQueryTableViewController
 
-@property (nonatomic, strong) PFUser *user;
+@property (nonatomic, strong) User *user;
 @property (nonatomic, assign) UserListViewDataType dataType;
 
 @end

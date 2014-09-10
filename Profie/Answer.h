@@ -11,7 +11,7 @@
 @interface Answer : PFObject<PFSubclassing>
 
 @property (retain) NSString *title;
-@property (retain) PFUser *auther;
+@property (retain) User *auther;
 @property (retain) Question *question;
 @property (retain) NSString *questionId;
 

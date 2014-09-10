@@ -15,4 +15,10 @@
 @property (retain) PFFile *profilePictureMedium;
 @property (retain) PFFile *profilePictureLarge;
 
+//Returns a new User object.
++ (User *)user;
++ (User *)currentUser;
+
+- (BOOL)isEqualToCurrentUser;
+
 @end

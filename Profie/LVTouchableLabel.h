@@ -13,7 +13,7 @@
 @interface LVTouchableLabel : UILabel <UIGestureRecognizerDelegate>
 
 @property (nonatomic, assign) id <LVTouchableLabelDelegate> delegate;
-@property (nonatomic, strong) PFUser *user;
+@property (nonatomic, strong) User *user;
 
 - (void)showProfileViewFromViewController:(UIViewController *)delegateViewController;
 

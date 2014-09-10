@@ -50,7 +50,7 @@
 
 - (PFQuery *)queryForTable
 {
-    PFQuery *query =  [PFUser query];
+    PFQuery *query =  [User query];
     
     // If no objects are loaded in memory, we look to the cache first to fill the table
     // and then subsequently do a query against the network.
@@ -67,18 +67,17 @@
 {
     PFTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     
-    PFUser *user = (PFUser *)object;
-    
+    User *user = (User *)object;
     PFRoundedImageView *profileImageView = (PFRoundedImageView *)[cell.contentView viewWithTag:1];
     profileImageView.image = [UIImage imageNamed:@"person_small.png"];
     profileImageView.user = user;
-    profileImageView.file = [user objectForKey:kLVUserProfilePicSmallKey];
+    profileImageView.file = user.profilePictureSmall;
     if ([profileImageView.file isDataAvailable]) {
         [profileImageView loadInBackground];
     }
     
     UILabel *userNameLabel = (UILabel *)[cell.contentView viewWithTag:2];
-    userNameLabel.text = [user objectForKey:kLVUserUsernameKey];
+    userNameLabel.text = user.username;
     
     return cell;
 }
@@ -89,7 +88,7 @@
 {
     UIStoryboard* mainStoryBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     ProfileViewController *vc = (ProfileViewController *) [mainStoryBoard instantiateViewControllerWithIdentifier:@"ProfileViewController"];
-    PFUser *selectedUser = (PFUser *)[self objectAtIndexPath:indexPath];
+    User *selectedUser = (User *)[self objectAtIndexPath:indexPath];
     vc.user = selectedUser;
     
     [self.navigationController pushViewController:vc animated:YES];

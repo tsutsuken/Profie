@@ -109,7 +109,7 @@
 - (PFQuery *)answerFromCurrentUserQuery
 {
     PFQuery *answerFromCurrentUserQuery = [PFQuery queryWithClassName:kLVAnswerClassKey];
-    [answerFromCurrentUserQuery whereKey:kLVAnswerAutherKey equalTo:[PFUser currentUser]];
+    [answerFromCurrentUserQuery whereKey:kLVAnswerAutherKey equalTo:[User currentUser]];
     
     return answerFromCurrentUserQuery;
 }

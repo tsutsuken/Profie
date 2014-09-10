@@ -125,7 +125,7 @@
     
     UINavigationController *nvcForProfileView = (UINavigationController *)[tabBarController.viewControllers objectAtIndex:LVTabBarItemIndexProfile];
     ProfileViewController *profileView = (ProfileViewController *)nvcForProfileView.topViewController;
-    profileView.user = [PFUser currentUser];
+    profileView.user = [User currentUser];
     
     UINavigationController *nvc = (UINavigationController *)self.window.rootViewController;
     FirstViewController *firstViewController = (FirstViewController *)nvc.topViewController;
@@ -135,7 +135,7 @@
 
 - (void)logOut
 {
-    [PFUser logOut];
+    [User logOut];
     [[[LVShareKitTwitter alloc] init] logout];
     
     UINavigationController *nvc = (UINavigationController *)self.window.rootViewController;

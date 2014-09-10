@@ -90,7 +90,7 @@
 
         Question *question = [Question object];
         [question.ACL setPublicWriteAccess:YES];
-        question.auther = [PFUser currentUser];
+        question.auther = [User currentUser];
         question.title = self.textView.text;
         controller.question = question;
     }

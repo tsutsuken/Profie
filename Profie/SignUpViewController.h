@@ -25,5 +25,5 @@ typedef enum {
 @end
 
 @protocol SignUpViewControllerDelegate
-- (void)signUpViewController:(SignUpViewController *)signUpController didSignUpUser:(PFUser *)user;
+- (void)signUpViewController:(SignUpViewController *)signUpController didSignUpUser:(User *)user;
 @end

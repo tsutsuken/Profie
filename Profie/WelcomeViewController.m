@@ -126,7 +126,7 @@
 }
 
 #pragma mark - SignUpViewControllerDelegate
-- (void)signUpViewController:(SignUpViewController *)signUpController didSignUpUser:(PFUser *)user
+- (void)signUpViewController:(SignUpViewController *)signUpController didSignUpUser:(User *)user
 {
     [self dismissViewControllerAnimated:YES completion:nil];
     [(AppDelegate*)[[UIApplication sharedApplication] delegate] presentTabBarController];
@@ -134,8 +134,8 @@
 
 #pragma mark - LogInViewControllerDelegate
 
-// Sent to the delegate when a PFUser is logged in.
-- (void)logInViewController:(LogInViewController *)logInController didLogInUser:(PFUser *)user
+// Sent to the delegate when a User is logged in.
+- (void)logInViewController:(LogInViewController *)logInController didLogInUser:(User *)user
 {
     [self dismissViewControllerAnimated:YES completion:nil];
     [(AppDelegate*)[[UIApplication sharedApplication] delegate] presentTabBarController];

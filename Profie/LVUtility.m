@@ -10,14 +10,14 @@
 
 @implementation LVUtility
 
-+ (void)followUserEventually:(PFUser *)user block:(void (^)(BOOL succeeded, NSError *error))completionBlock
++ (void)followUserEventually:(User *)user block:(void (^)(BOOL succeeded, NSError *error))completionBlock
 {
-    if ([[user objectId] isEqualToString:[[PFUser currentUser] objectId]]) {
+    if ([[user objectId] isEqualToString:[[User currentUser] objectId]]) {
         return;
     }
     
     PFObject *followActivity = [PFObject objectWithClassName:kLVActivityClassKey];
-    [followActivity setObject:[PFUser currentUser] forKey:kLVActivityFromUserKey];
+    [followActivity setObject:[User currentUser] forKey:kLVActivityFromUserKey];
     [followActivity setObject:user forKey:kLVActivityToUserKey];
     [followActivity setObject:kLVActivityTypeFollow forKey:kLVActivityTypeKey];
     [followActivity saveEventually:completionBlock];
@@ -25,10 +25,10 @@
     [ANALYTICS trackEvent:kAnEventFollow sender:self];
 }
 
-+ (void)unfollowUserEventually:(PFUser *)user
++ (void)unfollowUserEventually:(User *)user
 {
     PFQuery *query = [PFQuery queryWithClassName:kLVActivityClassKey];
-    [query whereKey:kLVActivityFromUserKey equalTo:[PFUser currentUser]];
+    [query whereKey:kLVActivityFromUserKey equalTo:[User currentUser]];
     [query whereKey:kLVActivityToUserKey equalTo:user];
     [query whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
     [query findObjectsInBackgroundWithBlock:^(NSArray *followActivities, NSError *error) {
@@ -50,7 +50,7 @@
     
     PFQuery *query = [PFQuery queryWithClassName:kLVAnswerClassKey];
     [query whereKey:kLVAnswerQuestionKey equalTo:question];
-    [query whereKey:kLVAnswerAutherKey equalTo:[PFUser currentUser]];
+    [query whereKey:kLVAnswerAutherKey equalTo:[User currentUser]];
     [query includeKey:kLVAnswerQuestionKey];
     [query includeKey:kLVAnswerAutherKey];
     

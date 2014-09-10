@@ -13,7 +13,7 @@
 @interface PFRoundedImageView : PFImageView <UIGestureRecognizerDelegate>
 
 @property (nonatomic, assign) id <PFRoundedImageViewDelegate> delegate;
-@property (nonatomic, strong) PFUser *user;
+@property (nonatomic, strong) User *user;
 
 - (void)showProfileViewFromViewController:(UIViewController *)delegateViewController;
 

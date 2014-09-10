@@ -43,8 +43,8 @@
     [super viewDidLoad];
     
 #warning test
-    User *user = (User *)self.user;
-    self.fullnameLabel.text = user.email;
+    User *user = self.user;
+    self.fullnameLabel.text = user.fullname;
     
     if ([self.user isEqualToCurrentUser]) {
         self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"gear"]
@@ -201,7 +201,7 @@
 - (void)reloadTableHeaderView
 {
     //ProfileImageView
-    self.profileImageView.file = [self.user objectForKey:kLVUserProfilePicMediumKey];
+    self.profileImageView.file = self.user.profilePictureMedium;
     [self.profileImageView loadInBackground];
     
     //FollowerCountButton
@@ -231,7 +231,7 @@
     PFQuery *queryIsFollowing = [PFQuery queryWithClassName:kLVActivityClassKey];
     [queryIsFollowing whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
     [queryIsFollowing whereKey:kLVActivityToUserKey equalTo:self.user];
-    [queryIsFollowing whereKey:kLVActivityFromUserKey equalTo:[PFUser currentUser]];
+    [queryIsFollowing whereKey:kLVActivityFromUserKey equalTo:[User currentUser]];
     [queryIsFollowing setCachePolicy:kPFCachePolicyCacheThenNetwork];
     [queryIsFollowing countObjectsInBackgroundWithBlock:^(int number, NSError *error) {
         if (!error) {
@@ -291,7 +291,7 @@
 
 - (void)copyLinkForProfile
 {
-    NSString *link = [NSString stringWithFormat:@"profie.me/%@", [PFUser currentUser].username];
+    NSString *link = [NSString stringWithFormat:@"profie.me/%@", [User currentUser].username];
     [[UIPasteboard generalPasteboard] setValue:link forPasteboardType:@"public.text"];
     
     [ANALYTICS trackEvent:kAnEventCopyLinkForProfile sender:self];
@@ -299,7 +299,7 @@
 
 - (void)openProfileInSafari
 {
-    NSString *URLString = [NSString stringWithFormat:@"http://www.profie.me/%@", [PFUser currentUser].username];
+    NSString *URLString = [NSString stringWithFormat:@"http://www.profie.me/%@", [User currentUser].username];
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:URLString]];
     
     [ANALYTICS trackEvent:kAnEventOpenProfileInSafari sender:self];
@@ -312,11 +312,11 @@
     AnswerCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     Answer *answer = (Answer *)object;
     Question *question = answer.question;
-    PFUser *user = answer.auther;
+    User *user = answer.auther;
     
     cell.profileImageView.image = [UIImage imageNamed:@"person_small.png"];
     cell.profileImageView.user = user;
-    cell.profileImageView.file = [user objectForKey:kLVUserProfilePicSmallKey];
+    cell.profileImageView.file = user.profilePictureSmall;
     if ([cell.profileImageView.file isDataAvailable]) {
         [cell.profileImageView loadInBackground];
     }

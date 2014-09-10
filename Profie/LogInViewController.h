@@ -18,5 +18,5 @@
 @end
 
 @protocol LogInViewControllerDelegate
-- (void)logInViewController:(LogInViewController *)logInController didLogInUser:(PFUser *)user;
+- (void)logInViewController:(LogInViewController *)logInController didLogInUser:(User *)user;
 @end

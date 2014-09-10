@@ -37,7 +37,6 @@
     #import "LVUtility.h"
     #import "LVTimeFormatter.h"
     #import "LVShareKitTwitter.h"
-    #import "PFUser+Additions.h"
     #import "UIColor+ColorWithHex.h"
     #import "ProfileViewController.h"
     #import "UserListViewController.h"

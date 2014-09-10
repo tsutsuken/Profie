@@ -18,14 +18,6 @@ NSString *const kLVCommonObjectIdKey        = @"objectId";
 NSString *const kLVCommonCreatedAtKey       = @"createdAt";
 NSString *const kLVCommonUpdatedAtKey       = @"updatedAt";
 
-#pragma mark - User Class
-// Field keys
-NSString *const kLVUserFullnameKey        = @"fullname";
-NSString *const kLVUserUsernameKey        = @"username";
-NSString *const kLVUserProfilePicSmallKey  = @"profilePictureSmall";
-NSString *const kLVUserProfilePicMediumKey = @"profilePictureMedium";
-NSString *const kLVUserProfilePicLargeKey = @"profilePictureLarge";
-
 #pragma mark - Activity Class
 // Class key
 NSString *const kLVActivityClassKey = @"Activity";

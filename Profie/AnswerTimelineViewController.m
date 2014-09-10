@@ -86,7 +86,7 @@
     //フォロー中のユーザのquery
     PFQuery *followingActivitiesQuery = [PFQuery queryWithClassName:kLVActivityClassKey];
     [followingActivitiesQuery whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
-    [followingActivitiesQuery whereKey:kLVActivityFromUserKey equalTo:[PFUser currentUser]];
+    [followingActivitiesQuery whereKey:kLVActivityFromUserKey equalTo:[User currentUser]];
     
     [query whereKey:kLVAnswerAutherKey matchesKey:kLVActivityToUserKey inQuery:followingActivitiesQuery];
     
@@ -104,12 +104,12 @@
     AnswerCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     Answer *answer = (Answer *)object;
     Question *question = answer.question;
-    PFUser *user = answer.auther;
+    User *user = answer.auther;
     
     cell.profileImageView.delegate = self;
     cell.profileImageView.image = [UIImage imageNamed:@"person_small.png"];
     cell.profileImageView.user = user;
-    cell.profileImageView.file = [user objectForKey:kLVUserProfilePicSmallKey];
+    cell.profileImageView.file = user.profilePictureSmall;
     if ([cell.profileImageView.file isDataAvailable]) {
         [cell.profileImageView loadInBackground];
     }

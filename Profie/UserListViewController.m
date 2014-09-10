@@ -86,9 +86,9 @@
     return query;
 }
 
-- (PFUser *)userObjectAtIndexPath:(NSIndexPath *)indexPath
+- (User *)userObjectAtIndexPath:(NSIndexPath *)indexPath
 {
-    PFUser *user;
+    User *user;
     
     PFObject *activity = [self objectAtIndexPath:indexPath];
     
@@ -108,18 +108,18 @@
 {
     PFTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
 
-    PFUser *user = [self userObjectAtIndexPath:indexPath];
+    User *user = [self userObjectAtIndexPath:indexPath];
     
     PFRoundedImageView *profileImageView = (PFRoundedImageView *)[cell.contentView viewWithTag:1];
     profileImageView.image = [UIImage imageNamed:@"person_small.png"];
     profileImageView.user = user;
-    profileImageView.file = [user objectForKey:kLVUserProfilePicSmallKey];
+    profileImageView.file = user.profilePictureSmall;
     if ([profileImageView.file isDataAvailable]) {
         [profileImageView loadInBackground];
     }
     
     UILabel *userNameLabel = (UILabel *)[cell.contentView viewWithTag:2];
-    userNameLabel.text = [user objectForKey:kLVUserUsernameKey];
+    userNameLabel.text = user.username;
     
     return cell;
 }
@@ -130,7 +130,7 @@
 {
     UIStoryboard* mainStoryBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     ProfileViewController *vc = (ProfileViewController *) [mainStoryBoard instantiateViewControllerWithIdentifier:@"ProfileViewController"];
-    PFUser *selectedUser = [self userObjectAtIndexPath:indexPath];
+    User *selectedUser = [self userObjectAtIndexPath:indexPath];
     vc.user = selectedUser;
     
     [self.navigationController pushViewController:vc animated:YES];

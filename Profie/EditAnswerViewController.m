@@ -167,7 +167,7 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
     Answer *answer;
     if ([self isNewAnswer]) {
         answer = [Answer object];
-        answer.auther = [PFUser currentUser];
+        answer.auther = [User currentUser];
         answer.question = self.question;
         answer.questionId = self.question.objectId;
         

@@ -86,7 +86,6 @@
 		1FCCA8E6190BE97B00B4E3B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCA8E4190BE97B00B4E3B7 /* InfoPlist.strings */; };
 		1FCCA8E8190BE97B00B4E3B7 /* SuperProfileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCA8E7190BE97B00B4E3B7 /* SuperProfileTests.m */; };
 		1FCCB5E6194436F8007183D3 /* AnswerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCB5E5194436F8007183D3 /* AnswerCell.m */; };
-		1FCEC10819452178001093F7 /* PFUser+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCEC10719452178001093F7 /* PFUser+Additions.m */; };
 		1FD0D2F71978C15600DAD982 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD0D2F61978C15600DAD982 /* SettingViewController.m */; };
 		1FD16596195690F300C9049A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD16595195690F300C9049A /* AdSupport.framework */; };
 		1FD1659E195691CE00C9049A /* libAdapterNend.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD16598195691CE00C9049A /* libAdapterNend.a */; };
@@ -220,8 +219,6 @@
 		1FCCA8E7190BE97B00B4E3B7 /* SuperProfileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperProfileTests.m; sourceTree = "<group>"; };
 		1FCCB5E4194436F8007183D3 /* AnswerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerCell.h; sourceTree = "<group>"; };
 		1FCCB5E5194436F8007183D3 /* AnswerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerCell.m; sourceTree = "<group>"; };
-		1FCEC10619452178001093F7 /* PFUser+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PFUser+Additions.h"; sourceTree = "<group>"; };
-		1FCEC10719452178001093F7 /* PFUser+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PFUser+Additions.m"; sourceTree = "<group>"; };
 		1FD0D2F51978C15600DAD982 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		1FD0D2F61978C15600DAD982 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		1FD16595195690F300C9049A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -376,8 +373,6 @@
 				1FC8822B194FF07400A896B9 /* UIColor+ColorWithHex.m */,
 				1FBB62AB1935E6C5001281F9 /* UIImage+Resize.h */,
 				1FBB62AC1935E6C5001281F9 /* UIImage+Resize.m */,
-				1FCEC10619452178001093F7 /* PFUser+Additions.h */,
-				1FCEC10719452178001093F7 /* PFUser+Additions.m */,
 				1FC8E2311934917500DB7D5A /* LVPlaceholderTextView.h */,
 				1FC8E2321934917500DB7D5A /* LVPlaceholderTextView.m */,
 				1F74CC83194465D70008D14B /* LVTimeFormatter.h */,
@@ -814,7 +809,6 @@
 				1F8AE4461992371D00237F3E /* LVAnalyticsManager.m in Sources */,
 				1FC2F081195E59FC008A8E58 /* SignUpViewController.m in Sources */,
 				1FCCB5E6194436F8007183D3 /* AnswerCell.m in Sources */,
-				1FCEC10819452178001093F7 /* PFUser+Additions.m in Sources */,
 				1F1F5CCD19C0241400D26FFF /* User.m in Sources */,
 				1FB851EC191F127800433E5F /* LVConstants.m in Sources */,
 				1FD2B1DA197FE551002B846A /* Answer.m in Sources */,

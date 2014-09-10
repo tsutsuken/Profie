@@ -12,6 +12,6 @@
 
 @interface ProfileViewController : PFQueryTableViewController <GADBannerViewDelegate>
 
-@property (nonatomic, strong) PFUser *user;
+@property (nonatomic, strong) User *user;
 
 @end

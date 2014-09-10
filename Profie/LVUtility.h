@@ -10,8 +10,8 @@
 
 @interface LVUtility : NSObject
 
-+ (void)followUserEventually:(PFUser *)user block:(void (^)(BOOL succeeded, NSError *error))completionBlock;
-+ (void)unfollowUserEventually:(PFUser *)user;
++ (void)followUserEventually:(User *)user block:(void (^)(BOOL succeeded, NSError *error))completionBlock;
++ (void)unfollowUserEventually:(User *)user;
 
 //Return nil if none was found.
 + (Answer *)answerOfCurrentUserForQuestion:(Question *)question;

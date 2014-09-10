@@ -171,8 +171,8 @@
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     [self.view endEditing:YES];
     
-    PFUser *newUser = [PFUser user];
-    [newUser setObject:[inputDataArray objectAtIndex:SignUpViewItemIndexFullname] forKey:kLVUserFullnameKey];
+    User *newUser = [User user];
+    newUser.fullname = [inputDataArray objectAtIndex:SignUpViewItemIndexFullname];
     newUser.username = [inputDataArray objectAtIndex:SignUpViewItemIndexUsername];
     newUser.email = [inputDataArray objectAtIndex:SignUpViewItemIndexEmail];
     newUser.password = [inputDataArray objectAtIndex:SignUpViewItemIndexPassword];

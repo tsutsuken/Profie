@@ -67,12 +67,12 @@
     NSString *username = [inputDataArray objectAtIndex:0];
     NSString *password = [inputDataArray objectAtIndex:1];
     
-    [PFUser logInWithUsernameInBackground:username password:password
+    [User logInWithUsernameInBackground:username password:password
                                     block:^(PFUser *user, NSError *error) {
                                         [MBProgressHUD hideHUDForView:self.view animated:YES];
                                         
                                         if (user) {
-                                            [self.delegate logInViewController:self didLogInUser:user];
+                                            [self.delegate logInViewController:self didLogInUser:(User *)user];
                                         } else {
                                             [self showAlertWithMessage:[self messageWithError:error]];
                                         }

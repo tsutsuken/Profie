@@ -63,10 +63,10 @@
     if (indexPath.section == 0) {
         UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ImageCell" forIndexPath:indexPath];
         
-        PFUser *currentUser = [PFUser currentUser];
+        User *currentUser = [User currentUser];
         
         PFRoundedImageView *imageView = (PFRoundedImageView *)[cell viewWithTag:1];
-        imageView.file = [currentUser objectForKey:kLVUserProfilePicSmallKey];
+        imageView.file = currentUser.profilePictureSmall;
         [imageView loadInBackground];
         
         UILabel *titleLabel = (UILabel *)[cell viewWithTag:2];
@@ -175,31 +175,31 @@
     PFFile *smallImageFile = [PFFile fileWithData:smallImageData];
     
     // Save PFFile
+    User *currentUser = [User currentUser];
     [largeImageFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
             NSLog(@"Uploaded largeImageFile");
-            [[PFUser currentUser] setObject:largeImageFile forKey:kLVUserProfilePicLargeKey];
-            [[PFUser currentUser] saveInBackgroundWithBlock:nil];
+            currentUser.profilePictureLarge = largeImageFile;
+            [currentUser saveInBackgroundWithBlock:nil];
         }
     }];
     
     [mediumImageFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
             NSLog(@"Uploaded mediumImageFile");
-            [[PFUser currentUser] setObject:mediumImageFile forKey:kLVUserProfilePicMediumKey];
-            [[PFUser currentUser] saveInBackgroundWithBlock:nil];
+            currentUser.profilePictureMedium = mediumImageFile;
+            [currentUser saveInBackgroundWithBlock:nil];
         }
     }];
     
     [smallImageFile saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
             NSLog(@"Uploaded smallImageFile");
-            [[PFUser currentUser] setObject:smallImageFile forKey:kLVUserProfilePicSmallKey];
-            
-            [[PFUser currentUser] saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+            currentUser.profilePictureSmall = smallImageFile;
+            [currentUser saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
                 if (!error) {
                     [self.tableView reloadData];//セル内の画像を更新するため
-                    [[PFUser currentUser] fetchInBackgroundWithBlock:nil];//currentUserのキャッシュを更新するため
+                    [currentUser fetchInBackgroundWithBlock:nil];//currentUserのキャッシュを更新するため
                 }
             }];
         }

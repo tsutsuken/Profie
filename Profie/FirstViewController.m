@@ -24,11 +24,11 @@
 {
     [super viewDidAppear:animated];
     
-    if ([PFUser currentUser]) {
+    if ([User currentUser]) {
         [(AppDelegate*)[[UIApplication sharedApplication] delegate] presentTabBarController];
         
         // Refresh current user with server side data -- checks if user is still valid and so on
-        [[PFUser currentUser] refreshInBackgroundWithTarget:self selector:@selector(refreshCurrentUserCallbackWithResult:error:)];
+        [[User currentUser] refreshInBackgroundWithTarget:self selector:@selector(refreshCurrentUserCallbackWithResult:error:)];
     }
     else {
         [self showWelcomeView];

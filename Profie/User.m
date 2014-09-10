@@ -15,4 +15,25 @@
 @dynamic profilePictureMedium;
 @dynamic profilePictureLarge;
 
++ (User *)user
+{
+    return (User *)[PFUser user];
+}
+
++ (User *)currentUser
+{
+    return (User *)[PFUser currentUser];
+}
+
+- (BOOL)isEqualToCurrentUser
+{
+    BOOL isEqualToCurrentUser = NO;
+    
+    if ([self.objectId isEqualToString:[[User currentUser] objectId]]) {
+        isEqualToCurrentUser = YES;
+    }
+    
+    return isEqualToCurrentUser;
+}
+
 @end
