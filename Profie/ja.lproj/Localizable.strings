@@ -9,6 +9,8 @@
 
 "Common_ActionSheet_OpenInSafari" = "Safariで開く";
 
+"Common_ActionSheet_AnswerSameQuestion" = "同じ質問に答える";
+
 "Common_ActionSheet_Cancel" = "キャンセル";
 
 /* LVShareKitTwitter */

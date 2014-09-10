@@ -38,6 +38,10 @@
 
 - (void)configureParse
 {
+    //SubclassのregisterはsetApplicationIdより前
+    [Question registerSubclass];
+    [Answer registerSubclass];
+    
 #if DEBUG
     NSLog(@"Parse_TestDB");
     [Parse setApplicationId:@"AGI9zKvHt3kFh0L6hPP8s00GtFVLdGNrhRzWXFDK" clientKey:@"Wb5G0dMXWc7VEG65PhYxZZbePzxyNc577XSm90UH"];
@@ -49,9 +53,6 @@
     PFACL *defaultACL = [PFACL ACL];//Read・Write共に、全員にNo
     [defaultACL setPublicReadAccess:YES];
     [PFACL setDefaultACL:defaultACL withAccessForCurrentUser:YES];//CurrentUserにRead・Write権を付与
-    
-    [Question registerSubclass];
-    [Answer registerSubclass];
 }
 
 - (void)configureAnalyticsSystem

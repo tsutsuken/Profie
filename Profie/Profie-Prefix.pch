@@ -17,7 +17,6 @@
     #import <Social/Social.h>
     #import <Accounts/Accounts.h>
     #import <Parse/Parse.h>
-    #import <Parse/PFObject+Subclass.h>
     #import "GAI.h"
     #import "GAIDictionaryBuilder.h"
     #import "GAIFields.h"

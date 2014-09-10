@@ -7,6 +7,7 @@
 //
 
 #import "Question.h"
+#import <Parse/PFObject+Subclass.h>
 
 @implementation Question
 

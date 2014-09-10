@@ -44,4 +44,20 @@
     [ANALYTICS trackEvent:kAnEventUnFollow sender:self];
 }
 
++ (Answer *)answerOfCurrentUserForQuestion:(Question *)question
+{
+    Answer *myAnswer;
+    
+    PFQuery *query = [PFQuery queryWithClassName:kLVAnswerClassKey];
+    [query whereKey:kLVAnswerQuestionKey equalTo:question];
+    [query whereKey:kLVAnswerAutherKey equalTo:[PFUser currentUser]];
+    [query includeKey:kLVAnswerQuestionKey];
+    [query includeKey:kLVAnswerAutherKey];
+    
+    //Return nil if none was found.
+    myAnswer = (Answer *)[query getFirstObject];
+    
+    return myAnswer;
+}
+
 @end

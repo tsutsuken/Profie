@@ -7,8 +7,9 @@
 //
 
 typedef enum {
-	LVTabBarItemIndexRecommendQuestion = 0,
-	LVTabBarItemIndexProfile = 1
+    LVTabBarItemIndexAnswerTimeline = 0,
+	LVTabBarItemIndexRecommendQuestion = 1,
+	LVTabBarItemIndexProfile = 2
 } LVTabBarControllerViewControllerIndex;
 
 #pragma mark - NSNotification

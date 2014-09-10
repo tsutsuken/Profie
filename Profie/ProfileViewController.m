@@ -256,10 +256,10 @@
 
 - (void)didPushShareButton
 {
-    [self showActionSheetForShareProfile];
+    [self showActionSheetForSharingProfile];
 }
 
-- (void)showActionSheetForShareProfile
+- (void)showActionSheetForSharingProfile
 {
     UIActionSheet *actionSheet = [[UIActionSheet alloc] init];
     
@@ -309,9 +309,12 @@
     Question *question = answer.question;
     PFUser *user = answer.auther;
     
+    cell.profileImageView.image = [UIImage imageNamed:@"person_small.png"];
     cell.profileImageView.user = user;
     cell.profileImageView.file = [user objectForKey:kLVUserProfilePicSmallKey];
-    [cell.profileImageView loadInBackground];
+    if ([cell.profileImageView.file isDataAvailable]) {
+        [cell.profileImageView loadInBackground];
+    }
     
     cell.userNameLabel.text = user.username;
     
@@ -346,12 +349,17 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self showActionSheetForEditAnswer];
+    if ([self.user isEqualToCurrentUser]) {
+        [self showActionSheetForEditingMyAnswer];
+    }
+    else{
+        [self showActionSheetForReferingFriendsAnswer];
+    }
 }
 
-#pragma mark - Edit Answer
+#pragma mark Edit My Answer
 
-- (void)showActionSheetForEditAnswer
+- (void)showActionSheetForEditingMyAnswer
 {
     UIActionSheet *actionSheet = [[UIActionSheet alloc] init];
     
@@ -363,15 +371,15 @@
     actionSheet.tapBlock = ^(UIActionSheet *actionSheet, NSInteger buttonIndex){
         switch (buttonIndex) {
             case 0:
-                [self showEditAnswerView];
+                [self showEditAnswerViewFromMyAnswer];
                 break;
             case 1:
-                [self deleteAnswer];
+                [self deleteMyAnswer];
                 break;
             case 2:
                 //Cancel
                 [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
-                //didSelectRowAtIndexPathでやると、適切なAnswerを取得できない
+                //didSelectRowAtIndexPathでdeselectすると、prepareForSegueでAnswerを取得できない
                 break;
         }
     };
@@ -379,7 +387,7 @@
     [actionSheet showInView:self.view];
 }
 
-- (void)deleteAnswer
+- (void)deleteMyAnswer
 {
     Answer *selectedAnswer = (Answer *)[self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];
     [selectedAnswer deleteInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
@@ -393,15 +401,28 @@
     [ANALYTICS trackEvent:kAnEventDeleteAnswer sender:self];
 }
 
-#pragma mark - UIScrollView delegate
+#pragma mark Refer To Friend's Answer
 
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+- (void)showActionSheetForReferingFriendsAnswer
 {
-    if (scrollView.contentSize.height - scrollView.contentOffset.y < (self.view.bounds.size.height)) {
-        if (![self isLoading]) {
-            [self loadNextPage];
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] init];
+    
+    actionSheet.cancelButtonIndex = 1;
+    [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_AnswerSameQuestion", nil)];
+    [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_Cancel", nil)];
+    actionSheet.tapBlock = ^(UIActionSheet *actionSheet, NSInteger buttonIndex){
+        switch (buttonIndex) {
+            case 0:
+                [self showEditAnswerViewFromFriendsAnswer];
+                break;
+            case 1:
+                [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
+                //didSelectRowAtIndexPathでdeselectすると、prepareForSegueでAnswerを取得できない
+                break;
         }
-    }
+    };
+    
+    [actionSheet showInView:self.view];
 }
 
 #pragma mark - Show Other View
@@ -421,12 +442,19 @@
         vc.user = self.user;
         vc.dataType = UserListViewDataTypeFollower;
     }
-    else if ([[segue identifier] isEqualToString:@"showEditAnswerView"]) {
+    else if ([[segue identifier] isEqualToString:@"showEditAnswerViewFromMyAnswer"]) {
         UINavigationController *nvc = (UINavigationController *)segue.destinationViewController;
         EditAnswerViewController *controller = (EditAnswerViewController *)nvc.topViewController;
-        Answer *selectedAnswer = (Answer *)[self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];
-        controller.answer = selectedAnswer;
-        controller.question = selectedAnswer.question;
+        Answer *myAnswer = (Answer *)[self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];
+        controller.question = myAnswer.question;
+        controller.answer = myAnswer;
+    }
+    else if ([[segue identifier] isEqualToString:@"showEditAnswerViewFromFriendsAnswer"]) {
+        UINavigationController *nvc = (UINavigationController *)segue.destinationViewController;
+        EditAnswerViewController *controller = (EditAnswerViewController *)nvc.topViewController;
+        Answer *friendsAnswer = (Answer *)[self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];
+        controller.question = friendsAnswer.question;
+        controller.answer = [LVUtility answerOfCurrentUserForQuestion:friendsAnswer.question];
     }
 }
 
@@ -439,11 +467,26 @@
 
 #pragma mark EditAnswerView
 
-- (void)showEditAnswerView
+- (void)showEditAnswerViewFromMyAnswer
 {
-    [self performSegueWithIdentifier:@"showEditAnswerView" sender:self];
+    [self performSegueWithIdentifier:@"showEditAnswerViewFromMyAnswer" sender:self];
 }
 
+- (void)showEditAnswerViewFromFriendsAnswer
+{
+    [self performSegueWithIdentifier:@"showEditAnswerViewFromFriendsAnswer" sender:self];
+}
+
+#pragma mark - UIScrollView delegate
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    if (scrollView.contentSize.height - scrollView.contentOffset.y < (self.view.bounds.size.height)) {
+        if (![self isLoading]) {
+            [self loadNextPage];
+        }
+    }
+}
 
 #pragma mark - NSNotification
 

@@ -37,6 +37,9 @@
 		1F35420119BDA8AF006A6D01 /* person_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3541FD19BDA8AF006A6D01 /* person_add.png */; };
 		1F35420419BDB211006A6D01 /* LVUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F35420319BDB211006A6D01 /* LVUtility.m */; };
 		1F3CFB8719BA9E3E001E71E2 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3CFB8619BA9E3E001E71E2 /* NSString+Additions.m */; };
+		1F3E5B4419BEDF6E005ED84C /* AnswerTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E5B4219BEDF6E005ED84C /* AnswerTimelineViewController.m */; };
+		1F3E5B4B19BEE0E8005ED84C /* home_tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3E5B4919BEE0E8005ED84C /* home_tab@2x.png */; };
+		1F3E5B4C19BEE0E8005ED84C /* home_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3E5B4A19BEE0E8005ED84C /* home_tab.png */; };
 		1F74CC85194465D70008D14B /* LVTimeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F74CC84194465D70008D14B /* LVTimeFormatter.m */; };
 		1F83B8DD191A2B6D004CD869 /* EditAnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F83B8DC191A2B6D004CD869 /* EditAnswerViewController.m */; };
 		1F8AE4461992371D00237F3E /* LVAnalyticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AE4451992371D00237F3E /* LVAnalyticsManager.m */; };
@@ -142,6 +145,10 @@
 		1F35420319BDB211006A6D01 /* LVUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVUtility.m; sourceTree = "<group>"; };
 		1F3CFB8519BA9E3E001E71E2 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
 		1F3CFB8619BA9E3E001E71E2 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		1F3E5B4219BEDF6E005ED84C /* AnswerTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerTimelineViewController.m; sourceTree = "<group>"; };
+		1F3E5B4319BEDF6E005ED84C /* AnswerTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerTimelineViewController.h; sourceTree = "<group>"; };
+		1F3E5B4919BEE0E8005ED84C /* home_tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_tab@2x.png"; sourceTree = "<group>"; };
+		1F3E5B4A19BEE0E8005ED84C /* home_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_tab.png; sourceTree = "<group>"; };
 		1F74CC83194465D70008D14B /* LVTimeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTimeFormatter.h; sourceTree = "<group>"; };
 		1F74CC84194465D70008D14B /* LVTimeFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTimeFormatter.m; sourceTree = "<group>"; };
 		1F83B8DB191A2B6D004CD869 /* EditAnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditAnswerViewController.h; sourceTree = "<group>"; };
@@ -312,6 +319,8 @@
 		1F166C7D19A057200056C5EF /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				1F3E5B4919BEE0E8005ED84C /* home_tab@2x.png */,
+				1F3E5B4A19BEE0E8005ED84C /* home_tab.png */,
 				1F166C9E19A057F50056C5EF /* person_tab@2x.png */,
 				1F166C9F19A057F50056C5EF /* person_tab.png */,
 				1F166CA019A057F50056C5EF /* edit_tab@2x.png */,
@@ -339,6 +348,15 @@
 				1F166C9219A057B00056C5EF /* bg_welcome@2x.png */,
 			);
 			name = WelcomeView;
+			sourceTree = "<group>";
+		};
+		1F3E5B4119BEDF2C005ED84C /* TimelineTab */ = {
+			isa = PBXGroup;
+			children = (
+				1F3E5B4319BEDF6E005ED84C /* AnswerTimelineViewController.h */,
+				1F3E5B4219BEDF6E005ED84C /* AnswerTimelineViewController.m */,
+			);
+			name = TimelineTab;
 			sourceTree = "<group>";
 		};
 		1FB778BB1915219F00DA89B9 /* Common */ = {
@@ -412,6 +430,7 @@
 			children = (
 				1FC52356193712D50060D1BB /* CommonView */,
 				1FC2F07E195E59CD008A8E58 /* Welcome */,
+				1F3E5B4119BEDF2C005ED84C /* TimelineTab */,
 				1FC84525193310AA00909231 /* RecommendQuestionTab */,
 				1FC845241933108F00909231 /* ProfileViewTab */,
 			);
@@ -692,8 +711,10 @@
 				1FC2F7801985533700E152DA /* Main.storyboard in Resources */,
 				1F166CA519A057F50056C5EF /* edit_tab.png in Resources */,
 				1F166C8919A057850056C5EF /* person_medium@2x.png in Resources */,
+				1F3E5B4B19BEE0E8005ED84C /* home_tab@2x.png in Resources */,
 				1F166CA219A057F50056C5EF /* person_tab@2x.png in Resources */,
 				1F166C8A19A057850056C5EF /* share.png in Resources */,
+				1F3E5B4C19BEE0E8005ED84C /* home_tab.png in Resources */,
 				1F166C8E19A057850056C5EF /* person_medium.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -803,6 +824,7 @@
 				1F3541F519BD93AB006A6D01 /* AllUserListViewController.m in Sources */,
 				1FC8E2331934917500DB7D5A /* LVPlaceholderTextView.m in Sources */,
 				1FCCA8C2190BE96600B4E3B7 /* main.m in Sources */,
+				1F3E5B4419BEDF6E005ED84C /* AnswerTimelineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

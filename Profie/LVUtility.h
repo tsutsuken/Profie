@@ -13,4 +13,7 @@
 + (void)followUserEventually:(PFUser *)user block:(void (^)(BOOL succeeded, NSError *error))completionBlock;
 + (void)unfollowUserEventually:(PFUser *)user;
 
+//Return nil if none was found.
++ (Answer *)answerOfCurrentUserForQuestion:(Question *)question;
+
 @end
