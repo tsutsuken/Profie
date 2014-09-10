@@ -24,6 +24,7 @@
     #import "LVAnalyticsManager.h"
     #import "iRate.h"
     #import "UIActionSheet+Blocks.h"
+    #import "User.h"
     #import "Question.h"
     #import "Answer.h"
     #import "GADBannerView.h"

@@ -24,6 +24,7 @@ extern NSString *const kLVCommonUpdatedAtKey;
 
 #pragma mark - PFObject User Class
 // Field keys
+extern NSString *const kLVUserFullnameKey;
 extern NSString *const kLVUserUsernameKey;
 extern NSString *const kLVUserProfilePicSmallKey;
 extern NSString *const kLVUserProfilePicMediumKey;

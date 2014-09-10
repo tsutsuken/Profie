@@ -11,6 +11,13 @@
 
 @protocol SignUpViewControllerDelegate;
 
+typedef enum {
+    SignUpViewItemIndexFullname = 0,
+	SignUpViewItemIndexUsername = 1,
+	SignUpViewItemIndexEmail = 2,
+    SignUpViewItemIndexPassword = 3
+} SignUpViewItemIndex;
+
 @interface SignUpViewController : UITableViewController <UITextViewDelegate ,UIActionSheetDelegate>
 
 @property (nonatomic, assign) id <SignUpViewControllerDelegate> delegate;

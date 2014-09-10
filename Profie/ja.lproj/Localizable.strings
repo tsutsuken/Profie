@@ -25,10 +25,13 @@
 "WelcomeView_Button_LogIn" = "ログイン";
 
 /* SignUpAndLogInView */
+"SignUpAndLogInView_Cell_Fullname_Title" = "名前";
+
+"SignUpAndLogInView_Cell_Fullname_Placeholder" = "たろう";
 
 "SignUpAndLogInView_Cell_Username_Title" = "ユーザー名";
 
-"SignUpAndLogInView_Cell_Username_Placeholder" = "半角英数字";
+"SignUpAndLogInView_Cell_Username_Placeholder" = "taro_X";
 
 "SignUpAndLogInView_Cell_Password_Title" = "パスワード";
 

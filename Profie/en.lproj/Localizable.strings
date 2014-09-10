@@ -25,10 +25,13 @@
 "WelcomeView_Button_LogIn" = "Log In";
 
 /* SignUpAndLogInView */
+"SignUpAndLogInView_Cell_Fullname_Title" = "Full Name";
+
+"SignUpAndLogInView_Cell_Fullname_Placeholder" = "John Smith";
 
 "SignUpAndLogInView_Cell_Username_Title" = "Username";
 
-"SignUpAndLogInView_Cell_Username_Placeholder" = "Username";
+"SignUpAndLogInView_Cell_Username_Placeholder" = "super_john";
 
 "SignUpAndLogInView_Cell_Password_Title" = "Password";
 

@@ -39,6 +39,7 @@
 - (void)configureParse
 {
     //SubclassのregisterはsetApplicationIdより前
+    [User registerSubclass];
     [Question registerSubclass];
     [Answer registerSubclass];
     

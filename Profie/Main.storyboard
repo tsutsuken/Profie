@@ -180,6 +180,13 @@
                                                 <segue destination="uND-s2-WjQ" kind="push" id="ACQ-VE-9Fu"/>
                                             </connections>
                                         </button>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fullname" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhT-wK-Gtj">
+                                            <rect key="frame" x="20" y="43" width="70" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
@@ -338,6 +345,7 @@
                         <outlet property="followActionButton" destination="phb-d4-fX6" id="rra-0i-o8N"/>
                         <outlet property="followerCountButton" destination="ejh-Ed-szi" id="Rqd-BE-O98"/>
                         <outlet property="followingCountButton" destination="fWJ-bX-B89" id="UzS-lk-KEq"/>
+                        <outlet property="fullnameLabel" destination="uhT-wK-Gtj" id="xXc-SK-ndZ"/>
                         <outlet property="profileImageView" destination="hpb-Xb-utz" id="lM8-gA-Zo2"/>
                         <outlet property="shareButton" destination="AbT-FG-DQw" id="SwL-7T-Y50"/>
                         <outlet property="userNameLabel" destination="68D-6U-dGP" id="Acx-Fh-mDq"/>

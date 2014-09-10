@@ -15,6 +15,7 @@
 
 @property (weak, nonatomic) IBOutlet PFRoundedImageView *profileImageView;
 @property (weak, nonatomic) IBOutlet UILabel *userNameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *fullnameLabel;
 @property (weak, nonatomic) IBOutlet UIButton *followerCountButton;
 @property (weak, nonatomic) IBOutlet UIButton *followingCountButton;
 @property (weak, nonatomic) IBOutlet UIButton *shareButton;
@@ -40,6 +41,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+#warning test
+    User *user = (User *)self.user;
+    self.fullnameLabel.text = user.email;
     
     if ([self.user isEqualToCurrentUser]) {
         self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"gear"]

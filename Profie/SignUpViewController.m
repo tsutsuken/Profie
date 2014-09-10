@@ -104,7 +104,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 3;
+    return 4;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -113,27 +113,30 @@
     
     NSString *title;
     NSString *placeholder;
-    UIKeyboardType keyboardType = UIKeyboardTypeDefault;
     BOOL isSecure = NO;
     
     switch (indexPath.row) {
         case 0:
-            title = NSLocalizedString(@"SignUpAndLogInView_Cell_Username_Title", nil);
-            placeholder = NSLocalizedString(@"SignUpAndLogInView_Cell_Username_Placeholder", nil);
-            keyboardType = UIKeyboardTypeASCIICapable;
+            title = NSLocalizedString(@"SignUpAndLogInView_Cell_Fullname_Title", nil);
+            placeholder = NSLocalizedString(@"SignUpAndLogInView_Cell_Fullname_Placeholder", nil);
             break;
             
         case 1:
-            title = NSLocalizedString(@"SignUpAndLogInView_Cell_Password_Title", nil);
-            placeholder = NSLocalizedString(@"SignUpAndLogInView_Cell_Password_Placeholder", nil);
-            isSecure = YES;
+            title = NSLocalizedString(@"SignUpAndLogInView_Cell_Username_Title", nil);
+            placeholder = NSLocalizedString(@"SignUpAndLogInView_Cell_Username_Placeholder", nil);
             break;
             
         case 2:
             title = NSLocalizedString(@"SignUpView_Cell_Email_Title", nil);
             placeholder = NSLocalizedString(@"SignUpView_Cell_Email_Placeholder", nil);
-            keyboardType = UIKeyboardTypeEmailAddress;
             break;
+            
+        case 3:
+            title = NSLocalizedString(@"SignUpAndLogInView_Cell_Password_Title", nil);
+            placeholder = NSLocalizedString(@"SignUpAndLogInView_Cell_Password_Placeholder", nil);
+            isSecure = YES;
+            break;
+            
             
         default:
             break;
@@ -141,9 +144,7 @@
     
     cell.titleLabel.text = title;
     cell.textField.placeholder = placeholder;
-    cell.textField.keyboardType = keyboardType;
     cell.textField.secureTextEntry = isSecure;
-    
     
     return cell;
 }
@@ -171,9 +172,10 @@
     [self.view endEditing:YES];
     
     PFUser *newUser = [PFUser user];
-    newUser.username = [inputDataArray objectAtIndex:0];
-    newUser.password = [inputDataArray objectAtIndex:1];
-    newUser.email = [inputDataArray objectAtIndex:2];
+    [newUser setObject:[inputDataArray objectAtIndex:SignUpViewItemIndexFullname] forKey:kLVUserFullnameKey];
+    newUser.username = [inputDataArray objectAtIndex:SignUpViewItemIndexUsername];
+    newUser.email = [inputDataArray objectAtIndex:SignUpViewItemIndexEmail];
+    newUser.password = [inputDataArray objectAtIndex:SignUpViewItemIndexPassword];
     
     [newUser signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         [MBProgressHUD hideHUDForView:self.view animated:YES];
@@ -210,7 +212,7 @@
     BOOL isUserNameCorrect = YES;
     
     NSArray *inputDataArray = [self inputDataArray];
-    NSString *username = [inputDataArray objectAtIndex:0];
+    NSString *username = [inputDataArray objectAtIndex:SignUpViewItemIndexUsername];
     
     if ([username includesCharactersOtherThanAlphaNumericSymbol]) {
         isUserNameCorrect = NO;
@@ -257,10 +259,10 @@
     
     NSInteger errorCode = [error code];
     if (errorCode == kPFErrorUsernameTaken) {
-        NSString *username = [inputDataArray objectAtIndex:0];
+        NSString *username = [inputDataArray objectAtIndex:SignUpViewItemIndexUsername];
         errorString = [NSString stringWithFormat:NSLocalizedString(@"SignUpView_Alert_Message_Error_UsernameTaken_%@", nil), username];
     }else if (errorCode == kPFErrorUserEmailTaken) {
-        NSString *email = [inputDataArray objectAtIndex:2];
+        NSString *email = [inputDataArray objectAtIndex:SignUpViewItemIndexEmail];
         errorString = [NSString stringWithFormat:NSLocalizedString(@"SignUpView_Alert_Message_Error_EmailTaken_%@", nil), email];
     }else {
 		errorString = [error userInfo][@"error"];

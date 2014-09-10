@@ -20,6 +20,7 @@ NSString *const kLVCommonUpdatedAtKey       = @"updatedAt";
 
 #pragma mark - User Class
 // Field keys
+NSString *const kLVUserFullnameKey        = @"fullname";
 NSString *const kLVUserUsernameKey        = @"username";
 NSString *const kLVUserProfilePicSmallKey  = @"profilePictureSmall";
 NSString *const kLVUserProfilePicMediumKey = @"profilePictureMedium";

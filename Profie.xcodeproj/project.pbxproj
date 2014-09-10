@@ -25,6 +25,7 @@
 		1F166CA419A057F50056C5EF /* edit_tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F166CA019A057F50056C5EF /* edit_tab@2x.png */; };
 		1F166CA519A057F50056C5EF /* edit_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F166CA119A057F50056C5EF /* edit_tab.png */; };
 		1F1A5044199B052E0041DE9A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F1A5043199B052E0041DE9A /* Settings.bundle */; };
+		1F1F5CCD19C0241400D26FFF /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F5CCC19C0241400D26FFF /* User.m */; };
 		1F3541EE19BD8ABF006A6D01 /* dot_lightGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3541EC19BD8ABF006A6D01 /* dot_lightGray.png */; };
 		1F3541EF19BD8ABF006A6D01 /* dot_lightGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3541ED19BD8ABF006A6D01 /* dot_lightGray@2x.png */; };
 		1F3541F219BD8D5B006A6D01 /* UserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3541F019BD8D5B006A6D01 /* UserListViewController.m */; };
@@ -129,6 +130,8 @@
 		1F166CA019A057F50056C5EF /* edit_tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit_tab@2x.png"; sourceTree = "<group>"; };
 		1F166CA119A057F50056C5EF /* edit_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit_tab.png; sourceTree = "<group>"; };
 		1F1A5043199B052E0041DE9A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		1F1F5CCB19C0241400D26FFF /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		1F1F5CCC19C0241400D26FFF /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		1F3541EC19BD8ABF006A6D01 /* dot_lightGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot_lightGray.png; sourceTree = "<group>"; };
 		1F3541ED19BD8ABF006A6D01 /* dot_lightGray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot_lightGray@2x.png"; sourceTree = "<group>"; };
 		1F3541F019BD8D5B006A6D01 /* UserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListViewController.m; sourceTree = "<group>"; };
@@ -587,6 +590,8 @@
 		1FD2B1D4197F9E10002B846A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1F1F5CCB19C0241400D26FFF /* User.h */,
+				1F1F5CCC19C0241400D26FFF /* User.m */,
 				1FD2B1D5197F9E33002B846A /* Question.h */,
 				1FD2B1D6197F9E33002B846A /* Question.m */,
 				1FD2B1D8197FE551002B846A /* Answer.h */,
@@ -810,6 +815,7 @@
 				1FC2F081195E59FC008A8E58 /* SignUpViewController.m in Sources */,
 				1FCCB5E6194436F8007183D3 /* AnswerCell.m in Sources */,
 				1FCEC10819452178001093F7 /* PFUser+Additions.m in Sources */,
+				1F1F5CCD19C0241400D26FFF /* User.m in Sources */,
 				1FB851EC191F127800433E5F /* LVConstants.m in Sources */,
 				1FD2B1DA197FE551002B846A /* Answer.m in Sources */,
 				1FCCA8C6190BE96900B4E3B7 /* AppDelegate.m in Sources */,
