@@ -14,7 +14,7 @@
 @property (strong, nonatomic) GADBannerView *bannerView;
 
 @property (weak, nonatomic) IBOutlet PFRoundedImageView *profileImageView;
-@property (weak, nonatomic) IBOutlet UILabel *userNameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *usernameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *fullnameLabel;
 @property (weak, nonatomic) IBOutlet UIButton *followerCountButton;
 @property (weak, nonatomic) IBOutlet UIButton *followingCountButton;
@@ -41,10 +41,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-#warning test
-    User *user = self.user;
-    self.fullnameLabel.text = user.fullname;
     
     if ([self.user isEqualToCurrentUser]) {
         self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"gear"]
@@ -139,7 +135,7 @@
 - (void)configureTableHeaderView
 {
     //UserNameLabel
-    self.userNameLabel.text =  [self.user username];
+    self.usernameLabel.text =  [self.user username];
     
     //FollowerCountButton
     [self.followerCountButton setTitle:[self titleForFollowerCountButtonWithCount:0] forState:UIControlStateNormal];
@@ -202,7 +198,18 @@
 {
     //ProfileImageView
     self.profileImageView.file = self.user.profilePictureMedium;
-    [self.profileImageView loadInBackground];
+    if ([self.profileImageView.file isDataAvailable]) {
+        [self.profileImageView loadInBackground];
+    }
+    
+    //FullnameLabel
+    NSString *fullname = [self.user fullname];
+    if (fullname.length == 0) {
+        self.fullnameLabel.text = [self.user username];
+    } else {
+		self.fullnameLabel.text = fullname;
+	}
+    
     
     //FollowerCountButton
     PFQuery *queryFollowerCount = [PFQuery queryWithClassName:kLVActivityClassKey];

@@ -41,6 +41,8 @@
 
 "SignUpAndLogInView_Alert_Message_Error_Empty" = "未入力の項目があります";
 
+"SignUpAndLogInView_Alert_Message_Error_IncorrectFullname" = "名前は20文字以下でお願いします。";
+
 "SignUpAndLogInView_Alert_Message_Error_IncorrectUsername" = "ユーザー名は、英数字とアンダーバーのみを含んだ3~15文字で、スペースを入れることは出来ません。";
 
 /* SignUpView */
@@ -116,7 +118,7 @@
 /* SettingView */
 "SettingView_Title" = "設定";
 
-"SettingView_Cell_ProfileImage" = "プロフィール画像";
+"SettingView_Cell_ProfileSetting" = "プロフィール設定";
 
 "SettingView_Cell_ShareSetting" = "シェア設定";
 
@@ -129,6 +131,18 @@
 "SettingView_Feedback_Topic_BugReport" = "問題を報告";
 
 "SettingView_Feedback_Topic_Other" = "その他";
+
+/* ProfileSettingView */
+"ProfileSettingView_Title" = "プロフィール設定";
+
+"ProfileSettingView_Cell_ProfileImage" = "プロフィール画像";
+
+"ProfileSettingView_Cell_Fullname" = "名前";
+
+/* ProfileItemSettingView */
+"ProfileItemSettingView_Title" = "名前";
+
+"ProfileSettingView_Cell_Fullname_Placeholder" = "名前";
 
 /* ShareSettingView */
 "ShareSettingView_Title" = "シェア設定";

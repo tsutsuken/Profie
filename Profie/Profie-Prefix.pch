@@ -63,6 +63,12 @@
 #define kURLTermsOfUse @"http://www.profie.me/about/terms"
 #define kURLPrivacyPolicy @"http://www.profie.me/about/privacy"
 
+/* User */
+#define kMaxCountOfFullname 20
+#define kMinCountOfFullname 1
+#define kMaxCountOfUsername 15
+#define kMinCountOfUsername 3
+
 /* Analytics */
 #define kGoogleAnalyticsId @"UA-53564473-1"
 #define ANALYTICS  [LVAnalyticsManager sharedManager]

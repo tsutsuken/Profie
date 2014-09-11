@@ -25,6 +25,7 @@
 		1F166CA419A057F50056C5EF /* edit_tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F166CA019A057F50056C5EF /* edit_tab@2x.png */; };
 		1F166CA519A057F50056C5EF /* edit_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F166CA119A057F50056C5EF /* edit_tab.png */; };
 		1F1A5044199B052E0041DE9A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F1A5043199B052E0041DE9A /* Settings.bundle */; };
+		1F1CB49F19C15F8B00DBA858 /* ProfileItemSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1CB49E19C15F8B00DBA858 /* ProfileItemSettingViewController.m */; };
 		1F1F5CCD19C0241400D26FFF /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F5CCC19C0241400D26FFF /* User.m */; };
 		1F3541EE19BD8ABF006A6D01 /* dot_lightGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3541EC19BD8ABF006A6D01 /* dot_lightGray.png */; };
 		1F3541EF19BD8ABF006A6D01 /* dot_lightGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3541ED19BD8ABF006A6D01 /* dot_lightGray@2x.png */; };
@@ -37,6 +38,7 @@
 		1F35420019BDA8AF006A6D01 /* person_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3541FC19BDA8AF006A6D01 /* person_add@2x.png */; };
 		1F35420119BDA8AF006A6D01 /* person_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3541FD19BDA8AF006A6D01 /* person_add.png */; };
 		1F35420419BDB211006A6D01 /* LVUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F35420319BDB211006A6D01 /* LVUtility.m */; };
+		1F3C6E4619C1495E003EA252 /* ProfileSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C6E4519C1495E003EA252 /* ProfileSettingViewController.m */; };
 		1F3CFB8719BA9E3E001E71E2 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3CFB8619BA9E3E001E71E2 /* NSString+Additions.m */; };
 		1F3E5B4419BEDF6E005ED84C /* AnswerTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E5B4219BEDF6E005ED84C /* AnswerTimelineViewController.m */; };
 		1F3E5B4B19BEE0E8005ED84C /* home_tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3E5B4919BEE0E8005ED84C /* home_tab@2x.png */; };
@@ -129,6 +131,8 @@
 		1F166CA019A057F50056C5EF /* edit_tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit_tab@2x.png"; sourceTree = "<group>"; };
 		1F166CA119A057F50056C5EF /* edit_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit_tab.png; sourceTree = "<group>"; };
 		1F1A5043199B052E0041DE9A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		1F1CB49D19C15F8B00DBA858 /* ProfileItemSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileItemSettingViewController.h; sourceTree = "<group>"; };
+		1F1CB49E19C15F8B00DBA858 /* ProfileItemSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileItemSettingViewController.m; sourceTree = "<group>"; };
 		1F1F5CCB19C0241400D26FFF /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		1F1F5CCC19C0241400D26FFF /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		1F3541EC19BD8ABF006A6D01 /* dot_lightGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot_lightGray.png; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 		1F3541FD19BDA8AF006A6D01 /* person_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person_add.png; sourceTree = "<group>"; };
 		1F35420219BDB211006A6D01 /* LVUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVUtility.h; sourceTree = "<group>"; };
 		1F35420319BDB211006A6D01 /* LVUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVUtility.m; sourceTree = "<group>"; };
+		1F3C6E4419C1495E003EA252 /* ProfileSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileSettingViewController.h; sourceTree = "<group>"; };
+		1F3C6E4519C1495E003EA252 /* ProfileSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileSettingViewController.m; sourceTree = "<group>"; };
 		1F3CFB8519BA9E3E001E71E2 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
 		1F3CFB8619BA9E3E001E71E2 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
 		1F3E5B4219BEDF6E005ED84C /* AnswerTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerTimelineViewController.m; sourceTree = "<group>"; };
@@ -350,6 +356,21 @@
 			name = WelcomeView;
 			sourceTree = "<group>";
 		};
+		1F3C6E4719C14ADC003EA252 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				1FD0D2F51978C15600DAD982 /* SettingViewController.h */,
+				1FD0D2F61978C15600DAD982 /* SettingViewController.m */,
+				1F3C6E4419C1495E003EA252 /* ProfileSettingViewController.h */,
+				1F3C6E4519C1495E003EA252 /* ProfileSettingViewController.m */,
+				1F1CB49D19C15F8B00DBA858 /* ProfileItemSettingViewController.h */,
+				1F1CB49E19C15F8B00DBA858 /* ProfileItemSettingViewController.m */,
+				1FDA9903197D38000062405F /* ShareSettingViewController.h */,
+				1FDA9904197D38000062405F /* ShareSettingViewController.m */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
 		1F3E5B4119BEDF2C005ED84C /* TimelineTab */ = {
 			isa = PBXGroup;
 			children = (
@@ -444,10 +465,7 @@
 				1F3541F019BD8D5B006A6D01 /* UserListViewController.m */,
 				1F3541F319BD93AB006A6D01 /* AllUserListViewController.h */,
 				1F3541F419BD93AB006A6D01 /* AllUserListViewController.m */,
-				1FD0D2F51978C15600DAD982 /* SettingViewController.h */,
-				1FD0D2F61978C15600DAD982 /* SettingViewController.m */,
-				1FDA9903197D38000062405F /* ShareSettingViewController.h */,
-				1FDA9904197D38000062405F /* ShareSettingViewController.m */,
+				1F3C6E4719C14ADC003EA252 /* Setting */,
 			);
 			name = ProfileViewTab;
 			sourceTree = "<group>";
@@ -793,6 +811,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F3C6E4619C1495E003EA252 /* ProfileSettingViewController.m in Sources */,
 				1F74CC85194465D70008D14B /* LVTimeFormatter.m in Sources */,
 				1FDA9905197D38000062405F /* ShareSettingViewController.m in Sources */,
 				1FC8822F195029F100A896B9 /* LVBorderButton.m in Sources */,
@@ -824,6 +843,7 @@
 				1F3541F519BD93AB006A6D01 /* AllUserListViewController.m in Sources */,
 				1FC8E2331934917500DB7D5A /* LVPlaceholderTextView.m in Sources */,
 				1FCCA8C2190BE96600B4E3B7 /* main.m in Sources */,
+				1F1CB49F19C15F8B00DBA858 /* ProfileItemSettingViewController.m in Sources */,
 				1F3E5B4419BEDF6E005ED84C /* AnswerTimelineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -153,25 +153,31 @@
 
 - (void)precheckForSignUp
 {
-    if ([self isAllDataInputted]) {
-        if ([self isUsernameCorrect]) {
-            [self signUp];
-        } else {
-            [self showAlertWithMessage:NSLocalizedString(@"SignUpAndLogInView_Alert_Message_Error_IncorrectUsername", nil)];
-        }
-    }else {
+    if (![self isAllDataInputted]) {
         [self showAlertWithMessage:NSLocalizedString(@"SignUpAndLogInView_Alert_Message_Error_Empty", nil)];
+        return;
     }
+    
+    if (![self isFullnameCorrect]) {
+        [self showAlertWithMessage:NSLocalizedString(@"SignUpAndLogInView_Alert_Message_Error_IncorrectFullname", nil)];
+        return;
+    }
+    
+    if (![self isUsernameCorrect]) {
+        [self showAlertWithMessage:NSLocalizedString(@"SignUpAndLogInView_Alert_Message_Error_IncorrectUsername", nil)];
+        return;
+    }
+    
+    [self signUp];
 }
 
 - (void)signUp
 {
-    NSArray *inputDataArray = [self inputDataArray];
-    
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     [self.view endEditing:YES];
     
     User *newUser = [User user];
+    NSArray *inputDataArray = [self inputDataArray];
     newUser.fullname = [inputDataArray objectAtIndex:SignUpViewItemIndexFullname];
     newUser.username = [inputDataArray objectAtIndex:SignUpViewItemIndexUsername];
     newUser.email = [inputDataArray objectAtIndex:SignUpViewItemIndexEmail];
@@ -207,6 +213,20 @@
     return isAllDataInputted;
 }
 
+- (BOOL)isFullnameCorrect
+{
+    BOOL isFullnameCorrect = YES;
+    
+    NSArray *inputDataArray = [self inputDataArray];
+    NSString *fullname = [inputDataArray objectAtIndex:SignUpViewItemIndexFullname];
+    
+    if ( fullname.length > kMaxCountOfFullname) {
+        isFullnameCorrect = NO;
+    }
+    
+    return isFullnameCorrect;
+}
+
 - (BOOL)isUsernameCorrect
 {
     BOOL isUserNameCorrect = YES;
@@ -216,7 +236,7 @@
     
     if ([username includesCharactersOtherThanAlphaNumericSymbol]) {
         isUserNameCorrect = NO;
-    } else if ( username.length < 3 || username.length > 15) {
+    } else if ( username.length < kMinCountOfUsername || username.length > kMaxCountOfUsername) {
         isUserNameCorrect = NO;
     }
     
@@ -271,28 +291,28 @@
     return errorString;
 }
 
-
 #pragma mark - Open Safari
-#pragma mark UIActionSheet
 - (void)showActionSheetWithURL:(NSURL *)URL
 {
     UIActionSheet *actionSheet = [[UIActionSheet alloc] init];
     actionSheet.delegate = self;
     
     actionSheet.title = URL.absoluteString;
+    actionSheet.cancelButtonIndex = 1;
     [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_OpenInSafari", nil)];
     [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_Cancel", nil)];
-    actionSheet.cancelButtonIndex = 1;
+    actionSheet.tapBlock = ^(UIActionSheet *actionSheet, NSInteger buttonIndex){
+        switch (buttonIndex) {
+            case 0:
+                [[UIApplication sharedApplication] openURL:URL];
+                break;
+            case 1:
+                //Cancel
+                break;
+        }
+    };
     
     [actionSheet showInView:self.view];
-}
-
--(void)actionSheet:(UIActionSheet*)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-    if (buttonIndex == 0) {
-        NSString *URLString = actionSheet.title;
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:URLString]];
-    }
 }
 
 @end

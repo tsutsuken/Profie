@@ -41,6 +41,8 @@
 
 "SignUpAndLogInView_Alert_Message_Error_Empty" = "Make sure you fill out all of the information";
 
+"SignUpAndLogInView_Alert_Message_Error_IncorrectFullname" = "Full name must be 20 characters or less";
+
 "SignUpAndLogInView_Alert_Message_Error_IncorrectUsername" = "Username must be 15 characters or less and contain only letters, numbers, and underscores and no spaces.";
 
 /* SignUpView */
@@ -116,7 +118,7 @@
 /* SettingView */
 "SettingView_Title" = "Settings";
 
-"SettingView_Cell_ProfileImage" = "Photo";
+"SettingView_Cell_ProfileSetting" = "Profile Setting";
 
 "SettingView_Cell_ShareSetting" = "Share Settings";
 
@@ -129,6 +131,18 @@
 "SettingView_Feedback_Topic_BugReport" = "Bug Report";
 
 "SettingView_Feedback_Topic_Other" = "Other";
+
+/* ProfileSettingView */
+"ProfileSettingView_Title" = "Profile Settings";
+
+"ProfileSettingView_Cell_ProfileImage" = "Photo";
+
+"ProfileSettingView_Cell_Fullname" = "Full Name";
+
+/* ProfileItemSettingView */
+"ProfileItemSettingView_Title" = "Full Name";
+
+"ProfileSettingView_Cell_Fullname_Placeholder" = "Full Name";
 
 /* ShareSettingView */
 "ShareSettingView_Title" = "Share Settings";
