@@ -197,10 +197,8 @@
 - (void)reloadTableHeaderView
 {
     //ProfileImageView
-    self.profileImageView.file = self.user.profilePictureMedium;
-    if ([self.profileImageView.file isDataAvailable]) {
-        [self.profileImageView loadInBackground];
-    }
+    [self.profileImageView sd_setImageWithURL:[NSURL URLWithString:self.user.profilePictureMedium.url]
+                             placeholderImage:[UIImage imageNamed:@"person_small.png"]];
     
     //FullnameLabel
     NSString *fullname = [self.user fullname];
@@ -314,6 +312,7 @@
 
 #pragma mark - Table view data source
 
+#warning test
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath object:(PFObject *)object
 {
     AnswerCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
@@ -321,12 +320,9 @@
     Question *question = answer.question;
     User *user = answer.auther;
     
-    cell.profileImageView.image = [UIImage imageNamed:@"person_small.png"];
-    cell.profileImageView.user = user;
-    cell.profileImageView.file = user.profilePictureSmall;
-    if ([cell.profileImageView.file isDataAvailable]) {
-        [cell.profileImageView loadInBackground];
-    }
+    cell.profileImageView.userInteractionEnabled = NO;
+    [cell.profileImageView sd_setImageWithURL:[NSURL URLWithString:user.profilePictureSmall.url]
+                             placeholderImage:[UIImage imageNamed:@"person_small.png"]];
     
     cell.userNameLabel.text = user.username;
     

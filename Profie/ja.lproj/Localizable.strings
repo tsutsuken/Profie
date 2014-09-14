@@ -115,6 +115,9 @@
 
 "UserListView_Title_Follower" = "フォロワー";
 
+/* FindUserView */
+"FindUserView_Title" = "ユーザーを探す";
+
 /* SettingView */
 "SettingView_Title" = "設定";
 

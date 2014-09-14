@@ -63,18 +63,16 @@
 
 #pragma mark - Table view data source
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath object:(PFObject *)object
+- (PFTableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath object:(PFObject *)object
 {
     PFTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-    
+ 
     User *user = (User *)object;
+    
     PFRoundedImageView *profileImageView = (PFRoundedImageView *)[cell.contentView viewWithTag:1];
-    profileImageView.image = [UIImage imageNamed:@"person_small.png"];
-    profileImageView.user = user;
-    profileImageView.file = user.profilePictureSmall;
-    if ([profileImageView.file isDataAvailable]) {
-        [profileImageView loadInBackground];
-    }
+    profileImageView.userInteractionEnabled = NO;
+    [profileImageView sd_setImageWithURL:[NSURL URLWithString:user.profilePictureSmall.url]
+                        placeholderImage:[UIImage imageNamed:@"person_small.png"]];
     
     UILabel *userNameLabel = (UILabel *)[cell.contentView viewWithTag:2];
     userNameLabel.text = user.username;

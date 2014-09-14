@@ -54,9 +54,9 @@
         UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ImageCell" forIndexPath:indexPath];
         
         PFRoundedImageView *imageView = (PFRoundedImageView *)[cell viewWithTag:1];
-        imageView.userInteractionEnabled = NO;//To pass through touch event
-        imageView.file = currentUser.profilePictureSmall;
-        [imageView loadInBackground];
+        imageView.userInteractionEnabled = NO;
+        [imageView sd_setImageWithURL:[NSURL URLWithString:currentUser.profilePictureSmall.url]
+                     placeholderImage:[UIImage imageNamed:@"person_small.png"]];
         
         UILabel *titleLabel = (UILabel *)[cell viewWithTag:2];
         titleLabel.text = NSLocalizedString(@"ProfileSettingView_Cell_ProfileImage", nil);

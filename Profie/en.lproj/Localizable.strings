@@ -115,6 +115,9 @@
 
 "UserListView_Title_Follower" = "Follower";
 
+/* FindUserView */
+"FindUserView_Title" = "Find User";
+
 /* SettingView */
 "SettingView_Title" = "Settings";
 

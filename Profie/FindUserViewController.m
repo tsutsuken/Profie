@@ -1,43 +1,24 @@
 //
-//  UserListViewController.m
-//  SuperProfile
+//  FindUserViewController.m
+//  Profie
 //
-//  Created by Ken Tsutsumi on 2014/05/12.
+//  Created by Ken Tsutsumi on 2014/09/14.
 //  Copyright (c) 2014年 LvUP Inc. All rights reserved.
 //
 
-#import "UserListViewController.h"
+#import "FindUserViewController.h"
 
-@interface UserListViewController ()
+@interface FindUserViewController ()
 
 @end
 
-@implementation UserListViewController
-
-#pragma mark - Initialization
+@implementation FindUserViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    [self configureTitle];
-}
-
-- (void)configureTitle
-{
-    if (self.dataType == UserListViewDataTypeFollowing) {
-        self.title = NSLocalizedString(@"UserListView_Title_Following", nil);
-    }
-    else {
-        self.title = NSLocalizedString(@"UserListView_Title_Follower", nil);
-    }
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-    
-    [ANALYTICS trackView:self];
+    self.title = NSLocalizedString(@"AnswerTimelineView_Title", nil);
 }
 
 - (void)didReceiveMemoryWarning
@@ -54,7 +35,9 @@
     if (!self) {
         return nil;
     }
-    self.parseClassName = kLVActivityClassKey;
+    
+#warning test
+    self.parseClassName = kLVAnswerClassKey;
     self.pullToRefreshEnabled = YES;
     self.paginationEnabled = YES;
     self.objectsPerPage = 25;
@@ -64,7 +47,7 @@
 
 - (PFQuery *)queryForTable
 {
-    PFQuery *query = [PFQuery queryWithClassName:self.parseClassName];
+    PFQuery *query = [User query];
     
     // If no objects are loaded in memory, we look to the cache first to fill the table
     // and then subsequently do a query against the network.
@@ -72,43 +55,18 @@
         query.cachePolicy = kPFCachePolicyCacheThenNetwork;
     }
     
-    [query includeKey:kLVActivityToUserKey];//フォロー相手を取得
-    [query includeKey:kLVActivityFromUserKey];//フォロワーを取得
-    [query whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
-    if (self.dataType == UserListViewDataTypeFollowing) {
-        [query whereKey:kLVActivityFromUserKey equalTo:self.user];
-    }
-    else {
-        [query whereKey:kLVActivityToUserKey equalTo:self.user];
-    }
     [query orderByDescending:kLVCommonCreatedAtKey];
     
     return query;
 }
 
-- (User *)userObjectAtIndexPath:(NSIndexPath *)indexPath
-{
-    User *user;
-    
-    PFObject *activity = [self objectAtIndexPath:indexPath];
-    
-    if (self.dataType == UserListViewDataTypeFollowing) {
-        user = [activity objectForKey:kLVActivityToUserKey];
-    }
-    else {
-        user = [activity objectForKey:kLVActivityFromUserKey];
-    }
-    
-    return user;
-}
-
 #pragma mark - Table view data source
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath object:(PFObject *)object
+- (PFTableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath object:(PFObject *)object
 {
     PFTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-
-    User *user = [self userObjectAtIndexPath:indexPath];
+    
+    User *user = (User *)object;
     
     PFRoundedImageView *profileImageView = (PFRoundedImageView *)[cell.contentView viewWithTag:1];
     profileImageView.userInteractionEnabled = NO;
@@ -127,7 +85,7 @@
 {
     UIStoryboard* mainStoryBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     ProfileViewController *vc = (ProfileViewController *) [mainStoryBoard instantiateViewControllerWithIdentifier:@"ProfileViewController"];
-    User *selectedUser = [self userObjectAtIndexPath:indexPath];
+    User *selectedUser = (User *)[self objectAtIndexPath:indexPath];
     vc.user = selectedUser;
     
     [self.navigationController pushViewController:vc animated:YES];
@@ -160,6 +118,3 @@
 }
 
 @end
-
-
-

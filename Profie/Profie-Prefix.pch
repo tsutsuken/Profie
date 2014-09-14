@@ -29,6 +29,7 @@
     #import "Answer.h"
     #import "GADBannerView.h"
     #import "MBProgressHUD.h"
+    #import <SDWebImage/UIImageView+WebCache.h>
 
     #import "NSString+Additions.h"
     #import "UIImage+Tint.h"

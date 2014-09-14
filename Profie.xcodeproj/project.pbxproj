@@ -43,6 +43,7 @@
 		1F3E5B4419BEDF6E005ED84C /* AnswerTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E5B4219BEDF6E005ED84C /* AnswerTimelineViewController.m */; };
 		1F3E5B4B19BEE0E8005ED84C /* home_tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3E5B4919BEE0E8005ED84C /* home_tab@2x.png */; };
 		1F3E5B4C19BEE0E8005ED84C /* home_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3E5B4A19BEE0E8005ED84C /* home_tab.png */; };
+		1F4D791419C51EBD008AA5D6 /* FindUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D791319C51EBD008AA5D6 /* FindUserViewController.m */; };
 		1F74CC85194465D70008D14B /* LVTimeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F74CC84194465D70008D14B /* LVTimeFormatter.m */; };
 		1F83B8DD191A2B6D004CD869 /* EditAnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F83B8DC191A2B6D004CD869 /* EditAnswerViewController.m */; };
 		1F8AE4461992371D00237F3E /* LVAnalyticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AE4451992371D00237F3E /* LVAnalyticsManager.m */; };
@@ -157,6 +158,8 @@
 		1F3E5B4319BEDF6E005ED84C /* AnswerTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerTimelineViewController.h; sourceTree = "<group>"; };
 		1F3E5B4919BEE0E8005ED84C /* home_tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_tab@2x.png"; sourceTree = "<group>"; };
 		1F3E5B4A19BEE0E8005ED84C /* home_tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_tab.png; sourceTree = "<group>"; };
+		1F4D791219C51EBD008AA5D6 /* FindUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindUserViewController.h; sourceTree = "<group>"; };
+		1F4D791319C51EBD008AA5D6 /* FindUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindUserViewController.m; sourceTree = "<group>"; };
 		1F74CC83194465D70008D14B /* LVTimeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTimeFormatter.h; sourceTree = "<group>"; };
 		1F74CC84194465D70008D14B /* LVTimeFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTimeFormatter.m; sourceTree = "<group>"; };
 		1F83B8DB191A2B6D004CD869 /* EditAnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditAnswerViewController.h; sourceTree = "<group>"; };
@@ -430,6 +433,8 @@
 				1FD3C7A319132E7E00700B83 /* EditQuestionViewController.m */,
 				1F83B8DB191A2B6D004CD869 /* EditAnswerViewController.h */,
 				1F83B8DC191A2B6D004CD869 /* EditAnswerViewController.m */,
+				1F4D791219C51EBD008AA5D6 /* FindUserViewController.h */,
+				1F4D791319C51EBD008AA5D6 /* FindUserViewController.m */,
 			);
 			name = CommonView;
 			sourceTree = "<group>";
@@ -814,6 +819,7 @@
 				1F3C6E4619C1495E003EA252 /* ProfileSettingViewController.m in Sources */,
 				1F74CC85194465D70008D14B /* LVTimeFormatter.m in Sources */,
 				1FDA9905197D38000062405F /* ShareSettingViewController.m in Sources */,
+				1F4D791419C51EBD008AA5D6 /* FindUserViewController.m in Sources */,
 				1FC8822F195029F100A896B9 /* LVBorderButton.m in Sources */,
 				1FD0D2F71978C15600DAD982 /* SettingViewController.m in Sources */,
 				1FBA552519596074000BC39D /* WelcomeViewController.m in Sources */,

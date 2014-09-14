@@ -26,7 +26,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"person_add"]
+                                                                              style:UIBarButtonItemStyleBordered
+                                                                             target:self
+                                                                             action:@selector(showFindUserView)];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -107,12 +111,9 @@
     User *user = answer.auther;
     
     cell.profileImageView.delegate = self;
-    cell.profileImageView.image = [UIImage imageNamed:@"person_small.png"];
     cell.profileImageView.user = user;
-    cell.profileImageView.file = user.profilePictureSmall;
-    if ([cell.profileImageView.file isDataAvailable]) {
-        [cell.profileImageView loadInBackground];
-    }
+    [cell.profileImageView sd_setImageWithURL:[NSURL URLWithString:user.profilePictureSmall.url]
+                             placeholderImage:[UIImage imageNamed:@"person_small.png"]];
     
     cell.userNameLabel.text = user.username;
     cell.userNameLabel.delegate = self;
@@ -209,6 +210,13 @@
 - (void)showEditAnswerView
 {
     [self performSegueWithIdentifier:@"showEditAnswerView" sender:self];
+}
+
+#pragma mark FindUserView
+
+- (void)showFindUserView
+{
+    [self performSegueWithIdentifier:@"showFindUserView" sender:self];
 }
 
 #pragma mark - UIScrollView delegate
