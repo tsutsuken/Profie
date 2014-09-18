@@ -42,21 +42,40 @@
 {
     [super viewDidLoad];
     
-    if ([self.user isEqualToCurrentUser]) {
+    [self setNotifications];
+    
+    [self configureNavigationButtons];
+    
+    [self configureTableHeaderView];
+    
+    [self configureEmptyView];
+}
+
+- (void)configureNavigationButtons
+{
+    if ([self.navigationController.viewControllers count] == 1) {
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"person_add_nav"]
+                                                                                 style:UIBarButtonItemStyleBordered
+                                                                                target:self
+                                                                                action:@selector(showFindUserView)];
+        
+        
         self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"gear"]
                                                                                   style:UIBarButtonItemStyleBordered
                                                                                  target:self
-                                                                                 action:@selector(didPushSettingButton)];
+                                                                                 action:@selector(showSettingView)];
     }
-    
-    [self setNotifications];
-    
-    [self configureTableHeaderView];
 }
 
-- (void)didPushSettingButton
+- (void)configureEmptyView
 {
-    [self showSettingView];
+    EmptyView *view = [[EmptyView alloc] init];
+    view.mainLabel.text = NSLocalizedString(@"ProfileView_Empty_MainLabel", nil);
+    
+    self.tableView.nxEV_emptyView = view;
+    
+    //To remove extra separators from tableview
+    self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -256,9 +275,9 @@
     BOOL isSelected = sender.selected;
     
     if (isSelected) {
-        [LVUtility unfollowUserEventually:self.user];
+        [LVUtility unfollowUserInBackground:self.user];
     }else {
-		[LVUtility followUserEventually:self.user block:^(BOOL succeeded, NSError *error) {}];
+		[LVUtility followUserInBackground:self.user];
 	}
     
     sender.selected = !isSelected;
@@ -312,7 +331,6 @@
 
 #pragma mark - Table view data source
 
-#warning test
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath object:(PFObject *)object
 {
     AnswerCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
@@ -485,6 +503,13 @@
     [self performSegueWithIdentifier:@"showEditAnswerViewFromFriendsAnswer" sender:self];
 }
 
+#pragma mark FindUserView
+
+- (void)showFindUserView
+{
+    [self performSegueWithIdentifier:@"showFindUserView" sender:self];
+}
+
 #pragma mark - UIScrollView delegate
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
@@ -500,20 +525,22 @@
 
 - (void)setNotifications
 {
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidEditAnswer:) name:kLVNotificationDidEditAnswer object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidDeleteAnswer:) name:kLVNotificationDidDeleteAnswer object:nil];
+    if ([self.user isEqualToCurrentUser]) {
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(currentUserDidEditAnswer:) name:kLVNotificationDidEditAnswer object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(currentUserDidDeleteAnswer:) name:kLVNotificationDidDeleteAnswer object:nil];
+    }
 }
 
 - (void)removeNotifications
 {
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:kLVNotificationDidEditAnswer object:nil];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:kLVNotificationDidDeleteAnswer object:nil];
+    if ([self.user isEqualToCurrentUser]) {
+        [[NSNotificationCenter defaultCenter] removeObserver:self name:kLVNotificationDidEditAnswer object:nil];
+        [[NSNotificationCenter defaultCenter] removeObserver:self name:kLVNotificationDidDeleteAnswer object:nil];
+    }
 }
 
-- (void)userDidEditAnswer:(NSNotification *)note
+- (void)currentUserDidEditAnswer:(NSNotification *)note
 {
-    self.shouldReloadOnAppear = YES;
-    
     //Check if self.view is visible
     if (self.isViewLoaded && self.view.window) {
         [self loadObjects];
@@ -522,7 +549,7 @@
 	}
 }
 
-- (void)userDidDeleteAnswer:(NSNotification *)note
+- (void)currentUserDidDeleteAnswer:(NSNotification *)note
 {
     [self loadObjects];
 }

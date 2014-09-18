@@ -8,6 +8,6 @@
 
 #import <Parse/Parse.h>
 
-@interface FindUserViewController : PFQueryTableViewController
+@interface FindUserViewController : PFQueryTableViewController <UISearchBarDelegate>
 
 @end

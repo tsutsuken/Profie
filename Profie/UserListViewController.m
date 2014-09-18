@@ -10,17 +10,47 @@
 
 @interface UserListViewController ()
 
+@property (nonatomic, assign) BOOL shouldReloadOnAppear;
+@property (strong, nonatomic) NSMutableArray *followingUsersObjectIds;
+
 @end
 
 @implementation UserListViewController
 
 #pragma mark - Initialization
 
+- (void)dealloc
+{
+    [self removeNotifications];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
+    [self setNotifications];
+    
+    [self configureFollowingUsersArrayWithBlock:nil];
+    
     [self configureTitle];
+    
+    [self configureEmptyView];
+}
+
+- (void)configureEmptyView
+{
+    EmptyView *view = [[EmptyView alloc] init];
+    view.mainLabel.text = NSLocalizedString(@"UserListView_Empty_MainLabel", nil);
+    
+    self.tableView.nxEV_emptyView = view;
+    
+    //To remove extra separators from tableview
+    self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+}
+
+- (BOOL)tableViewShouldBypassNXEmptyView:(UITableView *)tableView
+{
+    return NO;
 }
 
 - (void)configureTitle
@@ -30,6 +60,20 @@
     }
     else {
         self.title = NSLocalizedString(@"UserListView_Title_Follower", nil);
+    }
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    if (self.shouldReloadOnAppear) {
+        self.shouldReloadOnAppear = NO;
+        [self configureFollowingUsersArrayWithBlock:^(BOOL succeeded) {
+            if (succeeded) {
+                [self loadObjects];
+            }
+        }];
     }
 }
 
@@ -86,6 +130,30 @@
     return query;
 }
 
+- (void)configureFollowingUsersArrayWithBlock:(void (^)(BOOL succeeded))completionBlock
+{
+    self.followingUsersObjectIds = [NSMutableArray array];
+    
+    PFQuery *query = [PFQuery queryWithClassName:kLVActivityClassKey];
+    [query includeKey:kLVActivityToUserKey];//フォロー相手を取得
+    [query whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
+    [query whereKey:kLVActivityFromUserKey equalTo:[User currentUser]];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *followingActivities, NSError *error) {
+        if (!error) {
+            for (PFObject *activity in followingActivities) {
+                User *user = [activity objectForKey:kLVActivityToUserKey];
+                NSString *objectId = user.objectId;
+                [self.followingUsersObjectIds addObject:objectId];
+            }
+            
+            if (completionBlock) {
+                completionBlock(YES);
+            }
+        }
+        
+    }];
+}
+
 - (User *)userObjectAtIndexPath:(NSIndexPath *)indexPath
 {
     User *user;
@@ -106,19 +174,57 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath object:(PFObject *)object
 {
-    PFTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-
+    UserCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    
     User *user = [self userObjectAtIndexPath:indexPath];
     
-    PFRoundedImageView *profileImageView = (PFRoundedImageView *)[cell.contentView viewWithTag:1];
-    profileImageView.userInteractionEnabled = NO;
-    [profileImageView sd_setImageWithURL:[NSURL URLWithString:user.profilePictureSmall.url]
-                        placeholderImage:[UIImage imageNamed:@"person_small.png"]];
+    cell.profileImageView.userInteractionEnabled = NO;
+    [cell.profileImageView sd_setImageWithURL:[NSURL URLWithString:user.profilePictureSmall.url]
+                             placeholderImage:[UIImage imageNamed:@"person_small.png"]];
     
-    UILabel *userNameLabel = (UILabel *)[cell.contentView viewWithTag:2];
-    userNameLabel.text = user.username;
+    //名前
+    if (user.fullname.length == 0) {
+        cell.fullnameLabel.text = user.username;
+    } else {
+		cell.fullnameLabel.text = user.fullname;
+	}
+    
+    //ユーザ名
+    cell.usernameLabel.text = user.username;
+    
+    //フォローボタン
+    if ([user isEqualToCurrentUser]) {
+        cell.followActionButton.hidden = YES;
+    } else {
+		cell.followActionButton.hidden = NO;
+        [cell.followActionButton addTarget:self action:@selector(didPushFollowActionButton:) forControlEvents:UIControlEventTouchUpInside];
+        
+        if ([self.followingUsersObjectIds containsObject:user.objectId]) {
+            cell.followActionButton.selected = YES;
+        } else {
+            cell.followActionButton.selected = NO;
+        }
+	}
     
     return cell;
+}
+
+- (void)didPushFollowActionButton:(UIButton *)sender
+{
+    BOOL isSelected = sender.selected;
+    
+    User *targetUser;
+    CGPoint buttonPosition = [sender convertPoint:CGPointZero toView:self.tableView];
+    NSIndexPath *indexPath = [self.tableView indexPathForRowAtPoint:buttonPosition];
+    targetUser = [self userObjectAtIndexPath:indexPath];
+    
+    if (isSelected) {
+        [LVUtility unfollowUserInBackground:targetUser];
+    }else {
+		[LVUtility followUserInBackground:targetUser];
+	}
+    
+    sender.selected = !isSelected;
 }
 
 #pragma mark - Table view delegate
@@ -157,6 +263,31 @@
             [self loadNextPage];
         }
     }
+}
+
+#pragma mark - NSNotification
+
+- (void)setNotifications
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(currentUserDidChangeFollowingUsers:)
+                                                 name:kLVNotificationDidChangeFollowingUsers
+                                               object:nil];
+}
+
+- (void)removeNotifications
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:kLVNotificationDidChangeFollowingUsers object:nil];
+}
+
+- (void)currentUserDidChangeFollowingUsers:(NSNotification *)note
+{
+    //Check if self.view is visible
+    if (self.isViewLoaded && self.view.window) {
+        [self configureFollowingUsersArrayWithBlock:nil];
+    } else {
+		self.shouldReloadOnAppear = YES;
+	}
 }
 
 @end

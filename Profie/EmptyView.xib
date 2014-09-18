@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmptyView">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="NBo-eB-nwp"/>
+                <outlet property="detailLabel" destination="a4v-w2-RyD" id="guQ-EW-6pz"/>
+                <outlet property="mainLabel" destination="Uoi-OF-yYA" id="A7k-eI-tLH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="MainLabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="Uoi-OF-yYA">
+                    <rect key="frame" x="10" y="227" width="300" height="30"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="EEk-52-OE3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="DetailLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="a4v-w2-RyD">
+                    <rect key="frame" x="10" y="271" width="300" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="Kca-oe-Yy3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qzg-AX-IpJ">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="227"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UQP-js-gVg">
+                    <rect key="frame" x="0.0" y="342" width="320" height="226"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F2D-mM-l8r">
+                    <rect key="frame" x="0.0" y="292" width="320" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="47O-Sl-mZi"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="UQP-js-gVg" secondAttribute="bottom" id="4Kr-Lj-oUl"/>
+                <constraint firstAttribute="trailing" secondItem="qzg-AX-IpJ" secondAttribute="trailing" id="8XE-vS-B4F"/>
+                <constraint firstAttribute="trailing" secondItem="UQP-js-gVg" secondAttribute="trailing" id="9mU-vt-WbO"/>
+                <constraint firstAttribute="centerX" secondItem="a4v-w2-RyD" secondAttribute="centerX" id="By9-ea-OGK"/>
+                <constraint firstItem="UQP-js-gVg" firstAttribute="top" secondItem="F2D-mM-l8r" secondAttribute="bottom" id="DQQ-as-px9"/>
+                <constraint firstItem="F2D-mM-l8r" firstAttribute="top" secondItem="a4v-w2-RyD" secondAttribute="bottom" id="FVj-lR-6k7"/>
+                <constraint firstItem="qzg-AX-IpJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="JJb-Qo-9Yb"/>
+                <constraint firstAttribute="trailing" secondItem="F2D-mM-l8r" secondAttribute="trailing" id="Nxs-yB-z1e"/>
+                <constraint firstAttribute="centerX" secondItem="Uoi-OF-yYA" secondAttribute="centerX" id="RSX-vF-CvC"/>
+                <constraint firstItem="UQP-js-gVg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="YdI-xe-TDE"/>
+                <constraint firstItem="F2D-mM-l8r" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aQJ-BN-lVr"/>
+                <constraint firstItem="qzg-AX-IpJ" firstAttribute="height" secondItem="UQP-js-gVg" secondAttribute="height" id="khg-Qd-b7i"/>
+                <constraint firstItem="qzg-AX-IpJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="tHq-bL-eEE"/>
+                <constraint firstItem="a4v-w2-RyD" firstAttribute="top" secondItem="Uoi-OF-yYA" secondAttribute="bottom" constant="14" id="vBT-EO-AHn"/>
+                <constraint firstItem="Uoi-OF-yYA" firstAttribute="top" secondItem="qzg-AX-IpJ" secondAttribute="bottom" id="yWA-A6-Zin"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

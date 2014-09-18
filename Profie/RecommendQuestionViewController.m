@@ -38,11 +38,24 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
                                                                                            target:self
                                                                                            action:@selector(showEditQuestionView)];
+    
+    [self configureEmptyView];
+}
+
+- (void)configureEmptyView
+{
+    EmptyView *view = [[EmptyView alloc] init];
+    view.mainLabel.text = NSLocalizedString(@"RecommendQuestionView_Empty_MainLabel", nil);
+    view.detailLabel.text = NSLocalizedString(@"RecommendQuestionView_Empty_DetailLabel", nil);
+    
+    self.tableView.nxEV_emptyView = view;
+    
+    //To remove extra separators from tableview
+    self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    LOG_METHOD;
     [super viewWillAppear:animated];
     
     if (self.shouldReloadOnAppear) {
@@ -193,8 +206,8 @@
 
 - (void)setNotifications
 {
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidEditAnswer:) name:kLVNotificationDidEditAnswer object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userDidDeleteAnswer:) name:kLVNotificationDidDeleteAnswer object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(currentUserDidEditAnswer:) name:kLVNotificationDidEditAnswer object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(currentUserDidDeleteAnswer:) name:kLVNotificationDidDeleteAnswer object:nil];
 }
 
 - (void)removeNotifications
@@ -203,7 +216,7 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self name:kLVNotificationDidDeleteAnswer object:nil];
 }
 
-- (void)userDidEditAnswer:(NSNotification *)note
+- (void)currentUserDidEditAnswer:(NSNotification *)note
 {
     //Check if self.view is visible
     if (self.isViewLoaded && self.view.window) {
@@ -213,7 +226,7 @@
 	}
 }
 
-- (void)userDidDeleteAnswer:(NSNotification *)note
+- (void)currentUserDidDeleteAnswer:(NSNotification *)note
 {
     self.shouldReloadOnAppear = YES;
 }

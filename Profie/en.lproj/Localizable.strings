@@ -74,8 +74,16 @@
 /* AnswerTimelineView */
 "AnswerTimelineView_Title" = "Timeline";
 
+"AnswerTimelineView_Empty_MainLabel" = "No Answers By Friends";
+
+"AnswerTimelineView_Empty_DetailLabel" = "Let's find & follow friends";
+
 /* RecommendQuestionView */
 "RecommendQuestionView_Title" = "Questions";
+
+"RecommendQuestionView_Empty_MainLabel" = "No Questions";
+
+"RecommendQuestionView_Empty_DetailLabel" = "Let's add questions";
 
 /* EditQuestionView */
 "EditQuestionView_Title" = "Add Question";
@@ -89,6 +97,8 @@
 
 /* ProfileView */
 "ProfileView_Title" = "Profile";
+
+"ProfileView_Empty_MainLabel" = "No Answers";
 
 "ProfileView_ShareButton_Title" = "Share";
 
@@ -111,12 +121,16 @@
 "ProfileView_ActionSheet_DeleteAnswer" = "Delete Answer";
 
 /* UserListView */
+"UserListView_Title_Follower" = "Follower";
+
 "UserListView_Title_Following" = "Following";
 
-"UserListView_Title_Follower" = "Follower";
+"UserListView_Empty_MainLabel" = "No Users";
 
 /* FindUserView */
 "FindUserView_Title" = "Find User";
+
+"FindUserView_Empty_MainLabel" = "No Users";
 
 /* SettingView */
 "SettingView_Title" = "Settings";

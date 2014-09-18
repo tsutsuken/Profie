@@ -10,9 +10,9 @@
 
 @implementation LVUtility
 
-+ (void)followUserEventually:(User *)user block:(void (^)(BOOL succeeded, NSError *error))completionBlock
++ (void)followUserInBackground:(User *)user
 {
-    if ([[user objectId] isEqualToString:[[User currentUser] objectId]]) {
+    if ([user isEqualToCurrentUser]) {
         return;
     }
     
@@ -20,12 +20,15 @@
     [followActivity setObject:[User currentUser] forKey:kLVActivityFromUserKey];
     [followActivity setObject:user forKey:kLVActivityToUserKey];
     [followActivity setObject:kLVActivityTypeFollow forKey:kLVActivityTypeKey];
-    [followActivity saveEventually:completionBlock];
-    
-    [ANALYTICS trackEvent:kAnEventFollow sender:self];
+    [followActivity saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error){
+        if (succeeded) {
+            [[NSNotificationCenter defaultCenter] postNotificationName:kLVNotificationDidChangeFollowingUsers object:nil];
+            [ANALYTICS trackEvent:kAnEventFollow sender:self];
+        }
+    }];
 }
 
-+ (void)unfollowUserEventually:(User *)user
++ (void)unfollowUserInBackground:(User *)user
 {
     PFQuery *query = [PFQuery queryWithClassName:kLVActivityClassKey];
     [query whereKey:kLVActivityFromUserKey equalTo:[User currentUser]];
@@ -33,15 +36,17 @@
     [query whereKey:kLVActivityTypeKey equalTo:kLVActivityTypeFollow];
     [query findObjectsInBackgroundWithBlock:^(NSArray *followActivities, NSError *error) {
         // While normally there should only be one follow activity returned, we can't guarantee that.
-        
         if (!error) {
             for (PFObject *followActivity in followActivities) {
-                [followActivity deleteEventually];
+                [followActivity deleteInBackgroundWithBlock:^(BOOL succeeded, NSError *error){
+                    if (succeeded) {
+                        [[NSNotificationCenter defaultCenter] postNotificationName:kLVNotificationDidChangeFollowingUsers object:nil];
+                        [ANALYTICS trackEvent:kAnEventUnFollow sender:self];
+                    }
+                }];
             }
         }
     }];
-    
-    [ANALYTICS trackEvent:kAnEventUnFollow sender:self];
 }
 
 + (Answer *)answerOfCurrentUserForQuestion:(Question *)question

@@ -15,12 +15,20 @@ typedef enum {
 #pragma mark - NSNotification
 extern NSString *const kLVNotificationDidEditAnswer;
 extern NSString *const kLVNotificationDidDeleteAnswer;
+extern NSString *const kLVNotificationDidChangeFollowingUsers;
 
 #pragma mark - PFObject Common Class
 // Field keys
 extern NSString *const kLVCommonObjectIdKey;
 extern NSString *const kLVCommonCreatedAtKey;
 extern NSString *const kLVCommonUpdatedAtKey;
+
+#pragma mark - PFObject User Class
+// Class key
+extern NSString *const kLVUserClassKey;
+// Field keys
+extern NSString *const kLVUserFullnameKey;
+extern NSString *const kLVUserUsernameKey;
 
 #pragma mark - PFObject Activity Class
 // Class key

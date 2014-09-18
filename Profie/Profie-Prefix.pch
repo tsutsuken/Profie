@@ -30,6 +30,7 @@
     #import "GADBannerView.h"
     #import "MBProgressHUD.h"
     #import <SDWebImage/UIImageView+WebCache.h>
+    #import "UITableView+NXEmptyView.h"
 
     #import "NSString+Additions.h"
     #import "UIImage+Tint.h"
@@ -45,7 +46,9 @@
     #import "PFRoundedImageView.h"
     #import "LVTouchableLabel.h"
     #import "AnswerCell.h"
+    #import "UserCell.h"
     #import "LVBorderButton.h"
+    #import "EmptyView.h"
 #endif
 
 /* Common */
@@ -88,7 +91,6 @@
 #define kAdUnitIdAnswerTimelineView @"ca-app-pub-2783947426964967/9350837936"
 #define kAdUnitIdRecommendQuestionView @"ca-app-pub-2783947426964967/8445854337"
 #define kAdUnitIdProfileView @"ca-app-pub-2783947426964967/5492387934"
-#define kAdUnitIdQuestionDetailView @"ca-app-pub-2783947426964967/7806725933"
 
 /* Log */
 #define LOG(...) NSLog(__VA_ARGS__)
@@ -100,3 +102,8 @@
 #define LOG_RECT(p, comment) NSLog(@"%@:%f, %f - %f, %f", comment, p.origin.x, p.origin.y, p.size.width, p.size.height)
 #define LOG_BOOL(bool, comment)  NSLog(@"%@:%@",comment,(bool ? @"YES":@"NO"))
 #define LOG_DATE(date, comment)  NSLog(@"%@:%@",comment,[date description])
+#define LOG_STRING(string, comment)  NSLog(@"%@:%@",comment,string)
+#define LOG_TIME_START  NSDate *log_startDate = [NSDate date]
+#define LOG_TIME_END  NSLog(@"%.3f sec",[[NSDate date] timeIntervalSinceDate:log_startDate]);
+#define LOG_INT(i, comment)  NSLog(@"%@:%i",comment,(int)i)
+

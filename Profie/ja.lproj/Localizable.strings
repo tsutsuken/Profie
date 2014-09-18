@@ -74,8 +74,16 @@
 /* AnswerTimelineView */
 "AnswerTimelineView_Title" = "タイムライン";
 
+"AnswerTimelineView_Empty_MainLabel" = "友達の回答が見つかりません";
+
+"AnswerTimelineView_Empty_DetailLabel" = "友達を探して、フォローしましょう";
+
 /* RecommendQuestionView */
 "RecommendQuestionView_Title" = "回答する";//人気の質問
+
+"RecommendQuestionView_Empty_MainLabel" = "質問が見つかりません";
+
+"RecommendQuestionView_Empty_DetailLabel" = "自分で好きな質問を作成しましょう";
 
 /* EditQuestionView */
 "EditQuestionView_Title" = "新しい質問";
@@ -89,6 +97,8 @@
 
 /* ProfileView */
 "ProfileView_Title" = "プロフィール";
+
+"ProfileView_Empty_MainLabel" = "回答が見つかりません";
 
 "ProfileView_Button_FollowerCount_%d_%@" = "%dフォロワー%@";
 
@@ -111,12 +121,16 @@
 "ProfileView_ActionSheet_DeleteAnswer" = "回答を削除";
 
 /* UserListView */
+"UserListView_Title_Follower" = "フォロワー";
+
 "UserListView_Title_Following" = "フォロー";
 
-"UserListView_Title_Follower" = "フォロワー";
+"UserListView_Empty_MainLabel" = "ユーザーが見つかりません";
 
 /* FindUserView */
 "FindUserView_Title" = "ユーザーを探す";
+
+"FindUserView_Empty_MainLabel" = "ユーザーが見つかりません";
 
 /* SettingView */
 "SettingView_Title" = "設定";

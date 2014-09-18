@@ -10,6 +10,7 @@
 
 @interface AnswerTimelineViewController ()
 
+@property (nonatomic, assign) BOOL shouldReloadOnAppear;
 @property (strong, nonatomic) GADBannerView *bannerView;
 
 @end
@@ -17,6 +18,11 @@
 @implementation AnswerTimelineViewController
 
 #pragma mark - Initialization
+
+- (void)dealloc
+{
+    [self removeNotifications];
+}
 
 - (void)awakeFromNib
 {
@@ -27,18 +33,40 @@
 {
     [super viewDidLoad];
     
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"person_add"]
+    [self setNotifications];
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"person_add_nav"]
                                                                               style:UIBarButtonItemStyleBordered
                                                                              target:self
                                                                              action:@selector(showFindUserView)];
+    
+    [self configureEmptyView];
+}
+
+- (void)configureEmptyView
+{
+    EmptyView *view = [[EmptyView alloc] init];
+    view.mainLabel.text = NSLocalizedString(@"AnswerTimelineView_Empty_MainLabel", nil);
+    view.detailLabel.text = NSLocalizedString(@"AnswerTimelineView_Empty_DetailLabel", nil);
+    
+    self.tableView.nxEV_emptyView = view;
+    
+    //To remove extra separators from tableview
+    self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
     
+    if (self.shouldReloadOnAppear) {
+        self.shouldReloadOnAppear = NO;
+        [self loadObjects];
+    }
+    
     [self configureAd];
 }
+
 
 - (void)viewDidAppear:(BOOL)animated
 {
@@ -228,6 +256,26 @@
             [self loadNextPage];
         }
     }
+}
+
+#pragma mark - NSNotification
+
+- (void)setNotifications
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(currentUserDidChangeFollowingUsers:)
+                                                 name:kLVNotificationDidChangeFollowingUsers
+                                               object:nil];
+}
+
+- (void)removeNotifications
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:kLVNotificationDidChangeFollowingUsers object:nil];
+}
+
+- (void)currentUserDidChangeFollowingUsers:(NSNotification *)note
+{
+    self.shouldReloadOnAppear = YES;
 }
 
 #pragma mark - Ads

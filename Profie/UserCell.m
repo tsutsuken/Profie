@@ -1,14 +1,14 @@
 //
-//  AnswerCell.m
-//  SuperProfile
+//  UserCell.m
+//  Profie
 //
-//  Created by Ken Tsutsumi on 2014/06/08.
+//  Created by Ken Tsutsumi on 2014/09/14.
 //  Copyright (c) 2014年 LvUP Inc. All rights reserved.
 //
 
-#import "AnswerCell.h"
+#import "UserCell.h"
 
-@implementation AnswerCell
+@implementation UserCell
 
 - (id)initWithFrame:(CGRect)frame
 {

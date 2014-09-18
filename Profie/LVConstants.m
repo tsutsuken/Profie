@@ -9,14 +9,22 @@
 #import "LVConstants.h"
 
 #pragma mark - NSNotification
-NSString *const kLVNotificationDidEditAnswer   = @"kLVNotificationDidEditAnswer";
-NSString *const kLVNotificationDidDeleteAnswer   = @"kLVNotificationDidDeleteAnswer";
+NSString *const kLVNotificationDidEditAnswer  = @"kLVNotificationDidEditAnswer";
+NSString *const kLVNotificationDidDeleteAnswer  = @"kLVNotificationDidDeleteAnswer";
+NSString *const kLVNotificationDidChangeFollowingUsers  = @"kLVNotificationDidChangeFollowingUsers";
 
 #pragma mark - PFObject Common Class
 // Field keys
 NSString *const kLVCommonObjectIdKey        = @"objectId";
 NSString *const kLVCommonCreatedAtKey       = @"createdAt";
 NSString *const kLVCommonUpdatedAtKey       = @"updatedAt";
+
+#pragma mark - User Class
+// Class key
+NSString *const kLVUserClassKey = @"User";
+// Field keys
+NSString *const kLVUserFullnameKey        = @"fullname";
+NSString *const kLVUserUsernameKey        = @"username";
 
 #pragma mark - Activity Class
 // Class key

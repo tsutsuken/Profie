@@ -40,7 +40,7 @@
         return nil;
     }
     
-    self.parseClassName = kLVAnswerClassKey;
+    self.parseClassName = kLVUserClassKey;
     self.pullToRefreshEnabled = YES;
     self.paginationEnabled = YES;
     self.objectsPerPage = 25;
@@ -57,6 +57,8 @@
     if (self.objects.count == 0) {
         query.cachePolicy = kPFCachePolicyCacheThenNetwork;
     }
+    
+    [query orderByDescending:kLVCommonCreatedAtKey];
     
     return query;
 }
