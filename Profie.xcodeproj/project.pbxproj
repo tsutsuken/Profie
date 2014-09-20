@@ -27,6 +27,9 @@
 		1F1A5044199B052E0041DE9A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F1A5043199B052E0041DE9A /* Settings.bundle */; };
 		1F1CB49F19C15F8B00DBA858 /* ProfileItemSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1CB49E19C15F8B00DBA858 /* ProfileItemSettingViewController.m */; };
 		1F1F5CCD19C0241400D26FFF /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F5CCC19C0241400D26FFF /* User.m */; };
+		1F2D4DB819CD671700B0A98E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F2D4DB719CD671700B0A98E /* LaunchScreen.xib */; };
+		1F2D4DBC19CD672600B0A98E /* appIcon_launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F2D4DBA19CD672600B0A98E /* appIcon_launchScreen.png */; };
+		1F2D4DBD19CD672600B0A98E /* appIcon_launchScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F2D4DBB19CD672600B0A98E /* appIcon_launchScreen@2x.png */; };
 		1F3541EE19BD8ABF006A6D01 /* dot_lightGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3541EC19BD8ABF006A6D01 /* dot_lightGray.png */; };
 		1F3541EF19BD8ABF006A6D01 /* dot_lightGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3541ED19BD8ABF006A6D01 /* dot_lightGray@2x.png */; };
 		1F3541F219BD8D5B006A6D01 /* UserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3541F019BD8D5B006A6D01 /* UserListViewController.m */; };
@@ -141,6 +144,9 @@
 		1F1CB49E19C15F8B00DBA858 /* ProfileItemSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileItemSettingViewController.m; sourceTree = "<group>"; };
 		1F1F5CCB19C0241400D26FFF /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		1F1F5CCC19C0241400D26FFF /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		1F2D4DB719CD671700B0A98E /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		1F2D4DBA19CD672600B0A98E /* appIcon_launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon_launchScreen.png; sourceTree = "<group>"; };
+		1F2D4DBB19CD672600B0A98E /* appIcon_launchScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon_launchScreen@2x.png"; sourceTree = "<group>"; };
 		1F3541EC19BD8ABF006A6D01 /* dot_lightGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot_lightGray.png; sourceTree = "<group>"; };
 		1F3541ED19BD8ABF006A6D01 /* dot_lightGray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot_lightGray@2x.png"; sourceTree = "<group>"; };
 		1F3541F019BD8D5B006A6D01 /* UserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListViewController.m; sourceTree = "<group>"; };
@@ -308,6 +314,7 @@
 		1F166C7B19A0570F0056C5EF /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1F2D4DB919CD671C00B0A98E /* LaunchImage */,
 				1F166C7F19A0572C0056C5EF /* WelcomeView */,
 				1F166C7E19A057260056C5EF /* Twitter */,
 				1F166C7D19A057200056C5EF /* TabBar */,
@@ -371,6 +378,15 @@
 				1F166C9219A057B00056C5EF /* bg_welcome@2x.png */,
 			);
 			name = WelcomeView;
+			sourceTree = "<group>";
+		};
+		1F2D4DB919CD671C00B0A98E /* LaunchImage */ = {
+			isa = PBXGroup;
+			children = (
+				1F2D4DBA19CD672600B0A98E /* appIcon_launchScreen.png */,
+				1F2D4DBB19CD672600B0A98E /* appIcon_launchScreen@2x.png */,
+			);
+			name = LaunchImage;
 			sourceTree = "<group>";
 		};
 		1F388E7619C932530094D90F /* EmptyView */ = {
@@ -469,6 +485,7 @@
 			children = (
 				1F166C7B19A0570F0056C5EF /* Images */,
 				1FCCA8D3190BE97A00B4E3B7 /* Images.xcassets */,
+				1F2D4DB719CD671700B0A98E /* LaunchScreen.xib */,
 				1FC7121B19124561004F9E2A /* Localizable.strings */,
 			);
 			name = Resources;
@@ -748,14 +765,17 @@
 				1F35420019BDA8AF006A6D01 /* person_add@2x.png in Resources */,
 				1FC7121919124561004F9E2A /* Localizable.strings in Resources */,
 				1F166C9A19A057D00056C5EF /* twitter_gray@2x.png in Resources */,
+				1F2D4DBD19CD672600B0A98E /* appIcon_launchScreen@2x.png in Resources */,
 				1FCCA8C0190BE96600B4E3B7 /* InfoPlist.strings in Resources */,
 				1F166C9419A057B00056C5EF /* bg_welcome-568h@2x.png in Resources */,
+				1F2D4DB819CD671700B0A98E /* LaunchScreen.xib in Resources */,
 				1F3541F819BDA458006A6D01 /* gear@2x.png in Resources */,
 				1F166C9C19A057D00056C5EF /* twitter_gray.png in Resources */,
 				1F166C8819A057850056C5EF /* person_small.png in Resources */,
 				1F166C9D19A057D00056C5EF /* twitter_blue@2x.png in Resources */,
 				1F166C9319A057B00056C5EF /* bg_welcome.png in Resources */,
 				1F35420119BDA8AF006A6D01 /* person_add.png in Resources */,
+				1F2D4DBC19CD672600B0A98E /* appIcon_launchScreen.png in Resources */,
 				1F3541F919BDA458006A6D01 /* gear.png in Resources */,
 				1F3541FE19BDA8AF006A6D01 /* person_check.png in Resources */,
 				1F388E7219C92DF10094D90F /* EmptyView.xib in Resources */,
