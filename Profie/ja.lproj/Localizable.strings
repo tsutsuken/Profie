@@ -95,6 +95,8 @@
 /* EditAnswerView */
 "EditAnswerView_Title" = "回答する";
 
+"EditAnswerView_HUD_SearchingPastAnswer" = "以前の回答を探しています";
+
 /* ProfileView */
 "ProfileView_Title" = "プロフィール";
 
@@ -119,6 +121,8 @@
 "ProfileView_ActionSheet_EditAnswer" = "回答を編集";
 
 "ProfileView_ActionSheet_DeleteAnswer" = "回答を削除";
+
+"ProfileView_HUD_DeletingAnswer" = "削除しています";
 
 /* UserListView */
 "UserListView_Title_Follower" = "フォロワー";

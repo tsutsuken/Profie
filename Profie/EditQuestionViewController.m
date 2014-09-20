@@ -16,9 +16,16 @@
 
 @implementation EditQuestionViewController
 
+- (void)dealloc
+{
+    [self removeNotifications];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [self setNotifications];
     
     self.title = NSLocalizedString(@"EditQuestionView_Title", nil);
     
@@ -40,7 +47,6 @@
     [super viewWillAppear:animated];
     
     [self.navigationController setToolbarHidden:YES animated:animated];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidShow:) name:UIKeyboardDidShowNotification object:nil];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -48,6 +54,13 @@
     [super viewDidAppear:animated];
     
     [ANALYTICS trackView:self];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    [self.textView resignFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning
@@ -122,6 +135,18 @@
     [self enableBarButtonItemWithWordCount:wordCount];
     
     return YES;
+}
+
+#pragma mark - NSNotification
+
+- (void)setNotifications
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidShow:) name:UIKeyboardDidShowNotification object:nil];
+}
+
+- (void)removeNotifications
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardDidShowNotification object:nil];
 }
 
 ////textViewがキーボードで隠れないようにする。下記を参考

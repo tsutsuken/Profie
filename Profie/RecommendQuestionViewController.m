@@ -251,7 +251,7 @@
 {
     GADRequest *request = [GADRequest request];
 #if DEBUG
-    request.testDevices = @[kTestDeviceIdKeniPhone5s];
+    request.testDevices = @[kTestDeviceIdKeniPhone5s, kTestDeviceIdKeniPhone5];
 #endif
     [self.bannerView loadRequest:request];
     

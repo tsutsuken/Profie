@@ -88,6 +88,7 @@
 
 /* Ads */
 #define kTestDeviceIdKeniPhone5s @"e68d15d429e34789fa691b0f57e8b878"
+#define kTestDeviceIdKeniPhone5 @"503d06f36968ac0c9966c811c298a90e"
 #define kAdUnitIdAnswerTimelineView @"ca-app-pub-2783947426964967/9350837936"
 #define kAdUnitIdRecommendQuestionView @"ca-app-pub-2783947426964967/8445854337"
 #define kAdUnitIdProfileView @"ca-app-pub-2783947426964967/5492387934"

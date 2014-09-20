@@ -387,68 +387,158 @@
 
 - (void)showActionSheetForEditingMyAnswer
 {
-    UIActionSheet *actionSheet = [[UIActionSheet alloc] init];
-    
-    actionSheet.destructiveButtonIndex = 1;
-    actionSheet.cancelButtonIndex = 2;
-    [actionSheet addButtonWithTitle:NSLocalizedString(@"ProfileView_ActionSheet_EditAnswer", nil)];
-    [actionSheet addButtonWithTitle:NSLocalizedString(@"ProfileView_ActionSheet_DeleteAnswer", nil)];
-    [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_Cancel", nil)];
-    actionSheet.tapBlock = ^(UIActionSheet *actionSheet, NSInteger buttonIndex){
-        switch (buttonIndex) {
-            case 0:
-                [self showEditAnswerViewFromMyAnswer];
-                break;
-            case 1:
-                [self deleteMyAnswer];
-                break;
-            case 2:
-                //Cancel
-                [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
-                //didSelectRowAtIndexPathでdeselectすると、prepareForSegueでAnswerを取得できない
-                break;
-        }
-    };
-    
-    [actionSheet showInView:self.view];
+    Class class = NSClassFromString(@"UIAlertController");
+    if(class) {
+        // iOS8
+        
+        self.bannerView.hidden = YES;
+        
+        UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:nil
+                                                                             message:nil
+                                                                      preferredStyle:UIAlertControllerStyleActionSheet];
+        
+        [actionSheet addAction:[UIAlertAction actionWithTitle:NSLocalizedString(@"ProfileView_ActionSheet_EditAnswer", nil)
+                                                        style:UIAlertActionStyleDefault
+                                                      handler:^(UIAlertAction *action){
+                                                          [self showEditAnswerViewFromMyAnswer];
+                                                          self.bannerView.hidden = NO;
+                                                      }]];
+        
+        [actionSheet addAction:[UIAlertAction actionWithTitle:NSLocalizedString(@"ProfileView_ActionSheet_DeleteAnswer", nil)
+                                                        style:UIAlertActionStyleDestructive
+                                                      handler:^(UIAlertAction *action){
+                                                          [self deleteMyAnswer];
+                                                          self.bannerView.hidden = NO;
+                                                      }]];
+        
+        [actionSheet addAction:[UIAlertAction actionWithTitle:NSLocalizedString(@"Common_ActionSheet_Cancel", nil)
+                                                        style:UIAlertActionStyleCancel
+                                                      handler:^(UIAlertAction *action){
+                                                          //Cancel
+                                                          self.bannerView.hidden = NO;
+                                                          [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
+                                                          //didSelectRowAtIndexPathでdeselectすると、prepareForSegueでAnswerを取得できない
+                                                      }]];
+        
+        [self presentViewController:actionSheet animated:YES completion:nil];
+    } else {
+        // iOS7
+        
+        UIActionSheet *actionSheet = [[UIActionSheet alloc] init];
+        
+        actionSheet.destructiveButtonIndex = 1;
+        actionSheet.cancelButtonIndex = 2;
+        [actionSheet addButtonWithTitle:NSLocalizedString(@"ProfileView_ActionSheet_EditAnswer", nil)];
+        [actionSheet addButtonWithTitle:NSLocalizedString(@"ProfileView_ActionSheet_DeleteAnswer", nil)];
+        [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_Cancel", nil)];
+        actionSheet.tapBlock = ^(UIActionSheet *actionSheet, NSInteger buttonIndex){
+            switch (buttonIndex) {
+                case 0:
+                    [self showEditAnswerViewFromMyAnswer];
+                    break;
+                case 1:
+                    [self deleteMyAnswer];
+                    break;
+                case 2:
+                    //Cancel
+                    [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
+                    //didSelectRowAtIndexPathでdeselectすると、prepareForSegueでAnswerを取得できない
+                    break;
+            }
+        };
+        
+        [actionSheet showInView:self.view];
+    }
 }
 
 - (void)deleteMyAnswer
 {
+    MBProgressHUD *hud = [[MBProgressHUD alloc] initWithView:self.view];
+    hud.minShowTime = 0.5;
+    hud.labelText = NSLocalizedString(@"ProfileView_HUD_DeletingAnswer", nil);
+    [self.navigationController.view addSubview:hud];
+    
+    [hud showAnimated:YES whileExecutingBlock:^{
+        Answer *selectedAnswer = (Answer *)[self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];
+        
+        BOOL succeeded = [selectedAnswer delete];
+        if (succeeded) {
+            [[NSNotificationCenter defaultCenter] postNotificationName:kLVNotificationDidDeleteAnswer object:nil];
+            
+            [selectedAnswer.question decrementAnswerCount];
+            
+            [ANALYTICS trackEvent:kAnEventDeleteAnswer sender:self];
+        }
+    } completionBlock:^{
+        [hud removeFromSuperview];
+    }];
+    /*
     Answer *selectedAnswer = (Answer *)[self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];
     [selectedAnswer deleteInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (succeeded) {
             [[NSNotificationCenter defaultCenter] postNotificationName:kLVNotificationDidDeleteAnswer object:nil];
+            
+            [selectedAnswer.question decrementAnswerCount];
+            
+            [ANALYTICS trackEvent:kAnEventDeleteAnswer sender:self];
         }
     }];
-    
-    [selectedAnswer.question decrementAnswerCount];
-    
-    [ANALYTICS trackEvent:kAnEventDeleteAnswer sender:self];
+     */
 }
 
 #pragma mark Refer To Friend's Answer
 
 - (void)showActionSheetForReferingFriendsAnswer
 {
-    UIActionSheet *actionSheet = [[UIActionSheet alloc] init];
-    
-    actionSheet.cancelButtonIndex = 1;
-    [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_AnswerSameQuestion", nil)];
-    [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_Cancel", nil)];
-    actionSheet.tapBlock = ^(UIActionSheet *actionSheet, NSInteger buttonIndex){
-        switch (buttonIndex) {
-            case 0:
-                [self showEditAnswerViewFromFriendsAnswer];
-                break;
-            case 1:
-                [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
-                //didSelectRowAtIndexPathでdeselectすると、prepareForSegueでAnswerを取得できない
-                break;
-        }
-    };
-    
-    [actionSheet showInView:self.view];
+    Class class = NSClassFromString(@"UIAlertController");
+    if(class) {
+        // iOS8
+        
+        self.bannerView.hidden = YES;
+        
+        UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:nil
+                                                                             message:nil
+                                                                      preferredStyle:UIAlertControllerStyleActionSheet];
+        
+        [actionSheet addAction:[UIAlertAction actionWithTitle:NSLocalizedString(@"Common_ActionSheet_AnswerSameQuestion", nil)
+                                                        style:UIAlertActionStyleDefault
+                                                      handler:^(UIAlertAction *action){
+                                                          [self showEditAnswerViewFromFriendsAnswer];
+                                                          self.bannerView.hidden = NO;
+                                                      }]];
+        
+        [actionSheet addAction:[UIAlertAction actionWithTitle:NSLocalizedString(@"Common_ActionSheet_Cancel", nil)
+                                                        style:UIAlertActionStyleCancel
+                                                      handler:^(UIAlertAction *action){
+                                                          //Cancel
+                                                          self.bannerView.hidden = NO;
+                                                          [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
+                                                          //didSelectRowAtIndexPathでdeselectすると、prepareForSegueでAnswerを取得できない
+                                                      }]];
+        
+        [self presentViewController:actionSheet animated:YES completion:nil];
+    } else {
+        // iOS7
+        
+        UIActionSheet *actionSheet = [[UIActionSheet alloc] init];
+        
+        actionSheet.cancelButtonIndex = 1;
+        [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_AnswerSameQuestion", nil)];
+        [actionSheet addButtonWithTitle:NSLocalizedString(@"Common_ActionSheet_Cancel", nil)];
+        actionSheet.tapBlock = ^(UIActionSheet *actionSheet, NSInteger buttonIndex){
+            switch (buttonIndex) {
+                case 0:
+                    [self showEditAnswerViewFromFriendsAnswer];
+                    break;
+                case 1:
+                    [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
+                    //didSelectRowAtIndexPathでdeselectすると、prepareForSegueでAnswerを取得できない
+                    break;
+            }
+        };
+        
+        [actionSheet showInView:self.view];
+    }
 }
 
 #pragma mark - Show Other View
@@ -480,7 +570,7 @@
         EditAnswerViewController *controller = (EditAnswerViewController *)nvc.topViewController;
         Answer *friendsAnswer = (Answer *)[self objectAtIndexPath:[self.tableView indexPathForSelectedRow]];
         controller.question = friendsAnswer.question;
-        controller.answer = [LVUtility answerOfCurrentUserForQuestion:friendsAnswer.question];
+        controller.shouldSearchPastAnswer = YES;
     }
 }
 
@@ -574,7 +664,7 @@
 {
     GADRequest *request = [GADRequest request];
 #if DEBUG
-    request.testDevices = @[kTestDeviceIdKeniPhone5s];
+    request.testDevices = @[kTestDeviceIdKeniPhone5s, kTestDeviceIdKeniPhone5];
 #endif
     [self.bannerView loadRequest:request];
     

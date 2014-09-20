@@ -95,6 +95,8 @@
 /* EditAnswerView */
 "EditAnswerView_Title" = "Edit Answer";
 
+"EditAnswerView_HUD_SearchingPastAnswer" = "Searching for past answer";
+
 /* ProfileView */
 "ProfileView_Title" = "Profile";
 
@@ -119,6 +121,8 @@
 "ProfileView_ActionSheet_EditAnswer" = "Edit Answer";
 
 "ProfileView_ActionSheet_DeleteAnswer" = "Delete Answer";
+
+"ProfileView_HUD_DeletingAnswer" = "Deleting...";
 
 /* UserListView */
 "UserListView_Title_Follower" = "Follower";

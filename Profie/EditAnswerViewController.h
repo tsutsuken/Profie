@@ -12,5 +12,6 @@
 
 @property (strong, nonatomic) Question *question;
 @property (strong, nonatomic) Answer *answer;
+@property (nonatomic, assign) BOOL shouldSearchPastAnswer;
 
 @end

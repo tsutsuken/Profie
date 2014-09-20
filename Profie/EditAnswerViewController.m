@@ -11,6 +11,8 @@
 @interface EditAnswerViewController ()
 
 @property (strong, nonatomic) LVShareKitTwitter *shareKitTwitter;
+@property (weak, nonatomic) IBOutlet PFRoundedImageView *profileImageView;
+@property (weak, nonatomic) IBOutlet UILabel *usernameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *questionLabel;
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 @property (strong, nonatomic) UIButton *twitterButton;
@@ -23,25 +25,58 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
 
 #pragma mark - Initialization
 
+- (void)dealloc
+{
+    [self removeNotifications];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [self setNotifications];
+    
+    [self searchPastAnswerIfNeeded];
     
     self.shareKitTwitter = [[LVShareKitTwitter alloc] init];
     self.shareKitTwitter.delegate = self;
     
     self.title = NSLocalizedString(@"EditAnswerView_Title", nil);
     
-    [self configureNavigationBar];
+    [self configureNavigationButtons];
     
-    self.questionLabel.text = self.question.titleWithTag;
+    [self configureTableHeaderView];
     
     [self configureTextView];
     
     [self enableDoneButtonWithWordCount:self.textView.text.length];
 }
 
-- (void)configureNavigationBar
+- (void)searchPastAnswerIfNeeded
+{
+    if (!self.shouldSearchPastAnswer) {
+        return;
+    }
+    
+    MBProgressHUD *hud = [[MBProgressHUD alloc] initWithView:self.view];
+    hud.minShowTime = 0.6;
+    hud.labelText = NSLocalizedString(@"EditAnswerView_HUD_SearchingPastAnswer", nil);
+    [self.navigationController.view addSubview:hud];
+    
+    [hud showAnimated:YES whileExecutingBlock:^{
+        Answer *answer = [LVUtility answerOfCurrentUserForQuestion:self.question];
+        if (answer) {
+            self.answer = answer;
+        }
+    } completionBlock:^{
+        if (self.answer) {
+            self.textView.text = self.answer.title;
+        }
+        [hud removeFromSuperview];
+    }];
+}
+
+- (void)configureNavigationButtons
 {
     if (![self isNewQuestion]) {
         self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
@@ -52,6 +87,18 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone
                                                                                            target:self
                                                                                            action:@selector(didPushDoneButton)];
+}
+
+- (void)configureTableHeaderView
+{
+    User *currentUser = [User currentUser];
+    
+    [self.profileImageView sd_setImageWithURL:[NSURL URLWithString:currentUser.profilePictureMedium.url]
+                             placeholderImage:[UIImage imageNamed:@"person_small.png"]];
+    
+    self.usernameLabel.text =  currentUser.username;
+    
+    self.questionLabel.text = self.question.titleWithTag;
 }
 
 - (void)configureTextView
@@ -98,6 +145,13 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
     [super viewDidAppear:animated];
     
     [ANALYTICS trackView:self];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    [self.textView resignFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning
@@ -212,6 +266,18 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
     return YES;
 }
 
+#pragma mark - NSNotification
+
+- (void)setNotifications
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidShow:) name:UIKeyboardDidShowNotification object:nil];
+}
+
+- (void)removeNotifications
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardDidShowNotification object:nil];
+}
+
 ////textViewがキーボードで隠れないようにする。下記を参考
 //http://hitoshiohtubo.blog.fc2.com/blog-entry-18.html
 - (void)keyboardDidShow:(NSNotification *)anotification
@@ -249,6 +315,7 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
 {
     return !self.answer;
 }
+
 
 @end
 
