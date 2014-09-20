@@ -194,13 +194,13 @@
 {
     CALayer *topBorder = [CALayer layer];
     topBorder.backgroundColor = kColorBorder.CGColor;
-    topBorder.frame = CGRectMake(0, 0, self.actionView.frame.size.width, kBorderHeight);
-    [self.self.actionView.layer addSublayer:topBorder];
+    topBorder.frame = CGRectMake(0, 0, self.view.frame.size.width, kBorderHeight);
+    [self.actionView.layer addSublayer:topBorder];
     
     CALayer *bottomBorder = [CALayer layer];
     bottomBorder.backgroundColor = kColorBorder.CGColor;
-    bottomBorder.frame = CGRectMake(0, self.actionView.frame.size.height, self.actionView.frame.size.width, kBorderHeight);
-    [self.self.actionView.layer addSublayer:bottomBorder];
+    bottomBorder.frame = CGRectMake(0, self.actionView.frame.size.height, self.view.frame.size.width, kBorderHeight);
+    [self.actionView.layer addSublayer:bottomBorder];
 }
 
 - (NSString *)titleForFollowerCountButtonWithCount:(int)count

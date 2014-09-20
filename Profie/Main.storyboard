@@ -184,7 +184,6 @@
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" constant="320" id="1Mt-DK-oZv"/>
                                         <constraint firstItem="j1h-Eu-EUQ" firstAttribute="leading" secondItem="fWJ-bX-B89" secondAttribute="trailing" id="3E2-Bc-gOc"/>
                                         <constraint firstAttribute="centerX" secondItem="hpb-Xb-utz" secondAttribute="centerX" id="3PV-6F-o7B"/>
                                         <constraint firstItem="hpb-Xb-utz" firstAttribute="top" secondItem="ubE-QG-puN" secondAttribute="top" constant="14" id="6fr-9p-YZh"/>
@@ -248,9 +247,10 @@
                             </subviews>
                             <constraints>
                                 <constraint firstItem="ubE-QG-puN" firstAttribute="top" secondItem="oLp-sb-5wX" secondAttribute="top" id="3gA-Rq-jZM"/>
-                                <constraint firstAttribute="centerX" secondItem="ubE-QG-puN" secondAttribute="centerX" id="Cze-eB-pED"/>
+                                <constraint firstItem="ubE-QG-puN" firstAttribute="leading" secondItem="oLp-sb-5wX" secondAttribute="leading" id="DtC-eM-id9"/>
                                 <constraint firstAttribute="bottom" secondItem="Rvc-fW-twf" secondAttribute="bottom" id="MdU-CC-rE6"/>
                                 <constraint firstAttribute="trailing" secondItem="Rvc-fW-twf" secondAttribute="trailing" id="YaT-9Z-Iqk"/>
+                                <constraint firstAttribute="trailing" secondItem="ubE-QG-puN" secondAttribute="trailing" id="olZ-F1-c8u"/>
                                 <constraint firstItem="Rvc-fW-twf" firstAttribute="leading" secondItem="oLp-sb-5wX" secondAttribute="leading" id="pZk-Kh-gjy"/>
                             </constraints>
                         </view>
