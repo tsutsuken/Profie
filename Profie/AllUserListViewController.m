@@ -16,7 +16,7 @@
 
 @implementation AllUserListViewController
 
-#warning AllUserListViewを削除する
+//#warning AllUserListViewを削除する
 
 - (void)viewDidLoad
 {
