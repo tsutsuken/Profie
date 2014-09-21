@@ -13,6 +13,6 @@
 + (LVAnalyticsManager *)sharedManager;
 
 - (void)trackView:(id)sender;
-- (void)trackEvent:(NSString *)actionName sender:(id)sender;
+- (void)trackEvent:(NSString *)actionName isImportant:(BOOL)isImportant sender:(id)sender;
 
 @end

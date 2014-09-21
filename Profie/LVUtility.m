@@ -23,7 +23,7 @@
     [followActivity saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error){
         if (succeeded) {
             [[NSNotificationCenter defaultCenter] postNotificationName:kLVNotificationDidChangeFollowingUsers object:nil];
-            [ANALYTICS trackEvent:kAnEventFollow sender:self];
+            [ANALYTICS trackEvent:kAnEventFollow isImportant:YES sender:self];
         }
     }];
 }
@@ -41,7 +41,7 @@
                 [followActivity deleteInBackgroundWithBlock:^(BOOL succeeded, NSError *error){
                     if (succeeded) {
                         [[NSNotificationCenter defaultCenter] postNotificationName:kLVNotificationDidChangeFollowingUsers object:nil];
-                        [ANALYTICS trackEvent:kAnEventUnFollow sender:self];
+                        [ANALYTICS trackEvent:kAnEventUnFollow isImportant:YES sender:self];
                     }
                 }];
             }

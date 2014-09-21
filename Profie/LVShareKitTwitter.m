@@ -157,7 +157,7 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
             NSLog(@"responseData=%@", [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding]);
         }];
         
-        [ANALYTICS trackEvent:kAnEventShareAnswerOnTwitter sender:self];
+        [ANALYTICS trackEvent:kAnEventShareAnswerOnTwitter isImportant:YES sender:self];
     }
 }
 

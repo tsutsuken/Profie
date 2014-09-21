@@ -51,15 +51,19 @@
     [[GAI sharedInstance].defaultTracker set:kGAIScreenName value:nil];
 }
 
-- (void)trackEvent:(NSString *)actionName sender:(id)sender
+- (void)trackEvent:(NSString *)actionName isImportant:(BOOL)isImportant sender:(id)sender
 {
+    // Google Analytics
     NSDictionary *parameters = [[GAIDictionaryBuilder createEventWithCategory:NSStringFromClass([sender class])
                                                                        action:actionName
                                                                         label:@""
                                                                         value:@-1] build];
+    [[GAI sharedInstance].defaultTracker send:parameters];
     
-    [[GAI sharedInstance].defaultTracker send:parameters];  // Event value
-    
+    // Mixpanel
+    if (isImportant) {
+        [[Mixpanel sharedInstance] track:actionName];
+    }
 }
 
 /*

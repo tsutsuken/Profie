@@ -5,7 +5,7 @@ pod 'Mixpanel', :inhibit_warnings => true
 pod 'MBProgressHUD'
 pod 'FormatterKit'
 pod 'MGImageUtilities', :inhibit_warnings => true
-pod 'Google-Mobile-Ads-SDK'
+pod 'Google-Mobile-Ads-SDK', '6.12.0'
 pod 'iRate'
 pod 'CTFeedback'
 pod 'GoogleAnalytics-iOS-SDK', '3.0.3'

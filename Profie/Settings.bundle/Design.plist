@@ -65,14 +65,19 @@ Commons Attribution and must be attributed as:
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Dots Icon
-This icon is licensed under Creative
-Commons Attribution and must be attributed as:
-
-    Dots by Alex Fuller from The Noun Project
+			<string>Add Contact designed by Michael Rowe from the thenounproject.com
 			</string>
 			<key>Title</key>
-			<string>Dots Icon</string>
+			<string>Add Contact Icon</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Check designed by useiconic.com from the thenounproject.com
+			</string>
+			<key>Title</key>
+			<string>Check Icon</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

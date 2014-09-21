@@ -244,6 +244,8 @@
     [self loadObjects];
     
     [self configureEmptyViewOnlyOnce];
+    
+    [ANALYTICS trackEvent:kAnEventClickSearchButton isImportant:YES sender:self];
 }
 
 #pragma mark - NSNotification

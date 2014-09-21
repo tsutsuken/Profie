@@ -318,7 +318,7 @@
     NSString *link = [NSString stringWithFormat:@"profie.me/%@", [User currentUser].username];
     [[UIPasteboard generalPasteboard] setValue:link forPasteboardType:@"public.text"];
     
-    [ANALYTICS trackEvent:kAnEventCopyLinkForProfile sender:self];
+    [ANALYTICS trackEvent:kAnEventCopyLinkForProfile isImportant:YES sender:self];
 }
 
 - (void)openProfileInSafari
@@ -326,7 +326,7 @@
     NSString *URLString = [NSString stringWithFormat:@"http://www.profie.me/%@", [User currentUser].username];
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:URLString]];
     
-    [ANALYTICS trackEvent:kAnEventOpenProfileInSafari sender:self];
+    [ANALYTICS trackEvent:kAnEventOpenProfileInSafari isImportant:YES sender:self];
 }
 
 #pragma mark - Table view data source
@@ -467,7 +467,7 @@
             
             [selectedAnswer.question decrementAnswerCount];
             
-            [ANALYTICS trackEvent:kAnEventDeleteAnswer sender:self];
+            [ANALYTICS trackEvent:kAnEventDeleteAnswer isImportant:NO sender:self];
         }
     } completionBlock:^{
         [hud removeFromSuperview];
@@ -505,6 +505,7 @@
                                                       handler:^(UIAlertAction *action){
                                                           [self showEditAnswerViewFromFriendsAnswer];
                                                           self.bannerView.hidden = NO;
+                                                          [ANALYTICS trackEvent:kAnEventAnswerSameQuestion isImportant:YES sender:self];
                                                       }]];
         
         [actionSheet addAction:[UIAlertAction actionWithTitle:NSLocalizedString(@"Common_ActionSheet_Cancel", nil)

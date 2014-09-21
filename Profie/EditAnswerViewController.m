@@ -207,7 +207,7 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
                 //AnswerをSaveする前に、QuestionをSaveする必要がある。objectIdとか使うし
                 [self saveAnswer];
                 
-                [ANALYTICS trackEvent:kAnEventAddQuestion sender:self];
+                [ANALYTICS trackEvent:kAnEventAddQuestion isImportant:YES sender:self];
             }
         }];
     }
@@ -227,12 +227,12 @@ static NSString *kAssociatedObjectKeyAccountArray = @"kAssociatedObjectKeyAccoun
         
         [answer.question incrementAnswerCount];
         
-        [ANALYTICS trackEvent:kAnEventAddAnswer sender:self];
+        [ANALYTICS trackEvent:kAnEventAddAnswer isImportant:YES sender:self];
     }
     else {
         answer = self.answer;
         
-        [ANALYTICS trackEvent:kAnEventEditAnswer sender:self];
+        [ANALYTICS trackEvent:kAnEventEditAnswer isImportant:NO sender:self];
 	}
     
     answer.title = self.textView.text;

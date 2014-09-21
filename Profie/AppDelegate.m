@@ -20,6 +20,16 @@
     return YES;
 }
 
+/*
+- (void)configureParameters
+{
+    [PFConfig getConfigInBackgroundWithBlock:^(PFConfig *config, NSError *error) {
+        NSNumber *number = config[@"winningNumber"];
+        NSLog(@"Yay! The number is %@!", [number stringValue]);
+    }];
+}
+ */
+
 - (void)configureAppearance
 {
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
@@ -61,9 +71,11 @@
 #if !DEBUG
     [GAI sharedInstance].trackUncaughtExceptions = YES;
     [[GAI sharedInstance].logger setLogLevel:kGAILogLevelVerbose];
-    [[GAI sharedInstance] trackerWithTrackingId:kGoogleAnalyticsId];
+    [[GAI sharedInstance] trackerWithTrackingId:@"UA-53564473-1"];
     
     [Crashlytics startWithAPIKey:@"05bba97476be46a19cd9fe6700e03312cdd38e05"];
+    
+    [Mixpanel sharedInstanceWithToken:@"23c779841005f3d66cb90fde3937cfb8"];
 #endif
 }
 
@@ -101,6 +113,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
+    [ANALYTICS trackEvent:kAnEventOpenApp isImportant:YES sender:self];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

@@ -200,6 +200,7 @@
                                                       handler:^(UIAlertAction *action){
                                                           [self showEditAnswerView];
                                                           self.bannerView.hidden = NO;
+                                                          [ANALYTICS trackEvent:kAnEventAnswerSameQuestion isImportant:YES sender:self];
                                                       }]];
         [actionSheet addAction:[UIAlertAction actionWithTitle:NSLocalizedString(@"Common_ActionSheet_Cancel", nil)
                                                         style:UIAlertActionStyleCancel
